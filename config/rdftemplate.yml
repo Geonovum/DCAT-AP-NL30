@@ -1,0 +1,53 @@
+namespacePrefixes:
+  adms: http://www.w3.org/ns/adms#
+  dcat: http://www.w3.org/ns/dcat#
+  foaf: http://xmlns.com/foaf/0.1/
+  dct: http://purl.org/dc/terms/
+  locn: http://www.w3.org/ns/locn#
+  odrl: http://www.w3.org/ns/odrl/2/
+  prov: http://www.w3.org/ns/prov#
+  r5r: http://data.europa.eu/r5r/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sh: http://www.w3.org/ns/shacl#
+  skos: http://www.w3.org/2004/02/skos/core#
+  spdx: http://spdx.org/rdf/terms#
+  time: http://www.w3.org/2006/time#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  xsd: http://www.w3.org/2001/XMLSchema#
+
+dataSources:
+  nodeShapes:
+    resolver: sparql
+    location: sparql/nodeShapes.rq
+    source: /shapes/dcat-ap.ttl
+    resultFrame:
+      _key: targetClass
+      targetClass:
+        _value: targetClass
+        _prefix: true
+      propertyShapes:
+        _key: property
+        propertyName: propertyName
+        property: property
+        propertyPrefixed:
+          _value: property
+          _prefix: true
+        description: description
+        class: class
+        classPrefixed:
+          _value: class
+          _prefix: true
+        datatype: datatype
+        datatypePrefixed:
+          _value: datatype
+          _prefix: true
+        nodeKind: nodeKind
+        nodeKindPrefixed:
+          _value: nodeKind
+          _prefix: true
+        minCount: minCount
+        maxCount: maxCount
+
+templates:
+  - templateLocation: klassen.md
+    outputLocation: /doc/_gen/

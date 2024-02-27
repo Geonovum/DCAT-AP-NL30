@@ -1,0 +1,39 @@
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+SELECT ?targetClass ?propertyShape ?property ?propertyName ?description ?class ?datatype ?nodeKind ?minCount ?maxCount
+WHERE {
+  ?nodeShape a sh:NodeShape;
+    sh:targetClass ?targetClass .
+
+  OPTIONAL {
+    ?nodeShape sh:property ?propertyShape .
+    ?propertyShape
+      sh:name ?propName ;
+      sh:path ?property ;
+      sh:description ?description .
+
+    OPTIONAL {
+      ?propertyShape sh:class ?class .
+    }
+    OPTIONAL {
+      ?propertyShape sh:datatype ?datatype .
+    }
+    OPTIONAL {
+      ?propertyShape sh:nodeKind ?nodeKind .
+    }
+    OPTIONAL {
+      ?propertyShape sh:minCount ?min .
+    }
+    OPTIONAL {
+      ?propertyShape sh:maxCount ?max .
+    }
+  }
+
+  BIND(STR(?propName) as ?propertyName)
+
+  BIND(STR(?min) as ?minCount)
+
+  BIND(STR(?max) as ?maxCount)
+}
+ORDER BY ?propertyName
+
