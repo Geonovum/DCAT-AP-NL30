@@ -60,4 +60,4 @@ dataSources:
 
 templates:
   - templateLocation: klassen.md
-    outputLocation: /doc/_gen/
+    outputLocation: /doc/gen/
