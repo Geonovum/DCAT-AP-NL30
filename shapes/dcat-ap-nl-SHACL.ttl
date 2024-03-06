@@ -31,9 +31,9 @@ dcatapnl:DatasetShape a sh:NodeShape;
     dcatapnl:DatasetShape_creator_minCount,
     dcatapnl:DatasetShape_hvdCategory_nodeKind,
     dcatapnl:DatasetShape_hvdCategory_class,
-    dcatapnl:DatasetShape_language_minCount,
     dcatapnl:DatasetShape_publisher_minCount,
-    # TODO status property
+    dcatapnl:DatasetShape_status_nodeKind,
+    dcatapnl:DatasetShape_status_class,
     dcatapnl:DatasetShape_theme_minCount,
     dcatapnl:DatasetShape_version_maxCount;
 .
@@ -96,18 +96,26 @@ dcatapnl:DatasetShape_hvdCategory_class
   eush:message "The range of HVD Category must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en
 .
 
-dcatapnl:DatasetShape_language_minCount
-  sh:minCount 1;
-  sh:name "language"@en;
-  sh:path dct:language;
-  eush:message "Minimally 1 values are expected for language"@en 
-.
-
 dcatapnl:DatasetShape_publisher_minCount
   sh:minCount 1;
   sh:name "publisher"@en;
   sh:path dct:publisher;
   eush:message "Minimally 1 values are expected for publisher"@en 
+.
+
+dcatapnl:DatasetShape_status_nodeKind
+  sh:description "The status of the dataset in the context of editorial flow of the dataset and data service descriptions."@en;
+  sh:name "status"@en;
+  sh:nodeKind sh:BlankNodeOrIRI;
+  sh:path adms:status;
+  eush:message "The expected value for status is a rdfs:Resource (URI or blank node)"@en
+.
+
+dcatapnl:DatasetShape_status_class
+  sh:class skos:Concept;
+  sh:name "status"@en;
+  sh:path adms:status;
+  eush:message "The range of status must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en
 .
 
 dcatapnl:DatasetShape_theme_minCount
@@ -137,8 +145,6 @@ dcatapnl:DistributionShape a sh:NodeShape;
     dcatapnl:DistributionShape_accessURL_maxCount,
     dcatapnl:DistributionShape_applicableLegislation_nodeKind,
     dcatapnl:DistributionShape_applicableLegislation_class,
-    # dcatapnl:DistributionShape_conforms_to_nodeKind,
-    # dcatapnl:DistributionShape_conforms_to_class,
     dcatapnl:DistributionShape_downloadURL_maxCount,
     dcatapnl:DistributionShape_language_maxCount,
     dcatapnl:DistributionShape_license_minCount,
@@ -173,23 +179,6 @@ dcatapnl:DistributionShape_applicableLegislation_class
   sh:path dcatap:applicableLegislation;
   eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
 .
-
-# TODO: already covered by linked schema's
-
-# dcatapnl:DistributionShape_conforms_to_nodeKind
-#   sh:name "conforms to"@en;
-#   sh:path dct:conformsTo;
-#   sh:nodeKind sh:BlankNodeOrIRI;
-#   eush:message "The expected value for conforms to is a rdfs:Resource (URI or blank node)"@en 
-# .
-
-# dcatapnl:DistributionShape_conforms_to_class
-#   sh:class dct:Standard;
-#   sh:description "An implementing rule or other specification."@en;
-#   sh:name "conforms to"@en;
-#   sh:path dct:conformsTo;
-#   eush:message "The range of conforms to must be of type <http://purl.org/dc/terms/Standard>."@en
-# .
 
 dcatapnl:DistributionShape_downloadURL_maxCount
   sh:maxCount 1;

@@ -146,8 +146,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/language">language</a></td>
         <td>http://purl.org/dc/terms/language</td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a> </td>
-        <td>1..n</td>
-        <td>O</td>
+        <td>0..n</td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/modified">modification date</a></td>
@@ -237,6 +237,13 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">spatial resolution</a></td>
         <td>http://www.w3.org/ns/dcat#spatialResolutionInMeters</td>
         <td><a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a> </td>
+        <td>0..n</td>
+        <td>O</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.w3.org/ns/adms#status">status</a></td>
+        <td>http://www.w3.org/ns/adms#status</td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> </td>
         <td>0..n</td>
         <td>O</td>
     </tr>
@@ -704,7 +711,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>1..n</td>
+    <td>0..n</td>
 </tr>
 <tr>
     <td><em>URI</em></td>
@@ -999,6 +1006,28 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Range</em></td>
     <td><a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a></td>
+</tr>
+</table>
+
+### status
+<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/status.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>status</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
 </tr>
 </table>
 
@@ -1929,7 +1958,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://purl.org/dc/terms/conformsTo</td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a> </td>
         <td>0..n</td>
-        <td>A</td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#contactPoint">contact point</a></td>
