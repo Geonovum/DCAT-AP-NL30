@@ -238,6 +238,8 @@ dcatapnl:DataServiceShape a sh:NodeShape;
     dcatapnl:DataServiceShape_accessRights_minCount,
     dcatapnl:DataServiceShape_applicableLegislation_nodeKind,
     dcatapnl:DataServiceShape_applicableLegislation_class,
+    dcatapnl:DataServiceShape_applicationProfile_nodeKind,
+    dcatapnl:DataServiceShape_applicationProfile_class,
     dcatapnl:DataServiceShape_contactPoint_minCount,
     dcatapnl:DataServiceShape_contactPoint_maxCount,
     dcatapnl:DataServiceShape_creator_nodeKind,
@@ -255,6 +257,10 @@ dcatapnl:DataServiceShape a sh:NodeShape;
     dcatapnl:DataServiceShape_identifier_nodeKind,
     dcatapnl:DataServiceShape_identifier_minCount,
     dcatapnl:DataServiceShape_identifier_maxCount,
+    dcatapnl:DataServiceShape_keyword_nodeKind,
+    dcatapnl:DataServiceShape_landingPage_nodeKind,
+    dcatapnl:DataServiceShape_landingPage_class,
+    dcatapnl:DataServiceShape_language_nodeKind,
     dcatapnl:DataServiceShape_language_nodeKind,
     dcatapnl:DataServiceShape_language_class,
     dcatapnl:DataServiceShape_license_minCount,
@@ -267,6 +273,8 @@ dcatapnl:DataServiceShape a sh:NodeShape;
     dcatapnl:DataServiceShape_publisher_class,
     dcatapnl:DataServiceShape_publisher_minCount,
     dcatapnl:DataServiceShape_publisher_maxCount,
+    dcatapnl:DataServiceShape_rights_nodeKind,
+    dcatapnl:DataServiceShape_rights_class,
     dcatapnl:DataServiceShape_theme_nodeKind,
     dcatapnl:DataServiceShape_theme_class,
     dcatapnl:DataServiceShape_theme_minCount
@@ -291,6 +299,20 @@ dcatapnl:DataServiceShape_applicableLegislation_class
   sh:name "applicable legislation"@en;
   sh:path dcatap:applicableLegislation;
   eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
+.
+
+dcatapnl:DataServiceShape_applicationProfile_nodeKind
+  sh:name "application profile"@en;
+  sh:nodeKind sh:BlankNodeOrIRI;
+  sh:path dct:conformsTo;
+  eush:message "The expected value for application profile is a rdfs:Resource (URI or blank node)"@en 
+.
+
+dcatapnl:DataServiceShape_applicationProfile_class
+  sh:class eli:LegalResource;
+  sh:name "application profile"@en;
+  sh:path dct:conformsTo;
+  eush:message "The range of application profile must be of type <http://purl.org/dc/terms/Standard>."@en 
 .
 
 dcatapnl:DataServiceShape_contactPoint_minCount
@@ -346,7 +368,7 @@ dcatapnl:DataServiceShape_documentation_class
   sh:class foaf:Document;
   sh:name "documentation"@en;
   sh:path foaf:page;
-  eush:message "The range of documentation must be of type <http://xmlns.com/foaf/0.1/Agent>."@en 
+  eush:message "The range of documentation must be of type <http://xmlns.com/foaf/0.1/Document>."@en 
 .
 
 dcatapnl:DataServiceShape_documentation_minCount
@@ -414,11 +436,32 @@ dcatapnl:DataServiceShape_identifier_maxCount
   eush:message "Maximally 1 values are allowed for identifier"@en 
 .
 
+dcatapnl:DataServiceShape_keyword_nodeKind
+  sh:name "keyword"@en;
+  sh:nodeKind sh:Literal;
+  sh:path dcat:keyword;
+  eush:message "The expected value for language is a rdfs:Resource (URI or blank node)"@en 
+.
+
+dcatapnl:DataServiceShape_landingPage_nodeKind
+  sh:name "landing page"@en;
+  sh:nodeKind sh:BlankNodeOrIRI;
+  sh:path dcat:landingPage;
+  eush:message "The expected value for landing page is a Literal"@en 
+.
+
+dcatapnl:DataServiceShape_landingPage_class
+  sh:class foaf:Document;
+  sh:name "language"@en;
+  sh:path dcat:landingPage;
+  eush:message "The range of landing page must be of type <http://xmlns.com/foaf/0.1/Document>."@en 
+.
+
 dcatapnl:DataServiceShape_language_nodeKind
   sh:name "language"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dct:language;
-  eush:message "The expected value for language is a rdfs:Resource (URI or blank node)"@en 
+  eush:message "The expected value for language is a Literal"@en 
 .
 
 dcatapnl:DataServiceShape_language_class
@@ -465,9 +508,9 @@ dcatapnl:DataServiceShape_otherIdentifier_nodeKind
 .
 
 dcatapnl:DataServiceShape_otherIdentifier_class
-  sh:class foaf:Document;
+  sh:class adms:Identifier;
   sh:name "other identifier"@en;
-  sh:path foaf:page;
+  sh:path adms:identifier;
   eush:message "The range of other identifier must be of type <http://www.w3.org/ns/adms#Identifier>."@en 
 .
 
@@ -588,6 +631,31 @@ dcatapnl:CatalogShape_dataset_minCount
   eush:message "Minimally 1 values are expected for dataset"@en 
 .
 
+###########################################
+#  dcat:DatasetSeries
+###########################################
+
+dcatapnl:DatasetSeriesShape a sh:NodeShape;
+  sh:name "DatasetSeries"@en;
+  sh:targetClass dcat:DatasetSeries;
+  sh:property
+    dcatapnl:DatasetSeriesShape_applicableLegislation_nodeKind,
+    dcatapnl:DatasetSeriesShape_applicableLegislation_class
+.
+
+dcatapnl:DatasetSeriesShape_applicableLegislation_nodeKind
+  sh:name "applicable legislation"@en;
+  sh:nodeKind sh:BlankNodeOrIRI;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The expected value for applicable legislation is a rdfs:Resource (URI or blank node)"@en 
+.
+
+dcatapnl:DatasetSeriesShape_applicableLegislation_class
+  sh:class eli:LegalResource;
+  sh:name "applicable legislation"@en;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
+.
 
 ###########################################
 #  Temporal Literal
