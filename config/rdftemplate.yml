@@ -61,3 +61,5 @@ dataSources:
 templates:
   - templateLocation: klassen.md
     outputLocation: /doc/gen/
+  - templateLocation: ondersteunendeKlassen.md
+    outputLocation: /doc/gen/
