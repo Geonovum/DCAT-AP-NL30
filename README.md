@@ -10,5 +10,5 @@ docker run --rm \
            --pull=always \
             -v /$(pwd)/config:/config \
             -v /$(pwd)/shapes:/shapes \
-            -v /$(pwd)/doc/_gen/:/doc/_gen ghcr.io/skemu/rdf-template:latest
+            -v /$(pwd)/doc/gen/:/doc/gen ghcr.io/skemu/rdf-template:latest
 ```
