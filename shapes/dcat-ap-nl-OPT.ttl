@@ -1,0 +1,111 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix eush: <https://purl.eu/ns/shacl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix dcatapnl: <https://TODO/com/DCAT-AP-NL/3.0.0#> .
+@prefix todo_opt: <https://TODO.com/optionaliteit/> .
+
+###########################################
+#  dcat:Dataset
+###########################################
+
+dcatapnl:DatasetShape
+  sh:property
+    dcatapnl:DatasetShape_accessRights_opt,
+    dcatapnl:DatasetShape_applicableLegislation_opt,
+    dcatapnl:DatasetShape_conformsTo_opt,
+    dcatapnl:DatasetShape_creator_opt,
+    dcatapnl:DatasetShape_contactPoint_opt,
+    dcatapnl:DatasetShape_distribution_opt,
+    dcatapnl:DatasetShape_documentation_opt,
+    dcatapnl:DatasetShape_hvdCategory_opt,
+    dcatapnl:DatasetShape_identifier_opt,
+    dcatapnl:DatasetShape_isVersionOf_opt,
+    dcatapnl:DatasetShape_landingPage_opt,
+    dcatapnl:DatasetShape_publisher_opt,
+    dcatapnl:DatasetShape_theme_opt
+. 
+
+dcatapnl:DatasetShape_accessRights_opt
+  sh:path dct:accessRights;
+  todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:DatasetShape_applicableLegislation_opt
+  sh:path dcatap:applicableLegislation;
+  todo_opt:optionaliteit todo_opt:conditioneel 
+.
+
+dcatapnl:DatasetShape_conformsTo_opt
+  sh:path dct:conformsTo;
+  todo_opt:optionaliteit todo_opt:aanbevolen
+.
+
+dcatapnl:DatasetShape_contactPoint_opt
+  sh:path dcat:contactPoint;
+  todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:DatasetShape_creator_opt
+  sh:path dct:creator;
+  todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:DatasetShape_distribution_opt
+  sh:path dcat:distribution	;
+  todo_opt:optionaliteit todo_opt:conditioneel
+.
+
+dcatapnl:DatasetShape_documentation_opt
+  sh:path foaf:page	;
+  todo_opt:optionaliteit todo_opt:aanbevolen
+.
+
+dcatapnl:DatasetShape_hvdCategory_opt
+  sh:path dcatap:hvdCategory;
+  todo_opt:optionaliteit todo_opt:conditioneel
+.
+
+dcatapnl:DatasetShape_identifier_opt
+  sh:path dct:identifier;
+  todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:DatasetShape_isVersionOf_opt
+  sh:path dcat:isVersionOf;
+  todo_opt:optionaliteit todo_opt:optioneel
+.
+
+dcatapnl:DatasetShape_landingPage_opt
+  sh:path dcat:landingPage	;
+  todo_opt:optionaliteit todo_opt:aanbevolen
+.
+
+dcatapnl:DatasetShape_publisher_opt
+  sh:path dct:publisher;
+  todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:DatasetShape_theme_opt
+  sh:path dcat:theme;
+  todo_opt:optionaliteit todo_opt:verplicht
+.
+
+
+###########################################
+#  dcat:Distribution
+###########################################
+
+# dcatapnl:DistributionShape
+# .

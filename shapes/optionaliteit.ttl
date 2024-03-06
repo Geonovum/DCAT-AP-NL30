@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix todo_opt: <https://TODO.com/optionaliteit/> .
+
+todo_opt:Optionaliteit a skos:ConceptScheme ;
+  dct:title "Optionaliteit"@nl ;
+.
+
+todo_opt:verplicht a skos:Concept ;
+  skos:prefLabel "verplicht"@nl ;
+  skos:definition "Een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MOET de informatie voor die eigenschap verstrekken."@nl ;
+  skos:notation "V" ;
+  skos:inScheme todo_opt:Optionaliteit ;
+.
+
+todo_opt:aanbevolen a skos:Concept ;
+  skos:prefLabel "aanbevolen"@nl ;
+  skos:definition "Een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder BEHOORT de informatie voor die eigenschap te verstrekken indien deze beschikbaar is."@nl ;
+  skos:notation "A" ;
+  skos:inScheme todo_opt:Optionaliteit ;
+.
+
+todo_opt:optioneel a skos:Concept ;
+  skos:prefLabel "optioneel"@nl ;
+  skos:definition "Een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MAG de informatie voor die eigenschap verstrekken, maar is daartoe niet verplicht."@nl ;
+  skos:notation "O" ;
+  skos:inScheme todo_opt:Optionaliteit ;
+.
+
+todo_opt:conditioneel a skos:Concept ;
+  skos:prefLabel "conditioneel"@nl ;
+  skos:definition "Een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MOET de informatie voor die eigenschap verstrekken, indien de conditie van toepassing is."@nl ;
+  skos:notation "C" ;
+  skos:inScheme todo_opt:Optionaliteit ;
+.
