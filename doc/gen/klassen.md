@@ -1199,7 +1199,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://www.w3.org/ns/dcat#accessService</td>
         <td><a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a> </td>
         <td>0..1</td>
-        <td>O</td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#accessURL">access URL</a></td>
@@ -1213,7 +1213,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://data.europa.eu/r5r/applicableLegislation</td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a> </td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://data.europa.eu/r5r/availability">availability</a></td>
@@ -1227,7 +1227,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://www.w3.org/ns/dcat#byteSize</td>
         <td><a href="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">xsd:nonNegativeInteger</a> </td>
         <td>0..1</td>
-        <td>O</td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://spdx.org/rdf/terms#checksum">checksum</a></td>
@@ -1262,14 +1262,14 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://www.w3.org/ns/dcat#downloadURL</td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a> </td>
         <td>0..1</td>
-        <td>O</td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/format">format</a></td>
         <td>http://purl.org/dc/terms/format</td>
         <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent">dct:MediaTypeOrExtent</a> </td>
         <td>0..1</td>
-        <td>A</td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/odrl/2/hasPolicy">has policy</a></td>
@@ -1283,28 +1283,28 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://purl.org/dc/terms/language</td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a> </td>
         <td>0..1</td>
-        <td>O</td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/license">licence</a></td>
         <td>http://purl.org/dc/terms/license</td>
         <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a> </td>
         <td>1..1</td>
-        <td>A</td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/conformsTo">linked schemas</a></td>
         <td>http://purl.org/dc/terms/conformsTo</td>
         <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a> </td>
         <td>0..n</td>
-        <td>O</td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#mediaType">media type</a></td>
         <td>http://www.w3.org/ns/dcat#mediaType</td>
         <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a> </td>
         <td>0..1</td>
-        <td>O</td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/modified">modification date</a></td>
@@ -1332,7 +1332,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://purl.org/dc/terms/rights</td>
         <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a> </td>
         <td>0..1</td>
-        <td>O</td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">spatial resolution</a></td>
@@ -1913,49 +1913,56 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://purl.org/dc/terms/accessRights</td>
         <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a> </td>
         <td>1..1</td>
-        <td>O</td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation</a></td>
         <td>http://data.europa.eu/r5r/applicableLegislation</td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a> </td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
+    </tr>
+    <tr>
+        <td><a href="http://purl.org/dc/terms/conformsTo">application profile</a></td>
+        <td>http://purl.org/dc/terms/conformsTo</td>
+        <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a> </td>
+        <td>0..n</td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#contactPoint">contact point</a></td>
         <td>http://www.w3.org/ns/dcat#contactPoint</td>
         <td> </td>
         <td>1..1</td>
-        <td>A</td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/creator">creator</a></td>
         <td>http://purl.org/dc/terms/creator</td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a> </td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/description">description</a></td>
         <td>http://purl.org/dc/terms/description</td>
         <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
         <td>1..n</td>
-        <td>O</td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://xmlns.com/foaf/0.1/page">documentation</a></td>
         <td>http://xmlns.com/foaf/0.1/page</td>
         <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a> </td>
         <td>1..n</td>
-        <td></td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#endpointDescription">endpoint description</a></td>
         <td>http://www.w3.org/ns/dcat#endpointDescription</td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a> </td>
         <td>1..1</td>
-        <td>A</td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#endpointURL">endpoint URL</a></td>
@@ -1976,63 +1983,84 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://data.europa.eu/r5r/hvdCategory</td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> </td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/identifier">identifier</a></td>
         <td>http://purl.org/dc/terms/identifier</td>
         <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.w3.org/ns/dcat#keyword">keyword</a></td>
+        <td>http://www.w3.org/ns/dcat#keyword</td>
+        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td>0..n</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.w3.org/ns/dcat#landingPage">landing page</a></td>
+        <td>http://www.w3.org/ns/dcat#landingPage</td>
+        <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a> </td>
+        <td>0..n</td>
+        <td>O</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/language">language</a></td>
         <td>http://purl.org/dc/terms/language</td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a> </td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/license">licence</a></td>
         <td>http://purl.org/dc/terms/license</td>
         <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a> </td>
         <td>1..1</td>
-        <td>O</td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/modified">modification date</a></td>
         <td>http://purl.org/dc/terms/modified</td>
         <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/adms#identifier">other identifier</a></td>
         <td>http://www.w3.org/ns/adms#identifier</td>
-        <td><a href="http://www.w3.org/ns/shacl#BlankNodeOrIRI">sh:BlankNodeOrIRI</a> </td>
+        <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a> </td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/publisher">publisher</a></td>
         <td>http://purl.org/dc/terms/publisher</td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a> </td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
+    </tr>
+    <tr>
+        <td><a href="http://purl.org/dc/terms/rights">rights</a></td>
+        <td>http://purl.org/dc/terms/rights</td>
+        <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a> </td>
+        <td>0..n</td>
+        <td>O</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#servesDataset">serves dataset</a></td>
         <td>http://www.w3.org/ns/dcat#servesDataset</td>
         <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a> </td>
         <td>0..n</td>
-        <td>A</td>
+        <td>C</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#theme">theme</a></td>
         <td>http://www.w3.org/ns/dcat#theme</td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> </td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/title">title</a></td>
@@ -2080,6 +2108,28 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>URI</em></td>
     <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+</tr>
+</table>
+
+### application profile
+<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/application_profile.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>application profile</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
 </tr>
 <tr>
     <td><em>Range</em></td>
@@ -2285,6 +2335,50 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 </table>
 
+### keyword
+<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/keyword.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>keyword</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+</tr>
+</table>
+
+### landing page
+<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/landing_page.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>landing page</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+</tr>
+</table>
+
 ### language
 <p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/language.md"></p>
 
@@ -2369,7 +2463,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#BlankNodeOrIRI">sh:BlankNodeOrIRI</a></td>
+    <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
 </tr>
 </table>
 
@@ -2392,6 +2486,28 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Range</em></td>
     <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+</tr>
+</table>
+
+### rights
+<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/rights.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>rights</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
 </tr>
 </table>
 
@@ -3599,6 +3715,13 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <th>Optionaliteit</th>
     </tr>
     <tr>
+        <td><a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation</a></td>
+        <td>http://data.europa.eu/r5r/applicableLegislation</td>
+        <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a> </td>
+        <td>0..n</td>
+        <td>O</td>
+    </tr>
+    <tr>
         <td><a href="http://www.w3.org/ns/dcat#contactPoint">contact point</a></td>
         <td>http://www.w3.org/ns/dcat#contactPoint</td>
         <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a> </td>
@@ -3610,7 +3733,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://purl.org/dc/terms/description</td>
         <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
         <td>1..n</td>
-        <td>O</td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#first">first</a></td>
@@ -3682,6 +3805,28 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>1..n</td>
         <td>V</td>
     </tr>
+</table>
+
+### applicable legislation
+<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/applicable_legislation.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>applicable legislation</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+</tr>
 </table>
 
 ### contact point
