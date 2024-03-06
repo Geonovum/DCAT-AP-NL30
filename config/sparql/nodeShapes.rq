@@ -1,0 +1,54 @@
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX todo: <https://TODO/com/DCAT-AP-NL/3.0.0#>
+PREFIX todo_opt: <https://TODO.com/optionaliteit/>
+
+SELECT ?targetClass ?propertyShape ?property ?propertyName ?description ?class ?datatype ?nodeShapeName ?nodeKind ?minCount ?maxCount ?optionaliteit
+WHERE {
+  ?nodeShape a sh:NodeShape;
+    sh:targetClass ?targetClass .
+  # TODO shape name
+  OPTIONAL {
+    ?nodeShape sh:property ?propertyShape .
+
+    ?propertyShape sh:path ?property .
+
+    OPTIONAL {
+      ?propertyShape sh:name ?propName .
+    }
+    OPTIONAL {
+      ?propertyShape sh:description ?description .
+    }
+    OPTIONAL {
+      ?propertyShape sh:class ?class .
+    }
+    OPTIONAL {
+      ?propertyShape sh:datatype ?datatype .
+    }
+    OPTIONAL {
+      ?propertyShape sh:node/sh:name ?nodeShName . 
+    }
+    OPTIONAL {
+      ?propertyShape sh:nodeKind ?nodeKind .
+    }
+    OPTIONAL {
+      ?propertyShape sh:minCount ?min .
+    }
+    OPTIONAL {
+      ?propertyShape sh:maxCount ?max .
+    }
+    OPTIONAL {
+      ?propertyShape todo_opt:optionaliteit/skos:notation ?optionaliteit .
+    }
+  }
+
+  BIND(STR(?propName) as ?propertyName)
+
+  BIND(STR(?nodeShName) as ?nodeShapeName)
+
+  BIND(STR(?min) as ?minCount)
+
+  BIND(STR(?max) as ?maxCount)
+}
+ORDER BY ?propertyName
+

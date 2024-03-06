@@ -1,0 +1,715 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+@prefix dcatapsh: <https://semiceu.github.io//DCAT-AP/releases/3.0.0#> .
+@prefix todo_opt: <https://TODO.com/optionaliteit/> .
+
+dcatapsh:AgentShape
+  sh:property
+    dcatapsh:foafAgent_foaf-name ,
+    dcatapsh:foafAgent_dct-type .
+
+dcatapsh:foafAgent_foaf-name
+  sh:path foaf:name	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:foafAgent_dct-type
+  sh:path dct:type	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+
+
+dcatapsh:CatalogueShape
+  sh:property
+    dcatapsh:dcatCatalog_dct-description ,
+    dcatapsh:dcatCatalog_dct-publisher ,
+    dcatapsh:dcatCatalog_dct-title ,
+    dcatapsh:dcatCatalog_dcat-dataset ,
+    dcatapsh:dcatCatalog_dct-spatial ,
+    dcatapsh:dcatCatalog_foaf-homepage ,
+    dcatapsh:dcatCatalog_dct-language ,
+    dcatapsh:dcatCatalog_dct-license ,
+    dcatapsh:dcatCatalog_dct-modified ,
+    dcatapsh:dcatCatalog_dct-issued ,
+    dcatapsh:dcatCatalog_dcat-service ,
+    dcatapsh:dcatCatalog_dcat-themeTaxonomy ,
+    # dcatapsh:dcatCatalog_dcatap-applicableLegislation ,
+    dcatapsh:dcatCatalog_dcat-catalog ,
+    dcatapsh:dcatCatalog_dct-creator ,
+    dcatapsh:dcatCatalog_dct-hasPart ,
+    dcatapsh:dcatCatalog_dcat-record ,
+    dcatapsh:dcatCatalog_dct-rights ,
+    dcatapsh:dcatCatalog_dct-temporal .
+
+dcatapsh:dcatCatalog_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatCatalog_dct-publisher
+  sh:path dct:publisher	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatCatalog_dct-title
+  sh:path dct:title	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatCatalog_dcat-dataset
+  sh:path dcat:dataset	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_dct-spatial
+  sh:path dct:spatial	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_foaf-homepage
+  sh:path foaf:homepage	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_dct-language
+  sh:path dct:language	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_dct-license
+  sh:path dct:license	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_dct-modified
+  sh:path dct:modified	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_dct-issued
+  sh:path dct:issued	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_dcat-service
+  sh:path dcat:service	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_dcat-themeTaxonomy
+  sh:path dcat:themeTaxonomy	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalog_dcatap-applicableLegislation
+  sh:path dcatap:applicableLegislation	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalog_dcat-catalog
+  sh:path dcat:catalog	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalog_dct-creator
+  sh:path dct:creator	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalog_dct-hasPart
+  sh:path dct:hasPart	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalog_dcat-record
+  sh:path dcat:record	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalog_dct-rights
+  sh:path dct:rights	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalog_dct-temporal
+  sh:path dct:temporal	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+
+
+dcatapsh:CatalogueRecordShape
+  sh:property
+    dcatapsh:dcatCatalogRecord_dct-modified ,
+    dcatapsh:dcatCatalogRecord_foaf-primaryTopic ,
+    dcatapsh:dcatCatalogRecord_dct-conformsTo ,
+    dcatapsh:dcatCatalogRecord_adms-status ,
+    dcatapsh:dcatCatalogRecord_dct-issued ,
+    dcatapsh:dcatCatalogRecord_dct-description ,
+    dcatapsh:dcatCatalogRecord_dct-language ,
+    dcatapsh:dcatCatalogRecord_dct-source ,
+    dcatapsh:dcatCatalogRecord_dct-title .
+
+dcatapsh:dcatCatalogRecord_dct-modified
+  sh:path dct:modified	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatCatalogRecord_foaf-primaryTopic
+  sh:path foaf:primaryTopic	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatCatalogRecord_dct-conformsTo
+  sh:path dct:conformsTo	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalogRecord_adms-status
+  sh:path adms:status	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalogRecord_dct-issued
+  sh:path dct:issued	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatCatalogRecord_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalogRecord_dct-language
+  sh:path dct:language	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalogRecord_dct-source
+  sh:path dct:source	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalogRecord_dct-title
+  sh:path dct:title	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+
+
+dcatapsh:ChecksumShape
+  sh:property
+    dcatapsh:spdxChecksum_spdx-algorithm ,
+    dcatapsh:spdxChecksum_spdx-checksumValue .
+
+dcatapsh:spdxChecksum_spdx-algorithm
+  sh:path spdx:algorithm	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:spdxChecksum_spdx-checksumValue
+  sh:path spdx:checksumValue	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+
+
+dcatapsh:DataServiceShape
+  sh:property
+    dcatapsh:dcatDataService_dcat-endpointURL ,
+    dcatapsh:dcatDataService_dct-title ,
+    # dcatapsh:dcatDataService_dct-conformsTo ,
+    dcatapsh:dcatDataService_dcat-contactPoint ,
+    dcatapsh:dcatDataService_dcat-endpointDescription ,
+    # dcatapsh:dcatDataService_dcat-keyword ,
+    # dcatapsh:dcatDataService_dct-publisher ,
+    dcatapsh:dcatDataService_dcat-servesDataset ,
+    # dcatapsh:dcatDataService_dcat-theme ,
+    dcatapsh:dcatDataService_dct-accessRights ,
+    dcatapsh:dcatDataService_dct-description ,
+    dcatapsh:dcatDataService_dct-format ,
+    # dcatapsh:dcatDataService_dcat-landingPage ,
+    dcatapsh:dcatDataService_dct-license .
+
+dcatapsh:dcatDataService_dcat-endpointURL
+  sh:path dcat:endpointURL	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatDataService_dct-title
+  sh:path dct:title	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatDataService_dct-conformsTo
+  sh:path dct:conformsTo	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataService_dcat-contactPoint
+  sh:path dcat:contactPoint	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataService_dcat-endpointDescription
+  sh:path dcat:endpointDescription	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataService_dcat-keyword
+  sh:path dcat:keyword	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataService_dct-publisher
+  sh:path dct:publisher	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataService_dcat-servesDataset
+  sh:path dcat:servesDataset	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataService_dcat-theme
+  sh:path dcat:theme	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataService_dct-accessRights
+  sh:path dct:accessRights	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataService_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataService_dct-format
+  sh:path dct:format	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataService_dcat-landingPage
+  sh:path dcat:landingPage	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataService_dct-license
+  sh:path dct:license	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+
+
+dcatapsh:DatasetShape
+  sh:property
+    dcatapsh:dcatDataset_dct-description ,
+    dcatapsh:dcatDataset_dct-title ,
+    dcatapsh:dcatDataset_dcat-contactPoint ,
+    dcatapsh:dcatDataset_dcat-distribution ,
+    dcatapsh:dcatDataset_dct-spatial ,
+    dcatapsh:dcatDataset_dcat-keyword ,
+    dcatapsh:dcatDataset_dct-publisher ,
+    dcatapsh:dcatDataset_dct-temporal ,
+    dcatapsh:dcatDataset_dcat-theme ,
+    dcatapsh:dcatDataset_dct-accessRights ,
+    # dcatapsh:dcatDataset_dcatap-applicableLegislation ,
+    dcatapsh:dcatDataset_dct-conformsTo ,
+    dcatapsh:dcatDataset_dct-creator ,
+    dcatapsh:dcatDataset_foaf-page ,
+    dcatapsh:dcatDataset_dct-accrualPeriodicity ,
+    dcatapsh:dcatDataset_dcat-hasVersion ,
+    dcatapsh:dcatDataset_dct-identifier ,
+    dcatapsh:dcatDataset_dcat-inSeries ,
+    dcatapsh:dcatDataset_dct-isReferencedBy ,
+    dcatapsh:dcatDataset_dcat-landingPage ,
+    dcatapsh:dcatDataset_dct-language ,
+    dcatapsh:dcatDataset_dct-modified ,
+    dcatapsh:dcatDataset_adms-identifier ,
+    dcatapsh:dcatDataset_dct-provenance ,
+    dcatapsh:dcatDataset_prov-qualifiedAttribution ,
+    dcatapsh:dcatDataset_dcat-qualifiedRelation ,
+    dcatapsh:dcatDataset_dct-relation ,
+    dcatapsh:dcatDataset_dct-issued ,
+    dcatapsh:dcatDataset_adms-sample ,
+    dcatapsh:dcatDataset_dct-source ,
+    dcatapsh:dcatDataset_dcat-spatialResolutionInMeters ,
+    dcatapsh:dcatDataset_dcat-temporalResolution ,
+    dcatapsh:dcatDataset_dct-type ,
+    dcatapsh:dcatDataset_dcat-version ,
+    dcatapsh:dcatDataset_adms-versionNotes ,
+    dcatapsh:dcatDataset_prov-wasGeneratedBy .
+
+dcatapsh:dcatDataset_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatDataset_dct-title
+  sh:path dct:title	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatDataset_dcat-contactPoint
+  sh:path dcat:contactPoint	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataset_dcat-distribution
+  sh:path dcat:distribution	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataset_dct-spatial
+  sh:path dct:spatial	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataset_dcat-keyword
+  sh:path dcat:keyword	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataset_dct-publisher
+  sh:path dct:publisher	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataset_dct-temporal
+  sh:path dct:temporal	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataset_dcat-theme
+  sh:path dcat:theme	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataset_dct-accessRights
+  sh:path dct:accessRights	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dcatap-applicableLegislation
+  sh:path dcatap:applicableLegislation	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-conformsTo
+  sh:path dct:conformsTo	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-creator
+  sh:path dct:creator	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_foaf-page
+  sh:path foaf:page	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-accrualPeriodicity
+  sh:path dct:accrualPeriodicity	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dcat-hasVersion
+  sh:path dcat:hasVersion	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-identifier
+  sh:path dct:identifier	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dcat-inSeries
+  sh:path dcat:inSeries	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-isReferencedBy
+  sh:path dct:isReferencedBy	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dcat-landingPage
+  sh:path dcat:landingPage	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-language
+  sh:path dct:language	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-modified
+  sh:path dct:modified	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_adms-identifier
+  sh:path adms:identifier	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-provenance
+  sh:path dct:provenance	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_prov-qualifiedAttribution
+  sh:path prov:qualifiedAttribution	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dcat-qualifiedRelation
+  sh:path dcat:qualifiedRelation	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-relation
+  sh:path dct:relation	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-issued
+  sh:path dct:issued	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_adms-sample
+  sh:path adms:sample	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-source
+  sh:path dct:source	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dcat-spatialResolutionInMeters
+  sh:path dcat:spatialResolutionInMeters	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dcat-temporalResolution
+  sh:path dcat:temporalResolution	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dct-type
+  sh:path dct:type	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_dcat-version
+  sh:path dcat:version	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_adms-versionNotes
+  sh:path adms:versionNotes	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDataset_prov-wasGeneratedBy
+  sh:path prov:wasGeneratedBy	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+
+
+dcatapsh:DatasetSeriesShape
+  sh:property
+    dcatapsh:dcatDatasetSeries_dct-title ,
+    dcatapsh:dcatDatasetSeries_dcat-contactPoint ,
+    dcatapsh:dcatDatasetSeries_dct-spatial ,
+    dcatapsh:dcatDatasetSeries_dct-publisher ,
+    dcatapsh:dcatDatasetSeries_dct-temporal ,
+    # dcatapsh:dcatDatasetSeries_dcatap-applicableLegislation ,
+    dcatapsh:dcatDatasetSeries_dct-description ,
+    dcatapsh:dcatDatasetSeries_dct-accrualPeriodicity ,
+    dcatapsh:dcatDatasetSeries_dct-modified ,
+    dcatapsh:dcatDatasetSeries_dct-issued .
+
+dcatapsh:dcatDatasetSeries_dct-title
+  sh:path dct:title	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatDatasetSeries_dcat-contactPoint
+  sh:path dcat:contactPoint	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDatasetSeries_dct-spatial
+  sh:path dct:spatial	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDatasetSeries_dct-publisher
+  sh:path dct:publisher	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDatasetSeries_dct-temporal
+  sh:path dct:temporal	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDatasetSeries_dcatap-applicableLegislation
+  sh:path dcatap:applicableLegislation	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDatasetSeries_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDatasetSeries_dct-accrualPeriodicity
+  sh:path dct:accrualPeriodicity	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDatasetSeries_dct-modified
+  sh:path dct:modified	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDatasetSeries_dct-issued
+  sh:path dct:issued	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+
+
+dcatapsh:DistributionShape
+  sh:property
+    dcatapsh:dcatDistribution_dcat-accessURL ,
+    dcatapsh:dcatDistribution_dct-format ,
+    dcatapsh:dcatDistribution_dct-license ,
+    dcatapsh:dcatDistribution_dcat-accessService ,
+    # dcatapsh:dcatDistribution_dcatap:applicableLegislation ,
+    dcatapsh:dcatDistribution_dcatap-availability ,
+    dcatapsh:dcatDistribution_dcat-byteSize ,
+    dcatapsh:dcatDistribution_spdx-checksum ,
+    dcatapsh:dcatDistribution_dcat-compressFormat ,
+    dcatapsh:dcatDistribution_dct-description ,
+    dcatapsh:dcatDistribution_foaf-page ,
+    dcatapsh:dcatDistribution_dcat-downloadURL ,
+    dcatapsh:dcatDistribution_odrl-hasPolicy ,
+    dcatapsh:dcatDistribution_dct-language ,
+    dcatapsh:dcatDistribution_dct-conformsTo ,
+    dcatapsh:dcatDistribution_dcat-mediaType ,
+    dcatapsh:dcatDistribution_dct-modified ,
+    dcatapsh:dcatDistribution_dcat-packageFormat ,
+    dcatapsh:dcatDistribution_dct-issued ,
+    dcatapsh:dcatDistribution_dct-rights ,
+    dcatapsh:dcatDistribution_dcat-spatialResolutionInMeters ,
+    dcatapsh:dcatDistribution_adms-status ,
+    dcatapsh:dcatDistribution_dcat-temporalResolution ,
+    dcatapsh:dcatDistribution_dct-title .
+
+dcatapsh:dcatDistribution_dcat-accessURL
+  sh:path dcat:accessURL	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatDistribution_dct-format
+  sh:path dct:format	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDistribution_dct-license
+  sh:path dct:license	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDistribution_dcat-accessService
+  sh:path dcat:accessService	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcatap:applicableLegislation
+  sh:path dcatap:applicableLegislation	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcatap-availability
+  sh:path dcatap:availability	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcat-byteSize
+  sh:path dcat:byteSize	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_spdx-checksum
+  sh:path spdx:checksum	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcat-compressFormat
+  sh:path dcat:compressFormat	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_foaf-page
+  sh:path foaf:page	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcat-downloadURL
+  sh:path dcat:downloadURL	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_odrl-hasPolicy
+  sh:path odrl:hasPolicy	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dct-language
+  sh:path dct:language	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dct-conformsTo
+  sh:path dct:conformsTo	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcat-mediaType
+  sh:path dcat:mediaType	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dct-modified
+  sh:path dct:modified	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcat-packageFormat
+  sh:path dcat:packageFormat	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dct-issued
+  sh:path dct:issued	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dct-rights
+  sh:path dct:rights	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcat-spatialResolutionInMeters
+  sh:path dcat:spatialResolutionInMeters	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_adms-status
+  sh:path adms:status	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dcat-temporalResolution
+  sh:path dcat:temporalResolution	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dct-title
+  sh:path dct:title	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+
+
+dcatapsh:IdentifierShape
+  sh:property
+    dcatapsh:admsIdentifier_skos-notation .
+
+dcatapsh:admsIdentifier_skos-notation
+  sh:path skos:notation	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+
+
+dcatapsh:LicenceDocumentShape
+  sh:property
+    dcatapsh:dctLicenseDocument_dct-type .
+
+dcatapsh:dctLicenseDocument_dct-type
+  sh:path dct:type	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+
+
+dcatapsh:LocationShape
+  sh:property
+    dcatapsh:dctLocation_dcat-bbox ,
+    dcatapsh:dctLocation_dcat-centroid ,
+    dcatapsh:dctLocation_locn-geometry .
+
+dcatapsh:dctLocation_dcat-bbox
+  sh:path dcat:bbox	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dctLocation_dcat-centroid
+  sh:path dcat:centroid	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dctLocation_locn-geometry
+  sh:path locn:geometry	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+
+
+dcatapsh:PeriodoftimeShape
+  sh:property
+    dcatapsh:dctPeriodOfTime_dcat-endDate ,
+    dcatapsh:dctPeriodOfTime_dcat-startDate ,
+    dcatapsh:dctPeriodOfTime_time-hasBeginning ,
+    dcatapsh:dctPeriodOfTime_time-hasEnd .
+
+dcatapsh:dctPeriodOfTime_dcat-endDate
+  sh:path dcat:endDate	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dctPeriodOfTime_dcat-startDate
+  sh:path dcat:startDate	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dctPeriodOfTime_time-hasBeginning
+  sh:path time:hasBeginning	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dctPeriodOfTime_time-hasEnd
+  sh:path time:hasEnd	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+
+
+dcatapsh:RelationshipShape
+  sh:property
+    dcatapsh:dcatRelationship_dcat-hadRole ,
+    dcatapsh:dcatRelationship_dct-relation .
+
+dcatapsh:dcatRelationship_dcat-hadRole
+  sh:path dcat:hadRole	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+dcatapsh:dcatRelationship_dct-relation
+  sh:path dct:relation	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
