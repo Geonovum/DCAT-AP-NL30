@@ -33,7 +33,9 @@ dcatapnl:DatasetShape
     dcatapnl:DatasetShape_identifier_opt,
     dcatapnl:DatasetShape_isVersionOf_opt,
     dcatapnl:DatasetShape_landingPage_opt,
+    dcatapnl:DatasetShape_language_opt,
     dcatapnl:DatasetShape_publisher_opt,
+    dcatapnl:DatasetShape_status_opt,
     dcatapnl:DatasetShape_theme_opt
 . 
 
@@ -88,13 +90,23 @@ dcatapnl:DatasetShape_isVersionOf_opt
 .
 
 dcatapnl:DatasetShape_landingPage_opt
-  sh:path dcat:landingPage	;
+  sh:path dcat:landingPage;
+  todo_opt:optionaliteit todo_opt:aanbevolen
+.
+
+dcatapnl:DatasetShape_language_opt
+  sh:path dct:language	;
   todo_opt:optionaliteit todo_opt:aanbevolen
 .
 
 dcatapnl:DatasetShape_publisher_opt
   sh:path dct:publisher;
   todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:DatasetShape_status_opt
+  sh:path adms:status;
+  todo_opt:optionaliteit todo_opt:optioneel
 .
 
 dcatapnl:DatasetShape_theme_opt
@@ -212,7 +224,7 @@ dcatapnl:DataServiceShape_applicableLegislation_opt
 
 dcatapnl:DataServiceShape_applicationProfile_opt
   sh:path dct:conformsTo;
-  todo_opt:optionaliteit todo_opt:aanbevolen
+  todo_opt:optionaliteit todo_opt:conditioneel
 .
 
 dcatapnl:DataServiceShape_contactPoint_opt

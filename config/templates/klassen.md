@@ -20,10 +20,3 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 {% include "./klasse.md" %}
 {% endif %}
 {% endfor %}
-{# Process all other classes not specified in classOrder #}
-{% for nodeShapeEntry in nodeShapes %}
-{% if not(classOrder contains nodeShapeEntry.key) %}
-{% set nodeShape = nodeShapeEntry.value %}
-{% include "./klasse.md" %}
-{% endif %}
-{% endfor %}
