@@ -321,5 +321,6 @@ var documentConfig =
       date: "2018-04-17",
       status: ""
     }
-  }
+  },
+  preProcess: [loadTurtle],
 }
