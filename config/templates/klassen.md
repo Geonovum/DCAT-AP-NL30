@@ -10,7 +10,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
   "http://www.w3.org/ns/dcat#Distribution",
   "http://www.w3.org/ns/dcat#DataService",
   "http://www.w3.org/ns/dcat#Catalog",
-  "http://www.w3.org/ns/dcat#CatalogRecord"
+  "http://www.w3.org/ns/dcat#CatalogRecord",
+  "http://www.w3.org/ns/dcat#DatasetSeries"
 ] %}
 {# Process classes in classOrder #}
 {% for class in classOrder %}

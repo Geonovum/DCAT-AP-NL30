@@ -302,15 +302,53 @@ dcatapnl:DataServiceShape_title_opt
 
 
 ###########################################
+#  dcat:Catalog
+###########################################
+
+dcatapnl:CatalogShape
+  sh:property
+    dcatapnl:CatalogShape_contactPoint_opt,
+    dcatapnl:CatalogShape_isPartOf_opt
+.
+
+dcatapnl:CatalogShape_contactPoint_opt
+  sh:path dcat:contactPoint;
+  todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:CatalogShape_isPartOf_opt
+  sh:path dct:isPartOf;
+  todo_opt:optionaliteit todo_opt:optioneel
+.
+
+###########################################
 #  dcat:DatasetSeries
 ###########################################
 
 dcatapnl:DatasetSeriesShape
   sh:property
-    dcatapnl:DatasetSeriesShape_description_opt
+    dcatapnl:DatasetSeriesShape_description_opt,
+    dcatapnl:DatasetSeriesShape_first_opt,
+    dcatapnl:DatasetSeriesShape_last_opt,
+    dcatapnl:DatasetSeriesShape_seriesMember_opt
 .
 
 dcatapnl:DatasetSeriesShape_description_opt
   sh:path dct:description;
   todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:DatasetSeriesShape_first_opt
+  sh:path dcat:first;
+  todo_opt:optionaliteit todo_opt:optioneel
+.
+
+dcatapnl:DatasetSeriesShape_last_opt
+  sh:path dcat:last;
+  todo_opt:optionaliteit todo_opt:optioneel
+.
+
+dcatapnl:DatasetSeriesShape_seriesMember_opt
+  sh:path dcat:seriesMember;
+  todo_opt:optionaliteit todo_opt:optioneel
 .
