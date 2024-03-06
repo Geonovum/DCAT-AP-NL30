@@ -49,7 +49,7 @@ dcatapsh:CatalogueShape
     dcatapsh:dcatCatalog_dct-issued ,
     dcatapsh:dcatCatalog_dcat-service ,
     dcatapsh:dcatCatalog_dcat-themeTaxonomy ,
-    # dcatapsh:dcatCatalog_dcatap-applicableLegislation ,
+    dcatapsh:dcatCatalog_dcatap-applicableLegislation ,
     dcatapsh:dcatCatalog_dcat-catalog ,
     dcatapsh:dcatCatalog_dct-creator ,
     dcatapsh:dcatCatalog_dct-hasPart ,

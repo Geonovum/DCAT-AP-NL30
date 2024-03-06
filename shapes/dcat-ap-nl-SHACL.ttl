@@ -588,11 +588,27 @@ dcatapnl:CatalogShape a sh:NodeShape;
   sh:name "Catalog"@en;
   sh:targetClass dcat:Catalog;
   sh:property
+    dcatapnl:CatalogShape_applicableLegislation_nodeKind,
+    dcatapnl:CatalogShape_applicableLegislation_class,
     dcatapnl:CatalogShape_contactPoint_nodeKind,
     dcatapnl:CatalogShape_contactPoint_class,
     dcatapnl:CatalogShape_contactPoint_minCount,
     dcatapnl:CatalogShape_contactPoint_maxCount,
     dcatapnl:CatalogShape_dataset_minCount
+.
+
+dcatapnl:CatalogShape_applicableLegislation_nodeKind
+  sh:name "applicable legislation"@en;
+  sh:nodeKind sh:BlankNodeOrIRI;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The expected value for applicable legislation is a rdfs:Resource (URI or blank node)"@en 
+.
+
+dcatapnl:CatalogShape_applicableLegislation_class
+  sh:class eli:LegalResource;
+  sh:name "applicable legislation"@en;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
 .
 
 dcatapnl:CatalogShape_contactPoint_nodeKind

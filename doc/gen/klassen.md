@@ -1179,6 +1179,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/dcatDataset/Voorbeelden.md"></p>
@@ -1893,6 +1894,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/Voorbeelden.md"></p>
@@ -2578,6 +2580,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/dcatDataService/Voorbeelden.md"></p>
@@ -2594,6 +2597,13 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <th>Optionaliteit</th>
     </tr>
     <tr>
+        <td><a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation</a></td>
+        <td>http://data.europa.eu/r5r/applicableLegislation</td>
+        <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a> </td>
+        <td>0..n</td>
+        <td>O</td>
+    </tr>
+    <tr>
         <td><a href="http://www.w3.org/ns/dcat#catalog">catalogue</a></td>
         <td>http://www.w3.org/ns/dcat#catalog</td>
         <td><a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a> </td>
@@ -2605,7 +2615,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://www.w3.org/ns/dcat#contactPoint</td>
         <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a> </td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/creator">creator</a></td>
@@ -2654,7 +2664,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://purl.org/dc/terms/isPartOf</td>
         <td><a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a> </td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/language">language</a></td>
@@ -2733,6 +2743,28 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>1..n</td>
         <td>V</td>
     </tr>
+</table>
+
+### applicable legislation
+<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/applicable_legislation.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>applicable legislation</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+</tr>
 </table>
 
 ### catalogue
@@ -3176,6 +3208,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/Voorbeelden.md"></p>
@@ -3455,253 +3488,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/provActivity/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/provAttribution/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dcatResource/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/spdxChecksumAlgorithm/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/foafDocument/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dctFrequency/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/locnGeometry/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/vcardKind/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dctLinguisticSystem/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/rdfsLiteral/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dctMediaType/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dctMediaTypeOrExtent/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/odrlPolicy/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dctProvenanceStatement/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/rdfsResource/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dctRightsStatement/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dcatRole/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/dctStandard/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/timeInstant/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/xsddateTime/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/xsddecimal/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/xsdduration/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/xsdhexBinary/Voorbeelden.md"></p>
-
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/xsdnonNegativeInteger/Voorbeelden.md"></p>
-
-## Agent - foaf:Agent
-<p data-include-format="markdown" data-include="doc/klassen/foafAgent/foafAgent.md"></p>
-
-<table>
-    <tr>
-        <th>Property</th>
-        <th>URI</th>
-        <th>Range</th>
-        <th>Card</th>
-        <th>Optionaliteit</th>
-    </tr>
-    <tr>
-        <td><a href="http://xmlns.com/foaf/0.1/name">name</a></td>
-        <td>http://xmlns.com/foaf/0.1/name</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
-        <td>1..n</td>
-        <td>V</td>
-    </tr>
-    <tr>
-        <td><a href="http://purl.org/dc/terms/type">type</a></td>
-        <td>http://purl.org/dc/terms/type</td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> </td>
-        <td>0..1</td>
-        <td>A</td>
-    </tr>
-</table>
-
-### name
-<p data-include-format="markdown" data-include="doc/klassen/foafAgent/prop/name.md"></p>
-
-<table>
-<tr>
-    <td><em>Property</em></td>
-    <td>name</td>
-</tr>
-<tr>
-    <td><em>Cardinality</em></td>
-    <td>1..n</td>
-</tr>
-<tr>
-    <td><em>URI</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/name">foaf:name</a></td>
-</tr>
-<tr>
-    <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
-</tr>
-</table>
-
-### type
-<p data-include-format="markdown" data-include="doc/klassen/foafAgent/prop/type.md"></p>
-
-<table>
-<tr>
-    <td><em>Property</em></td>
-    <td>type</td>
-</tr>
-<tr>
-    <td><em>Cardinality</em></td>
-    <td>0..1</td>
-</tr>
-<tr>
-    <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
-</tr>
-<tr>
-    <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
-</tr>
-</table>
-
-
-### Voorbeelden
-
-<p data-include-format="markdown" data-include="doc/klassen/foafAgent/Voorbeelden.md"></p>
 
 ## DatasetSeries - dcat:DatasetSeries
 <p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/dcatDatasetSeries.md"></p>
@@ -3740,7 +3530,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://www.w3.org/ns/dcat#first</td>
         <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a> </td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/accrualPeriodicity">frequency</a></td>
@@ -3761,7 +3551,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://www.w3.org/ns/dcat#last</td>
         <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a> </td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/modified">modification date</a></td>
@@ -3789,7 +3579,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://www.w3.org/ns/dcat#seriesMember</td>
         <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a> </td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/temporal">temporal coverage</a></td>
@@ -4094,9 +3884,159 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/Voorbeelden.md"></p>
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+</table>
+
+
+## Agent - foaf:Agent
+<p data-include-format="markdown" data-include="doc/klassen/foafAgent/foafAgent.md"></p>
+
+<table>
+    <tr>
+        <th>Property</th>
+        <th>URI</th>
+        <th>Range</th>
+        <th>Card</th>
+        <th>Optionaliteit</th>
+    </tr>
+    <tr>
+        <td><a href="http://xmlns.com/foaf/0.1/name">name</a></td>
+        <td>http://xmlns.com/foaf/0.1/name</td>
+        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td>1..n</td>
+        <td>V</td>
+    </tr>
+    <tr>
+        <td><a href="http://purl.org/dc/terms/type">type</a></td>
+        <td>http://purl.org/dc/terms/type</td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> </td>
+        <td>0..1</td>
+        <td>A</td>
+    </tr>
+</table>
+
+### name
+<p data-include-format="markdown" data-include="doc/klassen/foafAgent/prop/name.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>name</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>1..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://xmlns.com/foaf/0.1/name">foaf:name</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+</tr>
+</table>
+
+### type
+<p data-include-format="markdown" data-include="doc/klassen/foafAgent/prop/type.md"></p>
+
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>type</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..1</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+</tr>
+</table>
+
+
+
+### Voorbeelden
+
+<p data-include-format="markdown" data-include="doc/klassen/foafAgent/Voorbeelden.md"></p>
 
 ## LicenseDocument - dct:LicenseDocument
 <p data-include-format="markdown" data-include="doc/klassen/dctLicenseDocument/dctLicenseDocument.md"></p>
@@ -4139,6 +4079,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
 </tr>
 </table>
+
 
 
 ### Voorbeelden
@@ -4244,6 +4185,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td><a href="http://www.w3.org/ns/locn#Geometry">locn:Geometry</a></td>
 </tr>
 </table>
+
 
 
 ### Voorbeelden
@@ -4380,6 +4322,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/dctPeriodOfTime/Voorbeelden.md"></p>
@@ -4456,6 +4399,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/spdxChecksum/Voorbeelden.md"></p>
@@ -4501,6 +4445,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
 </tr>
 </table>
+
 
 
 ### Voorbeelden
@@ -4579,6 +4524,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/dcatRelationship/Voorbeelden.md"></p>
@@ -4626,6 +4572,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </table>
 
 
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/skosConcept/Voorbeelden.md"></p>
@@ -4671,6 +4618,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
 </tr>
 </table>
+
 
 
 ### Voorbeelden

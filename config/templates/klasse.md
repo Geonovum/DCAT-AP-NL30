@@ -52,7 +52,10 @@
 
 {% endfor %}
 
+{% if nodeShape.propertyShapes is not empty %}
+
 ### Voorbeelden
 
 <p data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/Voorbeelden.md"></p>
 
+{% endif %}
