@@ -50,16 +50,6 @@ var documentConfig =
   ],
   editors: [
     {
-      name: "Casper le Gras",
-      company: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      companyURL: "https://www.koopoverheid.nl/"
-    },
-    {
-      name: "Willem ter Berg",
-      company: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      companyURL: "https://www.koopoverheid.nl/"
-    },
-    {
       name: "Ine de Visser",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
