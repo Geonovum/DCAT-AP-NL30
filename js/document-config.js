@@ -29,7 +29,7 @@ var documentConfig =
   specType: "st",
   license: "cc-by-nd",
   latestVersion: [
-    "https://docs.geostandaarden.nl/dcat/DCAT-AP-NL30/"
+    "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"
   ],
   publishDate: "2024-03-05",
   thisVersion: [
