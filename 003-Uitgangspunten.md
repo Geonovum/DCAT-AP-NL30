@@ -1,8 +1,11 @@
 ## Uitgangspunten {#2536E4CD}
 Bij het opstellen zijn van het applicatie profiel zijn volgende uitgangspunten gehanteerd:
 <br/>
+<br/>
 
 <b>Toepassingsbereik</b>
+<br/>
+<br/>
 
 DCAT-AP-NL faciliteert:
 - de uitwisseling van metadata tussen Nederlandse datacatalogi van (semi-) overheidsorganisatie en overige organisaties die maatschappelijke relevante data willen delen.
@@ -11,8 +14,11 @@ DCAT-AP-NL faciliteert:
 - de specifieke Nederlandse behoeften van metadata in datacatalogi
 - de [[DCAT-AP-HVD]] (nog in ontwikkeling)
 <br/>
+<br/>
 
 <b>Informatiemodellering</b>
+<br/>
+<br/>
 
 DCAT-AP-NL:
 - is een verdere specialisatie van [[DCAT-AP-3.0.|]
