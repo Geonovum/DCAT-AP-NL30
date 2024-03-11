@@ -1,3 +1,5 @@
+Hieronder enkele voorbeelden voor verschillende klassen. De voorbeelden worden nog verplaatst naar de juiste Klasse. 
+
 <aside class='example'>
 
 ```turtle
