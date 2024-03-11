@@ -21,7 +21,7 @@ DCAT-AP-NL faciliteert:
 <br/>
 
 DCAT-AP-NL:
-- is een verdere specialisatie van [[DCAT-AP-3.0.]]
+- is een verdere specialisatie van [[DCAT-AP-3.0]]
 - als je voldoet aan DCAT-AP NL voldoe je ook aan [[DCAT-AP-3.0]]
 - bevat alle verplichte en aanbevolen eigenschappen [[DCAT-AP-3.0]], waarbij de gebruiksvoorwaarden van DCAT-AP-NL gelden
 - introduceert geen uitbreidingen, als die al uitgedrukt kunnen worden in [[DCAT-AP-3.0]] of [[DCAT-3.0]] ,
