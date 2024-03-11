@@ -191,7 +191,7 @@ var documentConfig =
       status: ""
     },
     "DCAT-AP-DONL-2.0": {
-      title: "DCAT-AP-DONL 2.0",
+      title: "DCAT-AP-DONL-2.0",
       href: "",
       authors: [
         "Jan Meijer",
