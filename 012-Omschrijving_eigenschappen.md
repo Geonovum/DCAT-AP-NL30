@@ -1,5 +1,5 @@
 ## Omschrijving eigenschappen {#64A3722D}
-- <b>Eigenschap:</b> Dit is de originele engelstalige naam zoals gebruikt in de W3C specificatie van <a href='https://www.w3.org/TR/vocab-dcat-2' target='_blank'><i>[[DCAT-3.0]]</i></a> en <a href='https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210' target='_blank'><i>[[DCAT-AP-3.0]]</i></a>.
+- <b>Eigenschap:</b> Dit is de originele engelstalige naam zoals gebruikt in de W3C specificatie van <a href='https://www.w3.org/TR/vocab-dcat-2' target='_blank'><i>[[DCAT-3.0]]</i></a> en [[DCAT-AP-3.0]].
 - <b>Definitie</b>: Dit is de Nederlandstalige definitie van de eigenschap.
 - <b>RDF-eigenschap (URI):</b> Dit is de (technische) naam van de eigenschap die van toepassing is voor de uitwisseling van de DCAT data.
 - <b>Bereik:</b> Beschrijft de mogelijke waarden van de eigenschap.
