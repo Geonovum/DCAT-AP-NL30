@@ -192,7 +192,7 @@ var documentConfig =
     },
     "DCAT-AP-DONL-2.0": {
       title: "DCAT-AP-DONL-2.0",
-      href: "",
+      href: "https://dataoverheid.github.io/dcat-ap-donl/",
       authors: [
         "Jan Meijer",
         "Huub van Oers",
