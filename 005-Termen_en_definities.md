@@ -7,6 +7,7 @@ Een <b>applicatieprofiel</b> is een specificatie voor gegevensuitwisseling dat b
 - meer nauwkeurigheid kan worden bereikt door klassen en klasse-attributen (eigenschappen) als verplicht, aanbevolen of optioneel te classificeren voor een bepaalde toepassing
 <br/>
 <br/>
+
 Een <b>dataportaal </b>is een op het web gebaseerd systeem dat een gegevenscatalogus bevat waarin datasets worden beschreven met behulp van metadata. Bovendien biedt een dataportaal diensten aan om het vinden en het hergebruik van de datasets te bevorderen en/of te faciliteren.
 <br/>
 <br/>
