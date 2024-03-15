@@ -31,9 +31,12 @@ dcatapnl:DatasetShape a sh:NodeShape;
     dcatapnl:DatasetShape_creator_minCount,
     dcatapnl:DatasetShape_hvdCategory_nodeKind,
     dcatapnl:DatasetShape_hvdCategory_class,
+    dcatapnl:DatasetShape_identifier_minCount,
+    dcatapnl:DatasetShape_identifier_maxCount,
     dcatapnl:DatasetShape_publisher_minCount,
     dcatapnl:DatasetShape_status_nodeKind,
     dcatapnl:DatasetShape_status_class,
+    dcatapnl:DatasetShape_status_maxCount,
     dcatapnl:DatasetShape_theme_minCount,
     dcatapnl:DatasetShape_version_maxCount;
 .
@@ -96,6 +99,20 @@ dcatapnl:DatasetShape_hvdCategory_class
   eush:message "The range of HVD Category must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en
 .
 
+dcatapnl:DatasetShape_identifier_minCount
+  sh:minCount 1;
+  sh:name "identifier"@en;
+  sh:path dct:identifier;
+  eush:message "Minimally 1 values are expected for identifier"@en 
+.
+
+dcatapnl:DatasetShape_identifier_maxCount
+  sh:maxCount 1;
+  sh:name "identifier"@en;
+  sh:path dct:identifier;
+  eush:message "Maximally 1 values are allowed for identifier"@en 
+.
+
 dcatapnl:DatasetShape_publisher_minCount
   sh:minCount 1;
   sh:name "publisher"@en;
@@ -116,6 +133,13 @@ dcatapnl:DatasetShape_status_class
   sh:name "status"@en;
   sh:path adms:status;
   eush:message "The range of status must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en
+.
+
+dcatapnl:DatasetShape_status_maxCount
+  sh:maxCount 1;
+  sh:name "status"@en;
+  sh:path adms:status;
+  eush:message "Maximally 1 values are allowed for status"@en 
 .
 
 dcatapnl:DatasetShape_theme_minCount

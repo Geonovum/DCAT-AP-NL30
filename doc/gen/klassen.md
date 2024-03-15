@@ -104,7 +104,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/identifier">identifier</a></td>
         <td>http://purl.org/dc/terms/identifier</td>
         <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
-        <td>0..n</td>
+        <td>1..1</td>
         <td>V</td>
     </tr>
     <tr>
@@ -244,7 +244,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/adms#status">status</a></td>
         <td>http://www.w3.org/ns/adms#status</td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> </td>
-        <td>0..n</td>
+        <td>0..1</td>
         <td>O</td>
     </tr>
     <tr>
@@ -579,7 +579,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>0..n</td>
+    <td>1..1</td>
 </tr>
 <tr>
     <td><em>URI</em></td>
@@ -1019,7 +1019,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>0..n</td>
+    <td>0..1</td>
 </tr>
 <tr>
     <td><em>URI</em></td>
@@ -2651,7 +2651,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>http://purl.org/dc/terms/creator</td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a> </td>
         <td>0..1</td>
-        <td>O</td>
+        <td>A</td>
     </tr>
     <tr>
         <td><a href="http://www.w3.org/ns/dcat#dataset">dataset</a></td>

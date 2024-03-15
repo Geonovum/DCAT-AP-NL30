@@ -320,12 +320,18 @@ dcatapnl:DataServiceShape_title_opt
 dcatapnl:CatalogShape
   sh:property
     dcatapnl:CatalogShape_contactPoint_opt,
-    dcatapnl:CatalogShape_isPartOf_opt
+    dcatapnl:CatalogShape_isPartOf_opt,
+    dcatapnl:CatalogShape_creator_opt
 .
 
 dcatapnl:CatalogShape_contactPoint_opt
   sh:path dcat:contactPoint;
   todo_opt:optionaliteit todo_opt:verplicht
+.
+
+dcatapnl:CatalogShape_creator_opt
+  sh:path dct:creator;
+  todo_opt:optionaliteit todo_opt:aanbevolen
 .
 
 dcatapnl:CatalogShape_isPartOf_opt
