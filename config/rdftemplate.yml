@@ -36,6 +36,10 @@ dataSources:
         _orderBy: +propertyName
         propertyName: propertyName
         property: property
+        shape:
+          _type: string
+          _value: propertyShape
+          _map: join
         propertyPrefixed:
           _value: property
           _prefix: true

@@ -13,7 +13,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix dcatapnl: <https://TODO/com/DCAT-AP-NL/3.0.0#> .
+@prefix dcatapnl: <https://TODO.com/DCAT-AP-NL/3.0.0#> .
 
 ###########################################
 #  dcat:Dataset
