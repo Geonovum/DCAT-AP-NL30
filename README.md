@@ -1,5 +1,5 @@
 # dcat3-ap-nl
-dcat3-ap-nl
+dcat3-ap-nl https://geonovum.github.io/DCAT-AP-NL30/
 
 ## Run templating locally
 
