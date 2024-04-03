@@ -1,5 +1,8 @@
 # dcat3-ap-nl
-dcat3-ap-nl https://geonovum.github.io/DCAT-AP-NL30/
+De werkversie van de handreiking kan benaderd worden via: [dcat3-ap-nl](https://geonovum.github.io/DCAT-AP-NL30/)
+
+De laatste officiele publicatie kan benaderd worden via: [dcat3-ap-nl](https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/)
+
 
 ## Run templating locally
 
