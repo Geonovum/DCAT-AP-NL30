@@ -261,7 +261,6 @@ dcatapnl:DataServiceShape a sh:NodeShape;
     dcatapnl:DataServiceShape_description_minCount,
     dcatapnl:DataServiceShape_documentation_nodeKind,
     dcatapnl:DataServiceShape_documentation_class,
-    dcatapnl:DataServiceShape_documentation_minCount,
     dcatapnl:DataServiceShape_endpointDescription_minCount,
     dcatapnl:DataServiceShape_endpointDescription_maxCount,
     dcatapnl:DataServiceShape_endpointURL_maxCount,
@@ -384,12 +383,6 @@ dcatapnl:DataServiceShape_documentation_class
   eush:message "The range of documentation must be of type <http://xmlns.com/foaf/0.1/Document>."@en 
 .
 
-dcatapnl:DataServiceShape_documentation_minCount
-  sh:minCount 1;
-  sh:name "documentation"@en;
-  sh:path foaf:page;
-  eush:message "Minimally 1 values are expected for documentation"@en 
-.
 
 dcatapnl:DataServiceShape_endpointDescription_minCount
   sh:minCount 1;
