@@ -1,1 +1,1 @@
-Een beschrijving van de verschillen tussen deze versie en een eerdere versie van de dataset.
+Een beschrijving van de verschillen tussen deze versie en de vorige versie van de dataset.
