@@ -1,1 +1,1 @@
-De versie-indicator (naam of identificatie) van een bron.
+De versie-indicator (naam of identificatie) van de dataset.

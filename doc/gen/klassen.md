@@ -1985,7 +1985,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://xmlns.com/foaf/0.1/page">documentation</a></td>
         <td>http://xmlns.com/foaf/0.1/page</td>
         <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a> </td>
-        <td>1..n</td>
+        <td>0..n</td>
         <td>C</td>
     </tr>
     <tr>
@@ -2244,7 +2244,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>1..n</td>
+    <td>0..n</td>
 </tr>
 <tr>
     <td><em>URI</em></td>
@@ -3278,8 +3278,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/language">language</a></td>
         <td>http://purl.org/dc/terms/language</td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a> </td>
-        <td>0..n</td>
-        <td>O</td>
+        <td>1..n</td>
+        <td>V</td>
     </tr>
     <tr>
         <td><a href="http://purl.org/dc/terms/issued">listing date</a></td>
@@ -3394,7 +3394,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>0..n</td>
+    <td>1..n</td>
 </tr>
 <tr>
     <td><em>URI</em></td>
