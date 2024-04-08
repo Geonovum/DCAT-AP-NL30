@@ -20,7 +20,7 @@ Elke <b>distributie</b> is de werkelijke data van de dataset in een bepaald form
 Services die toegang geven tot een of meer datasets of processing functies, zijn een <b>dataservice</b>.
 <br/>
 <br/>
-Een <b>dataset serie</b> is een verzameling van datasets met dezelfde productspecificaties. Productspecificaties zijn thema, resolutie en methodologie.
+Een <b>dataset serie</b> is een verzameling van datasets die een aantal gezamenlijke kenmerken heeft.
 <br/>
 <br/>
 Een<b> aanbieder</b> is een gegevensaanbieder (bijvoorbeeld een dataportaal dat metadata verstrekt).
