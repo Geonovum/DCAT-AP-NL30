@@ -679,6 +679,29 @@ dcatapnl:DatasetSeriesShape_applicableLegislation_class
   eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
 .
 
+
+
+###########################################
+#  dcat:CatalogRecord
+###########################################
+
+dcatapnl:CatalogRecordShape a sh:NodeShape;
+  sh:name "CatalogRecord"@en;
+  sh:targetClass dcat:CatalogRecord;
+  sh:property
+    dcatapnl:CatalogRecordShape_language_minCount
+.
+
+
+dcatapnl:CatalogRecordShape_language_minCount
+  sh:minCount 1;
+  sh:name "language"@en;
+  sh:path dct:language;
+  eush:message "Minimally 1 values are expected for language"@en 
+.
+
+
+
 ###########################################
 #  Temporal Literal
 ###########################################
