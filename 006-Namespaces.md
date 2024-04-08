@@ -14,10 +14,6 @@ Dit toepassingsprofiel maakt gebruik van de namespaces zoals weergegeven in de o
 <td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='2FC83376'><span style='color: #000000;'>http://www.w3.org/ns/adms#</span></td>
 <td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='2E6B12A1'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>VOCAB-ADMS</a><span style='color: #000000;'>]</span></td>
 </tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'></td>
-</tr>
 <tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='563CE6F2'><span style='color: #000000;'>dcat</span></td>
 <td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='7974AA40'><span style='color: #000000;'>http://www.w3.org/ns/dcat#</span></td>
 <td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='0BB45F60'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>VOCAB-DCAT</a><span style='color: #000000;'>]</span></td>
