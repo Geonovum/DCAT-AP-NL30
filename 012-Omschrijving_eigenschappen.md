@@ -6,4 +6,4 @@
 - <b>Kardinaliteit</b>: Geeft aan of de eigenschap 0, 1 of meerdere keren mag voorkomen. Hierbij wordt gebruik gemaakt van de schrijfwijze <code>x..y</code>, waarbij x het minimaal aantal voorkomens aangeeft en y het maximaal aantal. Bijvoorbeeld <code>1..n</code> geeft aan dat de eigenschap een of meer keer mag voorkomen.
 - <b>Optionaliteit: </b>Geeft aan of een eigenschap verplicht, aanbevolen, optioneel of conditioneel is.
 - <b>Conditie:</b> Geeft de conditie aan in het geval de optionaliteit Conditioneel is. Bijvoorbeeld HighValueData set.
-- <b>Waardelijst</b>: Verwijzing naar de codelijsten die van toepassing zijn.
+- <b>Waardelijst</b>: Een lijst van mogelijke waarden voor een eigenschap.
