@@ -14,7 +14,7 @@ Een <b>dataportaal </b>is een op het web gebaseerd systeem dat een gegevenscatal
 Een <b>dataset</b> is een verzameling van samenhangende gegevens, die beheerd of gepubliceerd wordt door één organisatie. Een Dataset kan beschikbaar zijn via distributies of Data services.
 <br/>
 <br/>
-Elke <b>distributie</b> is de werkelijke data van de dataset in een bepaald formaat of een bepaalde aanbiedingsvorm.
+Elke <b>distributie</b> is de werkelijke data van de dataset in een bepaald formaat of een bepaalde aanbiedingsvorm, die als bestand beschikbaar is voor hergebruik.
 <br/>
 <br/>
 Services die toegang geven tot een of meer datasets of processing functies, zijn een <b>dataservice</b>.
