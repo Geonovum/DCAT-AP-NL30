@@ -3,4 +3,4 @@ De eventuele andere identifiers worden in de eigenschap other identifier opgenom
 <br/>
 <br/>
 Identifier heeft de beperking (ten opzichte van DCAT-AP) dat deze eigenschap alleen de waarde kan bevatten die de eerste eigenaar heeft gegeven.
-Vraag, heeft een identifier voor dataservice meerwaarde, is dit in te vullen vanuit bestaande metadata?
+
