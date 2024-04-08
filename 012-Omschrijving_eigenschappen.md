@@ -3,7 +3,7 @@
 - <b>Definitie</b>: Dit is de Nederlandstalige definitie van de eigenschap.
 - <b>RDF-eigenschap (URI):</b> Dit is de (technische) naam van de eigenschap die van toepassing is voor de uitwisseling van de DCAT data.
 - <b>Bereik:</b> Het type (klasse of datatype) dat een waarde van deze eigenschap moet hebben.
-- <b>Kardinaliteit</b>: Geeft aan of de eigenschap 0, 1 of meerdere keren mag voorkomen. Hierbij wordt gebruik gemaakt van de schrijfwijze <code>x..y</code>, waarbij x het minimaal aantal voorkomens aangeeft en y het maximaal aantal. Bijvoorbeeld <code>1..n</code> geeft aan dat de eigenschap een of meer keer mag voorkomen.
+- <b>Kardinaliteit</b>: Geeft aan of de eigenschap 0, 1 of meerdere keren mag voorkomen. Hierbij wordt gebruik gemaakt van de schrijfwijze <code>x..y</code>, waarbij x het minimaal aantal voorkomens aangeeft en y het maximaal aantal.
 - <b>Optionaliteit: </b>Geeft aan of een eigenschap verplicht, aanbevolen, optioneel of conditioneel is.
 - <b>Conditie:</b> Geeft de conditie aan in het geval de optionaliteit Conditioneel is. Bijvoorbeeld HighValueData set.
 - <b>Waardelijst</b>: Een lijst van mogelijke waarden voor een eigenschap.
