@@ -13,4 +13,5 @@ In de gegeven context betekent de term "verwerken" dat ontvangers binnenkomende 
 <br/>
 <br/>
 
-De termen MOET, BEHOORT en MAG in dit document moeten worden geïnterpreteerd als in <a href='https://www.rfc-editor.org/info/bcp14' target='_blank'>BCP 14</a> [[RFC2119]] [[RFC8174]] als, en alleen als deze in hoofdletters zijn weergegeven, zoals hier getoond.
+De termen MOET (MUST), BEHOORT (SHOULD) en MAG (MAY) in dit document moeten worden geïnterpreteerd als in <a href='https://www.rfc-editor.org/info/bcp14' target='_blank'>BCP 14</a> en alleen als deze in hoofdletters zijn weergegeven, zoals hier getoond.
+
