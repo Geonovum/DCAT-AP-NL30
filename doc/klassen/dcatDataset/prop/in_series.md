@@ -1,1 +1,1 @@
-Een datasetreeks waarvan de dataset deel uitmaakt.
+Een dataset serie waarvan de dataset deel uitmaakt.
