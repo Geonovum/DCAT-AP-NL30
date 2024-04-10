@@ -13,7 +13,6 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
-{% endif %}
 {% for propEntry in nodeShape.propertyShapes %}
 {% set prop = propEntry.value %}
     <tr>
@@ -26,6 +25,7 @@
     </tr>
 {% endfor %}
 </table>
+{% endif %}
 
 {% for propEntry in nodeShape.propertyShapes %}
 {% set prop = propEntry.value %}

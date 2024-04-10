@@ -10,7 +10,6 @@
         <th>Card</th>
         <th>Optionaliteit</th>
     </tr>
-{% endif %}
 {% for propEntry in nodeShape.propertyShapes %}
 {% set prop = propEntry.value %}
     <tr>
@@ -48,3 +47,4 @@
 </table>
 
 {% endfor %}
+{% endif %}
