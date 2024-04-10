@@ -13,7 +13,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix dcatapnl: <https://TODO/com/DCAT-AP-NL/3.0.0#> .
+@prefix dcatapnl: <https://TODO.com/DCAT-AP-NL/3.0.0#> .
 
 ###########################################
 #  dcat:Dataset
@@ -383,7 +383,6 @@ dcatapnl:DataServiceShape_documentation_class
   eush:message "The range of documentation must be of type <http://xmlns.com/foaf/0.1/Document>."@en 
 .
 
-
 dcatapnl:DataServiceShape_endpointDescription_minCount
   sh:minCount 1;
   sh:name "endpoint description"@en;
@@ -714,5 +713,6 @@ dcatapnl:TemporalLiteralShape a sh:NodeShape ;
     [ sh:datatype xsd:date ]
     [ sh:datatype xsd:dateTime ]
   ) ;
-  eush:message "The value of a Temporal Literal should have a temporal datatype."@en
+  eush:message "The value of a Temporal Literal should have a temporal datatype."@en ;
+  rdfs:seeAlso <https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral> ;
 .

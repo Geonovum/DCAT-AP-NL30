@@ -1,9 +1,10 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX todo: <https://TODO/com/DCAT-AP-NL/3.0.0#>
 PREFIX todo_opt: <https://TODO.com/optionaliteit/>
 
-SELECT ?targetClass ?propertyShape ?property ?propertyName ?description ?class ?datatype ?nodeShapeName ?nodeKind ?minCount ?maxCount ?optionaliteit
+SELECT ?targetClass ?propertyShape ?property ?propertyName ?description ?class ?datatype ?nodeShapeName ?nodeShapeSeeAlso ?nodeKind ?minCount ?maxCount ?optionaliteit
 WHERE {
   ?nodeShape a sh:NodeShape;
     sh:targetClass ?targetClass .
@@ -29,6 +30,9 @@ WHERE {
       ?propertyShape sh:node/sh:name ?nodeShName . 
     }
     OPTIONAL {
+      ?propertyShape sh:node/rdfs:seeAlso ?nodeShSeeAlso .
+    }
+    OPTIONAL {
       ?propertyShape sh:nodeKind ?nodeKind .
     }
     OPTIONAL {
@@ -45,6 +49,8 @@ WHERE {
   BIND(STR(?propName) as ?propertyName)
 
   BIND(STR(?nodeShName) as ?nodeShapeName)
+
+  BIND(STR(?nodeShSeeAlso) as ?nodeShapeSeeAlso)
 
   BIND(STR(?min) as ?minCount)
 
