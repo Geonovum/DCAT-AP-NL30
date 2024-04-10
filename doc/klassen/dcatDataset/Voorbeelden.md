@@ -78,6 +78,61 @@ _:EA-MS a foaf:Agent;
 ```turtle
 <https://data.exampleMS.gov/resource/FreeAndOpen> a dct:LicenseDocument;
   skos:exactMatch <http://publications.europa.eu/resource/authority/licence/CC0>.
+
+
+
+
+------nieuw----
+@prefix exampleMS: <https://data.exampleMS.gov/id/dataset/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcatap: <http://data.europa.eu/r5r/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+exampleMS:1T2p3o4B a dcat:Dataset;
+   dct:title "Naam van de dataset"@nl;
+   dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+   dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj>;
+   dct:conformsTo <http://data.europa.eu/eli/reg/2010/1089>;
+   dcat:contactPoint _:Organisatie-contactpoint ;
+   dct:creator _:Organisatie;
+   dct:description "beschrijving van de dataset"@nl;
+   dct:description "description in english"@en;
+   dct:identifier "https://data.exampleMS.gov/id/dataset/1T2p3o4B";
+   dct:publisher _:Organisatie;
+
+   
+   dcat:distribution exampleMS:1T2p3o4B-dist-SHP, exampleMS:1T2p3o4B-dist-RDF;
+
+
+.
+
+exampleMS:1W2o3p4T a dcat:Dataset;
+  dct:title "The population of wasps"@en.
+
+exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;
+   dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj>.
+
+exampleMS:1T2p3o4B-dist-RDF a dcat:Distribution.
+
+exampleMS:EAMS-APIplatform a dcat:DataService;
+   dct:title "EA API platform"@en;
+   dct:description "The EA API platform provides a uniform access to the real-time data collected by EA"@en;
+   dcat:endpointURL <https://orgea.exampleMS.gov/api/v2/> ;
+   dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj>;
+   dcat:servesDataset exampleMS:1T2p3o4B, exampleMS:1W2o3p4T .
+
+
+_:Organisatie-contactpoint a vcard:Kind;
+   vcard:hasURL <https://organisatie/servicedesk> .
+
+_:Organisatie a foaf:Agent;
+    foaf:name "Organisatienaam".
 ```
 
 </aside>
