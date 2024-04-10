@@ -1,53 +1,5 @@
 # Ondersteunende Klassen
 
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
-</table>
-
 ## Agent - foaf:Agent
 <table>
     <tr>
@@ -56,20 +8,23 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://xmlns.com/foaf/0.1/name">name</a></td>
-        <td>http://xmlns.com/foaf/0.1/name</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td><a href="#agent-name">name</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/name">foaf:name</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
+        <td>AP</td>
     </tr>
     <tr>
-        <td><a href="http://purl.org/dc/terms/type">type</a></td>
-        <td>http://purl.org/dc/terms/type</td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> </td>
+        <td><a href="#agent-type">type</a></td>
+        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..1</td>
         <td>A</td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -89,7 +44,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
 </tr>
 </table>
 
@@ -121,13 +76,15 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://purl.org/dc/terms/type">type</a></td>
-        <td>http://purl.org/dc/terms/type</td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> </td>
+        <td><a href="#licensedocument-type">type</a></td>
+        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..n</td>
         <td>A</td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -159,27 +116,31 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/ns/dcat#bbox">bbox</a></td>
-        <td>http://www.w3.org/ns/dcat#bbox</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td><a href="#location-bbox">bbox</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#bbox">dcat:bbox</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
+        <td>AP</td>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/ns/dcat#centroid">centroid</a></td>
-        <td>http://www.w3.org/ns/dcat#centroid</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td><a href="#location-centroid">centroid</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#centroid">dcat:centroid</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
+        <td>AP</td>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/ns/locn#geometry">geometry</a></td>
-        <td>http://www.w3.org/ns/locn#geometry</td>
-        <td><a href="http://www.w3.org/ns/locn#Geometry">locn:Geometry</a> </td>
+        <td><a href="#location-geometry">geometry</a></td>
+        <td><a href="http://www.w3.org/ns/locn#geometry">locn:geometry</a></td>
+        <td><a href="http://www.w3.org/ns/locn#Geometry">locn:Geometry</a></td>
         <td>0..1</td>
         <td>O</td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -199,7 +160,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
 </tr>
 </table>
 
@@ -219,7 +180,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
 </tr>
 </table>
 
@@ -251,34 +212,39 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/2006/time#hasBeginning">beginning</a></td>
-        <td>http://www.w3.org/2006/time#hasBeginning</td>
-        <td><a href="http://www.w3.org/2006/time#Instant">time:Instant</a> </td>
+        <td><a href="#periodoftime-beginning">beginning</a></td>
+        <td><a href="http://www.w3.org/2006/time#hasBeginning">time:hasBeginning</a></td>
+        <td><a href="http://www.w3.org/2006/time#Instant">time:Instant</a></td>
         <td>0..1</td>
         <td>O</td>
+        <td>AP</td>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/2006/time#hasEnd">end</a></td>
-        <td>http://www.w3.org/2006/time#hasEnd</td>
-        <td><a href="http://www.w3.org/2006/time#Instant">time:Instant</a> </td>
+        <td><a href="#periodoftime-end">end</a></td>
+        <td><a href="http://www.w3.org/2006/time#hasEnd">time:hasEnd</a></td>
+        <td><a href="http://www.w3.org/2006/time#Instant">time:Instant</a></td>
         <td>0..1</td>
         <td>O</td>
+        <td>AP</td>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/ns/dcat#endDate">end date</a></td>
-        <td>http://www.w3.org/ns/dcat#endDate</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td><a href="#periodoftime-end-date">end date</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#endDate">dcat:endDate</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
+        <td>AP</td>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/ns/dcat#startDate">start date</a></td>
-        <td>http://www.w3.org/ns/dcat#startDate</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td><a href="#periodoftime-start-date">start date</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#startDate">dcat:startDate</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -338,7 +304,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
 </tr>
 </table>
 
@@ -358,7 +324,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
 </tr>
 </table>
 
@@ -370,20 +336,23 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://spdx.org/rdf/terms#algorithm">algorithm</a></td>
-        <td>http://spdx.org/rdf/terms#algorithm</td>
-        <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm">spdx:ChecksumAlgorithm</a> </td>
+        <td><a href="#checksum-algorithm">algorithm</a></td>
+        <td><a href="http://spdx.org/rdf/terms#algorithm">spdx:algorithm</a></td>
+        <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm">spdx:ChecksumAlgorithm</a></td>
         <td>1..1</td>
         <td>V</td>
+        <td>AP</td>
     </tr>
     <tr>
-        <td><a href="http://spdx.org/rdf/terms#checksumValue">checksum value</a></td>
-        <td>http://spdx.org/rdf/terms#checksumValue</td>
-        <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary">xsd:hexBinary</a> </td>
+        <td><a href="#checksum-checksum-value">checksum value</a></td>
+        <td><a href="http://spdx.org/rdf/terms#checksumValue">spdx:checksumValue</a></td>
+        <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary">xsd:hexBinary</a></td>
         <td>1..1</td>
         <td>V</td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -435,13 +404,15 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/2004/02/skos/core#notation">notation</a></td>
-        <td>http://www.w3.org/2004/02/skos/core#notation</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td><a href="#identifier-notation">notation</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#notation">skos:notation</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
         <td>V</td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -461,7 +432,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
 </tr>
 </table>
 
@@ -473,20 +444,23 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/ns/dcat#hadRole">had role</a></td>
-        <td>http://www.w3.org/ns/dcat#hadRole</td>
-        <td><a href="http://www.w3.org/ns/dcat#Role">dcat:Role</a> </td>
+        <td><a href="#relationship-had-role">had role</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#hadRole">dcat:hadRole</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Role">dcat:Role</a></td>
         <td>1..n</td>
         <td>V</td>
+        <td>AP</td>
     </tr>
     <tr>
-        <td><a href="http://purl.org/dc/terms/relation">relation</a></td>
-        <td>http://purl.org/dc/terms/relation</td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a> </td>
+        <td><a href="#relationship-relation">relation</a></td>
+        <td><a href="http://purl.org/dc/terms/relation">dct:relation</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
         <td>1..n</td>
         <td>V</td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -538,13 +512,15 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel">preferred label</a></td>
-        <td>http://www.w3.org/2004/02/skos/core#prefLabel</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td><a href="#concept-preferred-label">preferred label</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
         <td></td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -564,7 +540,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
 </tr>
 </table>
 
@@ -576,13 +552,15 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="http://purl.org/dc/terms/title">title</a></td>
-        <td>http://purl.org/dc/terms/title</td>
-        <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a> </td>
+        <td><a href="#conceptscheme-title">title</a></td>
+        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
         <td></td>
+        <td>AP</td>
     </tr>
 </table>
 
@@ -602,7 +580,50 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/ns/shacl#Literal">sh:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
 </tr>
 </table>
+
+
+## Niet verder gespecificeerde klassen
+
+De volgende ondersteunende klassen worden niet verder gespecificeerd door DCAT-AP-NL:
+
+- [prov:Activity](http://www.w3.org/ns/prov#Activity)
+
+- [prov:Attribution](http://www.w3.org/ns/prov#Attribution)
+
+- [dcat:Resource](http://www.w3.org/ns/dcat#Resource)
+
+- [spdx:ChecksumAlgorithm](http://spdx.org/rdf/terms#ChecksumAlgorithm)
+
+- [foaf:Document](http://xmlns.com/foaf/0.1/Document)
+
+- [dct:Frequency](http://purl.org/dc/terms/Frequency)
+
+- [locn:Geometry](http://www.w3.org/ns/locn#Geometry)
+
+- [vcard:Kind](http://www.w3.org/2006/vcard/ns#Kind)
+
+- [dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)
+
+- [rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)
+
+- [dct:MediaType](http://purl.org/dc/terms/MediaType)
+
+- [dct:MediaTypeOrExtent](http://purl.org/dc/terms/MediaTypeOrExtent)
+
+- [odrl:Policy](http://www.w3.org/ns/odrl/2/Policy)
+
+- [dct:ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement)
+
+- [rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)
+
+- [dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)
+
+- [dcat:Role](http://www.w3.org/ns/dcat#Role)
+
+- [dct:Standard](http://purl.org/dc/terms/Standard)
+
+- [time:Instant](http://www.w3.org/2006/time#Instant)
 
