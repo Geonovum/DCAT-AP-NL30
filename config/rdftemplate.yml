@@ -52,6 +52,8 @@ dataSources:
         datatypePrefixed:
           _value: datatype
           _prefix: true
+        nodeShapeName: nodeShapeName
+        nodeShapeSeeAlso: nodeShapeSeeAlso
         nodeKind: nodeKind
         nodeKindPrefixed:
           _value: nodeKind
