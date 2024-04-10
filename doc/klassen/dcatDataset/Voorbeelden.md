@@ -12,9 +12,7 @@ Hieronder een voorbeeld voor de klasse dataset
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-```
 
-```turtle
 exampleMS:1T2p3o4B a dcat:Dataset;
    dct:title "Naam van de dataset"@nl;
    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
@@ -29,19 +27,12 @@ exampleMS:1T2p3o4B a dcat:Dataset;
    dct:spatial <https://www.geonames.org/2750405>;
    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC>;
    dcat:distribution exampleMS:1T2p3o4B-dist-SHP, exampleMS:1T2p3o4B-dist-RDF.
-```
 
-```turtle
 exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution.
-```
 
-
-```turtle
 _:Organisatie-contactpoint a vcard:Kind;
    vcard:hasURL <https://organisatie/servicedesk> .
-```
 
-```turtle
 _:Organisatie a foaf:Agent;
     foaf:name "Organisatienaam".
 ```
