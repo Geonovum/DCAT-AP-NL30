@@ -29,6 +29,7 @@ exampleMS:1T2p3o4B a dcat:Dataset;
    dcat:distribution exampleMS:1T2p3o4B-dist-SHP, exampleMS:1T2p3o4B-dist-RDF.
 
 exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution.
+# Wordt bij de klasse distributie verder uitgewerkt
 
 _:Organisatie-contactpoint a vcard:Kind;
    vcard:hasURL <https://organisatie/servicedesk> .
