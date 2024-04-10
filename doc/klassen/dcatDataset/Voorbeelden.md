@@ -26,7 +26,7 @@ exampleMS:1T2p3o4B a dcat:Dataset;
    dct:publisher _:Organisatie;
    dct:spatial <https://www.geonames.org/2750405>;
    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC>;
-   dcat:distribution exampleMS:1T2p3o4B-dist-SHP, exampleMS:1T2p3o4B-dist-RDF.
+   dcat:distribution exampleMS:1T2p3o4B-dist-SHP.
 
 exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution.
 # Wordt bij de klasse distributie verder uitgewerkt
