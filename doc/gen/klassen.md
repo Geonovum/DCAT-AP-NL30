@@ -3395,9 +3395,9 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="#catalogrecord-language">language</a></td>
         <td>http://purl.org/dc/terms/language</td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a> </td>
-        <td>0..n</td>
-        <td>O</td>
-        <td>AP</td>
+        <td>1..n</td>
+        <td>V</td>
+        <td>NL</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-listing-date">listing date</a></td>
@@ -3517,7 +3517,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>0..n</td>
+    <td>1..n</td>
 </tr>
 <tr>
     <td><em>URI</em></td>

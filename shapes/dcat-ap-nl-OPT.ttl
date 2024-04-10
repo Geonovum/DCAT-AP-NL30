@@ -370,3 +370,17 @@ dcatapnl:DatasetSeriesShape_seriesMember_opt
   sh:path dcat:seriesMember;
   todo_opt:optionaliteit todo_opt:optioneel
 .
+
+###########################################
+#  dcat:CatalogRecord
+###########################################
+
+dcatapnl:CatalogRecordShape
+  sh:property
+    dcatapnl:CatalogRecordShape_language_opt
+.
+
+dcatapnl:CatalogRecordShape_language_opt
+  sh:path dct:language;
+  todo_opt:optionaliteit todo_opt:verplicht
+.
