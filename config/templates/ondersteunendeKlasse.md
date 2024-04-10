@@ -9,6 +9,7 @@
         <th>Range</th>
         <th>Card</th>
         <th>Optionaliteit</th>
+        <th>Herkomst</th>
     </tr>
 {% for propEntry in nodeShape.propertyShapes %}
 {% set prop = propEntry.value %}
