@@ -15,6 +15,7 @@ Hieronder een voorbeeld voor de klasse dataset
 
 exampleMS:1T2p3o4B a dcat:Dataset;
    dct:title "Naam van de dataset"@nl;
+   dct:title "Title of the dataset"@en;
    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
    dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj>;
    dct:conformsTo <http://data.europa.eu/eli/reg/2010/1089>;
