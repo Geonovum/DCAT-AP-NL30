@@ -39,7 +39,7 @@ Onderstaand voorbeeld beschrijft een <code>dcat:Distribution </code>met die een 
 ```turtle
 exampleMS:1T2p3o4B-dist-WMS a dcat:Distribution;
    dcat:accessService exampleMS:1T2p3o4B-dataservice-WMS;
-   dcat:accessURL <https://organisatie.geovoorziening.nl/wms?&request=GetCapabilities&service=WMS> ;
+   dcat:accessURL <https://orgea.exampleMS.gov/services/wms?&request=GetCapabilities&service=WMS> ;
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
    .
 ```
