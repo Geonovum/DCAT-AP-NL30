@@ -1,5 +1,10 @@
 
+#### Minimale set van eigenschappen {#dcat-distribution-voorbeelden-minimale-set-van-eigenschappen}
+Onderstaand voorbeeld beschrijft een <code>dcat:Distribution </code>met enkel de verplichte eigenschappen. Dit is de meest minimale representatie van een <code>dcat:Distribution</code>.
 
+<aside class='example'>
+
+```turtle
 
 exampleMS:1T2p3o4B-dataservice-WMS a dcat:DataService;
    dct:title "Naam van de dataservice"@nl;
@@ -43,4 +48,5 @@ exampleMS:1T2p3o4B-dataservice-WMS a dcat:DataService;
    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC>;
    dcat:servesDataset exampleMS:1T2p3o4B
 .
-
+```
+</aside>
