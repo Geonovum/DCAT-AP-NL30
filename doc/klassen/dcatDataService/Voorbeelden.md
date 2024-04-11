@@ -1,7 +1,6 @@
 
-#### Minimale set van eigenschappen {#dcat-distribution-voorbeelden-minimale-set-van-eigenschappen}
-Onderstaand voorbeeld beschrijft een <code>dcat:Distribution </code>met enkel de verplichte eigenschappen. Dit is de meest minimale representatie van een <code>dcat:Distribution</code>.
-
+#### 
+Onderstaand voorbeeld beschrijft een <code>dcat:DataService </code>met de verplichte een aantal conditionele en aanbevolen eigenschappen. 
 <aside class='example'>
 
 ```turtle
