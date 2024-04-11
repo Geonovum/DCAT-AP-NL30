@@ -1,7 +1,9 @@
-Het geografische gebied waarop de gegevens in de catalogus betrekking hebben. Het veld kan worden gevuld met de benaming van een gebied in de vorm van een URI of de coördinaten ervan.
-De coördinaten zijn de meest westelijke, oostelijke, noordelijke en zuidelijke coördinaat uit de horizontale dekking van de dataset weergegeven in latitude en longitude in decimale graden (noord en oost als positieve waarden). De coördinaten dienen te worden weergegeven volgens referentiesysteem WGS 84.
-Voor de invulling van deze eigenschap met een gebiedsnaam, wordt vereist dat een van de onderstaande als mogelijk gebruik wordt gemaakt van https://vocabs.cbs.nl/nl/ of anders van
-GeoNames.org
-<br/>
-<br/>
-Gebruik hiervoor een waarde uit EU Vocabularies Continents Named Authority List, EU Vocabularies Countries Named Authority List, EU Vocabularies Places Named Authority List, Geonames
+Het geografische gebied waarop de gegevens in de catalogus betrekking hebben. De ruimtelijke dekking van een catalogus kan worden gecodeerd als een dcterms:Location, of kan kan worden aangegeven met behulp van een URI-referentie (link) naar een bron die een locatie beschrijft.
+
+Met dcterms:Location kunnen de eigenschappen bounding box, centroide of geometry worden beschreven. De coördinaten dienen te worden weergegeven volgens referentiesysteem WGS 84.
+"Voor de Bbox zijn de coördinaten zijn de meest westelijke, oostelijke, noordelijke en zuidelijke coördinaat uit de horizontale dekking van de catalogus weergegeven in latitude en longitude in decimale graden (noord en oost als positieve waarden)."
+
+
+Voor de invulling van deze eigenschap met een gebiedsnaam, moet als mogelijk een waarde uit <a href='http://publications.europa.eu/resource/authority/continent/' target='_blank'>EU Vocabularies Continents Named Authority List</a>, <a href='http://publications.europa.eu/resource/authority/country' target='_blank'>EU Vocabularies Countries Named Authority List</a>, <a href='http://publications.europa.eu/resource/authority/place/' target='_blank'>EU Vocabularies Places Named Authority List</a> worden gebruikt. Als de waarde daarin niet aanwezig is moet een URI uit <a href='http://www.geonames.org/' target='_blank'>Geonames</a> worden gebruikt. 
+
+Voor specifiekere aanduidingen, zoals wijken en buurten kan aanvullend gebruik worden gemaakt van  <a href='https://vocabs.cbs.nl/nl/' target='_blank'>https://vocabs.cbs.nl/nl/</a> 

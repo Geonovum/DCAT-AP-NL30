@@ -161,7 +161,7 @@ var documentConfig =
     },
     "DCAT-AP-3.0": {
       title: "DCAT-AP-3.0",
-      href: "https://semiceu.github.io//DCAT-AP/releases/3.0",
+      href: "https://semiceu.github.io//DCAT-AP/releases/3.0.0/",
       authors: [
         "Bert Van Nuffelen"
       ],

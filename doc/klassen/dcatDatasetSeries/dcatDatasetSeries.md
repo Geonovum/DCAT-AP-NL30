@@ -1,1 +1,1 @@
-Wordt nog nader gespecificeerd.
+Een datasetseries is een verzameling van datasets die afzonderlijk worden gepubliceerd, maar bepaalde kenmerken delen waardoor ze gegroepeerd zijn. Er moet tenminste één dataset verwijzen naar een datasetseries middels de eigenschap <code>dcat:inSeries</code>.

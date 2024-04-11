@@ -1,5 +1,5 @@
 ## DCAT als universeel vocabulaire {#09DBB0B1}
-Het toepassingsprofiel in dit document is gebaseerd op de specificatie van de Data Catalog Vocabulary (DCAT), ontwikkeld onder verantwoordelijkheid van de Government Linked Data Working Group bij W3C. DCAT is een RDF-vocabulaire dat is ontworpen om interoperabiliteit tussen gegevenscatalogi gepubliceerd op het web te vergemakkelijken. Waar nodig worden aanvullende klassen en eigenschappen uit andere bekende vocabulaires hergebruikt.
+Het toepassingsprofiel in dit document is gebaseerd op de specificatie van de Data Catalog Vocabulary (DCAT), ontwikkeld onder verantwoordelijkheid van de Government Linked Data Working Group van W3C. DCAT is een RDF-vocabulaire dat is ontworpen om interoperabiliteit tussen gegevenscatalogi gepubliceerd op het web te vergemakkelijken. Waar nodig worden aanvullende klassen en eigenschappen uit andere bekende vocabulaires hergebruikt.
 <br/>
 <br/>
 Het DCAT vocabulaire bestaat uit klassen en eigenschappen.
