@@ -10,4 +10,4 @@
 - <b>Herkomst</b>: Feeft aan of de eigenschap overeenkomt met DCAT-AP. AP - is zoals beschreven in DCAT-AP;  NL -  is zoals beschreven in DCAT-AP en DCAT-AP HVD, echter met aanvullende restricties, condities, en toelichting op het gebruik van de eigenschap. Daarnaast zijn een aantal DCAT eigenschappen toegevoegd die geen onderdeel vormen van DCAT-AP.
 <br/>
 <br/>
-<aside class='note'><p class='space-after' id='omschrijvin_eigenschappen-1'>Een overzicht met de verschillen tussen DCAT-AP-NL en DCAT-AP vind je in [github](https://github.com/Geonovum/DCAT-AP-NL30)'.<aside>
+<aside class='note'><p class='space-after' id='omschrijvin_eigenschappen-1'>Een overzicht met de verschillen tussen DCAT-AP-NL en DCAT-AP vind je in het document <a href='https://github.com/Geonovum/DCAT-AP-NL30' target='_blank'>'Verschillen DCAT-AP en DCAT-AP-NL.pdf'</a> <aside>
