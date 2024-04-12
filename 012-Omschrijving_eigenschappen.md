@@ -7,3 +7,6 @@
 - <b>Optionaliteit: </b>Geeft aan of een eigenschap verplicht, aanbevolen, optioneel of conditioneel is.
 - <b>Conditie:</b> Geeft de conditie aan in het geval de optionaliteit Conditioneel is. Bijvoorbeeld HighValueData set.
 - <b>Waardelijst</b>: Een lijst van mogelijke waarden voor een eigenschap.
+- <b>Herkomst</b>: Feeft aan of de eigenschap overeenkomt met DCAT-AP. AP - is zoals beschreven in DCAT-AP;  NL -  is zoals beschreven in DCAT-AP en DCAT-AP HVD, echter met aanvullende restricties, condities, en toelichting op het gebruik van de eigenschap. Daarnaast zijn een aantal DCAT eigenschappen toegevoegd die geen onderdeel vormen van DCAT-AP.
+
+Een overzicht met de verschillen tussen DCAT-AP-NL en DCAT-AP vind je xxxx.
