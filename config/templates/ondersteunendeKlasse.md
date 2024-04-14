@@ -34,6 +34,10 @@
     <td>{{ prop.propertyName }}</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>{{ prop.description }}</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>{{ prop.minCount | default("0") }}..{{ prop.maxCount | default("n") }}</td>
 </tr>
