@@ -35,6 +35,10 @@
     <td>name</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A name of the agent.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..n</td>
 </tr>
@@ -53,6 +57,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>type</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A type of the agent that makes the Catalogue or Dataset available.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -93,6 +101,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>type</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A type of licence, e.g. indicating &#39;public domain&#39; or &#39;royalties required&#39;.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -151,6 +163,10 @@
     <td>bbox</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The geographic bounding box of a resource.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -171,6 +187,10 @@
     <td>centroid</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The geographic center (centroid) of a resource.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -189,6 +209,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>geometry</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The corresponding geometry for a resource.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -255,6 +279,10 @@
     <td>beginning</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The beginning of a period or interval.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -273,6 +301,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>end</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The end of a period or interval.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -295,6 +327,10 @@
     <td>end date</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The end of the period.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -313,6 +349,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>start date</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The start of the period.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -363,6 +403,10 @@
     <td>algorithm</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The algorithm used to produce the subject Checksum.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -381,6 +425,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>checksum value</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A lower case hexadecimal encoded digest value produced using a specific algorithm.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -421,6 +469,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>notation</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A string that is an identifier in the context of the identifier scheme referenced by its datatype.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -471,6 +523,10 @@
     <td>had role</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A function of an entity or agent with respect to another entity or resource.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..n</td>
 </tr>
@@ -489,6 +545,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>relation</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A resource related to the source resource.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -531,6 +591,10 @@
     <td>preferred label</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A preferred label of the concept.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..n</td>
 </tr>
@@ -569,6 +633,10 @@
 <tr>
     <td><em>Property</em></td>
     <td>title</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A name of the concept scheme.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>

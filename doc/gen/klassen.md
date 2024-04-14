@@ -356,6 +356,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>access rights</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>Information that indicates whether the Dataset is open data, has access restrictions or is not public.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -376,6 +380,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>applicable legislation</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td></td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -400,6 +408,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>conforms to</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>An implementing rule or other specification.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -420,6 +432,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>contact point</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>Contact information that can be used for sending comments about the Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -444,6 +460,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>creator</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>Ae entity responsible for producing the dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -464,6 +484,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>dataset distribution</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>An available Distribution for the Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -488,6 +512,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>description</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A free-text account of the Dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..n</td>
 </tr>
@@ -508,6 +536,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>documentation</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A page or document about this Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -532,6 +564,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>frequency</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The frequency at which the Dataset is updated.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -552,6 +588,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>geographical coverage</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A geographic region that is covered by the Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -576,6 +616,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>has version</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A related Dataset that is a version, edition, or adaptation of the described Dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -596,6 +640,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>HVD Category</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The HVD category to which this Dataset belongs.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -620,6 +668,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>identifier</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The main identifier for the Dataset, e.g. the URI or other unique identifier in the context of the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -640,6 +692,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>in series</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A dataset series of which the dataset is part.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -664,6 +720,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>is referenced by</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A related resource, such as a publication, that references, cites, or otherwise points to the dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -684,6 +744,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>is version of</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A related Dataset of which the described Dataset is a version, edition, or adaptation.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -708,6 +772,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>keyword</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A keyword or tag describing the Dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -728,6 +796,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>landing page</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A web page that provides access to the Dataset, its Distributions and/or additional information.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -752,6 +824,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>language</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A language of the Dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -772,6 +848,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>modification date</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The most recent date on which the Dataset was changed or modified.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -796,6 +876,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>next</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The following resource (after the current one) in an ordered collection or series of resources.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -816,6 +900,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>other identifier</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A secondary identifier of the Dataset, such as MAST/ADS17, DataCite18, DOI19, EZID20 or W3ID21.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -840,6 +928,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>previous</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The previous resource (before the current one) in an ordered collection or series of resources.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -860,6 +952,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>provenance</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A statement about the lineage of a Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -884,6 +980,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>publisher</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>An entity (organisation) responsible for making the Dataset available.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -904,6 +1004,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>qualified attribution</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>An Agent having some form of responsibility for the resource.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -928,6 +1032,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>qualified relation</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A description of a relationship with another resource.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -948,6 +1056,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>related resource</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A related resource.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -972,6 +1084,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>release date</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The date of formal issuance (e.g., publication) of the Dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -992,6 +1108,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>sample</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A sample distribution of the dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1016,6 +1136,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>source</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A related Dataset from which the described Dataset is derived.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -1036,6 +1160,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>spatial resolution</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The minimum spatial separation resolvable in a dataset, measured in meters.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1060,6 +1188,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>status</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The status of the dataset in the context of editorial flow of the dataset and data service descriptions.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1080,6 +1212,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>temporal coverage</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A temporal period that the Dataset covers.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1104,6 +1240,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>temporal resolution</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The minimum time period resolvable in the dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -1124,6 +1264,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>theme</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A category of the Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1148,6 +1292,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>title</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A name given to the Dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..n</td>
 </tr>
@@ -1168,6 +1316,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>type</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A type of the Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1192,6 +1344,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>version</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The version indicator (name or identifier) of a resource.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1214,6 +1370,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>version notes</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A description of the differences between this version and a previous version of the Dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -1234,6 +1394,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>was generated by</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>An activity that generated, or provides the business context for, the creation of the dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1470,6 +1634,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>access service</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A data service that gives access to the distribution of the dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1490,6 +1658,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>access URL</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A URL that gives access to a Distribution of the Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1514,6 +1686,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>applicable legislation</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -1534,6 +1710,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>availability</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>An indication how long it is planned to keep the Distribution of the Dataset available.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1558,6 +1738,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>byte size</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The size of a Distribution in bytes.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1578,6 +1762,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>checksum</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A mechanism that can be used to verify that the contents of a distribution have not changed.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1602,6 +1790,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>compression format</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The format of the file in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1622,6 +1814,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>description</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A free-text account of the Distribution.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1646,6 +1842,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>documentation</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A page or document about this Distribution.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -1666,6 +1866,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>download URL</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A URL that is a direct link to a downloadable file in a given format.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1690,6 +1894,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>format</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The file format of the Distribution.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1710,6 +1918,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>has policy</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The policy expressing the rights associated with the distribution if using the ODRL vocabulary.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1734,6 +1946,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>language</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A language used in the Distribution.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1754,6 +1970,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>licence</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A licence under which the Distribution is made available.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1778,6 +1998,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>linked schemas</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>An established schema to which the described Distribution conforms.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -1798,6 +2022,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>media type</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The media type of the Distribution as defined in the official register of media types managed by IANA.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1822,6 +2050,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>modification date</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The most recent date on which the Distribution was changed or modified.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1842,6 +2074,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>packaging format</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1866,6 +2102,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>release date</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The date of formal issuance (e.g., publication) of the Distribution.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1886,6 +2126,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>rights</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A statement that specifies rights associated with the Distribution.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1910,6 +2154,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>spatial resolution</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The minimum spatial separation resolvable in a dataset distribution, measured in meters.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1930,6 +2178,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>status</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The status of the distribution in the context of maturity lifecycle.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -1954,6 +2206,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>temporal resolution</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The minimum time period resolvable in the dataset distribution.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -1974,6 +2230,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>title</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A name given to the Distribution.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2202,6 +2462,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>access rights</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>Information regarding access or restrictions based on privacy, security, or other policies.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -2222,6 +2486,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>applicable legislation</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td></td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2246,6 +2514,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>application profile</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -2266,6 +2538,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>contact point</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td></td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2290,6 +2566,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>creator</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -2310,6 +2590,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>description</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A free-text account of the Data Service.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2334,6 +2618,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>documentation</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -2354,6 +2642,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>endpoint description</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A description of the services available via the end-points, including their operations, parameters etc.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2378,6 +2670,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>endpoint URL</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The root location or primary endpoint of the service (an IRI).@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -2398,6 +2694,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>format</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The structure that can be returned by querying the endpointURL.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2422,6 +2722,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>HVD Category</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The HVD category to which this Data Service belongs.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -2442,6 +2746,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>identifier</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td></td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2466,6 +2774,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>keyword</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -2486,6 +2798,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>landing page</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td></td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2510,6 +2826,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>language</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -2530,6 +2850,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>licence</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A licence under which the Data service is made available.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2554,6 +2878,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>modification date</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -2574,6 +2902,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>other identifier</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td></td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2598,6 +2930,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>publisher</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -2618,6 +2954,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>rights</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A statement that specifies rights associated with the Data Service.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2642,6 +2982,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>serves dataset</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>This property refers to a collection of data that this data service can distribute.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -2664,6 +3008,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>theme</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A category of the Data Service.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..n</td>
 </tr>
@@ -2684,6 +3032,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>title</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A name given to the Data Service.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2896,6 +3248,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>applicable legislation</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -2916,6 +3272,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>catalogue</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A catalogue whose contents are of interest in the context of this catalogue.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2940,6 +3300,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>contact point</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>Contact information that can be used for sending comments about the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -2960,6 +3324,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>creator</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>An entity responsible for the creation of the catalogue.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -2984,6 +3352,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>dataset</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A Dataset that is part of the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..n</td>
 </tr>
@@ -3004,6 +3376,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>description</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A free-text account of the Catalogue.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3028,6 +3404,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>geographical coverage</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A geographical area covered by the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -3048,6 +3428,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>has part</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A related Catalogue that is part of the described Catalogue.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3072,6 +3456,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>homepage</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A web page that acts as the main page for the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3092,6 +3480,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>is part of</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A related Catalogue in which the described Catalogue is physically or logically included.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3116,6 +3508,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>language</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A language used in the textual metadata describing titles, descriptions, etc. of the Datasets in the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -3136,6 +3532,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>licence</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A licence under which the Catalogue can be used or reused.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3160,6 +3560,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>modification date</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The most recent date on which the Catalogue was modified.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3180,6 +3584,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>publisher</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>An entity (organisation) responsible for making the Catalogue available.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3204,6 +3612,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>record</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A Catalogue Record that is part of the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -3224,6 +3636,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>release date</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The date of formal issuance (e.g., publication) of the Catalogue.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3248,6 +3664,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>rights</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A statement that specifies rights associated with the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3268,6 +3688,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>service</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A site or end-point (Data Service) that is listed in the Catalogue.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3292,6 +3716,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>temporal coverage</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A temporal period that the Catalogue covers.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -3314,6 +3742,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>themes</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A knowledge organization system used to classify the Catalogue&#39;s Datasets.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -3334,6 +3766,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>title</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A name given to the Catalogue.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3450,6 +3886,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>application profile</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>An Application Profile that the Dataset&#39;s metadata conforms to.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3470,6 +3910,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>change type</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The status of the catalogue record in the context of editorial flow of the dataset and data service descriptions.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3494,6 +3938,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>description</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A free-text account of the record. This property can be repeated for parallel language versions of the description.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -3514,6 +3962,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>language</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A language used in the textual metadata describing titles, descriptions, etc. of the Dataset.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3538,6 +3990,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>listing date</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The date on which the description of the Dataset was included in the Catalogue.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3558,6 +4014,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>modification date</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The most recent date on which the Catalogue entry was changed or modified.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3582,6 +4042,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>primary topic</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A link to the Dataset, Data service or Catalog described in the record.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..1</td>
 </tr>
@@ -3604,6 +4068,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>source metadata</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The original metadata that was used in creating metadata for the Dataset.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3624,6 +4092,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>title</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A name given to the Catalogue Record.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3772,6 +4244,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>applicable legislation</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td></td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -3792,6 +4268,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>contact point</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>Contact information that can be used for sending comments about the Dataset Series.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3816,6 +4296,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>description</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A free-text account of the Dataset Series.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>1..n</td>
 </tr>
@@ -3836,6 +4320,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>first</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The first resource in an ordered collection or series of resources, to which the current resource belongs.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3860,6 +4348,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>frequency</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The frequency at which the Dataset Series is updated.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3880,6 +4372,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>geographical coverage</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A geographic region that is covered by the Dataset Series.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3904,6 +4400,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>last</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>The last resource in an ordered collection or series.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3924,6 +4424,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>modification date</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The most recent date on which the Dataset Series was changed or modified.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3948,6 +4452,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>publisher</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>An entity (organisation) responsible for ensuring the coherency of the Dataset Series @en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..1</td>
 </tr>
@@ -3968,6 +4476,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>release date</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The date of formal issuance (e.g., publication) of the Dataset Series.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
@@ -3992,6 +4504,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>series member</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A member of the Dataset Series. @en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -4014,6 +4530,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     <td>temporal coverage</td>
 </tr>
 <tr>
+    <td><em>Description</em></td>
+    <td>A temporal period that the Dataset Series covers.@en</td>
+</tr>
+<tr>
     <td><em>Cardinality</em></td>
     <td>0..n</td>
 </tr>
@@ -4034,6 +4554,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <tr>
     <td><em>Property</em></td>
     <td>title</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A name given to the Dataset Series.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
