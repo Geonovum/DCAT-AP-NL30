@@ -38,7 +38,7 @@ var documentConfig =
   edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
   authors: [
     {
-      name: "Ine de Visse",
+      name: "Ine de Visser",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
     },
@@ -142,9 +142,7 @@ var documentConfig =
     "DCAT-3.0": {
       title: "DCAT-3.0",
       href: "https://www.w3.org/TR/vocab-dcat-3/",
-      authors: [
-        ""
-      ],
+      authors: "",
       publisher: "W3C",
       editors: "",
       date: "",
@@ -153,9 +151,7 @@ var documentConfig =
     "DCAT-AP-3.0": {
       title: "DCAT-AP-3.0",
       href: "https://semiceu.github.io//DCAT-AP/releases/3.0.0/",
-      authors: [
-        ""
-      ],
+      authors: "",
       publisher: "SEMIC",
       editors: "",
       date: "2024-02-12",
@@ -164,8 +160,8 @@ var documentConfig =
     "DCAT-AP-HVD": {
       title: "DCAT-AP for High-Value Datasets",
       href: "https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/",
-      authors: "SEMIC",
-      publisher: "",
+      authors: "",
+      publisher: "SEMIC",
       editors: "",
       date: "",
       status: ""
@@ -173,9 +169,7 @@ var documentConfig =
     "ODRL": {
       title: "ODLR",
       href: "https://www.w3.org/ns/odrl/2/",
-      authors: [
-        ""
-      ],
+      authors: "",
       publisher: "W3C",
       editors: "",
       date: "",
@@ -243,9 +237,7 @@ var documentConfig =
     "WFS": {
       title: "WFS",
       href: "http://www.opengeospatial.org/standards/wfs",
-      authors: [
-        ""
-      ],
+      authors: "",
       publisher: "OGC",
       editors: "",
       date: "2014-07-10",
@@ -254,9 +246,7 @@ var documentConfig =
     "WMS": {
       title: "WMS",
       href: "http://www.opengeospatial.org/standards/wms",
-      authors: [
-        ""
-      ],
+      authors: "",
       publisher: "OGC",
       editors: "",
       date: "2006-03-15",
@@ -283,9 +273,7 @@ var documentConfig =
     "SPARQL11-SERVICE-DESCRIPTION": {
       title: "SPARQL Service Description",
       href: "https://www.w3.org/TR/sparql11-service-description/",
-      authors: [
-        ""
-      ],
+      authors: "",
       publisher: "W3C",
       editors: "",
       date: "2013-03-21",
@@ -294,9 +282,7 @@ var documentConfig =
     "OpenSearch": {
       title: "OpenSearch",
       href: "https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md",
-      authors: [
-        ""
-      ],
+      authors: "",
       publisher: "OpenSearch",
       editors: "",
       date: "2018-04-17",
