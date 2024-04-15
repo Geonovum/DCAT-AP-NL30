@@ -3,7 +3,21 @@ Voorbeeld voor de klasse dataset
 <aside class='example'>
 
 ```turtle
-@prefix exampleMS: <https://data.exampleMS.gov/id/dataset/>.
+
+## Imports om relevante waardes uit waardelijsten of gegevens uit externe bronnen op te nemen.
+##  Dit is in principe alleen nodig voor validatie en als er gebruik gemaakt kan worden van owl:imports bij validatie.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+[] owl:imports
+ 
+  <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ,
+  <http://data.europa.eu/eli/reg_impl/2023/138/oj> ,
+  <http://data.europa.eu/eli/reg/2010/1089> ,
+  <http://publications.europa.eu/resource/authority/language/NLD> ,
+  <http://www.geonames.org/2750405/about.rdf> ,
+  <http://publications.europa.eu/resource/authority/data-theme/EDUC> .
+## Einde Import
+
+@prefix exampleMS: <https://data.exampleMS.gov/id/data/>.
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 @prefix dcatap: <http://data.europa.eu/r5r/>.
@@ -58,12 +72,39 @@ exampleMS:1T2p3o4B a dcat:Dataset;
      dcat:endDate   "2018-08-25"^^xsd:date ;
      ] ;
    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC>;
-   dcat:distribution exampleMS:1T2p3o4B-dist-SHP
+   dcat:distribution exampleMS:1T2p3o4B-dist-SHP;
+   dcat:distribution exampleMS:1T2p3o4B-dist-WMS
    .
 
 exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;
    .
 # wordt verder uitgewerkt in voorbeeld Distributie
+
+# Dit moet nu omdat de typering als dct:RightsStatement niet in de waardelijst zit. Dat lijkt een fout in de waardelijst.
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC> a dct:RightsStatement .
+
+# Dit moet nu omdat de typering als dct:LinguisticSystem niet in de waardelijst zit. Dat lijkt een fout in de waardelijst.
+
+<http://publications.europa.eu/resource/authority/language/NLD> a dct:LinguisticSystem .
+
+# Geen RDF van beschikbaar
+
+<http://data.europa.eu/eli/reg_impl/2023/138/oj> a eli:LegalResource .
+
+# Geen RDF van beschikbaar
+
+<http://data.europa.eu/eli/reg/2010/1089> a dct:Standard .
+
+# Geonames definieert dit niet als een dct:Location. De vraag is dan ook of geonames dan wel logisch is om te gebruiken.
+
+<https://www.geonames.org/2750405> a dct:Location .
+
+# Deze zou je kunnen importeren, maar dan krijg je validatiefouten op ConceptScheme shapes, omdat de adms ConceptSchemes niet voldoen aan de ConceptScheme shape van DCAT-AP.
+ 
+<http://purl.org/adms/publishertype/LocalAuthority> a skos:Concept ;
+ skos:prefLabel"Local Authority"@en .
+
 
 
 ```
