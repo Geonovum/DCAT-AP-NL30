@@ -38,12 +38,12 @@ var documentConfig =
   edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
   authors: [
     {
-      name: "Ine de Visse",
+      name: "Jan Skornsek",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
     },
     {
-      name: "Jan Skornsek",
+      name: "Ine de Visser",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
     }
@@ -121,7 +121,16 @@ var documentConfig =
       date: "",
       status: ""
     },
-     "OWMS_TAXONOMIEBELEIDSAGENDA": {
+    "ISO19115_ROLECODE": {
+      title: "ISO-19115 RoleCode",
+      href: "https://standards.iso.org/iso/19115/resources/Codelists/gml/CI_RoleCode.xml",
+      authors: "",
+      publisher: "International Organization for Standardization",
+      editors: "",
+      date: "",
+      status: ""
+    },
+    "OWMS_TAXONOMIEBELEIDSAGENDA": {
       title: "overheid:TaxonomieBeleidsagenda (standaarden.overheid.nl)",
       href: "https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.taxonomiebeleidsagenda",
       authors: "",
@@ -143,7 +152,7 @@ var documentConfig =
       title: "DCAT-3.0",
       href: "https://www.w3.org/TR/vocab-dcat-3/",
       authors: [
-        ""
+        "Simon Cox; Andrea Perego; Alejandra Gonzalez Beltran; Peter Winstanley; Riccardo Albertoni; David Browning"
       ],
       publisher: "W3C",
       editors: "",
@@ -154,9 +163,9 @@ var documentConfig =
       title: "DCAT-AP-3.0",
       href: "https://semiceu.github.io//DCAT-AP/releases/3.0.0/",
       authors: [
-        ""
+        "Bert Van Nuffelen"
       ],
-      publisher: "SEMIC",
+      publisher: "",
       editors: "",
       date: "2024-02-12",
       status: "Candidate Recommendation"
@@ -164,8 +173,8 @@ var documentConfig =
     "DCAT-AP-HVD": {
       title: "DCAT-AP for High-Value Datasets",
       href: "https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/",
-      authors: "SEMIC",
-      publisher: "",
+      authors: "",
+      publisher: "European Commission",
       editors: "",
       date: "",
       status: ""
@@ -174,7 +183,7 @@ var documentConfig =
       title: "ODLR",
       href: "https://www.w3.org/ns/odrl/2/",
       authors: [
-        ""
+        "POE Working Group"
       ],
       publisher: "W3C",
       editors: "",
@@ -244,7 +253,7 @@ var documentConfig =
       title: "WFS",
       href: "http://www.opengeospatial.org/standards/wfs",
       authors: [
-        ""
+        "Panagiotis (Peter) A. Vretanos"
       ],
       publisher: "OGC",
       editors: "",
@@ -255,9 +264,9 @@ var documentConfig =
       title: "WMS",
       href: "http://www.opengeospatial.org/standards/wms",
       authors: [
-        ""
+        "Jeff de la Beaujardiere"
       ],
-      publisher: "OGC",
+      publisher: "",
       editors: "",
       date: "2006-03-15",
       status: "OpenGIS Implementation Standard"
@@ -284,7 +293,7 @@ var documentConfig =
       title: "SPARQL Service Description",
       href: "https://www.w3.org/TR/sparql11-service-description/",
       authors: [
-        ""
+        "Gregory Williams"
       ],
       publisher: "W3C",
       editors: "",
@@ -295,7 +304,7 @@ var documentConfig =
       title: "OpenSearch",
       href: "https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md",
       authors: [
-        ""
+        "DeWitt Clinton"
       ],
       publisher: "OpenSearch",
       editors: "",
