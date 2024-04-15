@@ -80,28 +80,23 @@ exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;
    .
 # wordt verder uitgewerkt in voorbeeld Distributie
 
-# Dit moet nu omdat de typering als dct:RightsStatement niet in de waardelijst zit. Dat lijkt een fout in de waardelijst.
-
+# Aanvullingen nodig voor EU waardelijsten; 
+# De typering als dct:RightsStatement zit niet in de waardelijst. Dat lijkt een fout in de waardelijst.
 <http://publications.europa.eu/resource/authority/access-right/PUBLIC> a dct:RightsStatement .
 
-# Dit moet nu omdat de typering als dct:LinguisticSystem niet in de waardelijst zit. Dat lijkt een fout in de waardelijst.
-
+# De typering als dct:LinguisticSystem zit niet in de waardelijst. Dat lijkt een fout in de waardelijst.
 <http://publications.europa.eu/resource/authority/language/NLD> a dct:LinguisticSystem .
 
 # Geen RDF van beschikbaar
-
 <http://data.europa.eu/eli/reg_impl/2023/138/oj> a eli:LegalResource .
 
 # Geen RDF van beschikbaar
-
 <http://data.europa.eu/eli/reg/2010/1089> a dct:Standard .
 
 # Geonames definieert dit niet als een dct:Location. De vraag is dan ook of geonames dan wel logisch is om te gebruiken.
-
 <https://www.geonames.org/2750405> a dct:Location .
 
-# Deze zou je kunnen importeren, maar dan krijg je validatiefouten op ConceptScheme shapes, omdat de adms ConceptSchemes niet voldoen aan de ConceptScheme shape van DCAT-AP.
- 
+# Deze zou je kunnen importeren, maar dan krijg je validatiefouten op ConceptScheme shapes, omdat de adms ConceptSchemes niet voldoen aan de ConceptScheme shape van DCAT-AP. 
 <http://purl.org/adms/publishertype/LocalAuthority> a skos:Concept ;
  skos:prefLabel"Local Authority"@en .
 
