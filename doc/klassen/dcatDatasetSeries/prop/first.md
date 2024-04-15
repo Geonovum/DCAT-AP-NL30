@@ -1,1 +1,1 @@
-Wordt nog nader gespecificeerd.
+Is geen onderdeel van DCAT-AP en DCAT-AP-NL. Komt te vervallen.
