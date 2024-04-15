@@ -1,4 +1,5 @@
 ## Namespaces {#75461667}
+
 Dit toepassingsprofiel maakt gebruik van de namespaces zoals weergegeven in de onderstaande tabel.
 
 

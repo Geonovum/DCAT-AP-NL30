@@ -39,11 +39,12 @@ var documentConfig =
   authors: [
     {
       name: "Ine de Visser",
+      name: "Jan Skornsek",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
     },
     {
-      name: "Jan Skornsek",
+      name: "Ine de Visser",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
     }
@@ -121,7 +122,16 @@ var documentConfig =
       date: "",
       status: ""
     },
-     "OWMS_TAXONOMIEBELEIDSAGENDA": {
+    "ISO19115_ROLECODE": {
+      title: "ISO-19115 RoleCode",
+      href: "https://standards.iso.org/iso/19115/resources/Codelists/gml/CI_RoleCode.xml",
+      authors: "",
+      publisher: "International Organization for Standardization",
+      editors: "",
+      date: "",
+      status: ""
+    },
+    "OWMS_TAXONOMIEBELEIDSAGENDA": {
       title: "overheid:TaxonomieBeleidsagenda (standaarden.overheid.nl)",
       href: "https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.taxonomiebeleidsagenda",
       authors: "",

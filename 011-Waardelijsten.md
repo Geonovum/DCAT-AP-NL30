@@ -14,4 +14,4 @@ De door de EU verplichte waardelijsten zijn "controlled vocabulaires", deze vold
 Deze criteria zijn niet bedoeld om gecontroleerde waardelijst in het algemeen te definiëren; ze geven een voorbeeld van mogelijke specificaties van gecontroleerde waardelijsten.
 <br/>
 <br/>
-De (door de EU verplichte gecontroleerde) waardelijsten die in dit profiel gebruikt moeten worden zijn opgenomen in het hoofdstuk <a href='https://geonovum.github.io/DCAT-AP-NL30/#6952D3B2' target='_blank'>Waardelijsten</a>
+De (door de EU verplichte gecontroleerde) waardelijsten die in dit profiel gebruikt moeten worden zijn opgenomen in het hoofdstuk [Waardelijsten](https://geonovum.github.io/DCAT-AP-NL30/#6952D3B2).
