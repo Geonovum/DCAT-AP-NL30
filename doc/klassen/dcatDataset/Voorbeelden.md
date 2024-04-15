@@ -67,4 +67,3 @@ exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;
 
 
 ```
-
