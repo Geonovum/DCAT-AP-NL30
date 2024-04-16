@@ -31,10 +31,9 @@ var documentConfig =
   latestVersion: [
     "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"
   ],
-  publishDate: "2024-03-05",
-  thisVersion: [
-    "https://geonovum.github.io/DCAT-AP-NL30/"
-  ],
+  /*publishDate: "2024-04-16",
+  previousPublishDate: "2024-03-05",
+  previousMaturity: "cv",*/
   edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
   authors: [
     {
