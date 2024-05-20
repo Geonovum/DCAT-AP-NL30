@@ -310,7 +310,7 @@ dcatapnl:DataServiceShape_applicationProfile_nodeKind
 .
 
 dcatapnl:DataServiceShape_applicationProfile_class
-  sh:class eli:LegalResource;
+  sh:class dct:Standard;
   sh:name "application profile"@en;
   sh:path dct:conformsTo;
   eush:message "The range of application profile must be of type <http://purl.org/dc/terms/Standard>."@en 
