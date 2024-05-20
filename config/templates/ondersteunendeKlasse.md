@@ -3,6 +3,11 @@
 ## {{ targetClassLocalName }} - {{ nodeShape.targetClass }}
 
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
