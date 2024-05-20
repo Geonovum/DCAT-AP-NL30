@@ -4,10 +4,10 @@
 
 <table>
     <tr>
-        <th>Property</th>
+        <th>Eigenschap</th>
         <th>URI</th>
-        <th>Range</th>
-        <th>Card</th>
+        <th>Bereik</th>
+        <th>Kardinaliteit</th>
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
@@ -30,11 +30,11 @@
 
 <table>
 <tr>
-    <td><em>Property</em></td>
+    <td><em>Eigenschap</em></td>
     <td>{{ prop.propertyName }}</td>
 </tr>
 <tr>
-    <td><em>Cardinality</em></td>
+    <td><em>Kardinaliteit</em></td>
     <td>{{ prop.minCount | default("0") }}..{{ prop.maxCount | default("n") }}</td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@
     <td><a href="{{ prop.property }}">{{ prop.propertyPrefixed }}</a></td>
 </tr>
 <tr>
-    <td><em>Range</em></td>
+    <td><em>Bereik</em></td>
     <td>{% if prop.class != null %}<a href="{{ prop.class }}">{{ prop.classPrefixed }}</a>{% elseif prop.datatype != null %}<a href="{{ prop.datatype }}">{{ prop.datatypePrefixed }}</a>{% elseif prop.nodeShapeName != null %}<a href="{{ prop.nodeShapeSeeAlso }}">{{ prop.nodeShapeName }}</a>{% elseif prop.nodeKind != null %}<a href="{{ prop.nodeKind | replace({'http://www.w3.org/ns/shacl#Literal' : 'http://www.w3.org/2000/01/rdf-schema#Literal' }) }}">{{ prop.nodeKindPrefixed | replace({'sh:Literal' : 'rdfs:Literal'}) }}</a>{% endif %}</td>
 </tr>
 </table>
