@@ -17,10 +17,10 @@
 @prefix spdx: <http://spdx.org/rdf/terms#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 
-@prefix dcatapsh: <https://semiceu.github.io//DCAT-AP/releases/3.0.0#> .
+@prefix dcatapsh: <https://semiceu.github.io/DCAT-AP/releases/3.0.0#> .
 @prefix todo_opt: <https://TODO.com/optionaliteit/> .
 
-dcatapsh:AgentShape
+dcatapsh:foaf:AgentShape
   sh:property
     dcatapsh:foafAgent_foaf-name ,
     dcatapsh:foafAgent_dct-type .
@@ -35,7 +35,7 @@ dcatapsh:foafAgent_dct-type
 
 
 
-dcatapsh:CatalogueShape
+dcatapsh:dcat:CatalogShape
   sh:property
     dcatapsh:dcatCatalog_dct-description ,
     dcatapsh:dcatCatalog_dct-publisher ,
@@ -135,17 +135,15 @@ dcatapsh:dcatCatalog_dct-temporal
 
 
 
-dcatapsh:CatalogueRecordShape
+dcatapsh:dcat:CatalogRecordShape
   sh:property
     dcatapsh:dcatCatalogRecord_dct-modified ,
     dcatapsh:dcatCatalogRecord_foaf-primaryTopic ,
     dcatapsh:dcatCatalogRecord_dct-conformsTo ,
     dcatapsh:dcatCatalogRecord_adms-status ,
     dcatapsh:dcatCatalogRecord_dct-issued ,
-    dcatapsh:dcatCatalogRecord_dct-description ,
     dcatapsh:dcatCatalogRecord_dct-language ,
-    dcatapsh:dcatCatalogRecord_dct-source ,
-    dcatapsh:dcatCatalogRecord_dct-title .
+    dcatapsh:dcatCatalogRecord_dct-source .
 
 dcatapsh:dcatCatalogRecord_dct-modified
   sh:path dct:modified	;
@@ -167,10 +165,6 @@ dcatapsh:dcatCatalogRecord_dct-issued
   sh:path dct:issued	;
   todo_opt:optionaliteit todo_opt:aanbevolen	.
 
-dcatapsh:dcatCatalogRecord_dct-description
-  sh:path dct:description	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
-
 dcatapsh:dcatCatalogRecord_dct-language
   sh:path dct:language	;
   todo_opt:optionaliteit todo_opt:optioneel	.
@@ -179,13 +173,9 @@ dcatapsh:dcatCatalogRecord_dct-source
   sh:path dct:source	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
-dcatapsh:dcatCatalogRecord_dct-title
-  sh:path dct:title	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
 
 
-
-dcatapsh:ChecksumShape
+dcatapsh:spdx:ChecksumShape
   sh:property
     dcatapsh:spdxChecksum_spdx-algorithm ,
     dcatapsh:spdxChecksum_spdx-checksumValue .
@@ -200,7 +190,7 @@ dcatapsh:spdxChecksum_spdx-checksumValue
 
 
 
-dcatapsh:DataServiceShape
+dcatapsh:dcat:DataServiceShape
   sh:property
     dcatapsh:dcatDataService_dcat-endpointURL ,
     dcatapsh:dcatDataService_dct-title ,
@@ -275,14 +265,13 @@ dcatapsh:dcatDataService_dct-license
 
 
 
-dcatapsh:DatasetShape
+dcatapsh:dcat:DatasetShape
   sh:property
     dcatapsh:dcatDataset_dct-description ,
     dcatapsh:dcatDataset_dct-title ,
     dcatapsh:dcatDataset_dcat-contactPoint ,
     dcatapsh:dcatDataset_dcat-distribution ,
     dcatapsh:dcatDataset_dct-spatial ,
-    dcatapsh:dcatDataset_dcat-keyword ,
     dcatapsh:dcatDataset_dct-publisher ,
     dcatapsh:dcatDataset_dct-temporal ,
     dcatapsh:dcatDataset_dcat-theme ,
@@ -311,7 +300,6 @@ dcatapsh:DatasetShape
     dcatapsh:dcatDataset_dcat-temporalResolution ,
     dcatapsh:dcatDataset_dct-type ,
     dcatapsh:dcatDataset_dcat-version ,
-    dcatapsh:dcatDataset_adms-versionNotes ,
     dcatapsh:dcatDataset_prov-wasGeneratedBy .
 
 dcatapsh:dcatDataset_dct-description
@@ -332,10 +320,6 @@ dcatapsh:dcatDataset_dcat-distribution
 
 dcatapsh:dcatDataset_dct-spatial
   sh:path dct:spatial	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
-
-dcatapsh:dcatDataset_dcat-keyword
-  sh:path dcat:keyword	;
   todo_opt:optionaliteit todo_opt:aanbevolen	.
 
 dcatapsh:dcatDataset_dct-publisher
@@ -450,17 +434,13 @@ dcatapsh:dcatDataset_dcat-version
   sh:path dcat:version	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
-dcatapsh:dcatDataset_adms-versionNotes
-  sh:path adms:versionNotes	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
-
 dcatapsh:dcatDataset_prov-wasGeneratedBy
   sh:path prov:wasGeneratedBy	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
 
 
-dcatapsh:DatasetSeriesShape
+dcatapsh:dcat:DatasetSeriesShape
   sh:property
     dcatapsh:dcatDatasetSeries_dct-title ,
     dcatapsh:dcatDatasetSeries_dcat-contactPoint ,
@@ -515,7 +495,7 @@ dcatapsh:dcatDatasetSeries_dct-issued
 
 
 
-dcatapsh:DistributionShape
+dcatapsh:dcat:DistributionShape
   sh:property
     dcatapsh:dcatDistribution_dcat-accessURL ,
     dcatapsh:dcatDistribution_dct-format ,
@@ -526,7 +506,6 @@ dcatapsh:DistributionShape
     dcatapsh:dcatDistribution_dcat-byteSize ,
     dcatapsh:dcatDistribution_spdx-checksum ,
     dcatapsh:dcatDistribution_dcat-compressFormat ,
-    dcatapsh:dcatDistribution_dct-description ,
     dcatapsh:dcatDistribution_foaf-page ,
     dcatapsh:dcatDistribution_dcat-downloadURL ,
     dcatapsh:dcatDistribution_odrl-hasPolicy ,
@@ -539,8 +518,7 @@ dcatapsh:DistributionShape
     dcatapsh:dcatDistribution_dct-rights ,
     dcatapsh:dcatDistribution_dcat-spatialResolutionInMeters ,
     dcatapsh:dcatDistribution_adms-status ,
-    dcatapsh:dcatDistribution_dcat-temporalResolution ,
-    dcatapsh:dcatDistribution_dct-title .
+    dcatapsh:dcatDistribution_dcat-temporalResolution .
 
 dcatapsh:dcatDistribution_dcat-accessURL
   sh:path dcat:accessURL	;
@@ -576,10 +554,6 @@ dcatapsh:dcatDistribution_spdx-checksum
 
 dcatapsh:dcatDistribution_dcat-compressFormat
   sh:path dcat:compressFormat	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
-
-dcatapsh:dcatDistribution_dct-description
-  sh:path dct:description	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
 dcatapsh:dcatDistribution_foaf-page
@@ -634,13 +608,9 @@ dcatapsh:dcatDistribution_dcat-temporalResolution
   sh:path dcat:temporalResolution	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
-dcatapsh:dcatDistribution_dct-title
-  sh:path dct:title	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
 
 
-
-dcatapsh:IdentifierShape
+dcatapsh:adms:IdentifierShape
   sh:property
     dcatapsh:admsIdentifier_skos-notation .
 
@@ -650,7 +620,7 @@ dcatapsh:admsIdentifier_skos-notation
 
 
 
-dcatapsh:LicenceDocumentShape
+dcatapsh:dct:LicenceDocumentShape
   sh:property
     dcatapsh:dctLicenseDocument_dct-type .
 
@@ -660,7 +630,7 @@ dcatapsh:dctLicenseDocument_dct-type
 
 
 
-dcatapsh:LocationShape
+dcatapsh:dct:LocationShape
   sh:property
     dcatapsh:dctLocation_dcat-bbox ,
     dcatapsh:dctLocation_dcat-centroid ,
@@ -680,7 +650,7 @@ dcatapsh:dctLocation_locn-geometry
 
 
 
-dcatapsh:PeriodoftimeShape
+dcatapsh:dct:PeriodOfTimeShape
   sh:property
     dcatapsh:dctPeriodOfTime_dcat-endDate ,
     dcatapsh:dctPeriodOfTime_dcat-startDate ,
@@ -705,7 +675,7 @@ dcatapsh:dctPeriodOfTime_time-hasEnd
 
 
 
-dcatapsh:RelationshipShape
+dcatapsh:dcat:RelationshipShape
   sh:property
     dcatapsh:dcatRelationship_dcat-hadRole ,
     dcatapsh:dcatRelationship_dct-relation .
