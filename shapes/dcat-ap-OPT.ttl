@@ -17,7 +17,7 @@
 @prefix spdx: <http://spdx.org/rdf/terms#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 
-@prefix dcatapsh: <https://semiceu.github.io/DCAT-AP/releases/3.0.0#> .
+@prefix dcatapsh: <https://semiceu.github.io/DCAT-AP/releases/3.0.0/shacl/dcat-ap-SHACL.ttl#> .
 @prefix todo_opt: <https://TODO.com/optionaliteit/> .
 
 dcatapsh:foaf:AgentShape
