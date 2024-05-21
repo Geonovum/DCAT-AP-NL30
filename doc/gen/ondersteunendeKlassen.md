@@ -1,125 +1,5 @@
 # Ondersteunende Klassen
 
-## Agent - foaf:Agent
-<table>
-    <tr>
-        <th>Property</th>
-        <th>URI</th>
-        <th>Range</th>
-        <th>Card</th>
-        <th>Optionaliteit</th>
-        <th>Herkomst</th>
-    </tr>
-    <tr>
-        <td><a href="#agent-name">name</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/name">foaf:name</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
-        <td>1..n</td>
-        <td>V</td>
-        <td>AP</td>
-    </tr>
-    <tr>
-        <td><a href="#agent-type">type</a></td>
-        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
-        <td>0..1</td>
-        <td>A</td>
-        <td>AP</td>
-    </tr>
-</table>
-
-### name
-<table>
-<tr>
-    <td><em>Property</em></td>
-    <td>name</td>
-</tr>
-<tr>
-    <td><em>Description</em></td>
-    <td>A name of the agent.@en</td>
-</tr>
-<tr>
-    <td><em>Cardinality</em></td>
-    <td>1..n</td>
-</tr>
-<tr>
-    <td><em>URI</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/name">foaf:name</a></td>
-</tr>
-<tr>
-    <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
-</tr>
-</table>
-
-### type
-<table>
-<tr>
-    <td><em>Property</em></td>
-    <td>type</td>
-</tr>
-<tr>
-    <td><em>Description</em></td>
-    <td>A type of the agent that makes the Catalogue or Dataset available.@en</td>
-</tr>
-<tr>
-    <td><em>Cardinality</em></td>
-    <td>0..1</td>
-</tr>
-<tr>
-    <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
-</tr>
-<tr>
-    <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
-</tr>
-</table>
-
-## LicenseDocument - dct:LicenseDocument
-<table>
-    <tr>
-        <th>Property</th>
-        <th>URI</th>
-        <th>Range</th>
-        <th>Card</th>
-        <th>Optionaliteit</th>
-        <th>Herkomst</th>
-    </tr>
-    <tr>
-        <td><a href="#licensedocument-type">type</a></td>
-        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
-        <td>0..n</td>
-        <td>A</td>
-        <td>AP</td>
-    </tr>
-</table>
-
-### type
-<table>
-<tr>
-    <td><em>Property</em></td>
-    <td>type</td>
-</tr>
-<tr>
-    <td><em>Description</em></td>
-    <td>A type of licence, e.g. indicating &#39;public domain&#39; or &#39;royalties required&#39;.@en</td>
-</tr>
-<tr>
-    <td><em>Cardinality</em></td>
-    <td>0..n</td>
-</tr>
-<tr>
-    <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
-</tr>
-<tr>
-    <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
-</tr>
-</table>
-
 ## Location - dct:Location
 <table>
     <tr>
@@ -133,7 +13,7 @@
     <tr>
         <td><a href="#location-bbox">bbox</a></td>
         <td><a href="http://www.w3.org/ns/dcat#bbox">dcat:bbox</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
@@ -141,7 +21,7 @@
     <tr>
         <td><a href="#location-centroid">centroid</a></td>
         <td><a href="http://www.w3.org/ns/dcat#centroid">dcat:centroid</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
@@ -176,7 +56,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td></td>
 </tr>
 </table>
 
@@ -200,7 +80,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td></td>
 </tr>
 </table>
 
@@ -257,7 +137,7 @@
     <tr>
         <td><a href="#periodoftime-end-date">end date</a></td>
         <td><a href="http://www.w3.org/ns/dcat#endDate">dcat:endDate</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
@@ -265,7 +145,7 @@
     <tr>
         <td><a href="#periodoftime-start-date">start date</a></td>
         <td><a href="http://www.w3.org/ns/dcat#startDate">dcat:startDate</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
@@ -340,7 +220,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td></td>
 </tr>
 </table>
 
@@ -364,11 +244,11 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td></td>
 </tr>
 </table>
 
-## Checksum - spdx:Checksum
+## Agent - foaf:Agent
 <table>
     <tr>
         <th>Property</th>
@@ -379,68 +259,68 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#checksum-algorithm">algorithm</a></td>
-        <td><a href="http://spdx.org/rdf/terms#algorithm">spdx:algorithm</a></td>
-        <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm">spdx:ChecksumAlgorithm</a></td>
-        <td>1..1</td>
+        <td><a href="#agent-name">name</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/name">foaf:name</a></td>
+        <td></td>
+        <td>1..n</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#checksum-checksum-value">checksum value</a></td>
-        <td><a href="http://spdx.org/rdf/terms#checksumValue">spdx:checksumValue</a></td>
-        <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary">xsd:hexBinary</a></td>
-        <td>1..1</td>
-        <td>V</td>
+        <td><a href="#agent-type">type</a></td>
+        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td>0..1</td>
+        <td>A</td>
         <td>AP</td>
     </tr>
 </table>
 
-### algorithm
+### name
 <table>
 <tr>
     <td><em>Property</em></td>
-    <td>algorithm</td>
+    <td>name</td>
 </tr>
 <tr>
     <td><em>Description</em></td>
-    <td>The algorithm used to produce the subject Checksum.@en</td>
+    <td>A name of the agent.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>1..1</td>
+    <td>1..n</td>
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://spdx.org/rdf/terms#algorithm">spdx:algorithm</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/name">foaf:name</a></td>
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm">spdx:ChecksumAlgorithm</a></td>
+    <td></td>
 </tr>
 </table>
 
-### checksum value
+### type
 <table>
 <tr>
     <td><em>Property</em></td>
-    <td>checksum value</td>
+    <td>type</td>
 </tr>
 <tr>
     <td><em>Description</em></td>
-    <td>A lower case hexadecimal encoded digest value produced using a specific algorithm.@en</td>
+    <td>The nature of the agent.@en</td>
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>1..1</td>
+    <td>0..1</td>
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://spdx.org/rdf/terms#checksumValue">spdx:checksumValue</a></td>
+    <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary">xsd:hexBinary</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
 </tr>
 </table>
 
@@ -457,8 +337,8 @@
     <tr>
         <td><a href="#identifier-notation">notation</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#notation">skos:notation</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
-        <td>0..1</td>
+        <td></td>
+        <td>1..1</td>
         <td>V</td>
         <td>AP</td>
     </tr>
@@ -476,7 +356,7 @@
 </tr>
 <tr>
     <td><em>Cardinality</em></td>
-    <td>0..1</td>
+    <td>1..1</td>
 </tr>
 <tr>
     <td><em>URI</em></td>
@@ -484,7 +364,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td></td>
 </tr>
 </table>
 
@@ -564,6 +444,82 @@
 </tr>
 </table>
 
+## Checksum - spdx:Checksum
+<table>
+    <tr>
+        <th>Property</th>
+        <th>URI</th>
+        <th>Range</th>
+        <th>Card</th>
+        <th>Optionaliteit</th>
+        <th>Herkomst</th>
+    </tr>
+    <tr>
+        <td><a href="#checksum-algorithm">algorithm</a></td>
+        <td><a href="http://spdx.org/rdf/terms#algorithm">spdx:algorithm</a></td>
+        <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm">spdx:ChecksumAlgorithm</a></td>
+        <td>1..1</td>
+        <td>V</td>
+        <td>AP</td>
+    </tr>
+    <tr>
+        <td><a href="#checksum-checksum-value">checksum value</a></td>
+        <td><a href="http://spdx.org/rdf/terms#checksumValue">spdx:checksumValue</a></td>
+        <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary">xsd:hexBinary</a></td>
+        <td>1..1</td>
+        <td>V</td>
+        <td>AP</td>
+    </tr>
+</table>
+
+### algorithm
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>algorithm</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>The algorithm used to produce the subject Checksum.@en</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>1..1</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://spdx.org/rdf/terms#algorithm">spdx:algorithm</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm">spdx:ChecksumAlgorithm</a></td>
+</tr>
+</table>
+
+### checksum value
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>checksum value</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A lower case hexadecimal encoded digest value produced using a specific algorithm.@en</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>1..1</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://spdx.org/rdf/terms#checksumValue">spdx:checksumValue</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary">xsd:hexBinary</a></td>
+</tr>
+</table>
+
 ## Concept - skos:Concept
 <table>
     <tr>
@@ -577,7 +533,7 @@
     <tr>
         <td><a href="#concept-preferred-label">preferred label</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td></td>
         <td>1..n</td>
         <td></td>
         <td>AP</td>
@@ -604,7 +560,7 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td></td>
 </tr>
 </table>
 
@@ -621,7 +577,7 @@
     <tr>
         <td><a href="#conceptscheme-title">title</a></td>
         <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td></td>
         <td>1..n</td>
         <td></td>
         <td>AP</td>
@@ -648,7 +604,51 @@
 </tr>
 <tr>
     <td><em>Range</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td></td>
+</tr>
+</table>
+
+## LicenseDocument - dct:LicenseDocument
+<table>
+    <tr>
+        <th>Property</th>
+        <th>URI</th>
+        <th>Range</th>
+        <th>Card</th>
+        <th>Optionaliteit</th>
+        <th>Herkomst</th>
+    </tr>
+    <tr>
+        <td><a href="#licensedocument-type">type</a></td>
+        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td>0..n</td>
+        <td></td>
+        <td>AP</td>
+    </tr>
+</table>
+
+### type
+<table>
+<tr>
+    <td><em>Property</em></td>
+    <td>type</td>
+</tr>
+<tr>
+    <td><em>Description</em></td>
+    <td>A type of licence, e.g. indicating &#39;public domain&#39; or &#39;royalties required&#39;.@en</td>
+</tr>
+<tr>
+    <td><em>Cardinality</em></td>
+    <td>0..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
+</tr>
+<tr>
+    <td><em>Range</em></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
 </tr>
 </table>
 
@@ -657,41 +657,43 @@
 
 De volgende ondersteunende klassen worden niet verder gespecificeerd door DCAT-AP-NL:
 
+- [spdx:ChecksumAlgorithm](http://spdx.org/rdf/terms#ChecksumAlgorithm)
+
+- [rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)
+
+- [time:Instant](http://www.w3.org/2006/time#Instant)
+
+- [dcat:Resource](http://www.w3.org/ns/dcat#Resource)
+
+- [dcat:Role](http://www.w3.org/ns/dcat#Role)
+
+- [dct:Frequency](http://purl.org/dc/terms/Frequency)
+
+- [dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)
+
+- [dct:MediaTypeOrExtent](http://purl.org/dc/terms/MediaTypeOrExtent)
+
+- [dct:MediaType](http://purl.org/dc/terms/MediaType)
+
+- [dct:ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement)
+
+- [dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)
+
+- [dct:Standard](http://purl.org/dc/terms/Standard)
+
+- [eli:LegalResource](http://data.europa.eu/eli/ontology#LegalResource)
+
+- [foaf:Document](http://xmlns.com/foaf/0.1/Document)
+
+- [locn:Geometry](http://www.w3.org/ns/locn#Geometry)
+
+- [odrl:Policy](http://www.w3.org/ns/odrl/2/Policy)
+
 - [prov:Activity](http://www.w3.org/ns/prov#Activity)
 
 - [prov:Attribution](http://www.w3.org/ns/prov#Attribution)
 
-- [dcat:Resource](http://www.w3.org/ns/dcat#Resource)
-
-- [spdx:ChecksumAlgorithm](http://spdx.org/rdf/terms#ChecksumAlgorithm)
-
-- [foaf:Document](http://xmlns.com/foaf/0.1/Document)
-
-- [dct:Frequency](http://purl.org/dc/terms/Frequency)
-
-- [locn:Geometry](http://www.w3.org/ns/locn#Geometry)
-
-- [vcard:Kind](http://www.w3.org/2006/vcard/ns#Kind)
-
-- [dct:LinguisticSystem](http://purl.org/dc/terms/LinguisticSystem)
-
-- [rdfs:Literal](http://www.w3.org/2000/01/rdf-schema#Literal)
-
-- [dct:MediaType](http://purl.org/dc/terms/MediaType)
-
-- [dct:MediaTypeOrExtent](http://purl.org/dc/terms/MediaTypeOrExtent)
-
-- [odrl:Policy](http://www.w3.org/ns/odrl/2/Policy)
-
-- [dct:ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement)
-
 - [rdfs:Resource](http://www.w3.org/2000/01/rdf-schema#Resource)
 
-- [dct:RightsStatement](http://purl.org/dc/terms/RightsStatement)
-
-- [dcat:Role](http://www.w3.org/ns/dcat#Role)
-
-- [dct:Standard](http://purl.org/dc/terms/Standard)
-
-- [time:Instant](http://www.w3.org/2006/time#Instant)
+- [vcard:Kind](http://www.w3.org/2006/vcard/ns#Kind)
 
