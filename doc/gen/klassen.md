@@ -9,6 +9,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <p data-include-format="markdown" data-include="doc/klassen/dcatDataset/dcatDataset.md"></p>
 
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -1253,6 +1258,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/dcatDistribution.md"></p>
 
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -2021,6 +2031,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <p data-include-format="markdown" data-include="doc/klassen/dcatDataService/dcatDataService.md"></p>
 
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -2823,6 +2838,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/dcatCatalog.md"></p>
 
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -3523,6 +3543,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/dcatCatalogRecord.md"></p>
 
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -3781,6 +3806,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 <p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/dcatDatasetSeries.md"></p>
 
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>

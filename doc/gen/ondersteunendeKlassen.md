@@ -2,6 +2,11 @@
 
 ## Location - dct:Location
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -110,6 +115,11 @@
 
 ## PeriodOfTime - dct:PeriodOfTime
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -250,6 +260,11 @@
 
 ## Agent - foaf:Agent
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -326,6 +341,11 @@
 
 ## Identifier - adms:Identifier
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -370,6 +390,11 @@
 
 ## Relationship - dcat:Relationship
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -446,6 +471,11 @@
 
 ## Checksum - spdx:Checksum
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -522,6 +552,11 @@
 
 ## Concept - skos:Concept
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -566,6 +601,11 @@
 
 ## ConceptScheme - skos:ConceptScheme
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -610,6 +650,11 @@
 
 ## LicenseDocument - dct:LicenseDocument
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
