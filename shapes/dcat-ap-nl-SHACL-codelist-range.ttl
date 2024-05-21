@@ -1,0 +1,65 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix eush: <https://purl.eu/ns/shacl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix dcatapnl: <https://TODO.com/DCAT-AP-NL/3.0.0#> .
+
+###########################################
+#  dcat:Dataset
+###########################################
+
+dcatapnl:DatasetShape
+  sh:property 
+    dcatapnl:DatasetShape_status_class;
+.
+
+dcatapnl:DatasetShape_status_class
+  sh:class skos:Concept;
+  sh:name "status"@en;
+  sh:path adms:status;
+  eush:message "The range of status must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en
+.
+
+
+###########################################
+#  dcat:DataService
+###########################################
+
+dcatapnl:DataServiceShape
+  sh:property
+    dcatapnl:DataServiceShape_language_class,
+    dcatapnl:DataServiceShape_publisher_class,
+    dcatapnl:DataServiceShape_theme_class;
+.
+
+dcatapnl:DataServiceShape_language_class
+  sh:class dct:LinguisticSystem;
+  sh:name "language"@en;
+  sh:path dct:language;
+  eush:message "The range of language must be of type <http://purl.org/dc/terms/LinguisticSystem>."@en 
+.
+
+dcatapnl:DataServiceShape_publisher_class
+  sh:class foaf:Agent;
+  sh:name "publisher"@en;
+  sh:path dct:publisher;
+  eush:message "The range of publisher must be of type <http://xmlns.com/foaf/0.1/Agent>."@en 
+.
+
+dcatapnl:DataServiceShape_theme_class
+  sh:class skos:Concept;
+  sh:name "theme"@en;
+  sh:path dcat:theme;
+  eush:message "The range of theme must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en 
+.

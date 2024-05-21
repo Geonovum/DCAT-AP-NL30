@@ -31,7 +31,6 @@ dcatapnl:DatasetShape
     dcatapnl:DatasetShape_documentation_opt,
     dcatapnl:DatasetShape_hvdCategory_opt,
     dcatapnl:DatasetShape_identifier_opt,
-    dcatapnl:DatasetShape_isVersionOf_opt,
     dcatapnl:DatasetShape_landingPage_opt,
     dcatapnl:DatasetShape_language_opt,
     dcatapnl:DatasetShape_publisher_opt,
@@ -82,11 +81,6 @@ dcatapnl:DatasetShape_hvdCategory_opt
 dcatapnl:DatasetShape_identifier_opt
   sh:path dct:identifier;
   todo_opt:optionaliteit todo_opt:verplicht
-.
-
-dcatapnl:DatasetShape_isVersionOf_opt
-  sh:path dcat:isVersionOf;
-  todo_opt:optionaliteit todo_opt:optioneel
 .
 
 dcatapnl:DatasetShape_landingPage_opt
@@ -320,7 +314,6 @@ dcatapnl:DataServiceShape_title_opt
 dcatapnl:CatalogShape
   sh:property
     dcatapnl:CatalogShape_contactPoint_opt,
-    dcatapnl:CatalogShape_isPartOf_opt,
     dcatapnl:CatalogShape_creator_opt
 .
 
@@ -334,41 +327,18 @@ dcatapnl:CatalogShape_creator_opt
   todo_opt:optionaliteit todo_opt:aanbevolen
 .
 
-dcatapnl:CatalogShape_isPartOf_opt
-  sh:path dct:isPartOf;
-  todo_opt:optionaliteit todo_opt:optioneel
-.
-
 ###########################################
 #  dcat:DatasetSeries
 ###########################################
 
 dcatapnl:DatasetSeriesShape
   sh:property
-    dcatapnl:DatasetSeriesShape_description_opt,
-    dcatapnl:DatasetSeriesShape_first_opt,
-    dcatapnl:DatasetSeriesShape_last_opt,
-    dcatapnl:DatasetSeriesShape_seriesMember_opt
+    dcatapnl:DatasetSeriesShape_description_opt
 .
 
 dcatapnl:DatasetSeriesShape_description_opt
   sh:path dct:description;
   todo_opt:optionaliteit todo_opt:verplicht
-.
-
-dcatapnl:DatasetSeriesShape_first_opt
-  sh:path dcat:first;
-  todo_opt:optionaliteit todo_opt:optioneel
-.
-
-dcatapnl:DatasetSeriesShape_last_opt
-  sh:path dcat:last;
-  todo_opt:optionaliteit todo_opt:optioneel
-.
-
-dcatapnl:DatasetSeriesShape_seriesMember_opt
-  sh:path dcat:seriesMember;
-  todo_opt:optionaliteit todo_opt:optioneel
 .
 
 ###########################################
