@@ -5,6 +5,11 @@
 <p data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/{{ nodeShape.targetClass | replace({':' : ''}) }}.md"></p>
 
 <table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
