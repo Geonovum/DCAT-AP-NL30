@@ -8,6 +8,6 @@ DCAT stelt een dataprovider in staat om datasets en dataservices in een catalogu
 In DCAT worden klassen en eigenschappen van andere gevestigde vocabulaires (ADMS, FOAF) hergebruikt. DCAT maakt gebruik van een bewezen set gemeenschappelijke metadata genaamd "Dublin Core", die in 2009 als ISO 15836-standaard werd gepubliceerd.
 <br/>
 <br/>
-Dit document beschrijft het Nederlandse applicatieprofiel op [[DCAT-AP-3.0]]. Dit Nederlandse applicatieprofiel - DCAT-AP-NL- beantwoordt de vraag over hoe [[DCAT-AP-3.0]] in de Nederlandse praktijk wordt toegepast.
+Dit document beschrijft het Nederlandse applicatieprofiel op [[DCAT-AP-3.0]]. Dit Nederlandse applicatieprofiel - DCAT-AP-NL - beantwoordt de vraag over hoe [[DCAT-AP-3.0]] in de Nederlandse praktijk wordt toegepast.
 <section data-include-format='markdown' data-include='003-Uitgangspunten.md'></section>
 <section data-include-format='markdown' data-include='004-Relatie_andere_profielen.md'></section>
