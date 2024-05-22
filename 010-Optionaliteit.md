@@ -1,5 +1,5 @@
 ## Optionaliteit {#5679FE7C}
-DCAT-AP NL definieert vier niveaus van vereisten voor ontvangers en aanbieders van gegevens. Daarbij geldt dat de niveaus alleen gelden voor de aanbieders. Om volledig te voldoen aan DCAT-AP NL MOETEN ontvangers altijd in staat zijn om informatie over alle instanties van alle klassen en al hun eigenschappen te verwerken. In de volgende secties worden klassen en eigenschappen aangeduid als "verplicht" (V), "aanbevolen" (A), "optioneel" (O) of "conditioneel" (C). Deze termen hebben de volgende betekenis:
+DCAT-AP-NL definieert vier niveaus van vereisten voor ontvangers en aanbieders van gegevens. Daarbij geldt dat de niveaus alleen gelden voor de aanbieders. Om volledig te voldoen aan DCAT-AP-NL MOETEN ontvangers altijd in staat zijn om informatie over alle instanties van alle klassen en al hun eigenschappen te verwerken. In de volgende secties worden klassen en eigenschappen aangeduid als "verplicht" (V), "aanbevolen" (A), "optioneel" (O) of "conditioneel" (C). Deze termen hebben de volgende betekenis:
 <br/>
 <br/>
 - Verplichte eigenschap: een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MOET de informatie voor die eigenschap verstrekken.
