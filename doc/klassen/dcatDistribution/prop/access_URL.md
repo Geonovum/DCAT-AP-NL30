@@ -1,7 +1,7 @@
 Deze eigenschap bevat de URL die toegang verschaft tot een distributie van de dataset.
 <br/>
 <br/>
-De eigenschap access URL is verplicht in DCAT-AP, maar is niet altijd aanwezig, bijvoorbeeld als er alleen een rechtstreekse download link beschikbaar is, of alleen een access service of landingpage.. In die gevallen zal de inhoud van die eigenschappen ook opgenomen moeten worden in de access URL. De definitie van access URL wordt hierdoor in de meest ruime zin toegepast.
+De eigenschap access URL is verplicht in DCAT-AP, maar is niet altijd aanwezig, bijvoorbeeld als er alleen een rechtstreekse download link beschikbaar is, of alleen een access service of landingpage. In die gevallen zal de inhoud van die eigenschappen ook opgenomen moeten worden in de access URL. De definitie van access URL wordt hierdoor in de meest ruime zin toegepast.
 <br/>
 <br/>
 Per distributie kan er maar een access URL zijn.
