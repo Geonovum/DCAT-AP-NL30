@@ -5,6 +5,6 @@ Voor Europese instellingen en een klein aantal internationale organisaties moet 
 <br/>
 <br/>
 
-Bij andere soorten organisaties moeten nationale, regionale of lokale waardenlijsten worden gebruikt, zoals bijvoorbeeld <a href='https://organisaties.overheid.nl/' target='_blank'>Register Overheid-Organisaties</a>, <a href='https://organisaties.overheid.nl/' target='_blank'>TOOI waardelijsten</a>, <a href='https://ror.org/' target='_blank'>Research Organization Registry (ROR)</a> of <a href='https://semiceu.github.io/Core-Business-Vocabulary/releases/2.1.0/' target='_blank'>Core Business Vocabulary (organisaties)</a>
+Bij andere soorten organisaties moeten nationale, regionale of lokale waardenlijsten worden gebruikt, zoals bijvoorbeeld <a href='https://organisaties.overheid.nl/' target='_blank'>Register Overheid-Organisaties</a>, <a href='https://organisaties.overheid.nl/' target='_blank'>TOOI waardelijsten (relevante lijsten met overheids-organisaties)</a>, <a href='https://ror.org/' target='_blank'>Research Organization Registry (ROR)</a> of <a href='https://semiceu.github.io/Core-Business-Vocabulary/releases/2.1.0/' target='_blank'>Core Business Vocabulary (organisaties)</a>
 
 In https://semiceu.github.io/DCAT-AP/releases/3.0.0/#controlled-vocs is het gebruik van de EU waardelijst niet opgenomen, we verwachtten dat dit wel de bedoeling is.
