@@ -24,8 +24,8 @@ dataSources:
       - /shapes/dcat-ap-SHACL.ttl
       - /shapes/dcat-ap-OPT.ttl
       - /shapes/dcat-ap-nl-SHACL.ttl
-      - /shapes/dcat-ap-nl-SHACL-range.ttl
-      - /shapes/dcat-ap-nl-SHACL-range-codelijsten.ttl
+      - /shapes/dcat-ap-nl-SHACL-klassebereik.ttl
+      - /shapes/dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl
       - /shapes/dcat-ap-nl-OPT.ttl
       - /shapes/optionaliteit.ttl
     resultFrame:
