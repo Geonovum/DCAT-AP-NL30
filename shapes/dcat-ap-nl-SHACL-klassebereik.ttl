@@ -1,0 +1,182 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix eush: <https://purl.eu/ns/shacl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix dcatapnl: <https://TODO.com/DCAT-AP-NL/3.0.0#> .
+
+###########################################
+#  dcat:Dataset
+###########################################
+
+dcatapnl:DatasetShape a sh:NodeShape;
+  sh:name "Dataset"@en;
+  sh:targetClass dcat:Dataset;
+  sh:property 
+    dcatapnl:DatasetShape_applicableLegislation_class,
+    dcatapnl:DatasetShape_hvdCategory_class
+.
+
+dcatapnl:DatasetShape_applicableLegislation_class
+  sh:class eli:LegalResource;
+  sh:name "applicable legislation"@en;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
+.
+
+dcatapnl:DatasetShape_hvdCategory_class
+  sh:description "The HVD category to which this Dataset belongs."@en;
+  sh:class skos:Concept;
+  sh:name "HVD Category"@en;
+  sh:path dcatap:hvdCategory;
+  eush:message "The range of HVD Category must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en
+.
+
+###########################################
+#  dcat:Distribution
+###########################################
+
+dcatapnl:DistributionShape a sh:NodeShape;
+  sh:name "Distribution"@en;
+  sh:targetClass dcat:Distribution;
+  sh:property
+    dcatapnl:DistributionShape_applicableLegislation_class
+.
+
+dcatapnl:DistributionShape_applicableLegislation_class
+  sh:class eli:LegalResource;
+  sh:name "applicable legislation"@en;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
+.
+
+
+###########################################
+#  dcat:DataService
+###########################################
+
+dcatapnl:DataServiceShape a sh:NodeShape;
+  sh:name "DataService"@en;
+  sh:targetClass dcat:DataService;
+  sh:property
+    dcatapnl:DataServiceShape_applicableLegislation_class,
+    dcatapnl:DataServiceShape_applicationProfile_class,
+    dcatapnl:DataServiceShape_creator_class,
+    dcatapnl:DataServiceShape_documentation_class,
+    dcatapnl:DataServiceShape_hvdCategory_class,
+    dcatapnl:DataServiceShape_landingPage_class,
+    dcatapnl:DataServiceShape_otherIdentifier_class,
+    dcatapnl:DataServiceShape_rights_class
+.
+
+dcatapnl:DataServiceShape_applicableLegislation_class
+  sh:class eli:LegalResource;
+  sh:name "applicable legislation"@en;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
+.
+
+dcatapnl:DataServiceShape_applicationProfile_class
+  sh:class dct:Standard;
+  sh:name "application profile"@en;
+  sh:path dct:conformsTo;
+  eush:message "The range of application profile must be of type <http://purl.org/dc/terms/Standard>."@en 
+.
+
+dcatapnl:DataServiceShape_creator_class
+  sh:class foaf:Agent;
+  sh:name "creator"@en;
+  sh:path dct:creator;
+  eush:message "The range of creator must be of type <http://xmlns.com/foaf/0.1/Agent>."@en 
+.
+
+dcatapnl:DataServiceShape_documentation_class
+  sh:class foaf:Document;
+  sh:name "documentation"@en;
+  sh:path foaf:page;
+  eush:message "The range of documentation must be of type <http://xmlns.com/foaf/0.1/Document>."@en 
+.
+
+dcatapnl:DataServiceShape_hvdCategory_class
+  sh:description "The HVD category to which this Data Service belongs."@en;
+  sh:class skos:Concept;
+  sh:name "HVD Category"@en;
+  sh:path dcatap:hvdCategory;
+  eush:message "The range of HVD Category must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en
+.
+
+dcatapnl:DataServiceShape_landingPage_class
+  sh:class foaf:Document;
+  sh:name "language"@en;
+  sh:path dcat:landingPage;
+  eush:message "The range of landing page must be of type <http://xmlns.com/foaf/0.1/Document>."@en 
+.
+
+dcatapnl:DataServiceShape_otherIdentifier_class
+  sh:class adms:Identifier;
+  sh:name "other identifier"@en;
+  sh:path adms:identifier;
+  eush:message "The range of other identifier must be of type <http://www.w3.org/ns/adms#Identifier>."@en 
+.
+
+dcatapnl:DataServiceShape_rights_class
+  sh:class dct:RightsStatement;
+  sh:name "rights"@en;
+  sh:path dct:rights;
+  eush:message "The range of rights must be of type <http://xmlns.com/foaf/0.1/Agent>."@en 
+.
+
+
+###########################################
+#  dcat:Catalog
+###########################################
+
+dcatapnl:CatalogShape a sh:NodeShape;
+  sh:name "Catalog"@en;
+  sh:targetClass dcat:Catalog;
+  sh:property
+    dcatapnl:CatalogShape_applicableLegislation_class,
+    dcatapnl:CatalogShape_contactPoint_class
+.
+
+dcatapnl:CatalogShape_applicableLegislation_class
+  sh:class eli:LegalResource;
+  sh:name "applicable legislation"@en;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
+.
+
+dcatapnl:CatalogShape_contactPoint_class
+  sh:class vcard:Kind;
+  sh:name "contact point"@en;
+  sh:path dcat:contactPoint;
+  eush:message "The range of theme must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en 
+.
+
+###########################################
+#  dcat:DatasetSeries
+###########################################
+
+dcatapnl:DatasetSeriesShape a sh:NodeShape;
+  sh:name "DatasetSeries"@en;
+  sh:targetClass dcat:DatasetSeries;
+  sh:property
+    dcatapnl:DatasetSeriesShape_applicableLegislation_class
+.
+
+dcatapnl:DatasetSeriesShape_applicableLegislation_class
+  sh:class eli:LegalResource;
+  sh:name "applicable legislation"@en;
+  sh:path dcatap:applicableLegislation;
+  eush:message "The range of applicable legislation must be of type <http://data.europa.eu/eli/ontology#LegalResource>."@en 
+.

@@ -20,6 +20,8 @@
 ###########################################
 
 dcatapnl:DatasetShape
+  sh:name "Dataset"@en;
+  sh:targetClass dcat:Dataset;
   sh:property 
     dcatapnl:DatasetShape_status_class;
 .
@@ -37,6 +39,8 @@ dcatapnl:DatasetShape_status_class
 ###########################################
 
 dcatapnl:DataServiceShape
+  sh:name "DataService"@en;
+  sh:targetClass dcat:DataService;
   sh:property
     dcatapnl:DataServiceShape_language_class,
     dcatapnl:DataServiceShape_publisher_class,
