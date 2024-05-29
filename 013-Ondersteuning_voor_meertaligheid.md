@@ -1,5 +1,5 @@
 ## Ondersteuning voor meertaligheid {#10B7B8F1}
-Alle eigenschappen die voor mensen leesbare tekst bevatten (de range literal met een string waarde hebben) zoals bijvoorbeeld  <code>dct:title</code> , <code>dct:description</code>, en <code>dcat:keyword </code>kunnen waardes in verschillende talen bevatten. Voor elke taal wordt de eigenschap herhaald met de toevoeging van een language tag om aan te geven in welke taal de waarde geschreven is. 
+Alle eigenschappen die voor mensen leesbare tekst bevatten (de range literal met een string waarde hebben) zoals bijvoorbeeld  <code>dct:title</code> , <code>dct:description</code> en <code>dcat:keyword </code>kunnen waardes in verschillende talen bevatten. Voor elke taal wordt de eigenschap herhaald met de toevoeging van een language tag om aan te geven in welke taal de waarde geschreven is. 
 <br/>
 Maak bij het gebruik van ondersteunende klassen, zoals bijvoorbeeld voor <code>dcat:contactPoint</code> één object aan en herhaal voor elke taal de eigenschap met de toevoeging van een language tag.
 <br/>
