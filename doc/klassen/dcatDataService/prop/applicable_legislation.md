@@ -1,4 +1,4 @@
-Deze eigenschap bevat de wetgeving die de creatie of het beheer van de dataservice verplicht stelt.
+Deze eigenschap bevat de wetgeving die de creatie of het beheer van de Data Service verplicht stelt.
 Er kunnen meerdere wetgevingen op de dataset van toepassing zijn. Denk aan High-Value Datasets, INSPIRE, kaderrichtlijn water etc.
 <br/>
 <br/>
