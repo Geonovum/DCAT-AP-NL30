@@ -1,4 +1,4 @@
-Deze eigenschap bevat de categorie van de dataservice. De waarde die voor deze eigenschap moeten worden gebruikt, is in ieder geval één URI van een concept uit Dataset Theme Vocabulary
+Deze eigenschap bevat de categorie van de Data Service. De waarde die voor deze eigenschap moeten worden gebruikt, is in ieder geval één URI van een concept uit Dataset Theme Vocabulary
 <br/>
 <br/>
 Aanbevolen wordt om naast een waarde uit de Europese <a href='http://publications.europa.eu/resource/authority/data-theme' target='_blank'>Dataset Theme Vocabulary</a> ook in meerdere thema's waarden op te nemen uit domeinspecifieke vocabulaires.
