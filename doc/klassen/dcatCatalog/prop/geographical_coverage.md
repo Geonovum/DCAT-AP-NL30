@@ -1,4 +1,4 @@
-Het geografische gebied waarop de gegevens in de catalogus betrekking hebben. De ruimtelijke dekking van een catalog kan worden gecodeerd als een <code>dcterms:Location</code>, of kan kan worden aangegeven met behulp van een URI-referentie (link) naar een bron die een locatie beschrijft.
+Het geografische gebied waarop de gegevens in de catalogus betrekking hebben. De ruimtelijke dekking van een catalogus kan worden gecodeerd als een <code>dcterms:Location</code>, of kan kan worden aangegeven met behulp van een URI-referentie (link) naar een bron die een locatie beschrijft.
 <br>
 <br>
 Met <code>dcterms:Location</code> kunnen de eigenschappen bounding box, centroide of geometry worden beschreven. De coördinaten dienen te worden weergegeven volgens referentiesysteem WGS 84.
