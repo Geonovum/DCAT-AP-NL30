@@ -1,4 +1,4 @@
-De natuurlijke taal van de tekstuele waardes in de dataservice. Niet alle dataservices hebben de eigenschap taal.
+De natuurlijke taal van de tekstuele waardes in de Data Service. Niet alle Data Services hebben de eigenschap taal.
 <br/>
 <br/>
 Gebruik van de waardelijst EU <a href='http://publications.europa.eu/resource/authority/language' target='_blank'>Vocabularies Languages Named Authority List</a> is vereist.

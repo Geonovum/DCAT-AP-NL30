@@ -1,4 +1,4 @@
-De licentie waaronder de dataservice beschikbaar wordt gesteld.
+De licentie waaronder de Data Service beschikbaar wordt gesteld.
 <br/>
 <br/>
 Licenties zijn een aanvulling op <code>dct:accessRights</code>. Als de data (publiek) toegankelijk zijn, staan in de licentie de voorwaarden voor het (her)gebruik daarvan.

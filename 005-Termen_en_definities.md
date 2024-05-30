@@ -17,7 +17,7 @@ Een <b>dataset</b> is een verzameling van samenhangende gegevens, die beheerd of
 Elke <b>distributie</b> is de werkelijke data van de dataset in een bepaald formaat of een bepaalde aanbiedingsvorm, die als bestand beschikbaar is voor hergebruik.
 <br/>
 <br/>
-Services die toegang geven tot een of meer datasets of processing functies, zijn een <b>dataservice</b>.
+Services die toegang geven tot een of meer datasets of processing functies, zijn een <b>Data Service</b>.
 <br/>
 <br/>
 Een <b>dataset serie</b> is een verzameling van datasets die een aantal gezamenlijke kenmerken heeft.

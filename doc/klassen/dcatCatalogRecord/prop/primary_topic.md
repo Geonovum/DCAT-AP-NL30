@@ -1,1 +1,1 @@
-Een verwijzing naar de dataset of dataservice die in het record wordt beschreven.
+Een verwijzing naar de dataset of Data Service die in het record wordt beschreven.

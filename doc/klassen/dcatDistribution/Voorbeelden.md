@@ -18,7 +18,7 @@ exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;
 
 </aside>
 
-Onderstaand voorbeeld beschrijft een <code>dcat:Distribution </code> die een dataservice ontsluit. Dit is een verdere uitwerking van het voorbeeld bij <code>dcat:Dataset </code>
+Onderstaand voorbeeld beschrijft een <code>dcat:Distribution </code> die een Data Service ontsluit. Dit is een verdere uitwerking van het voorbeeld bij <code>dcat:Dataset </code>
 
 <aside class='example'>
 

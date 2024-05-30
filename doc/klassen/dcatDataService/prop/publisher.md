@@ -1,4 +1,4 @@
-De organisatie die verantwoordelijk is voor de publicatie van de dataservice.
+De organisatie die verantwoordelijk is voor de publicatie van de Data Service.
 <br/>
 <br/>
 Voor Europese instellingen en een klein aantal internationale organisaties moet de <a href='http://publications.europa.eu/resource/authority/corporate-body' target='_blank'>EU Vocabularies Corporate bodies Named Authority List</a> worden gebruikt.

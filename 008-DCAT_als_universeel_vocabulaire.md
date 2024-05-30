@@ -6,7 +6,7 @@ Het DCAT vocabulaire bestaat uit klassen en eigenschappen.
 <br/>
 <br/>
 - <b>Klassen beschrijven dingen</b>: 
-Ze hebben niet allemaal een URI, maar het wordt aanbevolen om ze van een URI te voorzien. Een klasse beschrijft (complexe) dingen met vergelijkbare characteristieken zoals personen, organisaties, datasets of API's.
+Een klasse beschrijft (complexe) dingen met vergelijkbare characteristieken zoals personen, organisaties, datasets of API's.
 - <b>Klassen hebben eigenschappen</b>: De eigenschappen zijn de attributen die deze dingen beschrijven. Sommige eigenschappen komen in meer dan één klasse voor, een titel bijvoorbeeld is een veel voorkomend attribuut. Andere eigenschappen zijn zeer gespecialiseerd, zoals een bestandsformaat dat alleen zinvol is voor een gegevensbestand.
 - <b>Eigenschappen kunnen eenvoudig of complex zijn</b>: sommige eigenschappen worden direct beschreven in bijvoorbeeld door mensen leesbare tekst of een datum (deze eigenschappen zijn ookwel owl:DatatypeProperty) en andere eigenschappen bevatten relaties naar andere objecten (een owl:ObjectProperty).
 
