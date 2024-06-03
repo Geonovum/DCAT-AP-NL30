@@ -35,7 +35,7 @@ var documentConfig =
   previousPublishDate: "2024-03-05",
   previousMaturity: "cv",*/
   edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
-  issueBase: "https://github.com/Geonovum/DCAT-AP-NL30/issues";
+  issueBase: "https://github.com/Geonovum/DCAT-AP-NL30/issues",
   authors: [
     {
       name: "Ine de Visser",
