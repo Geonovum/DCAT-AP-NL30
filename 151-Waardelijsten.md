@@ -36,17 +36,17 @@ In de onderstaande tabel worden eigenschappen opgesomd met gecontroleerde waarde
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='6E9E8775'>dct:language</td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='52BF8D09'>Catalogue,Dataset, Catalogue Record, Data Service, , Distribution</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='52BF8D09'>Catalogue, Dataset, Catalogue Record, Data Service, , Distribution</td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='19928417'><a href='https://publications.europa.eu/resource/authority/language' target='_blank'>EU Vocabularies Languages Named Authority List</a></td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='44F77908'>dct:publisher</td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='64EB0BA2'>Catalogue,Dataset, Data Service, Dataset Series</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='64EB0BA2'>Catalogue, Dataset, Data Service, Dataset Series</td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p class='space-after' id='2DEE0864'><a href='https://publications.europa.eu/resource/authority/corporate-body' target='_blank'>EU Vocabularies Corporate bodies Named Authority List</a>,</td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p class='space-after' id='4D6BFCF6'>Voor Europese instellingen en een klein aantal internationale organisaties moet de EU Vocabularies Corporate bodies Named Authority List worden gebruikt.<p id='77728867'>Bij andere soorten organisaties moeten nationale, regionale of lokale waardenlijsten worden gebruikt, zoals bijvoorbeeld Register Overheid-Organisaties, TOOI-waardelijsten (relevante lijsten met overheids-organisaties), Research Organization Registry (ROR) of Core Business Vocabulary (organisaties)</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p class='space-after' id='4D6BFCF6'>Voor Europese instellingen en een klein aantal internationale organisaties moet de EU Vocabularies Corporate bodies Named Authority List worden gebruikt.<p id='77728867'>Bij andere soorten organisaties moeten nationale, regionale of lokale waardenlijsten worden gebruikt.</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='7C33A156'>dct:spatial</td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='63C1568D'>Catalogue,Dataset, Dataset Series</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='63C1568D'>Catalogue, Dataset, Dataset Series</td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='0B22583C'><a href='https://publications.europa.eu/resource/authority/continent/' target='_blank'>EU Vocabularies Continents</a>, <a href='https://publications.europa.eu/resource/authority/country' target='_blank'>Named, EU Vocabularies Countries</a> Authority List, <a href='https://publications.europa.eu/resource/authority/place/' target='_blank'>EU Vocabularies Places Named Authority List</a>, <a href='http://sws.geonames.org/' target='_blank'>Geonames</a></td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
 </tr>
@@ -78,8 +78,47 @@ In de onderstaande tabel worden eigenschappen opgesomd met gecontroleerde waarde
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='79D7C871'>spdx:algorithm</td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='66317FE0'>Checksum</td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='140392B6'><a href='https://spdx.org/rdf/terms/' target='_blank'>Distribution availability vocabulary</a></td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='69C7A15C'>OPM: DONL biedt deze lijst als linked data aan.<p id='68201DE4'>https://github.com/dataoverheid/dcat-ap-donl/raw/main/taxonomy/algorithms.ttl</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='69C7A15C'></td>
 </tr>
 </tbody>
 </table>
+
+<br/>
+<br/>
+In de onderstaande tabel worden eigenschappen opgesomd met gecontroleerde waardelijsten die voor de genoemde eigenschappen AANBEVOLEN worden. 
+<br/>
+<br/>
+<table style='width: 100%;'><caption></caption>
+<colgroup><col id='col1' style='width: 34.989404285377915%;'>
+<col id='col2' style='width: 20.02590063574288%;'>
+<col id='col3' style='width: 19.978808570755827%;'>
+<col id='col4' style='width: 25.005886508123382%;'>
+</colgroup>
+<thead valign='top'><tr><th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='4C29C26D'>Eigenschap URI</th>
+<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='7914B2CD'>Gebruik in Klasse</th>
+<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='2A1C4F32'>Naam Waardelijst</th>
+<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='1B16FA39'>Toepassing</th>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='44F77908'>dct:creator</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='64EB0BA2'>Catalogue, Dataset, Data Service</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p class='space-after' id='2DEE0864'><a href='https://standaarden.overheid.nl/tooi/waardelijsten/' target='_blank'>TOOI-registerwaardelijsten met overheidsorganisaties </a>, <a href='https://ror.org/' target='_blank'>Research Organization Registry (ROR)</a>, <a href='https://semiceu.github.io/Core-Business-Vocabulary/releases/2.1.0/' target='_blank'>Research Core Business Vocabulary (organisaties).</a></td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p class='space-after' id='4D6BFCF6'><p id='77728867'></td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='44F77908'>dct:publisher</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='64EB0BA2'>Catalogue,Dataset, Data Service, Dataset Series</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p class='space-after' id='2DEE0864'><a href='https://standaarden.overheid.nl/tooi/waardelijsten/' target='_blank'>TOOI-registerwaardelijsten met overheidsorganisaties </a>, <a href='https://ror.org/' target='_blank'>Research Organization Registry (ROR)</a>, <a href='https://semiceu.github.io/Core-Business-Vocabulary/releases/2.1.0/' target='_blank'>Research Core Business Vocabulary (organisaties).</a></td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p class='space-after' id='4D6BFCF6'><p id='77728867'></td>
+</tr>
+
+
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='7C33A156'>dct:spatial</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='63C1568D'>Catalogue, Dataset, Dataset Series</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='0B22583C'><a href='https://vocabs.cbs.nl/nl/' target='_blank'>CBS wijken en buurten</a></td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
+</tr>
+</tr>
+</tbody>
+</table>
+
+
 
