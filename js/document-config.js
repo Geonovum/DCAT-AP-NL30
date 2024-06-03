@@ -25,7 +25,7 @@ var documentConfig =
   title: "DCAT-AP-NL 3.0",
   shortName: "DCAT-AP-NL30",
   pubDomain: "dcat",
-  specStatus: "wv",
+  specStatus: "basis",
   specType: "st",
   license: "cc-by-nd",
   latestVersion: [
@@ -78,9 +78,7 @@ var documentConfig =
     "DCAT-2.0": {
       title: "DCAT-2.0",
       href: "https://www.w3.org/TR/vocab-dcat-2",
-      authors: [
-        "Riccardo Albertoni; David Browning; Simon Cox; Alejandra Gonzalez Beltran; Andrea Perego; Peter Winstanley"
-      ],
+      authors: "",
       publisher: "W3C",
       editors: "",
       date: "2020-02-04",
@@ -90,9 +88,9 @@ var documentConfig =
       title: "DCAT-AP 2.1.1",
       href: "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210",
       authors: "",
-      publisher: "The Publications Office of the European Union",
+      publisher: "SEMIC",
       editors: "",
-      date: "",
+      date: "05/09/2022",
       status: ""
     },
     "DCATAPDONL_11": {
@@ -117,7 +115,7 @@ var documentConfig =
       title: "ISO-8601",
       href: "https://www.iso.org/iso-8601-date-and-time-format.html",
       authors: "",
-      publisher: "International Organization for Standardization",
+      publisher: "ISO",
       editors: "",
       date: "",
       status: ""
@@ -126,7 +124,7 @@ var documentConfig =
       title: "ISO-19115 RoleCode",
       href: "https://standards.iso.org/iso/19115/resources/Codelists/gml/CI_RoleCode.xml",
       authors: "",
-      publisher: "International Organization for Standardization",
+      publisher: "ISO",
       editors: "",
       date: "",
       status: ""
@@ -142,7 +140,7 @@ var documentConfig =
     },
     "TOOI": {
       title: "TOOI - Thesaurus en Ontologie Overheidsinformatie",
-      href: "https://tardis.overheid.nl",
+      href: "https://standaarden.overheid.nl/tooi",
       authors: "",
       publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
       editors: "",
@@ -155,7 +153,7 @@ var documentConfig =
       authors: "",
       publisher: "W3C",
       editors: "",
-      date: "",
+      date: "18 January 2024",
       status: "Candidate Recommendation"
     },
     "DCAT-AP-3.0": {
@@ -164,7 +162,7 @@ var documentConfig =
       authors: "",
       publisher: "SEMIC",
       editors: "",
-      date: "2024-02-12",
+      date: "12 February 2024",
       status: "Candidate Recommendation"
     },
     "DCAT-AP-HVD": {
@@ -173,8 +171,8 @@ var documentConfig =
       authors: "",
       publisher: "SEMIC",
       editors: "",
-      date: "",
-      status: ""
+      date: "14 December 2023",
+      status: "Recommendation"
     },
     "ODRL": {
       title: "ODLR",
@@ -182,24 +180,16 @@ var documentConfig =
       authors: "",
       publisher: "W3C",
       editors: "",
-      date: "",
+      date: "16 September 2017",
       status: ""
     },
     "DCAT-AP-DONL-2.0": {
       title: "DCAT-AP-DONL-2.0",
       href: "https://dataoverheid.github.io/dcat-ap-donl/",
-      authors: [
-        "Jan Meijer",
-        "Huub van Oers",
-        "Kees Trautwein"
-      ],
+      authors: "",
       publisher: "data.overheid.nl",
-      editors: [
-        "Casper le Gras",
-        "Willem ter Berg",
-        ""
-      ],
-      date: "2022-11-24",
+      editors: "",
+      date: "24 november 2022",
       status: ""
     },
     "RFC2119": {
@@ -210,8 +200,8 @@ var documentConfig =
       ],
       publisher: "IETF",
       editors: "",
-      date: "1997-03-01",
-      status: ""
+      date: "March 1997",
+      status: "Best Current Practice"
     },
     "RFC8174": {
       title: "rfc8174",
@@ -221,27 +211,25 @@ var documentConfig =
       ],
       publisher: "IETF",
       editors: "",
-      date: "2009-09-01",
-      status: ""
+      date: "May 2017",
+      status: " Best Current Practice"
     },
     "ISO-19115": {
       title: "ISO-19115",
       href: "https://www.iso.org/standard/53798.html",
       authors: "",
-      publisher: "",
+      publisher: "ISO",
       editors: "",
       date: "2014-04-01",
       status: "International Standard confirmed"
     },
     "OpenAPI": {
       title: "OpenAPI",
-      href: "https://www.openapis.org/",
-      authors: [
-        "Darrell Miller; Jeremy Whitlock; Marsh Gardiner; Mike Ralphson; Ron Ratovsky; Uri Sarid; Tony Tam; Jason Harmon"
-      ],
-      publisher: "",
+      href: "https://github.com/OAI/OpenAPI-Specification/",
+      authors:"",
+      publisher: "OpenAPI initiative",
       editors: "",
-      date: "",
+      date: "15 February 2021",
       status: ""
     },
     "WFS": {
@@ -250,7 +238,7 @@ var documentConfig =
       authors: "",
       publisher: "OGC",
       editors: "",
-      date: "2014-07-10",
+      date: "10 July 2014",
       status: ""
     },
     "WMS": {
@@ -259,7 +247,7 @@ var documentConfig =
       authors: "",
       publisher: "OGC",
       editors: "",
-      date: "2006-03-15",
+      date: "15 March 2006",
       status: "OpenGIS Implementation Standard"
     },
     "ISO-19128": {
@@ -295,7 +283,7 @@ var documentConfig =
       authors: "",
       publisher: "OpenSearch",
       editors: "",
-      date: "2018-04-17",
+      date: "17 April 2018",
       status: ""
     }
   },
