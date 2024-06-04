@@ -195,9 +195,7 @@ var documentConfig =
     "RFC2119": {
       title: "rfc2119",
       href: "https://www.rfc-editor.org/rfc/rfc2119",
-      authors: [
-        "S. Bradner"
-      ],
+      authors: "",
       publisher: "IETF",
       editors: "",
       date: "March 1997",
@@ -206,9 +204,7 @@ var documentConfig =
     "RFC8174": {
       title: "rfc8174",
       href: "https://www.rfc-editor.org/rfc/rfc5646",
-      authors: [
-        "B. Leiba"
-      ],
+      authors: "",
       publisher: "IETF",
       editors: "",
       date: "May 2017",
