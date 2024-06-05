@@ -10,6 +10,6 @@ keyword word gebruikt voor trefwoorden die niet uit een controlled vocabulary ko
 <div class="issue" data-number="69"></div>
 <br/>
 <br/>
-<div class="issue" data-number="">140</div>
+<div class="issue" data-number="140"></div>
 <br/>
 <br/>
