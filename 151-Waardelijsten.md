@@ -1,6 +1,8 @@
 # Waardelijsten {#6952D3B2}
 In de metadata dienen de waarden uit de waardelijsten waarnaar verwezen wordt bij de element beschrijving, gehanteerd te worden. Dit zijn vaak de door de EU verplichte waardelijsten.
 <br/>
+<div class="issue" data-number="58">standaarden team</div>
+<br/>
 <br/>
 In de onderstaande tabel worden eigenschappen opgesomd met gecontroleerde waardelijsten die voor de genoemde eigenschappen MOETEN worden gebruikt.
 <table style='width: 100%;'><caption></caption>
@@ -82,8 +84,6 @@ In de onderstaande tabel worden eigenschappen opgesomd met gecontroleerde waarde
 </tr>
 </tbody>
 </table>
-
-<br/>
 <br/>
 In de onderstaande tabel worden eigenschappen opgesomd met gecontroleerde waardelijsten die voor de genoemde eigenschappen AANBEVOLEN worden. 
 <br/>
