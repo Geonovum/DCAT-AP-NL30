@@ -281,6 +281,24 @@ var documentConfig =
       editors: "",
       date: "17 April 2018",
       status: ""
+    },
+      "WSDL": {
+      title: "WSDL",
+      href: "https://www.w3.org/TR/wsdl20/",
+      authors: "",
+      publisher: "W3C",
+      editors: "",
+      date: "26 June 2007",
+      status: "Recommendation"
+    },
+      "HYDRA": {
+      title: "HYDRA",
+      href: "https://www.hydra-cg.com/spec/latest/core/",
+      authors: "",
+      publisher: "W3C",
+      editors: "",
+      date: "15 March 2018",
+      status: "Draft"
     }
   },
   preProcess: [loadTurtle],
