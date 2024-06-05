@@ -7,4 +7,4 @@ Aanbevolen wordt om naast een waarde uit de Europese <a href='http://publication
 keyword word gebruikt voor trefwoorden die niet uit een controlled vocabulary komen.
 <br/>
 <br/>
-<div class="issue" data-number="69">Discussie DCAT-AP: Omgaan met meerdere vocabulaires voor theme</div>
+<div class="issue" data-number="69"> </div>
