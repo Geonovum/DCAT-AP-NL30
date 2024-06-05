@@ -10,4 +10,6 @@ keyword word gebruikt voor trefwoorden die niet uit een controlled vocabulary ko
 <div class="issue" data-number="69"></div>
 <br/>
 <br/>
-In https://semiceu.github.io/DCAT-AP/releases/3.0.0/#controlled-vocs is het gebruik van de EU waardelijst niet opgenomen, we verwachtten dat dit wel de bedoeling is.
+<div class="issue" data-number="">140</div>
+<br/>
+<br/>
