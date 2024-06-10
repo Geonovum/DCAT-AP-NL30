@@ -10,7 +10,7 @@ exampleMS:1T2p3o4B-dataservice-WMS a dcat:DataService;
    dct:title "Title of the dataservice"@en;
    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
    dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj>;
-   dct:applicationProfile <http://www.opengis.net/def/serviceType/ogc/wms>;
+   dct:conformsTo <http://www.opengis.net/def/serviceType/ogc/wms>;
    dcat:contactPoint [
      a vcard:Kind;
      vcard:fn "Mijn Organisatie"@nl ;
