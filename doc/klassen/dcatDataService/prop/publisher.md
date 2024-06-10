@@ -6,9 +6,6 @@ Voor Europese instellingen en een klein aantal internationale organisaties moet 
 <br/>
 Bij andere soorten organisaties moeten nationale, regionale of lokale waardenlijsten worden gebruikt, zoals bijvoorbeeld <a href='https://standaarden.overheid.nl/tooi/waardelijsten/' target='_blank'>TOOI-registerwaardelijsten met overheidsorganisaties </a>, <a href='https://ror.org/' target='_blank'>Research Organization Registry (ROR)</a> of <a href='https://semiceu.github.io/Core-Business-Vocabulary/releases/2.1.0/' target='_blank'>Core Business Vocabulary (organisaties)</a>.
 <br/>
-<br/>
-<div class="issue" data-number="140">DCAT-AP</div>
-<br/>
 
 
 

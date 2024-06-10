@@ -9,5 +9,3 @@ keyword word gebruikt voor trefwoorden die niet uit een controlled vocabulary ko
 <br/>
 <div class="issue" data-number="69">DCAT-AP</div>
 <br/>
-<div class="issue" data-number="140">DCAT-AP</div>
-<br/>
