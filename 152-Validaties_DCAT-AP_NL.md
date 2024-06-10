@@ -3,7 +3,7 @@
 Alle gegevensregels in dit profiel zijn ook uitgedrukt in SHACL. Met behulp van deze regels kan gevalideerd worden of een dataset beschrijving voldoet aan dit profiel.
 <br/>
 <br/>
-De SHACL regels van DCAT-AP-NL bouwen voort op de SHACL regels uit [[DCAT-AP]]. Alle regels uit [[DCAT-AP]] zijn daarbij nog steeds van toepassing. DCAT-AP-NL scherpt enkel sommige gegevensregels aan.
+De SHACL regels van DCAT-AP-NL bouwen voort op de SHACL regels uit [[DCAT-AP-3.0]]. Alle regels uit [[DCAT-AP-3.0]]zijn daarbij nog steeds van toepassing. DCAT-AP-NL scherpt enkel sommige gegevensregels aan.
 <br/>
 <br/>
 In [[[#fig-verhouding-van-de-shapes-van-dcat-ap-dcat-ap-nl-en-high-value-datasets]]] is te zien hoe de shapes van DCAT-AP, DCAT-AP-NL en High-Value Datasets zich tot elkaar verhouden. Hierin is te zien dat DCAT-AP-NL gepositioneerd is tussen DCAT-AP en High-Value Datasets in, waarbij DCAT-AP de minst strenge eisen stelt en High-Value Datasets extra eisen kent.
