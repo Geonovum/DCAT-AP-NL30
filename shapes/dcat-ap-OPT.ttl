@@ -142,8 +142,10 @@ dcatapsh:dcat:CatalogRecordShape
     dcatapsh:dcatCatalogRecord_dct-conformsTo ,
     dcatapsh:dcatCatalogRecord_adms-status ,
     dcatapsh:dcatCatalogRecord_dct-issued ,
+    dcatapsh:dcatCatalogRecord_dct-description ,
     dcatapsh:dcatCatalogRecord_dct-language ,
-    dcatapsh:dcatCatalogRecord_dct-source .
+    dcatapsh:dcatCatalogRecord_dct-source ,
+    dcatapsh:dcatCatalogRecord_dct-title .
 
 dcatapsh:dcatCatalogRecord_dct-modified
   sh:path dct:modified	;
@@ -165,12 +167,20 @@ dcatapsh:dcatCatalogRecord_dct-issued
   sh:path dct:issued	;
   todo_opt:optionaliteit todo_opt:aanbevolen	.
 
+dcatapsh:dcatCatalogRecord_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
 dcatapsh:dcatCatalogRecord_dct-language
   sh:path dct:language	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
 dcatapsh:dcatCatalogRecord_dct-source
   sh:path dct:source	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatCatalogRecord_dct-title
+  sh:path dct:title	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
 
@@ -272,6 +282,7 @@ dcatapsh:dcat:DatasetShape
     dcatapsh:dcatDataset_dcat-contactPoint ,
     dcatapsh:dcatDataset_dcat-distribution ,
     dcatapsh:dcatDataset_dct-spatial ,
+    dcatapsh:dcatDataset_dcat-keyword ,
     dcatapsh:dcatDataset_dct-publisher ,
     dcatapsh:dcatDataset_dct-temporal ,
     dcatapsh:dcatDataset_dcat-theme ,
@@ -300,6 +311,7 @@ dcatapsh:dcat:DatasetShape
     dcatapsh:dcatDataset_dcat-temporalResolution ,
     dcatapsh:dcatDataset_dct-type ,
     dcatapsh:dcatDataset_dcat-version ,
+    dcatapsh:dcatDataset_adms-versionNotes ,
     dcatapsh:dcatDataset_prov-wasGeneratedBy .
 
 dcatapsh:dcatDataset_dct-description
@@ -320,6 +332,10 @@ dcatapsh:dcatDataset_dcat-distribution
 
 dcatapsh:dcatDataset_dct-spatial
   sh:path dct:spatial	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
+dcatapsh:dcatDataset_dcat-keyword
+  sh:path dcat:keyword	;
   todo_opt:optionaliteit todo_opt:aanbevolen	.
 
 dcatapsh:dcatDataset_dct-publisher
@@ -434,6 +450,10 @@ dcatapsh:dcatDataset_dcat-version
   sh:path dcat:version	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
+dcatapsh:dcatDataset_adms-versionNotes
+  sh:path adms:versionNotes	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
 dcatapsh:dcatDataset_prov-wasGeneratedBy
   sh:path prov:wasGeneratedBy	;
   todo_opt:optionaliteit todo_opt:optioneel	.
@@ -518,7 +538,8 @@ dcatapsh:dcat:DistributionShape
     dcatapsh:dcatDistribution_dct-rights ,
     dcatapsh:dcatDistribution_dcat-spatialResolutionInMeters ,
     dcatapsh:dcatDistribution_adms-status ,
-    dcatapsh:dcatDistribution_dcat-temporalResolution .
+    dcatapsh:dcatDistribution_dcat-temporalResolution ,
+    dcatapsh:dcatDistribution_dct-title .
 
 dcatapsh:dcatDistribution_dcat-accessURL
   sh:path dcat:accessURL	;
@@ -606,6 +627,10 @@ dcatapsh:dcatDistribution_adms-status
 
 dcatapsh:dcatDistribution_dcat-temporalResolution
   sh:path dcat:temporalResolution	;
+  todo_opt:optionaliteit todo_opt:optioneel	.
+
+dcatapsh:dcatDistribution_dct-title
+  sh:path dct:title	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
 
