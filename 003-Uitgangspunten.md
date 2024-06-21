@@ -1,5 +1,5 @@
 ## Uitgangspunten {#2536E4CD}
-Bij het opstellen van het applicatie profiel zijn de volgende uitgangspunten gehanteerd:
+Bij het opstellen van het applicatieprofiel zijn de volgende uitgangspunten gehanteerd:
 <br/>
 <br/>
 
