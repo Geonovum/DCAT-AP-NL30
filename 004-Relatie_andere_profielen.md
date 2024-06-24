@@ -7,4 +7,4 @@ DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatal
 <figcaption>DCAT-AP-NL positionering<i></i></figcaption></figure>
 
 
-Op dit moment zijn [[DCAT-3.0]] en [[DCAT-AP-3.0]] als kandidaat release versie beschikbaar. Na het vaststellen van deze standaard en  Europees toepassingsprofiel zal er gekeken worden of het DCAT-AP-NL profiel ook bijgewerkt moet worden.
+Op dit moment is [[DCAT-3.0]] als kandidaat release versie beschikbaar. Na het vaststellen van deze standaard zal er gekeken worden of het DCAT-AP-NL profiel ook bijgewerkt moet worden.
