@@ -1,5 +1,5 @@
 ## Waardelijsten {#14786F8D}
-In de metadata dienen de waarden uit de waardelijsten waarnaar verwezen wordt bij de element beschrijving, gehanteerd te worden. Dit zijn vaak de door de EU verplichte waardelijsten. 
+In de metadata dienen de waarden uit de waardelijsten waarnaar verwezen wordt bij de elementbeschrijving gehanteerd te worden. Dit zijn vaak de door de EU verplichte waardelijsten. 
 De door de EU verplichte waardelijsten zijn "controlled vocabulaires", deze voldoen aan de volgende specificaties:
 
 - Worden gepubliceerd onder een open licentie.
