@@ -4,14 +4,14 @@ Een <b>applicatieprofiel</b> is een specificatie voor gegevensuitwisseling dat b
 <br/>
 - verfijning van de terminologie (klassen en eigenschappen) consistent met de semantiek uit de betreffende specificaties met een welbepaald gebruik als doel;
 - externe terminologie (klassen en eigenschappen) gebruikt voor nieuwe/extra termen die niet in de bestaande vocabularia voorkomen.
-- meer nauwkeurigheid kan worden bereikt door klassen en klasse-attributen (eigenschappen) als verplicht, aanbevolen of optioneel te classificeren voor een bepaalde toepassing
+- klassen en klasse-attributen (eigenschappen) kunnen als verplicht, aanbevolen of optioneel worden geclassificeerd voor een bepaalde toepassing om meer nauwkeurigheid te bereiken 
 <br/>
 <br/>
 
 Een <b>dataportaal </b>is een op het web gebaseerd systeem dat een gegevenscatalogus bevat waarin datasets worden beschreven met behulp van metadata. Bovendien biedt een dataportaal diensten aan om het vinden en het hergebruik van de datasets te bevorderen en/of te faciliteren.
 <br/>
 <br/>
-Een <b>dataset</b> is een verzameling van samenhangende gegevens, die beheerd of gepubliceerd wordt door één organisatie. Een Dataset kan beschikbaar zijn via distributies of Data services.
+Een <b>dataset</b> is een verzameling van samenhangende gegevens, die beheerd of gepubliceerd wordt door één organisatie. Een dataset kan beschikbaar zijn via distributies of Data services.
 <br/>
 <br/>
 Elke <b>distributie</b> is de werkelijke data van de dataset in een bepaald formaat of een bepaalde aanbiedingsvorm, die als bestand beschikbaar is voor hergebruik.
