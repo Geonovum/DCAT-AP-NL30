@@ -200,6 +200,26 @@ dcatapsh:spdxChecksum_spdx-checksumValue
 
 
 
+dcatapsh:skos:ConceptShape
+  sh:property
+    dcatapsh:skosConcept_skos-prefLabel .
+
+dcatapsh:skosConcept_skos-prefLabel
+  sh:path skos:prefLabel	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
+
+
+
+dcatapsh:skos:ConceptSchemeShape
+  sh:property
+    dcatapsh:skosConceptScheme_dct-title .
+
+dcatapsh:skosConceptScheme_dct-title
+  sh:path dct:title ;
+  todo_opt:optionaliteit todo_opt:verplicht .
+
+
+
 dcatapsh:dcat:DataServiceShape
   sh:property
     dcatapsh:dcatDataService_dcat-endpointURL ,
@@ -462,16 +482,20 @@ dcatapsh:dcatDataset_prov-wasGeneratedBy
 
 dcatapsh:dcat:DatasetSeriesShape
   sh:property
+    dcatapsh:dcatDatasetSeries_dct-description ,
     dcatapsh:dcatDatasetSeries_dct-title ,
     dcatapsh:dcatDatasetSeries_dcat-contactPoint ,
     dcatapsh:dcatDatasetSeries_dct-spatial ,
     dcatapsh:dcatDatasetSeries_dct-publisher ,
-    dcatapsh:dcatDatasetSeries_dct-temporal ,
     dcatapsh:dcatDatasetSeries_dcatap-applicableLegislation ,
-    dcatapsh:dcatDatasetSeries_dct-description ,
     dcatapsh:dcatDatasetSeries_dct-accrualPeriodicity ,
     dcatapsh:dcatDatasetSeries_dct-modified ,
-    dcatapsh:dcatDatasetSeries_dct-issued .
+    dcatapsh:dcatDatasetSeries_dct-issued ,
+    dcatapsh:dcatDatasetSeries_dct-temporal .
+
+dcatapsh:dcatDatasetSeries_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:verplicht	.
 
 dcatapsh:dcatDatasetSeries_dct-title
   sh:path dct:title	;
@@ -489,16 +513,8 @@ dcatapsh:dcatDatasetSeries_dct-publisher
   sh:path dct:publisher	;
   todo_opt:optionaliteit todo_opt:aanbevolen	.
 
-dcatapsh:dcatDatasetSeries_dct-temporal
-  sh:path dct:temporal	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
-
 dcatapsh:dcatDatasetSeries_dcatap-applicableLegislation
   sh:path dcatap:applicableLegislation	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
-
-dcatapsh:dcatDatasetSeries_dct-description
-  sh:path dct:description	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
 dcatapsh:dcatDatasetSeries_dct-accrualPeriodicity
@@ -513,16 +529,21 @@ dcatapsh:dcatDatasetSeries_dct-issued
   sh:path dct:issued	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
+dcatapsh:dcatDatasetSeries_dct-temporal
+  sh:path dct:temporal	;
+  todo_opt:optionaliteit todo_opt:aanbevolen	.
+
 
 
 dcatapsh:dcat:DistributionShape
   sh:property
     dcatapsh:dcatDistribution_dcat-accessURL ,
+    dcatapsh:dcatDistribution_dcatap-availability ,
+    dcatapsh:dcatDistribution_dct-description ,
     dcatapsh:dcatDistribution_dct-format ,
     dcatapsh:dcatDistribution_dct-license ,
     dcatapsh:dcatDistribution_dcat-accessService ,
     dcatapsh:dcatDistribution_dcatap-applicableLegislation ,
-    dcatapsh:dcatDistribution_dcatap-availability ,
     dcatapsh:dcatDistribution_dcat-byteSize ,
     dcatapsh:dcatDistribution_spdx-checksum ,
     dcatapsh:dcatDistribution_dcat-compressFormat ,
@@ -545,9 +566,17 @@ dcatapsh:dcatDistribution_dcat-accessURL
   sh:path dcat:accessURL	;
   todo_opt:optionaliteit todo_opt:verplicht	.
 
+dcatapsh:dcatDistribution_dcatap-availability
+  sh:path dcatap:availability	;
+  todo_opt:optionaliteit todo_opt:aanbevolen .
+
+dcatapsh:dcatDistribution_dct-description
+  sh:path dct:description	;
+  todo_opt:optionaliteit todo_opt:aanbevolen .
+
 dcatapsh:dcatDistribution_dct-format
   sh:path dct:format	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  todo_opt:optionaliteit todo_opt:aanbevolen .
 
 dcatapsh:dcatDistribution_dct-license
   sh:path dct:license	;
@@ -559,10 +588,6 @@ dcatapsh:dcatDistribution_dcat-accessService
 
 dcatapsh:dcatDistribution_dcatap-applicableLegislation
   sh:path dcatap:applicableLegislation	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
-
-dcatapsh:dcatDistribution_dcatap-availability
-  sh:path dcatap:availability	;
   todo_opt:optionaliteit todo_opt:optioneel	.
 
 dcatapsh:dcatDistribution_dcat-byteSize
