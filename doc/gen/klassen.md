@@ -1368,7 +1368,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/availability">dcatap:availability</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..1</td>
-        <td>O</td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1400,7 +1400,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1633,7 +1633,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td>O</td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -1737,7 +1737,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 

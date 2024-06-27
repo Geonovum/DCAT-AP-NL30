@@ -469,6 +469,104 @@
 </tr>
 </table>
 
+## ConceptScheme - skos:ConceptScheme
+<table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
+    <tr>
+        <th>Eigenschap</th>
+        <th>URI</th>
+        <th>Bereik</th>
+        <th>Kardinaliteit</th>
+        <th>Optionaliteit</th>
+        <th>Herkomst</th>
+    </tr>
+    <tr>
+        <td><a href="#conceptscheme-title">title</a></td>
+        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td>1..n</td>
+        <td>V</td>
+        <td>AP</td>
+    </tr>
+</table>
+
+### title
+<table>
+<tr>
+    <td><em>Eigenschap</em></td>
+    <td>title</td>
+</tr>
+<tr>
+    <td><em>Kardinaliteit</em></td>
+    <td>1..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+</tr>
+<tr>
+    <td><em>Bereik</em></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+</tr>
+<tr>
+    <td><em>Optionaliteit</em></td>
+    <td>V</td>
+</tr>
+</table>
+
+## Concept - skos:Concept
+<table>
+    <colgroup>
+        <col style="width:21%">
+        <col style="width:21%">
+        <col style="width:21%">
+    </colgroup>
+    <tr>
+        <th>Eigenschap</th>
+        <th>URI</th>
+        <th>Bereik</th>
+        <th>Kardinaliteit</th>
+        <th>Optionaliteit</th>
+        <th>Herkomst</th>
+    </tr>
+    <tr>
+        <td><a href="#concept-preferred-label">preferred label</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td>1..n</td>
+        <td>V</td>
+        <td>AP</td>
+    </tr>
+</table>
+
+### preferred label
+<table>
+<tr>
+    <td><em>Eigenschap</em></td>
+    <td>preferred label</td>
+</tr>
+<tr>
+    <td><em>Kardinaliteit</em></td>
+    <td>1..n</td>
+</tr>
+<tr>
+    <td><em>URI</em></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></td>
+</tr>
+<tr>
+    <td><em>Bereik</em></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+</tr>
+<tr>
+    <td><em>Optionaliteit</em></td>
+    <td>V</td>
+</tr>
+</table>
+
 ## Checksum - spdx:Checksum
 <table>
     <colgroup>
@@ -547,104 +645,6 @@
 <tr>
     <td><em>Optionaliteit</em></td>
     <td>V</td>
-</tr>
-</table>
-
-## Concept - skos:Concept
-<table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
-    <tr>
-        <th>Eigenschap</th>
-        <th>URI</th>
-        <th>Bereik</th>
-        <th>Kardinaliteit</th>
-        <th>Optionaliteit</th>
-        <th>Herkomst</th>
-    </tr>
-    <tr>
-        <td><a href="#concept-preferred-label">preferred label</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
-        <td>1..n</td>
-        <td></td>
-        <td>AP</td>
-    </tr>
-</table>
-
-### preferred label
-<table>
-<tr>
-    <td><em>Eigenschap</em></td>
-    <td>preferred label</td>
-</tr>
-<tr>
-    <td><em>Kardinaliteit</em></td>
-    <td>1..n</td>
-</tr>
-<tr>
-    <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></td>
-</tr>
-<tr>
-    <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
-</tr>
-<tr>
-    <td><em>Optionaliteit</em></td>
-    <td></td>
-</tr>
-</table>
-
-## ConceptScheme - skos:ConceptScheme
-<table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
-    <tr>
-        <th>Eigenschap</th>
-        <th>URI</th>
-        <th>Bereik</th>
-        <th>Kardinaliteit</th>
-        <th>Optionaliteit</th>
-        <th>Herkomst</th>
-    </tr>
-    <tr>
-        <td><a href="#conceptscheme-title">title</a></td>
-        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
-        <td>1..n</td>
-        <td></td>
-        <td>AP</td>
-    </tr>
-</table>
-
-### title
-<table>
-<tr>
-    <td><em>Eigenschap</em></td>
-    <td>title</td>
-</tr>
-<tr>
-    <td><em>Kardinaliteit</em></td>
-    <td>1..n</td>
-</tr>
-<tr>
-    <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-</tr>
-<tr>
-    <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
-</tr>
-<tr>
-    <td><em>Optionaliteit</em></td>
-    <td></td>
 </tr>
 </table>
 
