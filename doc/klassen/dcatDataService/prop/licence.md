@@ -12,6 +12,5 @@ In het geval geen (her)gebruik volgens een CC licentie mogelijk is, mag de waard
 <br/>
 Gebruik een waarde uit <a href='https://definities.geostandaarden.nl/dcat-ap-nl/id/waardelijst/licenties' target='_blank'>licenties<a/>  
 <br/>
-<br/>
 Gebruik <code>dcterms:rights </code>voor alle andere typen voorwaarden – indien die niet gedekt worden door <code>dcterms:license</code> en <code>dcterms:accessRights</code>, zoals copyright-verklaringen.
 <br/>
