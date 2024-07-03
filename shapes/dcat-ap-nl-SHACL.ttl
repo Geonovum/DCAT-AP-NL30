@@ -263,7 +263,7 @@ dcatapnl:DataServiceShape_applicableLegislation_nodeKind
 .
 
 dcatapnl:DataServiceShape_applicationProfile_nodeKind
-  sh:name "application profile"@en;
+  sh:name "conforms to"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dct:conformsTo;
   eush:message "The expected value for application profile is a rdfs:Resource (URI or blank node)"@en 
