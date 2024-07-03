@@ -1,4 +1,4 @@
-# Structuur van het toepassingsprofiel {#3F9A775E}
+# Structuur van het applicatieprofiel {#3F9A775E}
 <section data-include-format='markdown' data-include='008-DCAT_als_universeel_vocabulaire.md'></section>
 <section data-include-format='markdown' data-include='009-Overzicht_Klassen.md'></section>
 <section data-include-format='markdown' data-include='010-Optionaliteit.md'></section>
