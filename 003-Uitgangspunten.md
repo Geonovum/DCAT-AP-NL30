@@ -10,7 +10,7 @@ Bij het opstellen van het applicatieprofiel zijn de volgende uitgangspunten geha
 DCAT-AP-NL faciliteert:
 - de uitwisseling van metadata tussen Nederlandse datacatalogi van (semi-) overheidsorganisatie en overige organisaties die maatschappelijke relevante data willen delen.
 - de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi
-- de uitwisseling van metadata van primair open data, maar is hier niet toe beperkt
+- de uitwisseling van metadata van data
 - de specifieke Nederlandse behoeften van metadata in datacatalogi
 - de [[DCAT-AP-HVD]]
 <br/>
