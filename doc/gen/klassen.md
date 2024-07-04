@@ -2197,7 +2197,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td>NL</td>
     </tr>
     <tr>
-        <td><a href="#dataservice-application-profile">application profile</a></td>
+        <td><a href="#dataservice-conforms-to">conforms to</a></td>
         <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
         <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
         <td>0..n</td>
@@ -2418,13 +2418,13 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 </table>
 
-### application profile {#dataservice-application-profile}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/application_profile.md"></p>
+### conforms to {#dataservice-conforms-to}
+<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/conforms_to.md"></p>
 
 <table>
 <tr>
     <td><em>Eigenschap</em></td>
-    <td>application profile</td>
+    <td>conforms to</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
