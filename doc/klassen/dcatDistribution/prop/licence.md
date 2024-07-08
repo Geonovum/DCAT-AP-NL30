@@ -9,8 +9,10 @@ Gebruik van Creative Commons Licenties (CC) is vereist. Aanbevolen wordt om stee
 <br/>
 In het geval geen (her)gebruik volgens een CC-licentie mogelijk is, mag de waarde ‘niet-open' gebruikt worden. Dat laatste kan bijv. voorkomen als een dataset alleen onder voorwaarden toegankelijk is.
 <br/> 
+<br/> 
 Gebruik een waarde uit <a href='https://definities.geostandaarden.nl/dcat-ap-nl/id/waardelijst/licenties' target='_blank'>licenties</a>
 <br/>
+<br/> 
 Gebruik <code>dct:rights </code>voor alle andere typen voorwaarden – indien die niet gedekt worden door <code>dct:license</code> en <code>dct:accessRights</code>, zoals copyright-verklaringen.
 <br/>
 <br/>
