@@ -2,6 +2,9 @@ var organisationConfig =
 {
   nl_organisationName: "Geonovum",
   nl_organisationPublishURL: "https://docs.geostandaarden.nl/",
+  latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
+  thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "publishVersion"],
+  prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "previousPublishVersion"],
   postProcess: [
     window.respecMermaid.createFigures
   ],
