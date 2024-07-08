@@ -25,7 +25,7 @@ var documentConfig =
   title: "DCAT-AP-NL 3.0",
   shortName: "DCAT-AP-NL30",
   pubDomain: "dcat",
-  specStatus: "basis",
+  specStatus: "vv",
   specType: "st",
   license: "cc-by-nd",
   latestVersion: [
