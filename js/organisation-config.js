@@ -114,7 +114,7 @@ var organisationConfig =
       basis: "Dit is een document zonder officiële status.",
       cv: "Dit is een door het TO goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar [adres].",
       def: "Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
-      vv: "Dit is een definitief concept van de nieuwe versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
+      vv: "Dit document is het resultaat van discussies en review door de werkgroep. In dit document zijn tevens de opmerkingen verwerkt uit de publieke consultatie op dit profiel, die is gehouden van 16 april tot en met 21 mei 2024. Het document wordt ter vaststelling aangeboden.",
       wv: "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het TO goedgekeurde consultatieversie."
     }
   }
