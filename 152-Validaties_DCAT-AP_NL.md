@@ -8,7 +8,7 @@ De SHACL regels van DCAT-AP-NL bouwen voort op de SHACL regels uit [[DCAT-AP-3.0
 <br/>
 In [[[#fig-verhouding-van-de-shapes-van-dcat-ap-dcat-ap-nl-en-high-value-datasets]]] is te zien hoe de shapes van DCAT-AP, DCAT-AP-NL en High-Value Datasets zich tot elkaar verhouden. Hierin is te zien dat DCAT-AP-NL gepositioneerd is tussen DCAT-AP en High-Value Datasets in, waarbij DCAT-AP de minst strenge eisen stelt en High-Value Datasets extra eisen kent.
 
-![Verhouding van de shapes van DCAT-AP, DCAT-AP-NL en High-Value Datasets](./shapes/shapes.svg "Verhouding van de shapes van DCAT-AP, DCAT-AP-NL en High-Value Datasets")
+![Verhouding van de shapes van DCAT-AP, DCAT-AP-NL en High-Value Datasets](./media/shapes.svg "Verhouding van de shapes van DCAT-AP, DCAT-AP-NL en High-Value Datasets")
 
 Om te toetsen of een datasetbeschrijving voldoet aan DCAT-AP-NL is het ook noodzakelijk om zowel de DCAT-AP SHACL shapes als de DCAT-AP-NL SHACL shapes mee te nemen in de validatie. Mocht je een High-Value-Dataset-beschrijving willen valideren dan moet ook die set shapes extra worden meegenomen.
 <br/>
