@@ -15,6 +15,7 @@ Meer informatie over de configuratie en de werking van de tool is te vinden in d
 
 De tool is aan te roepen als docker container. Om de docker container lokaal uit te kunnen voeren moet Docker geïnstaleerd zijn op het lokale systeem en de repository lokaal beschikbaar zijn, vervolgens is de tool aan te roepen met het volgende commando:
 
+Mac/Linux
 ```shell
 docker run --rm \
            --pull=always \
@@ -23,11 +24,13 @@ docker run --rm \
             -v /$(pwd)/doc/gen/:/doc/gen ghcr.io/skemu/rdf-template:latest
 ```
 
-(N.B.) Op het moment is dit alleen op MacOs/Linux getest.
+Windows
+```shell
+docker run --rm --pull=always -v %cd%\config:/config -v %cd%\shapes:/shapes -v %cd%\doc/gen/:/doc/gen ghcr.io/skemu/rdf-template:latest
+```
+
+de '-v' optie bind de lokale folders aan het docker image. 
+
+De output folderlocatie wordt vervolgens weer gebruikt in de index.html file om de gegeneerde documentatie op te nemen in de respec publicatie.
 
 
-$(pwd)/config:/config koppelt de /config folder uit deze repository aan de docker container
-
-$(pwd)/shapes:/shapes koppelt de /shapes folder uit deze repository aan de docker container
-
-$(pwd)/doc/gen/:/doc/gen koppelt de/doc/gen output folder aan de docker container. Deze output folderlocatie wordt vervolgens weer gebruikt in de index.html file om de gegeneerde documentatie op te nemen in de respec publicatie.
