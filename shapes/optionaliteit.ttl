@@ -1,11 +1,13 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix opt-wl: <http://definities.geostandaarden.nl/dcat-ap-nl/optionaliteit/id/waardenlijst/> .
 @prefix opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/optionaliteit/id/begrip/> .
 
 
 opt-wl:Optionaliteit a skos:ConceptScheme ;
   dct:title "Optionaliteit"@nl ;
+  rdfs:comment "DCAT-AP-NL definieert vier niveaus van vereisten voor ontvangers en aanbieders van gegevens. Deze niveaus zijn in dit begrippenkader gedefinieerd."@nl ;
 .
 
 opt-beg:verplicht a skos:Concept ;
@@ -13,6 +15,7 @@ opt-beg:verplicht a skos:Concept ;
   skos:definition "Een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MOET de informatie voor die eigenschap verstrekken."@nl ;
   skos:notation "V" ;
   skos:inScheme opt-wl:Optionaliteit ;
+  dct:source <https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/> ;
 .
 
 opt-beg:aanbevolen a skos:Concept ;
@@ -20,6 +23,7 @@ opt-beg:aanbevolen a skos:Concept ;
   skos:definition "Een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder BEHOORT de informatie voor die eigenschap te verstrekken indien deze beschikbaar is."@nl ;
   skos:notation "A" ;
   skos:inScheme opt-wl:Optionaliteit ;
+  dct:source <https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/> ;
 .
 
 opt-beg:optioneel a skos:Concept ;
@@ -27,6 +31,7 @@ opt-beg:optioneel a skos:Concept ;
   skos:definition "Een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MAG de informatie voor die eigenschap verstrekken, maar is daartoe niet verplicht."@nl ;
   skos:notation "O" ;
   skos:inScheme opt-wl:Optionaliteit ;
+  dct:source <https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/> ;
 .
 
 opt-beg:conditioneel a skos:Concept ;
@@ -34,4 +39,11 @@ opt-beg:conditioneel a skos:Concept ;
   skos:definition "Een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MOET de informatie voor die eigenschap verstrekken, indien de conditie van toepassing is."@nl ;
   skos:notation "C" ;
   skos:inScheme opt-wl:Optionaliteit ;
+  dct:source <https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/> ;
+.
+
+<https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/> a foaf:Document ;
+  dct:title "DCAT-AP-NL 3.0"@nl ;
+  rdfs:comment "Dit document beschrijft de verdere specificatie van het applicatieprofiel van DCAT-AP-3.0 van de EU voor uitwisseling tussen gegevenscatalogi in Nederland."@nl ;
+  foaf:page <https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/#5679FE7C> 
 .
