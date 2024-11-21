@@ -13,44 +13,44 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix dcatapnl: <https://TODO.com/DCAT-AP-NL/3.0.0#> .
+@prefix dcatapnl-sh: <http://modellen.geostandaarden.nl/dcat-ap-nl/id/shape/> .
 
 ###########################################
 #  dcat:Dataset
 ###########################################
 
-dcatapnl:DatasetShape_aanbevolen a sh:NodeShape;
+dcatapnl-sh:DatasetShape_aanbevolen a sh:NodeShape;
   sh:name "Dataset"@en;
   sh:targetClass dcat:Dataset;
   sh:property
-    dcatapnl:DatasetShape_conformsTo_aanbevolen_minCount,
-    dcatapnl:DatasetShape_documentation_aanbevolen_minCount,
-    dcatapnl:DatasetShape_landingPage_aanbevolen_minCount,
-    dcatapnl:DatasetShape_language_aanbevolen_minCount
+    dcatapnl-sh:DatasetShape_conformsTo_aanbevolen_minCount,
+    dcatapnl-sh:DatasetShape_documentation_aanbevolen_minCount,
+    dcatapnl-sh:DatasetShape_landingPage_aanbevolen_minCount,
+    dcatapnl-sh:DatasetShape_language_aanbevolen_minCount
 .
 
-dcatapnl:DatasetShape_conformsTo_aanbevolen_minCount
+dcatapnl-sh:DatasetShape_conformsTo_aanbevolen_minCount
   sh:path dct:conformsTo;
   sh:minCount 1;
   sh:severity sh:Warning;
   eush:message "It is recommended to specify conforms to."@en;
 .
 
-dcatapnl:DatasetShape_documentation_aanbevolen_minCount
+dcatapnl-sh:DatasetShape_documentation_aanbevolen_minCount
   sh:path foaf:page	;
   sh:minCount 1;
   sh:severity sh:Warning;
   eush:message "It is recommended to specify documentation."@en;
 .
 
-dcatapnl:DatasetShape_landingPage_aanbevolen_minCount
+dcatapnl-sh:DatasetShape_landingPage_aanbevolen_minCount
   sh:path dcat:landingPage;
   sh:minCount 1;
   sh:severity sh:Warning;
   eush:message "It is recommended to specify landing page."@en;
 .
 
-dcatapnl:DatasetShape_language_aanbevolen_minCount
+dcatapnl-sh:DatasetShape_language_aanbevolen_minCount
   sh:path dct:language;
   sh:minCount 1;
   sh:severity sh:Warning;
@@ -61,38 +61,38 @@ dcatapnl:DatasetShape_language_aanbevolen_minCount
 #  dcat:Distribution
 ###########################################
 
-dcatapnl:DistributionShape_aanbevolen a sh:NodeShape;
+dcatapnl-sh:DistributionShape_aanbevolen a sh:NodeShape;
   sh:name "Distribution"@en;
   sh:targetClass dcat:Distribution;
   sh:property
-    dcatapnl:DistributionShape_accessService_aanbevolen_minCount,
-    dcatapnl:DistributionShape_downloadURL_aanbevolen_minCount,
-    dcatapnl:DistributionShape_language_aanbevolen_minCount,
-    dcatapnl:DistributionShape_linkedSchemas_aanbevolen_minCount
+    dcatapnl-sh:DistributionShape_accessService_aanbevolen_minCount,
+    dcatapnl-sh:DistributionShape_downloadURL_aanbevolen_minCount,
+    dcatapnl-sh:DistributionShape_language_aanbevolen_minCount,
+    dcatapnl-sh:DistributionShape_linkedSchemas_aanbevolen_minCount
 .
 
-dcatapnl:DistributionShape_accessService_aanbevolen_minCount
+dcatapnl-sh:DistributionShape_accessService_aanbevolen_minCount
   sh:path dcat:accessService;
   sh:minCount 1;
   sh:severity sh:Warning;
   eush:message "It is recommended to specify access service."@en;
 .
 
-dcatapnl:DistributionShape_downloadURL_aanbevolen_minCount
+dcatapnl-sh:DistributionShape_downloadURL_aanbevolen_minCount
   sh:path dcat:downloadURL;
   sh:minCount 1;
   sh:severity sh:Warning;
   eush:message "It is recommended to specify download URL."@en;
 .
 
-dcatapnl:DistributionShape_language_aanbevolen_minCount
+dcatapnl-sh:DistributionShape_language_aanbevolen_minCount
   sh:path dct:language;
   sh:minCount 1;
   sh:severity sh:Warning;
   eush:message "It is recommended to specify language."@en;
 .
 
-dcatapnl:DistributionShape_linkedSchemas_aanbevolen_minCount
+dcatapnl-sh:DistributionShape_linkedSchemas_aanbevolen_minCount
   sh:path dct:conformsTo;
   sh:minCount 1;
   sh:severity sh:Warning;
@@ -104,30 +104,30 @@ dcatapnl:DistributionShape_linkedSchemas_aanbevolen_minCount
 #  dcat:DataService
 ###########################################
 
-dcatapnl:DataServiceShape_aanbevolen a sh:NodeShape;
+dcatapnl-sh:DataServiceShape_aanbevolen a sh:NodeShape;
   sh:name "DataService"@en;
   sh:targetClass dcat:DataService;
   sh:property
-    dcatapnl:DataServiceShape_creator_aanbevolen_minCount,
-    dcatapnl:DataServiceShape_keyword_aanbevolen_minCount,
-    dcatapnl:DataServiceShape_language_aanbevolen_minCount
+    dcatapnl-sh:DataServiceShape_creator_aanbevolen_minCount,
+    dcatapnl-sh:DataServiceShape_keyword_aanbevolen_minCount,
+    dcatapnl-sh:DataServiceShape_language_aanbevolen_minCount
 .
 
-dcatapnl:DataServiceShape_creator_aanbevolen_minCount
+dcatapnl-sh:DataServiceShape_creator_aanbevolen_minCount
   sh:path dct:creator;
   sh:minCount 1;
   sh:severity sh:Warning;
   eush:message "It is recommended to specify creator."@en;
 .
 
-dcatapnl:DataServiceShape_keyword_aanbevolen_minCount
+dcatapnl-sh:DataServiceShape_keyword_aanbevolen_minCount
   sh:path dcat:keyword;
   sh:minCount 1;
   sh:severity sh:Warning;
   eush:message "It is recommended to specify keyword."@en;
 .
 
-dcatapnl:DataServiceShape_language_aanbevolen_minCount
+dcatapnl-sh:DataServiceShape_language_aanbevolen_minCount
   sh:path dct:language;
   sh:minCount 1;
   sh:severity sh:Warning;
@@ -138,14 +138,14 @@ dcatapnl:DataServiceShape_language_aanbevolen_minCount
 #  dcat:Catalog
 ###########################################
 
-dcatapnl:CatalogShape_aanbevolen a sh:NodeShape;
+dcatapnl-sh:CatalogShape_aanbevolen a sh:NodeShape;
   sh:name "Catalog"@en;
   sh:targetClass dcat:Catalog;
   sh:property
-    dcatapnl:CatalogShape_creator_aanbevolen_minCount
+    dcatapnl-sh:CatalogShape_creator_aanbevolen_minCount
 .
 
-dcatapnl:CatalogShape_creator_aanbevolen_minCount
+dcatapnl-sh:CatalogShape_creator_aanbevolen_minCount
   sh:path dct:creator;
   sh:minCount 1;
   sh:severity sh:Warning;

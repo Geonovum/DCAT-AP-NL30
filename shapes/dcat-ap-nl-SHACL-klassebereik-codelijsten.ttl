@@ -13,20 +13,20 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix dcatapnl: <https://TODO.com/DCAT-AP-NL/3.0.0#> .
+@prefix dcatapnl-sh: <http://modellen.geostandaarden.nl/dcat-ap-nl/id/shape/> .
 
 ###########################################
 #  dcat:Dataset
 ###########################################
 
-dcatapnl:DatasetShape
+dcatapnl-sh:DatasetShape
   sh:name "Dataset"@en;
   sh:targetClass dcat:Dataset;
   sh:property 
-    dcatapnl:DatasetShape_status_class;
+    dcatapnl-sh:DatasetShape_status_class;
 .
 
-dcatapnl:DatasetShape_status_class
+dcatapnl-sh:DatasetShape_status_class
   sh:class skos:Concept;
   sh:name "status"@en;
   sh:path adms:status;
@@ -38,30 +38,30 @@ dcatapnl:DatasetShape_status_class
 #  dcat:DataService
 ###########################################
 
-dcatapnl:DataServiceShape
+dcatapnl-sh:DataServiceShape
   sh:name "DataService"@en;
   sh:targetClass dcat:DataService;
   sh:property
-    dcatapnl:DataServiceShape_language_class,
-    dcatapnl:DataServiceShape_publisher_class,
-    dcatapnl:DataServiceShape_theme_class;
+    dcatapnl-sh:DataServiceShape_language_class,
+    dcatapnl-sh:DataServiceShape_publisher_class,
+    dcatapnl-sh:DataServiceShape_theme_class;
 .
 
-dcatapnl:DataServiceShape_language_class
+dcatapnl-sh:DataServiceShape_language_class
   sh:class dct:LinguisticSystem;
   sh:name "language"@en;
   sh:path dct:language;
   eush:message "The range of language must be of type <http://purl.org/dc/terms/LinguisticSystem>."@en 
 .
 
-dcatapnl:DataServiceShape_publisher_class
+dcatapnl-sh:DataServiceShape_publisher_class
   sh:class foaf:Agent;
   sh:name "publisher"@en;
   sh:path dct:publisher;
   eush:message "The range of publisher must be of type <http://xmlns.com/foaf/0.1/Agent>."@en 
 .
 
-dcatapnl:DataServiceShape_theme_class
+dcatapnl-sh:DataServiceShape_theme_class
   sh:class skos:Concept;
   sh:name "theme"@en;
   sh:path dcat:theme;

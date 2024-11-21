@@ -13,67 +13,67 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix dcatapnl: <https://TODO.com/DCAT-AP-NL/3.0.0#> .
+@prefix dcatapnl-sh: <http://modellen.geostandaarden.nl/dcat-ap-nl/id/shape/> .
 
 ###########################################
 #  dcat:Dataset
 ###########################################
 
-dcatapnl:DatasetShape a sh:NodeShape;
+dcatapnl-sh:DatasetShape a sh:NodeShape;
   sh:name "Dataset"@en;
   sh:targetClass dcat:Dataset;
   sh:property 
-    dcatapnl:DatasetShape_accessRights_minCount,
-    dcatapnl:DatasetShape_applicableLegislation_nodeKind,
-    dcatapnl:DatasetShape_contactPoint_minCount,
-    dcatapnl:DatasetShape_contactPoint_maxCount,
-    dcatapnl:DatasetShape_creator_minCount,
-    dcatapnl:DatasetShape_hvdCategory_nodeKind,
-    dcatapnl:DatasetShape_identifier_minCount,
-    dcatapnl:DatasetShape_identifier_maxCount,
-    dcatapnl:DatasetShape_publisher_minCount,
-    dcatapnl:DatasetShape_status_nodeKind,
-    dcatapnl:DatasetShape_status_maxCount,
-    dcatapnl:DatasetShape_theme_minCount,
-    dcatapnl:DatasetShape_version_maxCount;
+    dcatapnl-sh:DatasetShape_accessRights_minCount,
+    dcatapnl-sh:DatasetShape_applicableLegislation_nodeKind,
+    dcatapnl-sh:DatasetShape_contactPoint_minCount,
+    dcatapnl-sh:DatasetShape_contactPoint_maxCount,
+    dcatapnl-sh:DatasetShape_creator_minCount,
+    dcatapnl-sh:DatasetShape_hvdCategory_nodeKind,
+    dcatapnl-sh:DatasetShape_identifier_minCount,
+    dcatapnl-sh:DatasetShape_identifier_maxCount,
+    dcatapnl-sh:DatasetShape_publisher_minCount,
+    dcatapnl-sh:DatasetShape_status_nodeKind,
+    dcatapnl-sh:DatasetShape_status_maxCount,
+    dcatapnl-sh:DatasetShape_theme_minCount,
+    dcatapnl-sh:DatasetShape_version_maxCount;
 .
 
-dcatapnl:DatasetShape_accessRights_minCount
+dcatapnl-sh:DatasetShape_accessRights_minCount
   sh:minCount 1;
   sh:name "access rights"@en;
   sh:path dct:accessRights;
   eush:message "Minimally 1 values are expected for access rights"@en 
 .
 
-dcatapnl:DatasetShape_applicableLegislation_nodeKind
+dcatapnl-sh:DatasetShape_applicableLegislation_nodeKind
   sh:name "applicable legislation"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dcatap:applicableLegislation;
   eush:message "The expected value for applicable legislation is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DatasetShape_contactPoint_minCount
+dcatapnl-sh:DatasetShape_contactPoint_minCount
   sh:minCount 1;
   sh:name "contact point"@en;
   sh:path dcat:contactPoint;
   eush:message "Minimally 1 values are expected for contact point"@en 
 .
 
-dcatapnl:DatasetShape_contactPoint_maxCount
+dcatapnl-sh:DatasetShape_contactPoint_maxCount
   sh:maxCount 1;
   sh:name "contact point"@en;
   sh:path dcat:contactPoint;
   eush:message "Maximally 1 values are allowed for contact point"@en 
 .
 
-dcatapnl:DatasetShape_creator_minCount
+dcatapnl-sh:DatasetShape_creator_minCount
   sh:minCount 1;
   sh:name "creator"@en;
   sh:path dct:creator;
   eush:message "Minimally 1 values are expected for creator"@en 
 .
 
-dcatapnl:DatasetShape_hvdCategory_nodeKind
+dcatapnl-sh:DatasetShape_hvdCategory_nodeKind
   sh:description "The HVD category to which this Dataset belongs."@en;
   sh:name "HVD Category"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
@@ -81,28 +81,28 @@ dcatapnl:DatasetShape_hvdCategory_nodeKind
   eush:message "The expected value for HVD Category is a rdfs:Resource (URI or blank node)"@en
 .
 
-dcatapnl:DatasetShape_identifier_minCount
+dcatapnl-sh:DatasetShape_identifier_minCount
   sh:minCount 1;
   sh:name "identifier"@en;
   sh:path dct:identifier;
   eush:message "Minimally 1 values are expected for identifier"@en 
 .
 
-dcatapnl:DatasetShape_identifier_maxCount
+dcatapnl-sh:DatasetShape_identifier_maxCount
   sh:maxCount 1;
   sh:name "identifier"@en;
   sh:path dct:identifier;
   eush:message "Maximally 1 values are allowed for identifier"@en 
 .
 
-dcatapnl:DatasetShape_publisher_minCount
+dcatapnl-sh:DatasetShape_publisher_minCount
   sh:minCount 1;
   sh:name "publisher"@en;
   sh:path dct:publisher;
   eush:message "Minimally 1 values are expected for publisher"@en 
 .
 
-dcatapnl:DatasetShape_status_nodeKind
+dcatapnl-sh:DatasetShape_status_nodeKind
   sh:description "The status of the dataset in the context of editorial flow of the dataset and data service descriptions."@en;
   sh:name "status"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
@@ -110,21 +110,21 @@ dcatapnl:DatasetShape_status_nodeKind
   eush:message "The expected value for status is a rdfs:Resource (URI or blank node)"@en
 .
 
-dcatapnl:DatasetShape_status_maxCount
+dcatapnl-sh:DatasetShape_status_maxCount
   sh:maxCount 1;
   sh:name "status"@en;
   sh:path adms:status;
   eush:message "Maximally 1 values are allowed for status"@en 
 .
 
-dcatapnl:DatasetShape_theme_minCount
+dcatapnl-sh:DatasetShape_theme_minCount
   sh:minCount 1;
   sh:name "theme"@en;
   sh:path dcat:theme;
   eush:message "Minimally 1 values are expected for theme"@en 
 .
 
-dcatapnl:DatasetShape_version_maxCount
+dcatapnl-sh:DatasetShape_version_maxCount
   sh:maxCount 1;
   sh:name "version"@en;
   sh:path dcat:version;
@@ -136,70 +136,70 @@ dcatapnl:DatasetShape_version_maxCount
 #  dcat:Distribution
 ###########################################
 
-dcatapnl:DistributionShape a sh:NodeShape;
+dcatapnl-sh:DistributionShape a sh:NodeShape;
   sh:name "Distribution"@en;
   sh:targetClass dcat:Distribution;
   sh:property
-    dcatapnl:DistributionShape_accessService_maxCount,
-    dcatapnl:DistributionShape_accessURL_maxCount,
-    dcatapnl:DistributionShape_applicableLegislation_nodeKind,
-    dcatapnl:DistributionShape_downloadURL_maxCount,
-    dcatapnl:DistributionShape_language_maxCount,
-    dcatapnl:DistributionShape_license_minCount,
-    dcatapnl:DistributionShape_spatialResolutionInMeters_maxCount,
-    dcatapnl:DistributionShape_temporalResolution_maxCount
+    dcatapnl-sh:DistributionShape_accessService_maxCount,
+    dcatapnl-sh:DistributionShape_accessURL_maxCount,
+    dcatapnl-sh:DistributionShape_applicableLegislation_nodeKind,
+    dcatapnl-sh:DistributionShape_downloadURL_maxCount,
+    dcatapnl-sh:DistributionShape_language_maxCount,
+    dcatapnl-sh:DistributionShape_license_minCount,
+    dcatapnl-sh:DistributionShape_spatialResolutionInMeters_maxCount,
+    dcatapnl-sh:DistributionShape_temporalResolution_maxCount
 .
 
-dcatapnl:DistributionShape_accessService_maxCount
+dcatapnl-sh:DistributionShape_accessService_maxCount
   sh:maxCount 1;
   sh:name "access service"@en;
   sh:path dcat:accessService;
   eush:message "Maximally 1 values are allowed for access service"@en 
 .
 
-dcatapnl:DistributionShape_accessURL_maxCount
+dcatapnl-sh:DistributionShape_accessURL_maxCount
   sh:maxCount 1;
   sh:name "access URL"@en;
   sh:path dcat:accessURL;
   eush:message "Maximally 1 values are allowed for access URL"@en 
 .
 
-dcatapnl:DistributionShape_applicableLegislation_nodeKind
+dcatapnl-sh:DistributionShape_applicableLegislation_nodeKind
   sh:name "applicable legislation"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dcatap:applicableLegislation;
   eush:message "The expected value for applicable legislation is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DistributionShape_downloadURL_maxCount
+dcatapnl-sh:DistributionShape_downloadURL_maxCount
   sh:maxCount 1;
   sh:name "download URL"@en;
   sh:path dcat:downloadURL;
   eush:message "Maximally 1 values are allowed for download URL"@en 
 .
 
-dcatapnl:DistributionShape_language_maxCount
+dcatapnl-sh:DistributionShape_language_maxCount
   sh:maxCount 1;
   sh:name "language"@en;
   sh:path dct:language;
   eush:message "Maximally 1 values are allowed for language"@en 
 .
 
-dcatapnl:DistributionShape_license_minCount
+dcatapnl-sh:DistributionShape_license_minCount
   sh:minCount 1;
   sh:name "licence"@en;
   sh:path dct:license;
   eush:message "Minimally 1 values are expected for license"@en 
 .
 
-dcatapnl:DistributionShape_spatialResolutionInMeters_maxCount
+dcatapnl-sh:DistributionShape_spatialResolutionInMeters_maxCount
   sh:maxCount 1;
   sh:name "spatial resolution"@en;
   sh:path dcat:spatialResolutionInMeters;
   eush:message "Maximally 1 values are allowed for spatial resolution"@en 
 .
 
-dcatapnl:DistributionShape_temporalResolution_maxCount
+dcatapnl-sh:DistributionShape_temporalResolution_maxCount
   sh:maxCount 1;
   sh:name "temporal resolution"@en;
   sh:path dcat:temporalResolution;
@@ -211,128 +211,128 @@ dcatapnl:DistributionShape_temporalResolution_maxCount
 #  dcat:DataService
 ###########################################
 
-dcatapnl:DataServiceShape a sh:NodeShape;
+dcatapnl-sh:DataServiceShape a sh:NodeShape;
   sh:name "DataService"@en;
   sh:targetClass dcat:DataService;
   sh:property
-    dcatapnl:DataServiceShape_accessRights_minCount,
-    dcatapnl:DataServiceShape_applicableLegislation_nodeKind,
-    dcatapnl:DataServiceShape_applicationProfile_nodeKind,
-    dcatapnl:DataServiceShape_contactPoint_minCount,
-    dcatapnl:DataServiceShape_contactPoint_maxCount,
-    dcatapnl:DataServiceShape_creator_nodeKind,
-    dcatapnl:DataServiceShape_creator_maxCount,
-    dcatapnl:DataServiceShape_description_minCount,
-    dcatapnl:DataServiceShape_documentation_nodeKind,
-    dcatapnl:DataServiceShape_endpointDescription_minCount,
-    dcatapnl:DataServiceShape_endpointDescription_maxCount,
-    dcatapnl:DataServiceShape_endpointURL_maxCount,
-    dcatapnl:DataServiceShape_hvdCategory_nodeKind,
-    dcatapnl:DataServiceShape_identifier_nodeKind,
-    dcatapnl:DataServiceShape_identifier_minCount,
-    dcatapnl:DataServiceShape_identifier_maxCount,
-    dcatapnl:DataServiceShape_keyword_nodeKind,
-    dcatapnl:DataServiceShape_landingPage_nodeKind,
-    dcatapnl:DataServiceShape_language_nodeKind,
-    dcatapnl:DataServiceShape_language_nodeKind,
-    dcatapnl:DataServiceShape_license_minCount,
-    dcatapnl:DataServiceShape_modified_nodeKind,
-    dcatapnl:DataServiceShape_modified_node,
-    dcatapnl:DataServiceShape_modified_maxCount,
-    dcatapnl:DataServiceShape_otherIdentifier_nodeKind,
-    dcatapnl:DataServiceShape_publisher_nodeKind,
-    dcatapnl:DataServiceShape_publisher_minCount,
-    dcatapnl:DataServiceShape_publisher_maxCount,
-    dcatapnl:DataServiceShape_rights_nodeKind,
-    dcatapnl:DataServiceShape_theme_nodeKind,
-    dcatapnl:DataServiceShape_theme_minCount
+    dcatapnl-sh:DataServiceShape_accessRights_minCount,
+    dcatapnl-sh:DataServiceShape_applicableLegislation_nodeKind,
+    dcatapnl-sh:DataServiceShape_applicationProfile_nodeKind,
+    dcatapnl-sh:DataServiceShape_contactPoint_minCount,
+    dcatapnl-sh:DataServiceShape_contactPoint_maxCount,
+    dcatapnl-sh:DataServiceShape_creator_nodeKind,
+    dcatapnl-sh:DataServiceShape_creator_maxCount,
+    dcatapnl-sh:DataServiceShape_description_minCount,
+    dcatapnl-sh:DataServiceShape_documentation_nodeKind,
+    dcatapnl-sh:DataServiceShape_endpointDescription_minCount,
+    dcatapnl-sh:DataServiceShape_endpointDescription_maxCount,
+    dcatapnl-sh:DataServiceShape_endpointURL_maxCount,
+    dcatapnl-sh:DataServiceShape_hvdCategory_nodeKind,
+    dcatapnl-sh:DataServiceShape_identifier_nodeKind,
+    dcatapnl-sh:DataServiceShape_identifier_minCount,
+    dcatapnl-sh:DataServiceShape_identifier_maxCount,
+    dcatapnl-sh:DataServiceShape_keyword_nodeKind,
+    dcatapnl-sh:DataServiceShape_landingPage_nodeKind,
+    dcatapnl-sh:DataServiceShape_language_nodeKind,
+    dcatapnl-sh:DataServiceShape_language_nodeKind,
+    dcatapnl-sh:DataServiceShape_license_minCount,
+    dcatapnl-sh:DataServiceShape_modified_nodeKind,
+    dcatapnl-sh:DataServiceShape_modified_node,
+    dcatapnl-sh:DataServiceShape_modified_maxCount,
+    dcatapnl-sh:DataServiceShape_otherIdentifier_nodeKind,
+    dcatapnl-sh:DataServiceShape_publisher_nodeKind,
+    dcatapnl-sh:DataServiceShape_publisher_minCount,
+    dcatapnl-sh:DataServiceShape_publisher_maxCount,
+    dcatapnl-sh:DataServiceShape_rights_nodeKind,
+    dcatapnl-sh:DataServiceShape_theme_nodeKind,
+    dcatapnl-sh:DataServiceShape_theme_minCount
 .
 
-dcatapnl:DataServiceShape_accessRights_minCount
+dcatapnl-sh:DataServiceShape_accessRights_minCount
   sh:minCount 1;
   sh:name "access rights"@en;
   sh:path dct:accessRights;
   eush:message "Minimally 1 values are expected for access rights"@en 
 .
 
-dcatapnl:DataServiceShape_applicableLegislation_nodeKind
+dcatapnl-sh:DataServiceShape_applicableLegislation_nodeKind
   sh:name "applicable legislation"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dcatap:applicableLegislation;
   eush:message "The expected value for applicable legislation is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_applicationProfile_nodeKind
+dcatapnl-sh:DataServiceShape_applicationProfile_nodeKind
   sh:name "conforms to"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dct:conformsTo;
   eush:message "The expected value for application profile is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_contactPoint_minCount
+dcatapnl-sh:DataServiceShape_contactPoint_minCount
   sh:minCount 1;
   sh:name "contact point"@en;
   sh:path dcat:contactPoint;
   eush:message "Minimally 1 values are expected for contact point"@en 
 .
 
-dcatapnl:DataServiceShape_contactPoint_maxCount
+dcatapnl-sh:DataServiceShape_contactPoint_maxCount
   sh:maxCount 1;
   sh:name "contact point"@en;
   sh:path dcat:contactPoint;
   eush:message "Maximally 1 values are allowed for contact point"@en 
 .
 
-dcatapnl:DataServiceShape_creator_nodeKind
+dcatapnl-sh:DataServiceShape_creator_nodeKind
   sh:name "creator"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dct:creator;
   eush:message "The expected value for creator is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_creator_maxCount
+dcatapnl-sh:DataServiceShape_creator_maxCount
   sh:maxCount 1;
   sh:name "creator"@en;
   sh:path dct:creator;
   eush:message "Maximally 1 values are allowed for creator"@en 
 .
 
-dcatapnl:DataServiceShape_description_minCount
+dcatapnl-sh:DataServiceShape_description_minCount
   sh:minCount 1;
   sh:name "description"@en;
   sh:path dct:description;
   eush:message "Minimally 1 values are expected for description"@en 
 .
 
-dcatapnl:DataServiceShape_documentation_nodeKind
+dcatapnl-sh:DataServiceShape_documentation_nodeKind
   sh:name "documentation"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path foaf:page;
   eush:message "The expected value for documentation is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_endpointDescription_minCount
+dcatapnl-sh:DataServiceShape_endpointDescription_minCount
   sh:minCount 1;
   sh:name "endpoint description"@en;
   sh:path dcat:endpointDescription;
   eush:message "Minimally 1 values are expected for endpoint description"@en 
 .
 
-dcatapnl:DataServiceShape_endpointDescription_maxCount
+dcatapnl-sh:DataServiceShape_endpointDescription_maxCount
   sh:maxCount 1;
   sh:name "endpoint description"@en;
   sh:path dcat:endpointDescription;
   eush:message "Maximally 1 values are allowed for endpoint description"@en 
 .
 
-dcatapnl:DataServiceShape_endpointURL_maxCount
+dcatapnl-sh:DataServiceShape_endpointURL_maxCount
   sh:maxCount 1;
   sh:name "endpoint URL"@en;
   sh:path dcat:endpointURL;
   eush:message "Maximally 1 values are allowed for endpoint URL"@en 
 .
 
-dcatapnl:DataServiceShape_hvdCategory_nodeKind
+dcatapnl-sh:DataServiceShape_hvdCategory_nodeKind
   sh:description "The HVD category to which this Data Service belongs."@en;
   sh:name "HVD Category"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
@@ -340,105 +340,105 @@ dcatapnl:DataServiceShape_hvdCategory_nodeKind
   eush:message "The expected value for HVD Category is a rdfs:Resource (URI or blank node)"@en
 .
 
-dcatapnl:DataServiceShape_identifier_nodeKind
+dcatapnl-sh:DataServiceShape_identifier_nodeKind
   sh:name "identifier"@en;
   sh:nodeKind sh:Literal;
   sh:path dct:identifier;
   eush:message "The expected value for identifier is a Literal"@en 
 .
 
-dcatapnl:DataServiceShape_identifier_minCount
+dcatapnl-sh:DataServiceShape_identifier_minCount
   sh:minCount 1;
   sh:name "identifier"@en;
   sh:path dct:identifier;
   eush:message "Minimally 1 values are expected for identifier"@en 
 .
 
-dcatapnl:DataServiceShape_identifier_maxCount
+dcatapnl-sh:DataServiceShape_identifier_maxCount
   sh:maxCount 1;
   sh:name "identifier"@en;
   sh:path dct:identifier;
   eush:message "Maximally 1 values are allowed for identifier"@en 
 .
 
-dcatapnl:DataServiceShape_keyword_nodeKind
+dcatapnl-sh:DataServiceShape_keyword_nodeKind
   sh:name "keyword"@en;
   sh:nodeKind sh:Literal;
   sh:path dcat:keyword;
   eush:message "The expected value for language is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_landingPage_nodeKind
+dcatapnl-sh:DataServiceShape_landingPage_nodeKind
   sh:name "landing page"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dcat:landingPage;
   eush:message "The expected value for landing page is a Literal"@en 
 .
 
-dcatapnl:DataServiceShape_language_nodeKind
+dcatapnl-sh:DataServiceShape_language_nodeKind
   sh:name "language"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dct:language;
   eush:message "The expected value for language is a Literal"@en 
 .
 
-dcatapnl:DataServiceShape_license_minCount
+dcatapnl-sh:DataServiceShape_license_minCount
   sh:minCount 1;
   sh:name "licence"@en;
   sh:path dct:license;
   eush:message "Minimally 1 values are expected for license"@en 
 .
 
-dcatapnl:DataServiceShape_modified_nodeKind
+dcatapnl-sh:DataServiceShape_modified_nodeKind
   sh:name "modification date"@en;
   sh:nodeKind sh:Literal;
   sh:path dct:modified;
   eush:message "The expected value for modification date is a Literal"@en 
 .
 
-dcatapnl:DataServiceShape_modified_node
+dcatapnl-sh:DataServiceShape_modified_node
   sh:name "modification date"@en;
-  sh:node dcatapnl:TemporalLiteralShape;
+  sh:node dcatapnl-sh:TemporalLiteralShape;
   sh:path dct:modified;
   eush:message "The expected value for modification date is a Literal"@en 
 .
 
-dcatapnl:DataServiceShape_modified_maxCount
+dcatapnl-sh:DataServiceShape_modified_maxCount
   sh:maxCount 1;
   sh:name "modification date"@en;
   sh:path dct:modified;
   eush:message "Maximally 1 values are allowed for modification date"@en 
 .
 
-dcatapnl:DataServiceShape_otherIdentifier_nodeKind
+dcatapnl-sh:DataServiceShape_otherIdentifier_nodeKind
   sh:name "other identifier"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path adms:identifier;
   eush:message "The expected value for other identifier is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_publisher_nodeKind
+dcatapnl-sh:DataServiceShape_publisher_nodeKind
   sh:name "publisher"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dct:publisher;
   eush:message "The expected value for publisher is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_publisher_minCount
+dcatapnl-sh:DataServiceShape_publisher_minCount
   sh:minCount 1;
   sh:name "publisher"@en;
   sh:path dct:publisher;
   eush:message "Minimally 1 values are expected for publisher"@en 
 .
 
-dcatapnl:DataServiceShape_publisher_maxCount
+dcatapnl-sh:DataServiceShape_publisher_maxCount
   sh:maxCount 1;
   sh:name "publisher"@en;
   sh:path dct:publisher;
   eush:message "Maximally 1 values are allowed for publisher"@en 
 .
 
-dcatapnl:DataServiceShape_rights_nodeKind
+dcatapnl-sh:DataServiceShape_rights_nodeKind
   sh:description "A statement that specifies rights associated with the Data Service."@en;
   sh:name "rights"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
@@ -446,7 +446,7 @@ dcatapnl:DataServiceShape_rights_nodeKind
   eush:message "The expected value for rights is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_theme_nodeKind
+dcatapnl-sh:DataServiceShape_theme_nodeKind
   sh:description "A category of the Data Service."@en;
   sh:name "theme"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
@@ -454,7 +454,7 @@ dcatapnl:DataServiceShape_theme_nodeKind
   eush:message "The expected value for theme is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:DataServiceShape_theme_minCount
+dcatapnl-sh:DataServiceShape_theme_minCount
   sh:minCount 1;
   sh:name "theme"@en;
   sh:path dcat:theme;
@@ -466,25 +466,25 @@ dcatapnl:DataServiceShape_theme_minCount
 #  dcat:Catalog
 ###########################################
 
-dcatapnl:CatalogShape a sh:NodeShape;
+dcatapnl-sh:CatalogShape a sh:NodeShape;
   sh:name "Catalog"@en;
   sh:targetClass dcat:Catalog;
   sh:property
-    dcatapnl:CatalogShape_applicableLegislation_nodeKind,
-    dcatapnl:CatalogShape_contactPoint_nodeKind,
-    dcatapnl:CatalogShape_contactPoint_minCount,
-    dcatapnl:CatalogShape_contactPoint_maxCount,
-    dcatapnl:CatalogShape_dataset_minCount
+    dcatapnl-sh:CatalogShape_applicableLegislation_nodeKind,
+    dcatapnl-sh:CatalogShape_contactPoint_nodeKind,
+    dcatapnl-sh:CatalogShape_contactPoint_minCount,
+    dcatapnl-sh:CatalogShape_contactPoint_maxCount,
+    dcatapnl-sh:CatalogShape_dataset_minCount
 .
 
-dcatapnl:CatalogShape_applicableLegislation_nodeKind
+dcatapnl-sh:CatalogShape_applicableLegislation_nodeKind
   sh:name "applicable legislation"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dcatap:applicableLegislation;
   eush:message "The expected value for applicable legislation is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:CatalogShape_contactPoint_nodeKind
+dcatapnl-sh:CatalogShape_contactPoint_nodeKind
   sh:description "Contact information that can be used for sending comments about the Catalogue."@en;
   sh:name "contact point"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
@@ -492,21 +492,21 @@ dcatapnl:CatalogShape_contactPoint_nodeKind
   eush:message "The expected value for theme is a rdfs:Resource (URI or blank node)"@en 
 .
 
-dcatapnl:CatalogShape_contactPoint_minCount
+dcatapnl-sh:CatalogShape_contactPoint_minCount
   sh:minCount 1;
   sh:name "contact point"@en;
   sh:path dcat:contactPoint;
   eush:message "Minimally 1 values are expected for contact point"@en 
 .
 
-dcatapnl:CatalogShape_contactPoint_maxCount
+dcatapnl-sh:CatalogShape_contactPoint_maxCount
   sh:maxCount 1;
   sh:name "contact point"@en;
   sh:path dcat:contactPoint;
   eush:message "Maximally 1 values are allowed for contact point"@en 
 .
 
-dcatapnl:CatalogShape_dataset_minCount
+dcatapnl-sh:CatalogShape_dataset_minCount
   sh:minCount 1;
   sh:name "dataset"@en;
   sh:path dcat:dataset;
@@ -518,14 +518,14 @@ dcatapnl:CatalogShape_dataset_minCount
 #  dcat:DatasetSeries
 ###########################################
 
-dcatapnl:DatasetSeriesShape a sh:NodeShape;
+dcatapnl-sh:DatasetSeriesShape a sh:NodeShape;
   sh:name "DatasetSeries"@en;
   sh:targetClass dcat:DatasetSeries;
   sh:property
-    dcatapnl:DatasetSeriesShape_applicableLegislation_nodeKind
+    dcatapnl-sh:DatasetSeriesShape_applicableLegislation_nodeKind
 .
 
-dcatapnl:DatasetSeriesShape_applicableLegislation_nodeKind
+dcatapnl-sh:DatasetSeriesShape_applicableLegislation_nodeKind
   sh:name "applicable legislation"@en;
   sh:nodeKind sh:BlankNodeOrIRI;
   sh:path dcatap:applicableLegislation;
@@ -537,15 +537,15 @@ dcatapnl:DatasetSeriesShape_applicableLegislation_nodeKind
 #  dcat:CatalogRecord
 ###########################################
 
-dcatapnl:CatalogRecordShape a sh:NodeShape;
+dcatapnl-sh:CatalogRecordShape a sh:NodeShape;
   sh:name "CatalogRecord"@en;
   sh:targetClass dcat:CatalogRecord;
   sh:property
-    dcatapnl:CatalogRecordShape_language_minCount
+    dcatapnl-sh:CatalogRecordShape_language_minCount
 .
 
 
-dcatapnl:CatalogRecordShape_language_minCount
+dcatapnl-sh:CatalogRecordShape_language_minCount
   sh:minCount 1;
   sh:name "language"@en;
   sh:path dct:language;
@@ -558,7 +558,7 @@ dcatapnl:CatalogRecordShape_language_minCount
 #  Temporal Literal
 ###########################################
 
-dcatapnl:TemporalLiteralShape a sh:NodeShape ;
+dcatapnl-sh:TemporalLiteralShape a sh:NodeShape ;
   sh:name "Temporal Literal"@en;
   sh:xone (
     [ sh:datatype xsd:gYear ]

@@ -18,7 +18,7 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 
 @prefix dcatapsh: <https://semiceu.github.io/DCAT-AP/releases/3.0.0/shacl/dcat-ap-SHACL.ttl#> .
-@prefix todo_opt: <https://TODO.com/optionaliteit/> .
+@prefix opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/optionaliteit/id/begrip/> .
 
 dcatapsh:foaf:AgentShape
   sh:property
@@ -27,11 +27,11 @@ dcatapsh:foaf:AgentShape
 
 dcatapsh:foafAgent_foaf-name
   sh:path foaf:name	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:foafAgent_dct-type
   sh:path dct:type	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 
 
@@ -59,79 +59,79 @@ dcatapsh:dcat:CatalogShape
 
 dcatapsh:dcatCatalog_dct-description
   sh:path dct:description	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatCatalog_dct-publisher
   sh:path dct:publisher	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatCatalog_dct-title
   sh:path dct:title	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatCatalog_dcat-dataset
   sh:path dcat:dataset	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_dct-spatial
   sh:path dct:spatial	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_foaf-homepage
   sh:path foaf:homepage	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_dct-language
   sh:path dct:language	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_dct-license
   sh:path dct:license	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_dct-modified
   sh:path dct:modified	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_dct-issued
   sh:path dct:issued	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_dcat-service
   sh:path dcat:service	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_dcat-themeTaxonomy
   sh:path dcat:themeTaxonomy	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalog_dcatap-applicableLegislation
   sh:path dcatap:applicableLegislation	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalog_dcat-catalog
   sh:path dcat:catalog	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalog_dct-creator
   sh:path dct:creator	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalog_dct-hasPart
   sh:path dct:hasPart	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalog_dcat-record
   sh:path dcat:record	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalog_dct-rights
   sh:path dct:rights	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalog_dct-temporal
   sh:path dct:temporal	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 
 
@@ -149,39 +149,39 @@ dcatapsh:dcat:CatalogRecordShape
 
 dcatapsh:dcatCatalogRecord_dct-modified
   sh:path dct:modified	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatCatalogRecord_foaf-primaryTopic
   sh:path foaf:primaryTopic	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatCatalogRecord_dct-conformsTo
   sh:path dct:conformsTo	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalogRecord_adms-status
   sh:path adms:status	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalogRecord_dct-issued
   sh:path dct:issued	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatCatalogRecord_dct-description
   sh:path dct:description	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalogRecord_dct-language
   sh:path dct:language	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalogRecord_dct-source
   sh:path dct:source	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatCatalogRecord_dct-title
   sh:path dct:title	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 
 
@@ -192,11 +192,11 @@ dcatapsh:spdx:ChecksumShape
 
 dcatapsh:spdxChecksum_spdx-algorithm
   sh:path spdx:algorithm	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:spdxChecksum_spdx-checksumValue
   sh:path spdx:checksumValue	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 
 
@@ -206,7 +206,7 @@ dcatapsh:skos:ConceptShape
 
 dcatapsh:skosConcept_skos-prefLabel
   sh:path skos:prefLabel	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 
 
@@ -216,7 +216,7 @@ dcatapsh:skos:ConceptSchemeShape
 
 dcatapsh:skosConceptScheme_dct-title
   sh:path dct:title ;
-  todo_opt:optionaliteit todo_opt:verplicht .
+  opt-beg:optionaliteit opt-beg:verplicht .
 
 
 
@@ -239,59 +239,59 @@ dcatapsh:dcat:DataServiceShape
 
 dcatapsh:dcatDataService_dcat-endpointURL
   sh:path dcat:endpointURL	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatDataService_dct-title
   sh:path dct:title	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatDataService_dct-conformsTo
   sh:path dct:conformsTo	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataService_dcat-contactPoint
   sh:path dcat:contactPoint	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataService_dcat-endpointDescription
   sh:path dcat:endpointDescription	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataService_dcat-keyword
   sh:path dcat:keyword	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataService_dct-publisher
   sh:path dct:publisher	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataService_dcat-servesDataset
   sh:path dcat:servesDataset	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataService_dcat-theme
   sh:path dcat:theme	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataService_dct-accessRights
   sh:path dct:accessRights	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataService_dct-description
   sh:path dct:description	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataService_dct-format
   sh:path dct:format	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataService_dcat-landingPage
   sh:path dcat:landingPage	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataService_dct-license
   sh:path dct:license	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 
 
@@ -336,147 +336,147 @@ dcatapsh:dcat:DatasetShape
 
 dcatapsh:dcatDataset_dct-description
   sh:path dct:description	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatDataset_dct-title
   sh:path dct:title	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatDataset_dcat-contactPoint
   sh:path dcat:contactPoint	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataset_dcat-distribution
   sh:path dcat:distribution	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataset_dct-spatial
   sh:path dct:spatial	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataset_dcat-keyword
   sh:path dcat:keyword	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataset_dct-publisher
   sh:path dct:publisher	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataset_dct-temporal
   sh:path dct:temporal	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataset_dcat-theme
   sh:path dcat:theme	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDataset_dct-accessRights
   sh:path dct:accessRights	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dcatap-applicableLegislation
   sh:path dcatap:applicableLegislation	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-conformsTo
   sh:path dct:conformsTo	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-creator
   sh:path dct:creator	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_foaf-page
   sh:path foaf:page	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-accrualPeriodicity
   sh:path dct:accrualPeriodicity	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dcat-hasVersion
   sh:path dcat:hasVersion	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-identifier
   sh:path dct:identifier	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dcat-inSeries
   sh:path dcat:inSeries	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-isReferencedBy
   sh:path dct:isReferencedBy	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dcat-landingPage
   sh:path dcat:landingPage	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-language
   sh:path dct:language	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-modified
   sh:path dct:modified	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_adms-identifier
   sh:path adms:identifier	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-provenance
   sh:path dct:provenance	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_prov-qualifiedAttribution
   sh:path prov:qualifiedAttribution	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dcat-qualifiedRelation
   sh:path dcat:qualifiedRelation	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-relation
   sh:path dct:relation	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-issued
   sh:path dct:issued	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_adms-sample
   sh:path adms:sample	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-source
   sh:path dct:source	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dcat-spatialResolutionInMeters
   sh:path dcat:spatialResolutionInMeters	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dcat-temporalResolution
   sh:path dcat:temporalResolution	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dct-type
   sh:path dct:type	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_dcat-version
   sh:path dcat:version	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_adms-versionNotes
   sh:path adms:versionNotes	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDataset_prov-wasGeneratedBy
   sh:path prov:wasGeneratedBy	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 
 
@@ -495,43 +495,43 @@ dcatapsh:dcat:DatasetSeriesShape
 
 dcatapsh:dcatDatasetSeries_dct-description
   sh:path dct:description	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatDatasetSeries_dct-title
   sh:path dct:title	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatDatasetSeries_dcat-contactPoint
   sh:path dcat:contactPoint	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDatasetSeries_dct-spatial
   sh:path dct:spatial	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDatasetSeries_dct-publisher
   sh:path dct:publisher	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDatasetSeries_dcatap-applicableLegislation
   sh:path dcatap:applicableLegislation	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDatasetSeries_dct-accrualPeriodicity
   sh:path dct:accrualPeriodicity	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDatasetSeries_dct-modified
   sh:path dct:modified	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDatasetSeries_dct-issued
   sh:path dct:issued	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDatasetSeries_dct-temporal
   sh:path dct:temporal	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 
 
@@ -564,99 +564,99 @@ dcatapsh:dcat:DistributionShape
 
 dcatapsh:dcatDistribution_dcat-accessURL
   sh:path dcat:accessURL	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatDistribution_dcatap-availability
   sh:path dcatap:availability	;
-  todo_opt:optionaliteit todo_opt:aanbevolen .
+  opt-beg:optionaliteit opt-beg:aanbevolen .
 
 dcatapsh:dcatDistribution_dct-description
   sh:path dct:description	;
-  todo_opt:optionaliteit todo_opt:aanbevolen .
+  opt-beg:optionaliteit opt-beg:aanbevolen .
 
 dcatapsh:dcatDistribution_dct-format
   sh:path dct:format	;
-  todo_opt:optionaliteit todo_opt:aanbevolen .
+  opt-beg:optionaliteit opt-beg:aanbevolen .
 
 dcatapsh:dcatDistribution_dct-license
   sh:path dct:license	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dcatDistribution_dcat-accessService
   sh:path dcat:accessService	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dcatap-applicableLegislation
   sh:path dcatap:applicableLegislation	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dcat-byteSize
   sh:path dcat:byteSize	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_spdx-checksum
   sh:path spdx:checksum	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dcat-compressFormat
   sh:path dcat:compressFormat	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_foaf-page
   sh:path foaf:page	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dcat-downloadURL
   sh:path dcat:downloadURL	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_odrl-hasPolicy
   sh:path odrl:hasPolicy	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dct-language
   sh:path dct:language	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dct-conformsTo
   sh:path dct:conformsTo	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dcat-mediaType
   sh:path dcat:mediaType	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dct-modified
   sh:path dct:modified	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dcat-packageFormat
   sh:path dcat:packageFormat	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dct-issued
   sh:path dct:issued	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dct-rights
   sh:path dct:rights	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dcat-spatialResolutionInMeters
   sh:path dcat:spatialResolutionInMeters	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_adms-status
   sh:path adms:status	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dcat-temporalResolution
   sh:path dcat:temporalResolution	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dcatDistribution_dct-title
   sh:path dct:title	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 
 
@@ -666,7 +666,7 @@ dcatapsh:adms:IdentifierShape
 
 dcatapsh:admsIdentifier_skos-notation
   sh:path skos:notation	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 
 
@@ -676,7 +676,7 @@ dcatapsh:dct:LicenceDocumentShape
 
 dcatapsh:dctLicenseDocument_dct-type
   sh:path dct:type	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 
 
@@ -688,15 +688,15 @@ dcatapsh:dct:LocationShape
 
 dcatapsh:dctLocation_dcat-bbox
   sh:path dcat:bbox	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dctLocation_dcat-centroid
   sh:path dcat:centroid	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dctLocation_locn-geometry
   sh:path locn:geometry	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 
 
@@ -709,19 +709,19 @@ dcatapsh:dct:PeriodOfTimeShape
 
 dcatapsh:dctPeriodOfTime_dcat-endDate
   sh:path dcat:endDate	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dctPeriodOfTime_dcat-startDate
   sh:path dcat:startDate	;
-  todo_opt:optionaliteit todo_opt:aanbevolen	.
+  opt-beg:optionaliteit opt-beg:aanbevolen	.
 
 dcatapsh:dctPeriodOfTime_time-hasBeginning
   sh:path time:hasBeginning	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 dcatapsh:dctPeriodOfTime_time-hasEnd
   sh:path time:hasEnd	;
-  todo_opt:optionaliteit todo_opt:optioneel	.
+  opt-beg:optionaliteit opt-beg:optioneel	.
 
 
 
@@ -732,8 +732,8 @@ dcatapsh:dcat:RelationshipShape
 
 dcatapsh:dcatRelationship_dcat-hadRole
   sh:path dcat:hadRole	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
 
 dcatapsh:dcatRelationship_dct-relation
   sh:path dct:relation	;
-  todo_opt:optionaliteit todo_opt:verplicht	.
+  opt-beg:optionaliteit opt-beg:verplicht	.
