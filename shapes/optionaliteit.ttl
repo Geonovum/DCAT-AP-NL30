@@ -2,7 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix opt-wl: <http://definities.geostandaarden.nl/dcat-ap-nl/id/waardenlijst/optionaliteit/> .
+@prefix opt-wl: <http://definities.geostandaarden.nl/dcat-ap-nl/id/waardelijst/optionaliteit/> .
 @prefix opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/id/concept/> .
 
 
