@@ -25,21 +25,20 @@ var documentConfig =
   title: "DCAT-AP-NL 3.0",
   shortName: "DCAT-AP-NL30",
   pubDomain: "dcat",
-  specStatus: "vv",
+  specStatus: "def",
   specType: "st",
   license: "cc-by-nd",
   latestVersion: [
     "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"
   ],
-  /*publishDate: "2024-04-16",
-  previousPublishDate: "2024-03-05",
-  previousMaturity: "cv",*/
+  publishDate: "2024-12-12",
+  previousPublishDate: "2024-11-11",
+  previousMaturity: "vv",
   github: "https://github.com/Geonovum/DCAT-AP-NL30",
   issueBase: "https://github.com/Geonovum/DCAT-AP-NL30/issues/",
   edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
   authors: [
     {
-      name: "Ine de Visser",
       name: "Jan Skornsek",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
@@ -53,6 +52,11 @@ var documentConfig =
   editors: [
     {
       name: "Ine de Visser",
+      company: "Geonovum",
+      companyURL: "https://www.geonovum.nl/"
+    },
+    {
+      name: "Niels Hoffmann",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
     }
@@ -154,8 +158,8 @@ var documentConfig =
       authors: "",
       publisher: "W3C",
       editors: "",
-      date: "18 January 2024",
-      status: "Candidate Recommendation"
+      date: "22 August 2024",
+      status: "Recommendation"
     },
     "DCAT-AP-3.0": {
       title: "DCAT-AP-3.0",
@@ -163,8 +167,8 @@ var documentConfig =
       authors: "",
       publisher: "SEMIC",
       editors: "",
-      date: "12 February 2024",
-      status: "Candidate Recommendation"
+      date: "14 June 2024",
+      status: "Recommendation"
     },
     "DCAT-AP-HVD": {
       title: "DCAT-AP for High-Value Datasets",
