@@ -3,4 +3,4 @@ Deze eigenschap bevat een beschrijving van de inhoud van de dataset serie. Deze 
 <br/>
 Het wordt aanbevolen om een indicatie te geven van de dimensies waarin de dataset serie zich ontwikkelt.
 
-Deze eigenschap kan alleen worden herhaald om de waarde in een andere taal weer te geven. Zie <a href='https://geonovum.github.io/DCAT-AP-NL30/#10B7B8F1' target='_blank'>meertaligheid</a> voor het omgaan met verschillende talen.
+Deze eigenschap kan alleen worden herhaald om de waarde in een andere taal weer te geven. Zie <a href='https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/#10B7B8F1' target='_blank'>meertaligheid</a> voor het omgaan met verschillende talen.

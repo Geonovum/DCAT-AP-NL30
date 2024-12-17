@@ -1,3 +1,3 @@
 Deze eigenschap bevat een beschrijving van de inhoud van de catalogus. Deze is bij voorkeur minimaal drie zinnen en maximaal één alinea lang (2000 karakters). De vindbaarheid van de catalogue wordt onder andere bepaald door de kwaliteit van de beschrijving. Denk hierbij aan verschillende gebruikers, vakgenoten maar ook anderen, waarvoor de tekst begrijpelijk moet zijn.
 
-Deze eigenschap kan alleen worden herhaald om de waarde in een andere taal weer te geven. Zie <a href='https://geonovum.github.io/DCAT-AP-NL30/#10B7B8F1' target='_blank'>meertaligheid</a> voor het omgaan met verschillende talen.
+Deze eigenschap kan alleen worden herhaald om de waarde in een andere taal weer te geven. Zie <a href='https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/#10B7B8F1' target='_blank'>meertaligheid</a> voor het omgaan met verschillende talen.
