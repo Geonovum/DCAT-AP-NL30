@@ -18,7 +18,7 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 
 @prefix dcatapsh: <https://semiceu.github.io/DCAT-AP/releases/3.0.0/shacl/dcat-ap-SHACL.ttl#> .
-@prefix opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/optionaliteit/id/begrip/> .
+@prefix opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/id/concept/> .
 
 dcatapsh:foaf:AgentShape
   sh:property
