@@ -14,7 +14,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 @prefix dcatapnl-sh: <http://modellen.geostandaarden.nl/dcat-ap-nl/id/shape/> .
-@prefix opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/optionaliteit/id/begrip/> .
+@prefix opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/id/concept/> .
 
 ###########################################
 #  dcat:Dataset
