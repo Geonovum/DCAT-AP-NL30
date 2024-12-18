@@ -32,7 +32,7 @@ var documentConfig =
     "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"
   ],
   publishDate: "2024-12-12",
-  previousPublishDate: "2024-11-11",
+  previousPublishDate: "2024-07-08",
   previousMaturity: "vv",
   github: "https://github.com/Geonovum/DCAT-AP-NL30",
   issueBase: "https://github.com/Geonovum/DCAT-AP-NL30/issues/",
