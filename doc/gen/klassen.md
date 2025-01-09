@@ -27,7 +27,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/accessRights">dct:accessRights</a></td>
         <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -35,7 +35,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
         <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -51,7 +51,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
         <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -67,7 +67,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#distribution">dcat:distribution</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -75,7 +75,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -83,7 +83,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/accrualPeriodicity">dct:accrualPeriodicity</a></td>
         <td><a href="http://purl.org/dc/terms/Frequency">dct:Frequency</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -99,7 +99,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
         <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -107,7 +107,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#hasVersion">dcat:hasVersion</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -115,7 +115,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -123,7 +123,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/identifier">dct:identifier</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -131,7 +131,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#inSeries">dcat:inSeries</a></td>
         <td><a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -139,7 +139,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/isReferencedBy">dct:isReferencedBy</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -147,7 +147,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -155,7 +155,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -163,7 +163,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -171,7 +171,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -179,7 +179,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/adms#identifier">adms:identifier</a></td>
         <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -187,7 +187,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/provenance">dct:provenance</a></td>
         <td><a href="http://purl.org/dc/terms/ProvenanceStatement">dct:ProvenanceStatement</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -195,7 +195,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -203,7 +203,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/prov#qualifiedAttribution">prov:qualifiedAttribution</a></td>
         <td><a href="http://www.w3.org/ns/prov#Attribution">prov:Attribution</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -211,7 +211,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#qualifiedRelation">dcat:qualifiedRelation</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Relationship">dcat:Relationship</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -219,7 +219,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/relation">dct:relation</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -227,7 +227,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -235,7 +235,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/adms#sample">adms:sample</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -243,7 +243,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/source">dct:source</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -251,7 +251,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">dcat:spatialResolutionInMeters</a></td>
         <td><a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -259,7 +259,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -267,7 +267,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
         <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -275,7 +275,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#temporalResolution">dcat:temporalResolution</a></td>
         <td><a href="http://www.w3.org/2001/XMLSchema#duration">xsd:duration</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -283,7 +283,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -291,7 +291,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -299,7 +299,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -307,7 +307,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#version">dcat:version</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -315,7 +315,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/adms#versionNotes">adms:versionNotes</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -323,7 +323,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/prov#wasGeneratedBy">prov:wasGeneratedBy</a></td>
         <td><a href="http://www.w3.org/ns/prov#Activity">prov:Activity</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
 </table>
@@ -350,7 +350,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -376,7 +376,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -402,7 +402,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -428,7 +428,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -454,7 +454,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -480,7 +480,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -506,7 +506,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -532,7 +532,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -558,7 +558,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -584,7 +584,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -610,7 +610,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -636,7 +636,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -662,7 +662,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -688,7 +688,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -714,7 +714,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -740,7 +740,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -766,7 +766,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -792,7 +792,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -818,7 +818,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -844,7 +844,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -870,7 +870,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -896,7 +896,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -922,7 +922,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -948,7 +948,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -974,7 +974,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1000,7 +1000,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1026,7 +1026,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1052,7 +1052,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1078,7 +1078,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1104,7 +1104,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1130,7 +1130,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -1156,7 +1156,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1182,7 +1182,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -1208,7 +1208,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -1234,7 +1234,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1260,7 +1260,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1286,7 +1286,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1312,7 +1312,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1344,7 +1344,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#accessService">dcat:accessService</a></td>
         <td><a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1352,7 +1352,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#accessURL">dcat:accessURL</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1360,7 +1360,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1368,7 +1368,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/availability">dcatap:availability</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1376,7 +1376,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#byteSize">dcat:byteSize</a></td>
         <td><a href="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">xsd:nonNegativeInteger</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1384,7 +1384,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://spdx.org/rdf/terms#checksum">spdx:checksum</a></td>
         <td><a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1392,7 +1392,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#compressFormat">dcat:compressFormat</a></td>
         <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1400,7 +1400,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1408,7 +1408,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1416,7 +1416,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#downloadURL">dcat:downloadURL</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1424,7 +1424,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/format">dct:format</a></td>
         <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent">dct:MediaTypeOrExtent</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1432,7 +1432,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/odrl/2/hasPolicy">odrl:hasPolicy</a></td>
         <td><a href="http://www.w3.org/ns/odrl/2/Policy">odrl:Policy</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1440,7 +1440,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1448,7 +1448,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
         <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1456,7 +1456,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
         <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1464,7 +1464,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#mediaType">dcat:mediaType</a></td>
         <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1472,7 +1472,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1480,7 +1480,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#packageFormat">dcat:packageFormat</a></td>
         <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1488,7 +1488,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1496,7 +1496,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
         <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1504,7 +1504,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">dcat:spatialResolutionInMeters</a></td>
         <td><a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1512,7 +1512,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1520,7 +1520,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#temporalResolution">dcat:temporalResolution</a></td>
         <td><a href="http://www.w3.org/2001/XMLSchema#duration">xsd:duration</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -1528,7 +1528,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
 </table>
@@ -1555,7 +1555,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -1581,7 +1581,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -1607,7 +1607,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -1633,7 +1633,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -1659,7 +1659,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -1685,7 +1685,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1711,7 +1711,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1737,7 +1737,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -1763,7 +1763,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1789,7 +1789,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -1815,7 +1815,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -1841,7 +1841,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1867,7 +1867,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -1893,7 +1893,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -1919,7 +1919,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -1945,7 +1945,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -1971,7 +1971,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -1997,7 +1997,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2023,7 +2023,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2049,7 +2049,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -2075,7 +2075,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2101,7 +2101,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2127,7 +2127,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2153,7 +2153,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2185,7 +2185,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/accessRights">dct:accessRights</a></td>
         <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2193,7 +2193,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2201,7 +2201,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
         <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2209,7 +2209,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
         <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2217,7 +2217,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2225,7 +2225,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2233,7 +2233,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2241,7 +2241,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#endpointDescription">dcat:endpointDescription</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2249,7 +2249,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2257,7 +2257,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/format">dct:format</a></td>
         <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent">dct:MediaTypeOrExtent</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2265,7 +2265,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2273,7 +2273,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/identifier">dct:identifier</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2281,7 +2281,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2289,7 +2289,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2297,7 +2297,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2305,7 +2305,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
         <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2313,7 +2313,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
         <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral">Temporal Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2321,7 +2321,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/adms#identifier">adms:identifier</a></td>
         <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2329,7 +2329,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2337,7 +2337,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
         <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2345,7 +2345,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#servesDataset">dcat:servesDataset</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>C</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2353,7 +2353,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -2361,7 +2361,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
 </table>
@@ -2388,7 +2388,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2414,7 +2414,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -2440,7 +2440,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -2466,7 +2466,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2492,7 +2492,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -2518,7 +2518,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2544,7 +2544,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -2570,7 +2570,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2596,7 +2596,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2622,7 +2622,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2648,7 +2648,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -2674,7 +2674,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2700,7 +2700,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -2726,7 +2726,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2752,7 +2752,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -2778,7 +2778,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2804,7 +2804,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2830,7 +2830,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2856,7 +2856,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2882,7 +2882,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -2908,7 +2908,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>C</td>
 </tr>
 </table>
 
@@ -2934,7 +2934,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2960,7 +2960,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -2992,7 +2992,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3000,7 +3000,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#catalog">dcat:catalog</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3008,7 +3008,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
         <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3016,7 +3016,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3024,7 +3024,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#dataset">dcat:dataset</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3032,7 +3032,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3040,7 +3040,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
         <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3048,7 +3048,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/hasPart">dct:hasPart</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3056,7 +3056,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://xmlns.com/foaf/0.1/homepage">foaf:homepage</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3064,7 +3064,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3072,7 +3072,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
         <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3080,7 +3080,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3088,7 +3088,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3096,7 +3096,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#record">dcat:record</a></td>
         <td><a href="http://www.w3.org/ns/dcat#CatalogRecord">dcat:CatalogRecord</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3104,7 +3104,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3112,7 +3112,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
         <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3120,7 +3120,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#service">dcat:service</a></td>
         <td><a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3128,7 +3128,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
         <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3136,7 +3136,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#themeTaxonomy">dcat:themeTaxonomy</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#ConceptScheme">skos:ConceptScheme</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3144,7 +3144,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
 </table>
@@ -3171,7 +3171,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -3197,7 +3197,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -3223,7 +3223,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -3249,7 +3249,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3275,7 +3275,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3301,7 +3301,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -3327,7 +3327,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3353,7 +3353,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -3379,7 +3379,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3405,7 +3405,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3431,7 +3431,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3457,7 +3457,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3483,7 +3483,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -3509,7 +3509,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -3535,7 +3535,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3561,7 +3561,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -3587,7 +3587,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3613,7 +3613,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -3639,7 +3639,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3665,7 +3665,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -3697,7 +3697,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
         <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3705,7 +3705,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3713,7 +3713,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3721,7 +3721,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3729,7 +3729,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3737,7 +3737,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3745,7 +3745,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://xmlns.com/foaf/0.1/primaryTopic">foaf:primaryTopic</a></td>
         <td><a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a></td>
         <td>1..1</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3753,7 +3753,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/source">dct:source</a></td>
         <td><a href="http://www.w3.org/ns/dcat#CatalogRecord">dcat:CatalogRecord</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -3761,7 +3761,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
 </table>
@@ -3788,7 +3788,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3814,7 +3814,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3840,7 +3840,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -3866,7 +3866,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -3892,7 +3892,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -3918,7 +3918,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -3944,7 +3944,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -3970,7 +3970,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -3996,7 +3996,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -4028,7 +4028,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4036,7 +4036,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
         <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4044,7 +4044,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4052,7 +4052,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/accrualPeriodicity">dct:accrualPeriodicity</a></td>
         <td><a href="http://purl.org/dc/terms/Frequency">dct:Frequency</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4060,7 +4060,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
         <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4068,7 +4068,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4076,7 +4076,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4084,7 +4084,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>0..1</td>
-        <td></td>
+        <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4092,7 +4092,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
         <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
         <td>0..n</td>
-        <td></td>
+        <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
@@ -4100,7 +4100,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
         <td>1..n</td>
-        <td></td>
+        <td>V</td>
         <td>AP</td>
     </tr>
 </table>
@@ -4127,7 +4127,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -4153,7 +4153,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -4179,7 +4179,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
@@ -4205,7 +4205,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -4231,7 +4231,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -4257,7 +4257,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -4283,7 +4283,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -4309,7 +4309,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>O</td>
 </tr>
 </table>
 
@@ -4335,7 +4335,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>A</td>
 </tr>
 </table>
 
@@ -4361,7 +4361,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
-    <td></td>
+    <td>V</td>
 </tr>
 </table>
 
