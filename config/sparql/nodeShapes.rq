@@ -1,8 +1,7 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX todo: <https://TODO/com/DCAT-AP-NL/3.0.0#>
-PREFIX todo_opt: <https://TODO.com/optionaliteit/>
+PREFIX opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/id/concept/>
 
 SELECT ?targetClass ?propertyShape ?property ?propertyName ?description ?class ?datatype ?nodeShapeName ?nodeShapeSeeAlso ?nodeKind ?minCount ?maxCount ?optionaliteit
 WHERE {
@@ -42,7 +41,7 @@ WHERE {
       ?propertyShape sh:maxCount ?max .
     }
     OPTIONAL {
-      ?propertyShape todo_opt:optionaliteit/skos:notation ?optionaliteit .
+      ?propertyShape opt-beg:optionaliteit/skos:notation ?optionaliteit .
     }
   }
 
