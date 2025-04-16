@@ -18,9 +18,9 @@ Om het valideren van de datasetbeschrijvingen zo goed mogelijk te ondersteunen, 
 In navolging daarvan is in DCAT-AP-NL ook een splitsing gemaakt van de SHACL shapes. De SHACL shapes van DCAT-AP-NL zijn opgedeeld in de volgende bestanden, voor het valideren van verschillende aspecten van de datasetbeschrijvingen:
 <br/>
 <br/>
-* [dcat-ap-nl-SHACL.ttl](./shapes/dcat-ap-nl-SHACL.ttl): De SHACL shapes van DCAT-AP-NL, exclusief de validatieregels rondom het klassebereik van eigenschappen.
-* [dcat-ap-nl-SHACL-klassebereik.ttl](./shapes/dcat-ap-nl-SHACL-klassebereik.ttl): De SHACL shapes van DCAT-AP-NL voor het valideren van het klassebereik van eigenschappen, exclusief het klassebereik van eigenschappen met een waarde afkomstig uit een codelijst.
-* [dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl](./shapes/dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl): De SHACL shapes van DCAT-AP-NL voor het valideren van het klassebereik van eigenschappen met een waarde afkomstig uit een codelijst.
+* [dcat-ap-nl-SHACL.ttl](https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL.ttl): De SHACL shapes van DCAT-AP-NL, exclusief de validatieregels rondom het klassebereik van eigenschappen.
+* [dcat-ap-nl-SHACL-klassebereik.ttl](https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-klassebereik.ttl): De SHACL shapes van DCAT-AP-NL voor het valideren van het klassebereik van eigenschappen, exclusief het klassebereik van eigenschappen met een waarde afkomstig uit een codelijst.
+* [dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl](https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl): De SHACL shapes van DCAT-AP-NL voor het valideren van het klassebereik van eigenschappen met een waarde afkomstig uit een codelijst.
   
 <br/>
 Deze bestanden kunnen los, of gecombineerd worden gebruikt om de datasetbeschrijvingen te valideren.
@@ -30,4 +30,4 @@ Voor het valideren van aanbevolen shapes uit DCAT-AP-NL kan het volgende bestand
 <br/>
 <br/>
 
-* [dcat-ap-nl-SHACL-aanbevolen.ttl](./shapes/dcat-ap-nl-SHACL-aanbevolen.ttl): De SHACL shapes van DCAT-AP-NL voor het valideren van aanbevolen eigenschappen.
+* [dcat-ap-nl-SHACL-aanbevolen.ttl](https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-aanbevolen.ttl): De SHACL shapes van DCAT-AP-NL voor het valideren van aanbevolen eigenschappen.
