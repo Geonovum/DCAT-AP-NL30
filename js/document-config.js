@@ -33,7 +33,7 @@ var documentConfig =
   ],
   publishDate: "2025-05-26",
   previousPublishDate: "2024-12-12",
-  previousMaturity: "vv",
+  previousMaturity: "def",
   github: "https://github.com/Geonovum/DCAT-AP-NL30",
   issueBase: "https://github.com/Geonovum/DCAT-AP-NL30/issues/",
   edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
