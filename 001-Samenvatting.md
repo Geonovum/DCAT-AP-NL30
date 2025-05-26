@@ -11,3 +11,11 @@ Dit profiel wordt aangeboden voor opname op de Pas-toe-of-leg-uit-lijst van het 
 <br/>
 <br/>
 Het Nederlandse profiel voor DCAT is niet statisch. Dit document wordt daarom onder beheer gebracht om wijzigingen naar behoefte en op basis van voorstellen gestructureerd door te voeren. Geonovum, als voorgestelde beherende instantie, zal de wijzigingen registreren.
+<br/>
+<br/>
+
+__Wijzigingen__
+
+Ten opzichte van de versie die op __12 december 2024__ door PGDI is vastgesteld zijn de volgende wijzigingen doorgevoerd:
+- reparatie tabellen, kolom optionaliteit
+- reparatie tabellen, kolom herkomst
