@@ -20,14 +20,16 @@ async function loadTurtle() {
   });
 }
 
-var documentConfig =
+var respecConfig =
 {
+  useLogo: true,
+  useLabel: true,
   title: "DCAT-AP-NL 3.0",
   shortName: "DCAT-AP-NL30",
   pubDomain: "dcat",
   specStatus: "def",
-  specType: "st",
-  license: "cc-by-nd",
+  specType: "ST",
+  license: "cc-by",
   latestVersion: [
     "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"
   ],
@@ -37,6 +39,12 @@ var documentConfig =
   github: "https://github.com/Geonovum/DCAT-AP-NL30",
   issueBase: "https://github.com/Geonovum/DCAT-AP-NL30/issues/",
   edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
+  alternateFormats: [
+      {
+          label: "pdf",
+          uri: "static/dcat-ap-nl30.pdf",
+      },
+  ],
   authors: [
     {
       name: "Jan Skornsek",

@@ -1,9 +1,13 @@
 name: Build / check
+
 on:
   workflow_call:
+
 env:
-  CHECK_DIR: ".checks"
+  CHECK_DIR: ".checks"    
+
 jobs:
+
   build:
     name: Snapshot + Checks
     runs-on: ubuntu-22.04
@@ -11,6 +15,67 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # additional steps for building chapters 4 and 5 from shacl files
+      - name: Check if RDF files modified
+        id: rdfModified
+        uses: dorny/paths-filter@v3
+        with:
+          base: ${{ github.ref }}
+          list-files: csv
+          filters: |
+            modified:
+              - '**.ttl'
+              - '**.jsonld'
+              - '**.trig'
+              - '**.nt'
+              - '**.nq'
+              - '**.rdf'
+              - '**.trix'
+      - name: RDF syntax check
+        if: steps.rdfModified.outputs.modified == 'true'
+        uses: AtomGraph/RDF-syntax-check@v1.0.5
+      - name: Check if config modified
+        id: configModified
+        uses: dorny/paths-filter@v3
+        with:
+          base: ${{ github.ref }}
+          list-files: csv
+          filters: |
+            modified:
+              - 'config/**'
+      - name: Template
+        if: steps.rdfModified.outputs.modified == 'true' || steps.configModified.outputs.modified == 'true'
+        run: |
+          docker run --rm \
+            --pull=always \
+            -v /$(pwd)/config:/config \
+            -v /$(pwd)/shapes:/shapes \
+            -v /$(pwd)/doc/gen/:/doc/gen ghcr.io/skemu/rdf-template:latest
+      - name: Configure Git User
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+      - name: Commit and push
+        if: steps.rdfModified.outputs.modified == 'true' || steps.configModified.outputs.modified == 'true'
+        run: |
+          git status
+          git add doc/gen/
+          git status
+          git diff --staged --quiet || git commit -F- <<EOF
+          Apply templates
+
+          The following RDF files were modified:
+          ${{ steps.rdfModified.outputs.modified_files }}
+
+          The following config files were modified:
+          ${{ steps.configModified.outputs.modified_files }}
+          EOF
+          git push
+      - name: No templateable changes
+        if: steps.rdfModified.outputs.modified == 'false' && steps.configModified.outputs.modified == 'false'
+        run: echo "No changes to template"
+      
+      # rest of steps for validation and snapshotting
       - name: Prepare directories
         run: |
           mkdir -p static $CHECK_DIR
