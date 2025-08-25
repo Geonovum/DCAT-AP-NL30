@@ -1,3 +1,9 @@
+Deze repository is automatisch bijgewerkt naar de nieuwste workflow.
+Voor vragen, neem contact op met [Linda van den Brink](mailto:l.vandenbrink@geonovum.nl) of [Wilko Quak](mailto:w.quak@geonovum.nl).
+
+Als je een nieuwe publicatie wilt starten, lees dan eerst de instructies in de README van de NL-ReSpec-template:
+[https://github.com/Geonovum/NL-ReSpec-template](https://github.com/Geonovum/NL-ReSpec-template).
+
 # dcat3-ap-nl
 De werkversie van de hstandaard kan benaderd worden via: [https://geonovum.github.io/DCAT-AP-NL30/](https://geonovum.github.io/DCAT-AP-NL30/)
 
@@ -32,5 +38,6 @@ docker run --rm --pull=always -v %cd%\config:/config -v %cd%\shapes:/shapes -v %
 de '-v' optie bind de lokale folders aan het docker image. 
 
 De output folderlocatie wordt vervolgens weer gebruikt in de index.html file om de gegeneerde documentatie op te nemen in de respec publicatie.
+
 
 
