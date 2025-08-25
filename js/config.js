@@ -42,7 +42,7 @@ var respecConfig =
   alternateFormats: [
       {
           label: "pdf",
-          uri: "static/dcat-ap-nl30.pdf",
+          uri: "static/template.pdf",
       },
   ],
   authors: [
