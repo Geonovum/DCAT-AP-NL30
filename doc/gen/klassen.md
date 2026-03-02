@@ -1439,7 +1439,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
         <td><a href="#distribution-language">language</a></td>
         <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
-        <td>0..1</td>
+        <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
@@ -1855,7 +1855,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
-    <td>0..1</td>
+    <td>0..n</td>
 </tr>
 <tr>
     <td><em>URI</em></td>

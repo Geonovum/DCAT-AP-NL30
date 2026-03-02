@@ -144,7 +144,6 @@ dcatapnl-sh:DistributionShape a sh:NodeShape;
     dcatapnl-sh:DistributionShape_accessURL_maxCount,
     dcatapnl-sh:DistributionShape_applicableLegislation_nodeKind,
     dcatapnl-sh:DistributionShape_downloadURL_maxCount,
-    dcatapnl-sh:DistributionShape_language_maxCount,
     dcatapnl-sh:DistributionShape_license_minCount,
     dcatapnl-sh:DistributionShape_spatialResolutionInMeters_maxCount,
     dcatapnl-sh:DistributionShape_temporalResolution_maxCount
@@ -176,13 +175,6 @@ dcatapnl-sh:DistributionShape_downloadURL_maxCount
   sh:name "download URL"@en;
   sh:path dcat:downloadURL;
   eush:message "Maximally 1 values are allowed for download URL"@en 
-.
-
-dcatapnl-sh:DistributionShape_language_maxCount
-  sh:maxCount 1;
-  sh:name "language"@en;
-  sh:path dct:language;
-  eush:message "Maximally 1 values are allowed for language"@en 
 .
 
 dcatapnl-sh:DistributionShape_license_minCount
