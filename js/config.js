@@ -24,16 +24,17 @@ var respecConfig =
 {
   useLogo: true,
   useLabel: true,
-  title: "DCAT-AP-NL 3.0",
+  title: "DCAT-AP-NL 3.0.1",
   shortName: "DCAT-AP-NL30",
   pubDomain: "dcat",
-  specStatus: "def",
+  specStatus: "wv",
+  publishVersion: "3.0.1",
   specType: "ST",
   license: "cc-by",
   latestVersion: [
     "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"
   ],
-  publishDate: "2025-05-26",
+  publishDate: "2026-03-02",
   previousPublishDate: "2024-12-12",
   previousMaturity: "def",
   github: "https://github.com/Geonovum/DCAT-AP-NL30",
@@ -180,11 +181,11 @@ var respecConfig =
     },
     "DCAT-AP-HVD": {
       title: "DCAT-AP for High-Value Datasets",
-      href: "https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/",
+      href: "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/",
       authors: "",
       publisher: "SEMIC",
       editors: "",
-      date: "14 December 2023",
+      date: "25 October 2025",
       status: "Recommendation"
     },
     "ODRL": {
