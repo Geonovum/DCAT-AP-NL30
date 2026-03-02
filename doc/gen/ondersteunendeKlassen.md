@@ -16,25 +16,25 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#location-bbox">bbox</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#bbox">dcat:bbox</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="#location-bbox" target='_blank'>bbox</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#bbox" target='_blank'>dcat:bbox</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#location-centroid">centroid</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#centroid">dcat:centroid</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="#location-centroid" target='_blank'>centroid</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#centroid" target='_blank'>dcat:centroid</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#location-geometry">geometry</a></td>
-        <td><a href="http://www.w3.org/ns/locn#geometry">locn:geometry</a></td>
-        <td><a href="http://www.w3.org/ns/locn#Geometry">locn:Geometry</a></td>
+        <td><a href="#location-geometry" target='_blank'>geometry</a></td>
+        <td><a href="http://www.w3.org/ns/locn#geometry" target='_blank'>locn:geometry</a></td>
+        <td><a href="http://www.w3.org/ns/locn#Geometry" target='_blank'>locn:Geometry</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -81,7 +81,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -105,7 +105,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/locn#Geometry">locn:Geometry</a></td>
+    <td><a href="http://www.w3.org/ns/locn#Geometry" target='_blank'>locn:Geometry</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -129,33 +129,33 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#periodoftime-beginning">beginning</a></td>
-        <td><a href="http://www.w3.org/2006/time#hasBeginning">time:hasBeginning</a></td>
-        <td><a href="http://www.w3.org/2006/time#Instant">time:Instant</a></td>
+        <td><a href="#periodoftime-beginning" target='_blank'>beginning</a></td>
+        <td><a href="http://www.w3.org/2006/time#hasBeginning" target='_blank'>time:hasBeginning</a></td>
+        <td><a href="http://www.w3.org/2006/time#Instant" target='_blank'>time:Instant</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#periodoftime-end">end</a></td>
-        <td><a href="http://www.w3.org/2006/time#hasEnd">time:hasEnd</a></td>
-        <td><a href="http://www.w3.org/2006/time#Instant">time:Instant</a></td>
+        <td><a href="#periodoftime-end" target='_blank'>end</a></td>
+        <td><a href="http://www.w3.org/2006/time#hasEnd" target='_blank'>time:hasEnd</a></td>
+        <td><a href="http://www.w3.org/2006/time#Instant" target='_blank'>time:Instant</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#periodoftime-end-date">end date</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#endDate">dcat:endDate</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="#periodoftime-end-date" target='_blank'>end date</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#endDate" target='_blank'>dcat:endDate</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#periodoftime-start-date">start date</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#startDate">dcat:startDate</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="#periodoftime-start-date" target='_blank'>start date</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#startDate" target='_blank'>dcat:startDate</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
@@ -178,7 +178,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2006/time#Instant">time:Instant</a></td>
+    <td><a href="http://www.w3.org/2006/time#Instant" target='_blank'>time:Instant</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -202,7 +202,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2006/time#Instant">time:Instant</a></td>
+    <td><a href="http://www.w3.org/2006/time#Instant" target='_blank'>time:Instant</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -226,7 +226,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -250,7 +250,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -274,17 +274,17 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#agent-name">name</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/name">foaf:name</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="#agent-name" target='_blank'>name</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/name" target='_blank'>foaf:name</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#agent-type">type</a></td>
-        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="#agent-type" target='_blank'>type</a></td>
+        <td><a href="http://purl.org/dc/terms/type" target='_blank'>dct:type</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
@@ -307,7 +307,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -331,7 +331,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -355,9 +355,9 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#identifier-notation">notation</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#notation">skos:notation</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="#identifier-notation" target='_blank'>notation</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#notation" target='_blank'>skos:notation</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>AP</td>
@@ -380,7 +380,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -404,17 +404,17 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#relationship-had-role">had role</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#hadRole">dcat:hadRole</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Role">dcat:Role</a></td>
+        <td><a href="#relationship-had-role" target='_blank'>had role</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#hadRole" target='_blank'>dcat:hadRole</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Role" target='_blank'>dcat:Role</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#relationship-relation">relation</a></td>
-        <td><a href="http://purl.org/dc/terms/relation">dct:relation</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+        <td><a href="#relationship-relation" target='_blank'>relation</a></td>
+        <td><a href="http://purl.org/dc/terms/relation" target='_blank'>dct:relation</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
@@ -437,7 +437,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Role">dcat:Role</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Role" target='_blank'>dcat:Role</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -461,7 +461,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -485,9 +485,9 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#conceptscheme-title">title</a></td>
-        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="#conceptscheme-title" target='_blank'>title</a></td>
+        <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
@@ -510,7 +510,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -534,9 +534,9 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#concept-preferred-label">preferred label</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="#concept-preferred-label" target='_blank'>preferred label</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel" target='_blank'>skos:prefLabel</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
@@ -559,7 +559,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -583,17 +583,17 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#checksum-algorithm">algorithm</a></td>
-        <td><a href="http://spdx.org/rdf/terms#algorithm">spdx:algorithm</a></td>
-        <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm">spdx:ChecksumAlgorithm</a></td>
+        <td><a href="#checksum-algorithm" target='_blank'>algorithm</a></td>
+        <td><a href="http://spdx.org/rdf/terms#algorithm" target='_blank'>spdx:algorithm</a></td>
+        <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm" target='_blank'>spdx:ChecksumAlgorithm</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
-        <td><a href="#checksum-checksum-value">checksum value</a></td>
-        <td><a href="http://spdx.org/rdf/terms#checksumValue">spdx:checksumValue</a></td>
-        <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary">xsd:hexBinary</a></td>
+        <td><a href="#checksum-checksum-value" target='_blank'>checksum value</a></td>
+        <td><a href="http://spdx.org/rdf/terms#checksumValue" target='_blank'>spdx:checksumValue</a></td>
+        <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary" target='_blank'>xsd:hexBinary</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>AP</td>
@@ -616,7 +616,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm">spdx:ChecksumAlgorithm</a></td>
+    <td><a href="http://spdx.org/rdf/terms#ChecksumAlgorithm" target='_blank'>spdx:ChecksumAlgorithm</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -640,7 +640,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary">xsd:hexBinary</a></td>
+    <td><a href="http://www.w3.org/2001/XMLSchema#hexBinary" target='_blank'>xsd:hexBinary</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -664,9 +664,9 @@
         <th>Herkomst</th>
     </tr>
     <tr>
-        <td><a href="#licensedocument-type">type</a></td>
-        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="#licensedocument-type" target='_blank'>type</a></td>
+        <td><a href="http://purl.org/dc/terms/type" target='_blank'>dct:type</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..n</td>
         <td></td>
         <td>AP</td>
@@ -689,7 +689,7 @@
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>

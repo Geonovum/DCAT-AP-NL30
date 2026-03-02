@@ -24,304 +24,304 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#dataset-access-rights">access rights</a></td>
-        <td><a href="http://purl.org/dc/terms/accessRights">dct:accessRights</a></td>
-        <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+        <td><a href="http://purl.org/dc/terms/accessRights" target='_blank'>dct:accessRights</a></td>
+        <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-applicable-legislation">applicable legislation</a></td>
-        <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
-        <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+        <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
+        <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-conforms-to">conforms to</a></td>
-        <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
-        <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
+        <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
+        <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-contact-point">contact point</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
-        <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#contactPoint" target='_blank'>dcat:contactPoint</a></td>
+        <td><a href="http://www.w3.org/2006/vcard/ns#Kind" target='_blank'>vcard:Kind</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-creator">creator</a></td>
-        <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+        <td><a href="http://purl.org/dc/terms/creator" target='_blank'>dct:creator</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-dataset-distribution">dataset distribution</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#distribution">dcat:distribution</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#distribution" target='_blank'>dcat:distribution</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Distribution" target='_blank'>dcat:Distribution</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-description">description</a></td>
-        <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-documentation">documentation</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/page" target='_blank'>foaf:page</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-frequency">frequency</a></td>
-        <td><a href="http://purl.org/dc/terms/accrualPeriodicity">dct:accrualPeriodicity</a></td>
-        <td><a href="http://purl.org/dc/terms/Frequency">dct:Frequency</a></td>
+        <td><a href="http://purl.org/dc/terms/accrualPeriodicity" target='_blank'>dct:accrualPeriodicity</a></td>
+        <td><a href="http://purl.org/dc/terms/Frequency" target='_blank'>dct:Frequency</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-geographical-coverage">geographical coverage</a></td>
-        <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
-        <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
+        <td><a href="http://purl.org/dc/terms/spatial" target='_blank'>dct:spatial</a></td>
+        <td><a href="http://purl.org/dc/terms/Location" target='_blank'>dct:Location</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-has-version">has version</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#hasVersion">dcat:hasVersion</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#hasVersion" target='_blank'>dcat:hasVersion</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Dataset" target='_blank'>dcat:Dataset</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-hvd-category">HVD Category</a></td>
-        <td><a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://data.europa.eu/r5r/hvdCategory" target='_blank'>dcatap:hvdCategory</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-identifier">identifier</a></td>
-        <td><a href="http://purl.org/dc/terms/identifier">dct:identifier</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/identifier" target='_blank'>dct:identifier</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-in-series">in series</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#inSeries">dcat:inSeries</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#inSeries" target='_blank'>dcat:inSeries</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#DatasetSeries" target='_blank'>dcat:DatasetSeries</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-is-referenced-by">is referenced by</a></td>
-        <td><a href="http://purl.org/dc/terms/isReferencedBy">dct:isReferencedBy</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+        <td><a href="http://purl.org/dc/terms/isReferencedBy" target='_blank'>dct:isReferencedBy</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-keyword">keyword</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#keyword" target='_blank'>dcat:keyword</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-landing-page">landing page</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#landingPage" target='_blank'>dcat:landingPage</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-language">language</a></td>
-        <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
-        <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+        <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
+        <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-modification-date">modification date</a></td>
-        <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-other-identifier">other identifier</a></td>
-        <td><a href="http://www.w3.org/ns/adms#identifier">adms:identifier</a></td>
-        <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
+        <td><a href="http://www.w3.org/ns/adms#identifier" target='_blank'>adms:identifier</a></td>
+        <td><a href="http://www.w3.org/ns/adms#Identifier" target='_blank'>adms:Identifier</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-provenance">provenance</a></td>
-        <td><a href="http://purl.org/dc/terms/provenance">dct:provenance</a></td>
-        <td><a href="http://purl.org/dc/terms/ProvenanceStatement">dct:ProvenanceStatement</a></td>
+        <td><a href="http://purl.org/dc/terms/provenance" target='_blank'>dct:provenance</a></td>
+        <td><a href="http://purl.org/dc/terms/ProvenanceStatement" target='_blank'>dct:ProvenanceStatement</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-publisher">publisher</a></td>
-        <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+        <td><a href="http://purl.org/dc/terms/publisher" target='_blank'>dct:publisher</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-qualified-attribution">qualified attribution</a></td>
-        <td><a href="http://www.w3.org/ns/prov#qualifiedAttribution">prov:qualifiedAttribution</a></td>
-        <td><a href="http://www.w3.org/ns/prov#Attribution">prov:Attribution</a></td>
+        <td><a href="http://www.w3.org/ns/prov#qualifiedAttribution" target='_blank'>prov:qualifiedAttribution</a></td>
+        <td><a href="http://www.w3.org/ns/prov#Attribution" target='_blank'>prov:Attribution</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-qualified-relation">qualified relation</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#qualifiedRelation">dcat:qualifiedRelation</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Relationship">dcat:Relationship</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#qualifiedRelation" target='_blank'>dcat:qualifiedRelation</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Relationship" target='_blank'>dcat:Relationship</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-related-resource">related resource</a></td>
-        <td><a href="http://purl.org/dc/terms/relation">dct:relation</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+        <td><a href="http://purl.org/dc/terms/relation" target='_blank'>dct:relation</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-release-date">release date</a></td>
-        <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-sample">sample</a></td>
-        <td><a href="http://www.w3.org/ns/adms#sample">adms:sample</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a></td>
+        <td><a href="http://www.w3.org/ns/adms#sample" target='_blank'>adms:sample</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Distribution" target='_blank'>dcat:Distribution</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-source">source</a></td>
-        <td><a href="http://purl.org/dc/terms/source">dct:source</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
+        <td><a href="http://purl.org/dc/terms/source" target='_blank'>dct:source</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Dataset" target='_blank'>dcat:Dataset</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-spatial-resolution">spatial resolution</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">dcat:spatialResolutionInMeters</a></td>
-        <td><a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters" target='_blank'>dcat:spatialResolutionInMeters</a></td>
+        <td><a href="http://www.w3.org/2001/XMLSchema#decimal" target='_blank'>xsd:decimal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-status">status</a></td>
-        <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://www.w3.org/ns/adms#status" target='_blank'>adms:status</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-temporal-coverage">temporal coverage</a></td>
-        <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
-        <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
+        <td><a href="http://purl.org/dc/terms/temporal" target='_blank'>dct:temporal</a></td>
+        <td><a href="http://purl.org/dc/terms/PeriodOfTime" target='_blank'>dct:PeriodOfTime</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-temporal-resolution">temporal resolution</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#temporalResolution">dcat:temporalResolution</a></td>
-        <td><a href="http://www.w3.org/2001/XMLSchema#duration">xsd:duration</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#temporalResolution" target='_blank'>dcat:temporalResolution</a></td>
+        <td><a href="http://www.w3.org/2001/XMLSchema#duration" target='_blank'>xsd:duration</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-theme">theme</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#theme" target='_blank'>dcat:theme</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-title">title</a></td>
-        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-type">type</a></td>
-        <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://purl.org/dc/terms/type" target='_blank'>dct:type</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-version">version</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#version">dcat:version</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#version" target='_blank'>dcat:version</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataset-version-notes">version notes</a></td>
-        <td><a href="http://www.w3.org/ns/adms#versionNotes">adms:versionNotes</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://www.w3.org/ns/adms#versionNotes" target='_blank'>adms:versionNotes</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataset-was-generated-by">was generated by</a></td>
-        <td><a href="http://www.w3.org/ns/prov#wasGeneratedBy">prov:wasGeneratedBy</a></td>
-        <td><a href="http://www.w3.org/ns/prov#Activity">prov:Activity</a></td>
+        <td><a href="http://www.w3.org/ns/prov#wasGeneratedBy" target='_blank'>prov:wasGeneratedBy</a></td>
+        <td><a href="http://www.w3.org/ns/prov#Activity" target='_blank'>prov:Activity</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
@@ -342,11 +342,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/accessRights">dct:accessRights</a></td>
+    <td><a href="http://purl.org/dc/terms/accessRights" target='_blank'>dct:accessRights</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+    <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -368,11 +368,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
+    <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+    <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -394,11 +394,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
+    <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
+    <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -420,11 +420,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#contactPoint" target='_blank'>dcat:contactPoint</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
+    <td><a href="http://www.w3.org/2006/vcard/ns#Kind" target='_blank'>vcard:Kind</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -446,11 +446,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
+    <td><a href="http://purl.org/dc/terms/creator" target='_blank'>dct:creator</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -472,11 +472,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#distribution">dcat:distribution</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#distribution" target='_blank'>dcat:distribution</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Distribution" target='_blank'>dcat:Distribution</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -498,11 +498,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
+    <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -524,11 +524,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/page" target='_blank'>foaf:page</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -550,11 +550,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/accrualPeriodicity">dct:accrualPeriodicity</a></td>
+    <td><a href="http://purl.org/dc/terms/accrualPeriodicity" target='_blank'>dct:accrualPeriodicity</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Frequency">dct:Frequency</a></td>
+    <td><a href="http://purl.org/dc/terms/Frequency" target='_blank'>dct:Frequency</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -576,11 +576,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
+    <td><a href="http://purl.org/dc/terms/spatial" target='_blank'>dct:spatial</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
+    <td><a href="http://purl.org/dc/terms/Location" target='_blank'>dct:Location</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -602,11 +602,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#hasVersion">dcat:hasVersion</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#hasVersion" target='_blank'>dcat:hasVersion</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Dataset" target='_blank'>dcat:Dataset</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -628,11 +628,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a></td>
+    <td><a href="http://data.europa.eu/r5r/hvdCategory" target='_blank'>dcatap:hvdCategory</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -654,11 +654,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/identifier">dct:identifier</a></td>
+    <td><a href="http://purl.org/dc/terms/identifier" target='_blank'>dct:identifier</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -680,11 +680,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#inSeries">dcat:inSeries</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#inSeries" target='_blank'>dcat:inSeries</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#DatasetSeries" target='_blank'>dcat:DatasetSeries</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -706,11 +706,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/isReferencedBy">dct:isReferencedBy</a></td>
+    <td><a href="http://purl.org/dc/terms/isReferencedBy" target='_blank'>dct:isReferencedBy</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -732,11 +732,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#keyword" target='_blank'>dcat:keyword</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -758,11 +758,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#landingPage" target='_blank'>dcat:landingPage</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -784,11 +784,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
+    <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+    <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -810,11 +810,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
+    <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -836,11 +836,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/adms#identifier">adms:identifier</a></td>
+    <td><a href="http://www.w3.org/ns/adms#identifier" target='_blank'>adms:identifier</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
+    <td><a href="http://www.w3.org/ns/adms#Identifier" target='_blank'>adms:Identifier</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -862,11 +862,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/provenance">dct:provenance</a></td>
+    <td><a href="http://purl.org/dc/terms/provenance" target='_blank'>dct:provenance</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/ProvenanceStatement">dct:ProvenanceStatement</a></td>
+    <td><a href="http://purl.org/dc/terms/ProvenanceStatement" target='_blank'>dct:ProvenanceStatement</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -888,11 +888,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
+    <td><a href="http://purl.org/dc/terms/publisher" target='_blank'>dct:publisher</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -914,11 +914,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/prov#qualifiedAttribution">prov:qualifiedAttribution</a></td>
+    <td><a href="http://www.w3.org/ns/prov#qualifiedAttribution" target='_blank'>prov:qualifiedAttribution</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/prov#Attribution">prov:Attribution</a></td>
+    <td><a href="http://www.w3.org/ns/prov#Attribution" target='_blank'>prov:Attribution</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -940,11 +940,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#qualifiedRelation">dcat:qualifiedRelation</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#qualifiedRelation" target='_blank'>dcat:qualifiedRelation</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Relationship">dcat:Relationship</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Relationship" target='_blank'>dcat:Relationship</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -966,11 +966,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/relation">dct:relation</a></td>
+    <td><a href="http://purl.org/dc/terms/relation" target='_blank'>dct:relation</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -992,11 +992,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
+    <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1018,11 +1018,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/adms#sample">adms:sample</a></td>
+    <td><a href="http://www.w3.org/ns/adms#sample" target='_blank'>adms:sample</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Distribution" target='_blank'>dcat:Distribution</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1044,11 +1044,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/source">dct:source</a></td>
+    <td><a href="http://purl.org/dc/terms/source" target='_blank'>dct:source</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Dataset" target='_blank'>dcat:Dataset</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1070,11 +1070,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">dcat:spatialResolutionInMeters</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters" target='_blank'>dcat:spatialResolutionInMeters</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a></td>
+    <td><a href="http://www.w3.org/2001/XMLSchema#decimal" target='_blank'>xsd:decimal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1096,11 +1096,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
+    <td><a href="http://www.w3.org/ns/adms#status" target='_blank'>adms:status</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1122,11 +1122,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
+    <td><a href="http://purl.org/dc/terms/temporal" target='_blank'>dct:temporal</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
+    <td><a href="http://purl.org/dc/terms/PeriodOfTime" target='_blank'>dct:PeriodOfTime</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1148,11 +1148,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#temporalResolution">dcat:temporalResolution</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#temporalResolution" target='_blank'>dcat:temporalResolution</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2001/XMLSchema#duration">xsd:duration</a></td>
+    <td><a href="http://www.w3.org/2001/XMLSchema#duration" target='_blank'>xsd:duration</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1174,11 +1174,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#theme" target='_blank'>dcat:theme</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1200,11 +1200,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+    <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1226,11 +1226,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/type">dct:type</a></td>
+    <td><a href="http://purl.org/dc/terms/type" target='_blank'>dct:type</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1252,11 +1252,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#version">dcat:version</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#version" target='_blank'>dcat:version</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1278,11 +1278,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/adms#versionNotes">adms:versionNotes</a></td>
+    <td><a href="http://www.w3.org/ns/adms#versionNotes" target='_blank'>adms:versionNotes</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1304,11 +1304,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/prov#wasGeneratedBy">prov:wasGeneratedBy</a></td>
+    <td><a href="http://www.w3.org/ns/prov#wasGeneratedBy" target='_blank'>prov:wasGeneratedBy</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/prov#Activity">prov:Activity</a></td>
+    <td><a href="http://www.w3.org/ns/prov#Activity" target='_blank'>prov:Activity</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1341,192 +1341,192 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#distribution-access-service">access service</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#accessService">dcat:accessService</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#accessService" target='_blank'>dcat:accessService</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#DataService" target='_blank'>dcat:DataService</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-access-url">access URL</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#accessURL">dcat:accessURL</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#accessURL" target='_blank'>dcat:accessURL</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-applicable-legislation">applicable legislation</a></td>
-        <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
-        <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+        <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
+        <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-availability">availability</a></td>
-        <td><a href="http://data.europa.eu/r5r/availability">dcatap:availability</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://data.europa.eu/r5r/availability" target='_blank'>dcatap:availability</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-byte-size">byte size</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#byteSize">dcat:byteSize</a></td>
-        <td><a href="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">xsd:nonNegativeInteger</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#byteSize" target='_blank'>dcat:byteSize</a></td>
+        <td><a href="http://www.w3.org/2001/XMLSchema#nonNegativeInteger" target='_blank'>xsd:nonNegativeInteger</a></td>
         <td>0..1</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-checksum">checksum</a></td>
-        <td><a href="http://spdx.org/rdf/terms#checksum">spdx:checksum</a></td>
-        <td><a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a></td>
+        <td><a href="http://spdx.org/rdf/terms#checksum" target='_blank'>spdx:checksum</a></td>
+        <td><a href="http://spdx.org/rdf/terms#Checksum" target='_blank'>spdx:Checksum</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-compression-format">compression format</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#compressFormat">dcat:compressFormat</a></td>
-        <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#compressFormat" target='_blank'>dcat:compressFormat</a></td>
+        <td><a href="http://purl.org/dc/terms/MediaType" target='_blank'>dct:MediaType</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-description">description</a></td>
-        <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-documentation">documentation</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/page" target='_blank'>foaf:page</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-download-url">download URL</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#downloadURL">dcat:downloadURL</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#downloadURL" target='_blank'>dcat:downloadURL</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-format">format</a></td>
-        <td><a href="http://purl.org/dc/terms/format">dct:format</a></td>
-        <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent">dct:MediaTypeOrExtent</a></td>
+        <td><a href="http://purl.org/dc/terms/format" target='_blank'>dct:format</a></td>
+        <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent" target='_blank'>dct:MediaTypeOrExtent</a></td>
         <td>0..1</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-has-policy">has policy</a></td>
-        <td><a href="http://www.w3.org/ns/odrl/2/hasPolicy">odrl:hasPolicy</a></td>
-        <td><a href="http://www.w3.org/ns/odrl/2/Policy">odrl:Policy</a></td>
+        <td><a href="http://www.w3.org/ns/odrl/2/hasPolicy" target='_blank'>odrl:hasPolicy</a></td>
+        <td><a href="http://www.w3.org/ns/odrl/2/Policy" target='_blank'>odrl:Policy</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-language">language</a></td>
-        <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
-        <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+        <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
+        <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-licence">licence</a></td>
-        <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
-        <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
+        <td><a href="http://purl.org/dc/terms/license" target='_blank'>dct:license</a></td>
+        <td><a href="http://purl.org/dc/terms/LicenseDocument" target='_blank'>dct:LicenseDocument</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-linked-schemas">linked schemas</a></td>
-        <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
-        <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
+        <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
+        <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-media-type">media type</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#mediaType">dcat:mediaType</a></td>
-        <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#mediaType" target='_blank'>dcat:mediaType</a></td>
+        <td><a href="http://purl.org/dc/terms/MediaType" target='_blank'>dct:MediaType</a></td>
         <td>0..1</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-modification-date">modification date</a></td>
-        <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-packaging-format">packaging format</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#packageFormat">dcat:packageFormat</a></td>
-        <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#packageFormat" target='_blank'>dcat:packageFormat</a></td>
+        <td><a href="http://purl.org/dc/terms/MediaType" target='_blank'>dct:MediaType</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-release-date">release date</a></td>
-        <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-rights">rights</a></td>
-        <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
-        <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+        <td><a href="http://purl.org/dc/terms/rights" target='_blank'>dct:rights</a></td>
+        <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
         <td>0..1</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-spatial-resolution">spatial resolution</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">dcat:spatialResolutionInMeters</a></td>
-        <td><a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters" target='_blank'>dcat:spatialResolutionInMeters</a></td>
+        <td><a href="http://www.w3.org/2001/XMLSchema#decimal" target='_blank'>xsd:decimal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-status">status</a></td>
-        <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://www.w3.org/ns/adms#status" target='_blank'>adms:status</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#distribution-temporal-resolution">temporal resolution</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#temporalResolution">dcat:temporalResolution</a></td>
-        <td><a href="http://www.w3.org/2001/XMLSchema#duration">xsd:duration</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#temporalResolution" target='_blank'>dcat:temporalResolution</a></td>
+        <td><a href="http://www.w3.org/2001/XMLSchema#duration" target='_blank'>xsd:duration</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-title">title</a></td>
-        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
@@ -1547,11 +1547,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#accessService">dcat:accessService</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#accessService" target='_blank'>dcat:accessService</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#DataService" target='_blank'>dcat:DataService</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1573,11 +1573,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#accessURL">dcat:accessURL</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#accessURL" target='_blank'>dcat:accessURL</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1599,11 +1599,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
+    <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+    <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1625,11 +1625,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://data.europa.eu/r5r/availability">dcatap:availability</a></td>
+    <td><a href="http://data.europa.eu/r5r/availability" target='_blank'>dcatap:availability</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1651,11 +1651,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#byteSize">dcat:byteSize</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#byteSize" target='_blank'>dcat:byteSize</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">xsd:nonNegativeInteger</a></td>
+    <td><a href="http://www.w3.org/2001/XMLSchema#nonNegativeInteger" target='_blank'>xsd:nonNegativeInteger</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1677,11 +1677,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://spdx.org/rdf/terms#checksum">spdx:checksum</a></td>
+    <td><a href="http://spdx.org/rdf/terms#checksum" target='_blank'>spdx:checksum</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a></td>
+    <td><a href="http://spdx.org/rdf/terms#Checksum" target='_blank'>spdx:Checksum</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1703,11 +1703,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#compressFormat">dcat:compressFormat</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#compressFormat" target='_blank'>dcat:compressFormat</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
+    <td><a href="http://purl.org/dc/terms/MediaType" target='_blank'>dct:MediaType</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1729,11 +1729,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
+    <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1755,11 +1755,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/page" target='_blank'>foaf:page</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1781,11 +1781,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#downloadURL">dcat:downloadURL</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#downloadURL" target='_blank'>dcat:downloadURL</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1807,11 +1807,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/format">dct:format</a></td>
+    <td><a href="http://purl.org/dc/terms/format" target='_blank'>dct:format</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent">dct:MediaTypeOrExtent</a></td>
+    <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent" target='_blank'>dct:MediaTypeOrExtent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1833,11 +1833,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/odrl/2/hasPolicy">odrl:hasPolicy</a></td>
+    <td><a href="http://www.w3.org/ns/odrl/2/hasPolicy" target='_blank'>odrl:hasPolicy</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/odrl/2/Policy">odrl:Policy</a></td>
+    <td><a href="http://www.w3.org/ns/odrl/2/Policy" target='_blank'>odrl:Policy</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1859,11 +1859,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
+    <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+    <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1885,11 +1885,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
+    <td><a href="http://purl.org/dc/terms/license" target='_blank'>dct:license</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
+    <td><a href="http://purl.org/dc/terms/LicenseDocument" target='_blank'>dct:LicenseDocument</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1911,11 +1911,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
+    <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
+    <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1937,11 +1937,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#mediaType">dcat:mediaType</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#mediaType" target='_blank'>dcat:mediaType</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
+    <td><a href="http://purl.org/dc/terms/MediaType" target='_blank'>dct:MediaType</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1963,11 +1963,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
+    <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -1989,11 +1989,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#packageFormat">dcat:packageFormat</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#packageFormat" target='_blank'>dcat:packageFormat</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/MediaType">dct:MediaType</a></td>
+    <td><a href="http://purl.org/dc/terms/MediaType" target='_blank'>dct:MediaType</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2015,11 +2015,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
+    <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2041,11 +2041,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
+    <td><a href="http://purl.org/dc/terms/rights" target='_blank'>dct:rights</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+    <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2067,11 +2067,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">dcat:spatialResolutionInMeters</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters" target='_blank'>dcat:spatialResolutionInMeters</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a></td>
+    <td><a href="http://www.w3.org/2001/XMLSchema#decimal" target='_blank'>xsd:decimal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2093,11 +2093,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
+    <td><a href="http://www.w3.org/ns/adms#status" target='_blank'>adms:status</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2119,11 +2119,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#temporalResolution">dcat:temporalResolution</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#temporalResolution" target='_blank'>dcat:temporalResolution</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2001/XMLSchema#duration">xsd:duration</a></td>
+    <td><a href="http://www.w3.org/2001/XMLSchema#duration" target='_blank'>xsd:duration</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2145,11 +2145,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+    <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2182,184 +2182,184 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#dataservice-access-rights">access rights</a></td>
-        <td><a href="http://purl.org/dc/terms/accessRights">dct:accessRights</a></td>
-        <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+        <td><a href="http://purl.org/dc/terms/accessRights" target='_blank'>dct:accessRights</a></td>
+        <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-applicable-legislation">applicable legislation</a></td>
-        <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
-        <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+        <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
+        <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-conforms-to">conforms to</a></td>
-        <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
-        <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
+        <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
+        <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-contact-point">contact point</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
-        <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#contactPoint" target='_blank'>dcat:contactPoint</a></td>
+        <td><a href="http://www.w3.org/2006/vcard/ns#Kind" target='_blank'>vcard:Kind</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-creator">creator</a></td>
-        <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+        <td><a href="http://purl.org/dc/terms/creator" target='_blank'>dct:creator</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-description">description</a></td>
-        <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-documentation">documentation</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/page" target='_blank'>foaf:page</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-endpoint-description">endpoint description</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#endpointDescription">dcat:endpointDescription</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#endpointDescription" target='_blank'>dcat:endpointDescription</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-endpoint-url">endpoint URL</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#endpointURL" target='_blank'>dcat:endpointURL</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-format">format</a></td>
-        <td><a href="http://purl.org/dc/terms/format">dct:format</a></td>
-        <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent">dct:MediaTypeOrExtent</a></td>
+        <td><a href="http://purl.org/dc/terms/format" target='_blank'>dct:format</a></td>
+        <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent" target='_blank'>dct:MediaTypeOrExtent</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#dataservice-hvd-category">HVD Category</a></td>
-        <td><a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://data.europa.eu/r5r/hvdCategory" target='_blank'>dcatap:hvdCategory</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-identifier">identifier</a></td>
-        <td><a href="http://purl.org/dc/terms/identifier">dct:identifier</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/identifier" target='_blank'>dct:identifier</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-keyword">keyword</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#keyword" target='_blank'>dcat:keyword</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-landing-page">landing page</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#landingPage" target='_blank'>dcat:landingPage</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-language">language</a></td>
-        <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
-        <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+        <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
+        <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-licence">licence</a></td>
-        <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
-        <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
+        <td><a href="http://purl.org/dc/terms/license" target='_blank'>dct:license</a></td>
+        <td><a href="http://purl.org/dc/terms/LicenseDocument" target='_blank'>dct:LicenseDocument</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-modification-date">modification date</a></td>
-        <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
-        <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral">Temporal Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
+        <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral" target='_blank'>Temporal Literal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-other-identifier">other identifier</a></td>
-        <td><a href="http://www.w3.org/ns/adms#identifier">adms:identifier</a></td>
-        <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
+        <td><a href="http://www.w3.org/ns/adms#identifier" target='_blank'>adms:identifier</a></td>
+        <td><a href="http://www.w3.org/ns/adms#Identifier" target='_blank'>adms:Identifier</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-publisher">publisher</a></td>
-        <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+        <td><a href="http://purl.org/dc/terms/publisher" target='_blank'>dct:publisher</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-rights">rights</a></td>
-        <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
-        <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+        <td><a href="http://purl.org/dc/terms/rights" target='_blank'>dct:rights</a></td>
+        <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-serves-dataset">serves dataset</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#servesDataset">dcat:servesDataset</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#servesDataset" target='_blank'>dcat:servesDataset</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Dataset" target='_blank'>dcat:Dataset</a></td>
         <td>0..n</td>
         <td>C</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-theme">theme</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#theme" target='_blank'>dcat:theme</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#dataservice-title">title</a></td>
-        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>NL</td>
@@ -2380,11 +2380,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/accessRights">dct:accessRights</a></td>
+    <td><a href="http://purl.org/dc/terms/accessRights" target='_blank'>dct:accessRights</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+    <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2406,11 +2406,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
+    <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+    <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2432,11 +2432,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
+    <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
+    <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2458,11 +2458,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#contactPoint" target='_blank'>dcat:contactPoint</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
+    <td><a href="http://www.w3.org/2006/vcard/ns#Kind" target='_blank'>vcard:Kind</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2484,11 +2484,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
+    <td><a href="http://purl.org/dc/terms/creator" target='_blank'>dct:creator</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2510,11 +2510,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
+    <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2536,11 +2536,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/page">foaf:page</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/page" target='_blank'>foaf:page</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2562,11 +2562,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#endpointDescription">dcat:endpointDescription</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#endpointDescription" target='_blank'>dcat:endpointDescription</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2588,11 +2588,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#endpointURL" target='_blank'>dcat:endpointURL</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Resource" target='_blank'>rdfs:Resource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2614,11 +2614,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/format">dct:format</a></td>
+    <td><a href="http://purl.org/dc/terms/format" target='_blank'>dct:format</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent">dct:MediaTypeOrExtent</a></td>
+    <td><a href="http://purl.org/dc/terms/MediaTypeOrExtent" target='_blank'>dct:MediaTypeOrExtent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2640,11 +2640,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a></td>
+    <td><a href="http://data.europa.eu/r5r/hvdCategory" target='_blank'>dcatap:hvdCategory</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2666,11 +2666,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/identifier">dct:identifier</a></td>
+    <td><a href="http://purl.org/dc/terms/identifier" target='_blank'>dct:identifier</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2692,11 +2692,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#keyword" target='_blank'>dcat:keyword</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2718,11 +2718,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#landingPage" target='_blank'>dcat:landingPage</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2744,11 +2744,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
+    <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+    <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2770,11 +2770,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
+    <td><a href="http://purl.org/dc/terms/license" target='_blank'>dct:license</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
+    <td><a href="http://purl.org/dc/terms/LicenseDocument" target='_blank'>dct:LicenseDocument</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2796,11 +2796,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
+    <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral">Temporal Literal</a></td>
+    <td><a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#TemporalLiteral" target='_blank'>Temporal Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2822,11 +2822,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/adms#identifier">adms:identifier</a></td>
+    <td><a href="http://www.w3.org/ns/adms#identifier" target='_blank'>adms:identifier</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a></td>
+    <td><a href="http://www.w3.org/ns/adms#Identifier" target='_blank'>adms:Identifier</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2848,11 +2848,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
+    <td><a href="http://purl.org/dc/terms/publisher" target='_blank'>dct:publisher</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2874,11 +2874,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
+    <td><a href="http://purl.org/dc/terms/rights" target='_blank'>dct:rights</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+    <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2900,11 +2900,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#servesDataset">dcat:servesDataset</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#servesDataset" target='_blank'>dcat:servesDataset</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Dataset" target='_blank'>dcat:Dataset</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2926,11 +2926,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#theme" target='_blank'>dcat:theme</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2952,11 +2952,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+    <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -2989,160 +2989,160 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#catalog-applicable-legislation">applicable legislation</a></td>
-        <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
-        <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+        <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
+        <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#catalog-catalogue">catalogue</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#catalog">dcat:catalog</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#catalog" target='_blank'>dcat:catalog</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Catalog" target='_blank'>dcat:Catalog</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-contact-point">contact point</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
-        <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#contactPoint" target='_blank'>dcat:contactPoint</a></td>
+        <td><a href="http://www.w3.org/2006/vcard/ns#Kind" target='_blank'>vcard:Kind</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#catalog-creator">creator</a></td>
-        <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+        <td><a href="http://purl.org/dc/terms/creator" target='_blank'>dct:creator</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#catalog-dataset">dataset</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#dataset">dcat:dataset</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#dataset" target='_blank'>dcat:dataset</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Dataset" target='_blank'>dcat:Dataset</a></td>
         <td>1..n</td>
         <td>A</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#catalog-description">description</a></td>
-        <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-geographical-coverage">geographical coverage</a></td>
-        <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
-        <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
+        <td><a href="http://purl.org/dc/terms/spatial" target='_blank'>dct:spatial</a></td>
+        <td><a href="http://purl.org/dc/terms/Location" target='_blank'>dct:Location</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-has-part">has part</a></td>
-        <td><a href="http://purl.org/dc/terms/hasPart">dct:hasPart</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a></td>
+        <td><a href="http://purl.org/dc/terms/hasPart" target='_blank'>dct:hasPart</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Catalog" target='_blank'>dcat:Catalog</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-homepage">homepage</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/homepage">foaf:homepage</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/homepage" target='_blank'>foaf:homepage</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-language">language</a></td>
-        <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
-        <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+        <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
+        <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-licence">licence</a></td>
-        <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
-        <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
+        <td><a href="http://purl.org/dc/terms/license" target='_blank'>dct:license</a></td>
+        <td><a href="http://purl.org/dc/terms/LicenseDocument" target='_blank'>dct:LicenseDocument</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-modification-date">modification date</a></td>
-        <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-publisher">publisher</a></td>
-        <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+        <td><a href="http://purl.org/dc/terms/publisher" target='_blank'>dct:publisher</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-record">record</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#record">dcat:record</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#CatalogRecord">dcat:CatalogRecord</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#record" target='_blank'>dcat:record</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#CatalogRecord" target='_blank'>dcat:CatalogRecord</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-release-date">release date</a></td>
-        <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-rights">rights</a></td>
-        <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
-        <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+        <td><a href="http://purl.org/dc/terms/rights" target='_blank'>dct:rights</a></td>
+        <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-service">service</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#service">dcat:service</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#service" target='_blank'>dcat:service</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#DataService" target='_blank'>dcat:DataService</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-temporal-coverage">temporal coverage</a></td>
-        <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
-        <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
+        <td><a href="http://purl.org/dc/terms/temporal" target='_blank'>dct:temporal</a></td>
+        <td><a href="http://purl.org/dc/terms/PeriodOfTime" target='_blank'>dct:PeriodOfTime</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-themes">themes</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#themeTaxonomy">dcat:themeTaxonomy</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#ConceptScheme">skos:ConceptScheme</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#themeTaxonomy" target='_blank'>dcat:themeTaxonomy</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target='_blank'>skos:ConceptScheme</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalog-title">title</a></td>
-        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
@@ -3163,11 +3163,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
+    <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+    <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3189,11 +3189,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#catalog">dcat:catalog</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#catalog" target='_blank'>dcat:catalog</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Catalog" target='_blank'>dcat:Catalog</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3215,11 +3215,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#contactPoint" target='_blank'>dcat:contactPoint</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
+    <td><a href="http://www.w3.org/2006/vcard/ns#Kind" target='_blank'>vcard:Kind</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3241,11 +3241,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/creator">dct:creator</a></td>
+    <td><a href="http://purl.org/dc/terms/creator" target='_blank'>dct:creator</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3267,11 +3267,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#dataset">dcat:dataset</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#dataset" target='_blank'>dcat:dataset</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Dataset" target='_blank'>dcat:Dataset</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3293,11 +3293,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
+    <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3319,11 +3319,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
+    <td><a href="http://purl.org/dc/terms/spatial" target='_blank'>dct:spatial</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
+    <td><a href="http://purl.org/dc/terms/Location" target='_blank'>dct:Location</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3345,11 +3345,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/hasPart">dct:hasPart</a></td>
+    <td><a href="http://purl.org/dc/terms/hasPart" target='_blank'>dct:hasPart</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Catalog" target='_blank'>dcat:Catalog</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3371,11 +3371,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/homepage">foaf:homepage</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/homepage" target='_blank'>foaf:homepage</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Document" target='_blank'>foaf:Document</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3397,11 +3397,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
+    <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+    <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3423,11 +3423,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/license">dct:license</a></td>
+    <td><a href="http://purl.org/dc/terms/license" target='_blank'>dct:license</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/LicenseDocument">dct:LicenseDocument</a></td>
+    <td><a href="http://purl.org/dc/terms/LicenseDocument" target='_blank'>dct:LicenseDocument</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3449,11 +3449,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
+    <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3475,11 +3475,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
+    <td><a href="http://purl.org/dc/terms/publisher" target='_blank'>dct:publisher</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3501,11 +3501,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#record">dcat:record</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#record" target='_blank'>dcat:record</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#CatalogRecord">dcat:CatalogRecord</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#CatalogRecord" target='_blank'>dcat:CatalogRecord</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3527,11 +3527,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
+    <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3553,11 +3553,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/rights">dct:rights</a></td>
+    <td><a href="http://purl.org/dc/terms/rights" target='_blank'>dct:rights</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/RightsStatement">dct:RightsStatement</a></td>
+    <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3579,11 +3579,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#service">dcat:service</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#service" target='_blank'>dcat:service</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#DataService" target='_blank'>dcat:DataService</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3605,11 +3605,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
+    <td><a href="http://purl.org/dc/terms/temporal" target='_blank'>dct:temporal</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
+    <td><a href="http://purl.org/dc/terms/PeriodOfTime" target='_blank'>dct:PeriodOfTime</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3631,11 +3631,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#themeTaxonomy">dcat:themeTaxonomy</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#themeTaxonomy" target='_blank'>dcat:themeTaxonomy</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#ConceptScheme">skos:ConceptScheme</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target='_blank'>skos:ConceptScheme</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3657,11 +3657,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+    <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3694,72 +3694,72 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#catalogrecord-application-profile">application profile</a></td>
-        <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
-        <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
+        <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
+        <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-change-type">change type</a></td>
-        <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
-        <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+        <td><a href="http://www.w3.org/ns/adms#status" target='_blank'>adms:status</a></td>
+        <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-description">description</a></td>
-        <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-language">language</a></td>
-        <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
-        <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+        <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
+        <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-listing-date">listing date</a></td>
-        <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-modification-date">modification date</a></td>
-        <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-primary-topic">primary topic</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/primaryTopic">foaf:primaryTopic</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/primaryTopic" target='_blank'>foaf:primaryTopic</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#Resource" target='_blank'>dcat:Resource</a></td>
         <td>1..1</td>
         <td>V</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-source-metadata">source metadata</a></td>
-        <td><a href="http://purl.org/dc/terms/source">dct:source</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#CatalogRecord">dcat:CatalogRecord</a></td>
+        <td><a href="http://purl.org/dc/terms/source" target='_blank'>dct:source</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#CatalogRecord" target='_blank'>dcat:CatalogRecord</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#catalogrecord-title">title</a></td>
-        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>AP</td>
@@ -3780,11 +3780,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/conformsTo">dct:conformsTo</a></td>
+    <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Standard">dct:Standard</a></td>
+    <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3806,11 +3806,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/adms#status">adms:status</a></td>
+    <td><a href="http://www.w3.org/ns/adms#status" target='_blank'>adms:status</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></td>
+    <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3832,11 +3832,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
+    <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3858,11 +3858,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/language">dct:language</a></td>
+    <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/LinguisticSystem">dct:LinguisticSystem</a></td>
+    <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3884,11 +3884,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
+    <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3910,11 +3910,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
+    <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3936,11 +3936,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/primaryTopic">foaf:primaryTopic</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/primaryTopic" target='_blank'>foaf:primaryTopic</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#Resource" target='_blank'>dcat:Resource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3962,11 +3962,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/source">dct:source</a></td>
+    <td><a href="http://purl.org/dc/terms/source" target='_blank'>dct:source</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#CatalogRecord">dcat:CatalogRecord</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#CatalogRecord" target='_blank'>dcat:CatalogRecord</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -3988,11 +3988,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+    <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4025,80 +4025,80 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#datasetseries-applicable-legislation">applicable legislation</a></td>
-        <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
-        <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+        <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
+        <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
         <td>0..n</td>
         <td>O</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-contact-point">contact point</a></td>
-        <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
-        <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
+        <td><a href="http://www.w3.org/ns/dcat#contactPoint" target='_blank'>dcat:contactPoint</a></td>
+        <td><a href="http://www.w3.org/2006/vcard/ns#Kind" target='_blank'>vcard:Kind</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-description">description</a></td>
-        <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>NL</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-frequency">frequency</a></td>
-        <td><a href="http://purl.org/dc/terms/accrualPeriodicity">dct:accrualPeriodicity</a></td>
-        <td><a href="http://purl.org/dc/terms/Frequency">dct:Frequency</a></td>
+        <td><a href="http://purl.org/dc/terms/accrualPeriodicity" target='_blank'>dct:accrualPeriodicity</a></td>
+        <td><a href="http://purl.org/dc/terms/Frequency" target='_blank'>dct:Frequency</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-geographical-coverage">geographical coverage</a></td>
-        <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
-        <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
+        <td><a href="http://purl.org/dc/terms/spatial" target='_blank'>dct:spatial</a></td>
+        <td><a href="http://purl.org/dc/terms/Location" target='_blank'>dct:Location</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-modification-date">modification date</a></td>
-        <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-publisher">publisher</a></td>
-        <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
-        <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+        <td><a href="http://purl.org/dc/terms/publisher" target='_blank'>dct:publisher</a></td>
+        <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
         <td>0..1</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-release-date">release date</a></td>
-        <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>0..1</td>
         <td>O</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-temporal-coverage">temporal coverage</a></td>
-        <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
-        <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
+        <td><a href="http://purl.org/dc/terms/temporal" target='_blank'>dct:temporal</a></td>
+        <td><a href="http://purl.org/dc/terms/PeriodOfTime" target='_blank'>dct:PeriodOfTime</a></td>
         <td>0..n</td>
         <td>A</td>
         <td>AP</td>
     </tr>
     <tr>
         <td><a href="#datasetseries-title">title</a></td>
-        <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
-        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+        <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
+        <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..n</td>
         <td>V</td>
         <td>AP</td>
@@ -4119,11 +4119,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a></td>
+    <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://data.europa.eu/eli/ontology#LegalResource">eli:LegalResource</a></td>
+    <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4145,11 +4145,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a></td>
+    <td><a href="http://www.w3.org/ns/dcat#contactPoint" target='_blank'>dcat:contactPoint</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a></td>
+    <td><a href="http://www.w3.org/2006/vcard/ns#Kind" target='_blank'>vcard:Kind</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4171,11 +4171,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/description">dct:description</a></td>
+    <td><a href="http://purl.org/dc/terms/description" target='_blank'>dct:description</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4197,11 +4197,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/accrualPeriodicity">dct:accrualPeriodicity</a></td>
+    <td><a href="http://purl.org/dc/terms/accrualPeriodicity" target='_blank'>dct:accrualPeriodicity</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Frequency">dct:Frequency</a></td>
+    <td><a href="http://purl.org/dc/terms/Frequency" target='_blank'>dct:Frequency</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4223,11 +4223,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/spatial">dct:spatial</a></td>
+    <td><a href="http://purl.org/dc/terms/spatial" target='_blank'>dct:spatial</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/Location">dct:Location</a></td>
+    <td><a href="http://purl.org/dc/terms/Location" target='_blank'>dct:Location</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4249,11 +4249,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/modified">dct:modified</a></td>
+    <td><a href="http://purl.org/dc/terms/modified" target='_blank'>dct:modified</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4275,11 +4275,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/publisher">dct:publisher</a></td>
+    <td><a href="http://purl.org/dc/terms/publisher" target='_blank'>dct:publisher</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a></td>
+    <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4301,11 +4301,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/issued">dct:issued</a></td>
+    <td><a href="http://purl.org/dc/terms/issued" target='_blank'>dct:issued</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4327,11 +4327,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/temporal">dct:temporal</a></td>
+    <td><a href="http://purl.org/dc/terms/temporal" target='_blank'>dct:temporal</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://purl.org/dc/terms/PeriodOfTime">dct:PeriodOfTime</a></td>
+    <td><a href="http://purl.org/dc/terms/PeriodOfTime" target='_blank'>dct:PeriodOfTime</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
@@ -4353,11 +4353,11 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>URI</em></td>
-    <td><a href="http://purl.org/dc/terms/title">dct:title</a></td>
+    <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
 </tr>
 <tr>
     <td><em>Bereik</em></td>
-    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></td>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
 </tr>
 <tr>
     <td><em>Optionaliteit</em></td>
