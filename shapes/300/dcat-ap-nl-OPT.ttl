@@ -1,0 +1,356 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix eush: <https://purl.eu/ns/shacl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix dcatapnl-sh: <http://modellen.geostandaarden.nl/dcat-ap-nl/id/shape/300/> .
+@prefix opt-beg: <http://definities.geostandaarden.nl/dcat-ap-nl/id/concept/> .
+
+###########################################
+#  dcat:Dataset
+###########################################
+
+dcatapnl-sh:DatasetShape
+  sh:property
+    dcatapnl-sh:DatasetShape_accessRights_opt,
+    dcatapnl-sh:DatasetShape_applicableLegislation_opt,
+    dcatapnl-sh:DatasetShape_conformsTo_opt,
+    dcatapnl-sh:DatasetShape_creator_opt,
+    dcatapnl-sh:DatasetShape_contactPoint_opt,
+    dcatapnl-sh:DatasetShape_distribution_opt,
+    dcatapnl-sh:DatasetShape_documentation_opt,
+    dcatapnl-sh:DatasetShape_hvdCategory_opt,
+    dcatapnl-sh:DatasetShape_identifier_opt,
+    dcatapnl-sh:DatasetShape_landingPage_opt,
+    dcatapnl-sh:DatasetShape_language_opt,
+    dcatapnl-sh:DatasetShape_publisher_opt,
+    dcatapnl-sh:DatasetShape_status_opt,
+    dcatapnl-sh:DatasetShape_theme_opt
+. 
+
+dcatapnl-sh:DatasetShape_accessRights_opt
+  sh:path dct:accessRights;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DatasetShape_applicableLegislation_opt
+  sh:path dcatap:applicableLegislation;
+  opt-beg:optionaliteit opt-beg:conditioneel 
+.
+
+dcatapnl-sh:DatasetShape_conformsTo_opt
+  sh:path dct:conformsTo;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DatasetShape_contactPoint_opt
+  sh:path dcat:contactPoint;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DatasetShape_creator_opt
+  sh:path dct:creator;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DatasetShape_distribution_opt
+  sh:path dcat:distribution	;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DatasetShape_documentation_opt
+  sh:path foaf:page	;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DatasetShape_hvdCategory_opt
+  sh:path dcatap:hvdCategory;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DatasetShape_identifier_opt
+  sh:path dct:identifier;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DatasetShape_landingPage_opt
+  sh:path dcat:landingPage;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DatasetShape_language_opt
+  sh:path dct:language	;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DatasetShape_publisher_opt
+  sh:path dct:publisher;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DatasetShape_status_opt
+  sh:path adms:status;
+  opt-beg:optionaliteit opt-beg:optioneel
+.
+
+dcatapnl-sh:DatasetShape_theme_opt
+  sh:path dcat:theme;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+
+###########################################
+#  dcat:Distribution
+###########################################
+
+dcatapnl-sh:DistributionShape
+  sh:property
+    dcatapnl-sh:DistributionShape_accessService_opt,
+    dcatapnl-sh:DistributionShape_applicableLegislation_opt,
+    dcatapnl-sh:DistributionShape_byteSize_opt,
+    dcatapnl-sh:DistributionShape_downloadURL_opt,
+    dcatapnl-sh:DistributionShape_format_opt,
+    dcatapnl-sh:DistributionShape_language_opt,
+    dcatapnl-sh:DistributionShape_license_opt,
+    dcatapnl-sh:DistributionShape_linkedSchemas_opt,
+    dcatapnl-sh:DistributionShape_mediaType_opt,
+    dcatapnl-sh:DistributionShape_rights_opt
+.
+
+dcatapnl-sh:DistributionShape_accessService_opt
+  sh:path dcat:accessService;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DistributionShape_applicableLegislation_opt
+  sh:path dcatap:applicableLegislation;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DistributionShape_byteSize_opt
+  sh:path dcat:byteSize;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DistributionShape_downloadURL_opt
+  sh:path dcat:downloadURL;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DistributionShape_format_opt
+  sh:path dct:format;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DistributionShape_language_opt
+  sh:path dct:language;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DistributionShape_license_opt
+  sh:path dct:license;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DistributionShape_linkedSchemas_opt
+  sh:path dct:conformsTo;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DistributionShape_mediaType_opt
+  sh:path dcat:mediaType;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DistributionShape_rights_opt
+  sh:path dct:rights;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+
+###########################################
+#  dcat:DataService
+###########################################
+
+dcatapnl-sh:DataServiceShape
+  sh:property
+    dcatapnl-sh:DataServiceShape_accessRights_opt,
+    dcatapnl-sh:DataServiceShape_applicableLegislation_opt,
+    dcatapnl-sh:DataServiceShape_applicationProfile_opt,
+    dcatapnl-sh:DataServiceShape_contactPoint_opt,
+    dcatapnl-sh:DataServiceShape_creator_opt,
+    dcatapnl-sh:DataServiceShape_description_opt,
+    dcatapnl-sh:DataServiceShape_documentation_opt,
+    dcatapnl-sh:DataServiceShape_endpointDescription_opt,
+    dcatapnl-sh:DataServiceShape_hvdCategory_opt,
+    dcatapnl-sh:DataServiceShape_identifier_opt,
+    dcatapnl-sh:DataServiceShape_keyword_opt,
+    dcatapnl-sh:DataServiceShape_language_opt,
+    dcatapnl-sh:DataServiceShape_license_opt,
+    dcatapnl-sh:DataServiceShape_modified_opt,
+    dcatapnl-sh:DataServiceShape_otherIdentifier_opt,
+    dcatapnl-sh:DataServiceShape_publisher_opt,
+    dcatapnl-sh:DataServiceShape_rights_opt,
+    dcatapnl-sh:DataServiceShape_servesDataset_opt,
+    dcatapnl-sh:DataServiceShape_theme_opt,
+    dcatapnl-sh:DataServiceShape_title_opt
+.
+
+dcatapnl-sh:DataServiceShape_accessRights_opt
+  sh:path dct:accessRights;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DataServiceShape_applicableLegislation_opt
+  sh:path dcatap:applicableLegislation;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DataServiceShape_applicationProfile_opt
+  sh:path dct:conformsTo;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DataServiceShape_contactPoint_opt
+  sh:path dcat:contactPoint;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DataServiceShape_creator_opt
+  sh:path dct:creator;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DataServiceShape_description_opt
+  sh:path dct:description;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DataServiceShape_documentation_opt
+  sh:path foaf:page;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DataServiceShape_endpointDescription_opt
+  sh:path dcat:endpointDescription;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DataServiceShape_hvdCategory_opt
+  sh:path dcatap:hvdCategory;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DataServiceShape_identifier_opt
+  sh:path dct:identifier;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DataServiceShape_keyword_opt
+  sh:path dcat:keyword;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DataServiceShape_language_opt
+  sh:path dct:language;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+dcatapnl-sh:DataServiceShape_license_opt
+  sh:path dct:license;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DataServiceShape_modified_opt
+  sh:path dct:modified;
+  opt-beg:optionaliteit opt-beg:optioneel
+.
+
+dcatapnl-sh:DataServiceShape_otherIdentifier_opt
+  sh:path adms:identifier;
+  opt-beg:optionaliteit opt-beg:optioneel
+.
+
+dcatapnl-sh:DataServiceShape_publisher_opt
+  sh:path dct:publisher;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DataServiceShape_rights_opt
+  sh:path dct:rights;
+  opt-beg:optionaliteit opt-beg:optioneel
+.
+
+dcatapnl-sh:DataServiceShape_servesDataset_opt
+  sh:path dcat:servesDataset;
+  opt-beg:optionaliteit opt-beg:conditioneel
+.
+
+dcatapnl-sh:DataServiceShape_theme_opt
+  sh:path dcat:theme;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:DataServiceShape_title_opt
+  sh:path dct:title;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+
+###########################################
+#  dcat:Catalog
+###########################################
+
+dcatapnl-sh:CatalogShape
+  sh:property
+    dcatapnl-sh:CatalogShape_contactPoint_opt,
+    dcatapnl-sh:CatalogShape_creator_opt
+.
+
+dcatapnl-sh:CatalogShape_contactPoint_opt
+  sh:path dcat:contactPoint;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+dcatapnl-sh:CatalogShape_creator_opt
+  sh:path dct:creator;
+  opt-beg:optionaliteit opt-beg:aanbevolen
+.
+
+###########################################
+#  dcat:DatasetSeries
+###########################################
+
+dcatapnl-sh:DatasetSeriesShape
+  sh:property
+    dcatapnl-sh:DatasetSeriesShape_description_opt
+.
+
+dcatapnl-sh:DatasetSeriesShape_description_opt
+  sh:path dct:description;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
+
+###########################################
+#  dcat:CatalogRecord
+###########################################
+
+dcatapnl-sh:CatalogRecordShape
+  sh:property
+    dcatapnl-sh:CatalogRecordShape_language_opt
+.
+
+dcatapnl-sh:CatalogRecordShape_language_opt
+  sh:path dct:language;
+  opt-beg:optionaliteit opt-beg:verplicht
+.
