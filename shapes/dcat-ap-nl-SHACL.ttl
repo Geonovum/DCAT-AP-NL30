@@ -26,7 +26,7 @@ dcatapnl-sh:DatasetShape a sh:NodeShape;
     dcatapnl-sh:DatasetShape_accessRights_minCount,
     dcatapnl-sh:DatasetShape_applicableLegislation_nodeKind,
     dcatapnl-sh:DatasetShape_contactPoint_minCount,
-    dcatapnl-sh:DatasetShape_contactPoint_maxCount,
+    # dcatapnl-sh:DatasetShape_contactPoint_maxCount,
     dcatapnl-sh:DatasetShape_creator_minCount,
     dcatapnl-sh:DatasetShape_hvdCategory_nodeKind,
     dcatapnl-sh:DatasetShape_identifier_minCount,
@@ -59,12 +59,12 @@ dcatapnl-sh:DatasetShape_contactPoint_minCount
   eush:message "Minimally 1 values are expected for contact point"@en 
 .
 
-dcatapnl-sh:DatasetShape_contactPoint_maxCount
-  sh:maxCount 1;
-  sh:name "contact point"@en;
-  sh:path dcat:contactPoint;
-  eush:message "Maximally 1 values are allowed for contact point"@en 
-.
+# dcatapnl-sh:DatasetShape_contactPoint_maxCount
+#   sh:maxCount 1;
+#   sh:name "contact point"@en;
+#   sh:path dcat:contactPoint;
+#   eush:message "Maximally 1 values are allowed for contact point"@en 
+# .
 
 dcatapnl-sh:DatasetShape_creator_minCount
   sh:minCount 1;
@@ -211,7 +211,7 @@ dcatapnl-sh:DataServiceShape a sh:NodeShape;
     dcatapnl-sh:DataServiceShape_applicableLegislation_nodeKind,
     dcatapnl-sh:DataServiceShape_applicationProfile_nodeKind,
     dcatapnl-sh:DataServiceShape_contactPoint_minCount,
-    dcatapnl-sh:DataServiceShape_contactPoint_maxCount,
+    # dcatapnl-sh:DataServiceShape_contactPoint_maxCount,
     dcatapnl-sh:DataServiceShape_creator_nodeKind,
     dcatapnl-sh:DataServiceShape_creator_maxCount,
     dcatapnl-sh:DataServiceShape_description_minCount,
@@ -268,12 +268,12 @@ dcatapnl-sh:DataServiceShape_contactPoint_minCount
   eush:message "Minimally 1 values are expected for contact point"@en 
 .
 
-dcatapnl-sh:DataServiceShape_contactPoint_maxCount
-  sh:maxCount 1;
-  sh:name "contact point"@en;
-  sh:path dcat:contactPoint;
-  eush:message "Maximally 1 values are allowed for contact point"@en 
-.
+# dcatapnl-sh:DataServiceShape_contactPoint_maxCount
+#   sh:maxCount 1;
+#   sh:name "contact point"@en;
+#   sh:path dcat:contactPoint;
+#   eush:message "Maximally 1 values are allowed for contact point"@en 
+# .
 
 dcatapnl-sh:DataServiceShape_creator_nodeKind
   sh:name "creator"@en;
