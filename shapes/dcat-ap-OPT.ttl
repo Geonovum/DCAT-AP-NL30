@@ -232,7 +232,6 @@ dcatapsh:dcat:DataServiceShape
     dcatapsh:dcatDataService_dcat-servesDataset ,
     dcatapsh:dcatDataService_dcat-theme ,
     dcatapsh:dcatDataService_dct-accessRights ,
-    #new 301
     dcatapsh:dcatDataService_dcatap-applicableLegislation ,
     dcatapsh:dcatDataService_dct-description ,
     dcatapsh:dcatDataService_dct-format ,
@@ -279,7 +278,6 @@ dcatapsh:dcatDataService_dct-accessRights
   sh:path dct:accessRights	;
   opt-beg:optionaliteit opt-beg:optioneel	.
 
-#new 301
 dcatapsh:dcatDataService_dcatap-applicableLegislation
   sh:path dcatap:applicableLegislation	;
   opt-beg:optionaliteit opt-beg:optioneel	.
