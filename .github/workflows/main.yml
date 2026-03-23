@@ -2,23 +2,19 @@ name: Main Workflow
 on:
   push:
     branches:
-      - main
-      - develop
+      - '**'
   pull_request:
   release:
     types: [published]
 
 jobs:
   build:
-    # The standard build workflow is disabled because DCAT-AP-NL uses some custom functions to generate chapters 
-    # 4 and 5 from the shacl files in the shapes/ directory using a docker container.
-    # the original template.yaml is adapted to use the basic flow from build.yaml
-    # uses: ./.github/workflows/build.yml
-      uses: ./.github/workflows/template.yml
+    uses: ./.github/workflows/build.yml
 
   publish:
     if: github.event_name == 'release'
     needs: build
     uses: ./.github/workflows/publish.yml
     secrets:
-      GH_PUSH_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
+      GH_APP_ID: ${{ secrets.GH_APP_ID }}
+      GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
