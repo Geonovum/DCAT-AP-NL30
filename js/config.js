@@ -40,12 +40,12 @@ var respecConfig =
   github: "https://github.com/Geonovum/DCAT-AP-NL30",
   issueBase: "https://github.com/Geonovum/DCAT-AP-NL30/issues/",
   edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "static/template.pdf",
-      },
-  ],
+  // alternateFormats: [
+  //     {
+  //         label: "pdf",
+  //         uri: "static/template.pdf",
+  //     },
+  // ],
   authors: [
     {
       name: "Jan Skornsek",
