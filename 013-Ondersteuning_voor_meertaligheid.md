@@ -16,7 +16,7 @@ exampleMS:1T2p3o4B a dcat:Dataset;
    dct:title "Naam van de dataset"@nl;
    dct:title "Title of the dataset"@en;
    dcat:contactPoint [
-     a <https://json-ld.org/playground/Organization> ;
+     a vcard:Organization ;
      vcard:fn "Mijn Organisatie"@nl ;
      vcard:fn "My Organization"@en ;
      vcard:hasEmail <mailto:opendata@mijnorganisatie.nl> ;

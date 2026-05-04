@@ -34,7 +34,7 @@ exampleMS:1T2p3o4B a dcat:Dataset;
    dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj>;
    dct:conformsTo <http://data.europa.eu/eli/reg/2010/1089>;
    dcat:contactPoint [
-     a <https://json-ld.org/playground/Organization> ;
+     a vcard:Organization ;
      vcard:fn "Mijn Organisatie"@nl ;
      vcard:fn "My Organization"@en ;
      vcard:hasEmail <mailto:opendata@mijnorganisatie.nl> ;

@@ -1,0 +1,664 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix eush: <https://purl.eu/ns/shacl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix dcatapsh: <https://semiceu.github.io/DCAT-AP/releases/3.0.1/shacl/dcat-ap-SHACL.ttl#> .
+@prefix dcatapnl-sh: <http://modellen.geostandaarden.nl/dcat-ap-nl/id/shape/> .
+
+###########################################
+#  dcat:Dataset
+###########################################
+
+dcatapnl-sh:DatasetShape 
+    sh:targetClass dcat:Dataset;
+    rdfs:label "Dataset"@en, "Dataset"@nl;
+    sh:property
+        dcatapnl-sh:DatasetShape_description ,
+        dcatapnl-sh:DatasetShape_title ,
+        dcatapnl-sh:DatasetShape_contactPoint ,
+        dcatapnl-sh:DatasetShape_distribution ,
+        dcatapnl-sh:DatasetShape_spatial ,
+        dcatapnl-sh:DatasetShape_keyword ,
+        dcatapnl-sh:DatasetShape_publisher ,
+        dcatapnl-sh:DatasetShape_temporal ,
+        dcatapnl-sh:DatasetShape_theme ,
+        dcatapnl-sh:DatasetShape_accessRights ,
+        dcatapnl-sh:DatasetShape_applicableLegislation ,
+        dcatapnl-sh:DatasetShape_conformsTo ,
+        dcatapnl-sh:DatasetShape_creator ,
+        dcatapnl-sh:DatasetShape_accrualPeriodicity ,
+        dcatapnl-sh:DatasetShape_hasVersion ,
+        dcatapnl-sh:DatasetShape_identifier ,
+        dcatapnl-sh:DatasetShape_inSeries ,
+        dcatapnl-sh:DatasetShape_isReferencedBy ,
+        dcatapnl-sh:DatasetShape_landingPage ,
+        dcatapnl-sh:DatasetShape_language ,
+        dcatapnl-sh:DatasetShape_modified ,
+        dcatapnl-sh:DatasetShape_other_identifier ,
+        dcatapnl-sh:DatasetShape_provenance ,
+        dcatapnl-sh:DatasetShape_qualifiedAttribution ,
+        dcatapnl-sh:DatasetShape_qualifiedRelation ,
+        dcatapnl-sh:DatasetShape_relation ,
+        dcatapnl-sh:DatasetShape_issued ,
+        dcatapnl-sh:DatasetShape_sample ,
+        dcatapnl-sh:DatasetShape_source ,
+        dcatapnl-sh:DatasetShape_spatialResolutionInMeters ,
+        dcatapnl-sh:DatasetShape_temporalResolution ,
+        dcatapnl-sh:DatasetShape_type ,
+        dcatapnl-sh:DatasetShape_version ,
+        dcatapnl-sh:DatasetShape_versionNotes ,
+        dcatapnl-sh:DatasetShape_wasGeneratedBy ,
+        dcatapnl-sh:DatasetShape_hvdCategory ,
+        dcatapnl-sh:DatasetShape_documentation
+.
+
+dcatapnl-sh:DatasetShape_description
+    sh:path dct:description;
+    rdfs:label "description"@en, "beschrijving"@nl .
+
+dcatapnl-sh:DatasetShape_title 
+    sh:path dct:title;
+    rdfs:label "title"@en, "titel"@nl .
+
+dcatapnl-sh:DatasetShape_contactPoint 
+    sh:path dcat:contactPoint;
+    rdfs:label "contact point"@en, "contactpunt"@nl .
+
+dcatapnl-sh:DatasetShape_distribution 
+    sh:path dcat:distribution;
+    rdfs:label "distribution"@en, "distributie"@nl .
+
+dcatapnl-sh:DatasetShape_spatial 
+    sh:path dct:spatial;
+    rdfs:label "spatial"@en, "ruimtelijke dekking"@nl .
+
+dcatapnl-sh:DatasetShape_keyword
+    sh:path dcat:keyword;
+    rdfs:label "keyword"@en, "trefwoord"@nl .
+
+dcatapnl-sh:DatasetShape_publisher 
+    sh:path dct:publisher;
+    rdfs:label "publisher"@en, "uitgever"@nl .
+
+dcatapnl-sh:DatasetShape_temporal
+    sh:path dct:temporal;
+    rdfs:label "temporal"@en, "tijddekking"@nl .
+
+dcatapnl-sh:DatasetShape_theme
+    sh:path dcat:theme;
+    rdfs:label "theme"@en, "thema"@nl .
+
+dcatapnl-sh:DatasetShape_accessRights
+    sh:path dct:accessRights;
+    rdfs:label "access rights"@en, "toegangsrechten"@nl .
+
+dcatapnl-sh:DatasetShape_applicableLegislation
+    sh:path dcatap:applicableLegislation;
+    rdfs:label "applicable legislation"@en, "toepasselijke wetgeving"@nl .
+
+dcatapnl-sh:DatasetShape_conformsTo
+    sh:path dct:conformsTo;
+    rdfs:label "conforms to"@en, "voldoet aan"@nl .
+
+dcatapnl-sh:DatasetShape_creator
+    sh:path dct:creator;
+    rdfs:label "creator"@en, "vervaardiger"@nl .
+    
+dcatapnl-sh:DatasetShape_accrualPeriodicity
+    sh:path dct:accrualPeriodicity;
+    rdfs:label "accrual periodicity"@en, "verversingsinterval"@nl .
+
+dcatapnl-sh:DatasetShape_hasVersion
+    sh:path dcat:hasVersion;
+    rdfs:label "has version"@en, "heeft versie"@nl .
+
+dcatapnl-sh:DatasetShape_identifier
+    sh:path dct:identifier;
+    rdfs:label "identifier"@en, "identificator"@nl .
+
+dcatapnl-sh:DatasetShape_inSeries
+    sh:path dcat:inSeries;
+    rdfs:label "in series"@en, "in serie"@nl .
+
+dcatapnl-sh:DatasetShape_isReferencedBy
+    sh:path dct:isReferencedBy;
+    rdfs:label "is referenced by"@en, "wordt gerefereerd door"@nl .
+
+dcatapnl-sh:DatasetShape_landingPage
+    sh:path dcat:landingPage;
+    rdfs:label "landing page"@en, "landingspagina"@nl .
+
+dcatapnl-sh:DatasetShape_language
+    sh:path dct:language;
+    rdfs:label "language"@en, "taal"@nl .
+
+dcatapnl-sh:DatasetShape_modified
+    sh:path dct:modified;
+    rdfs:label "modified"@en, "gewijzigd"@nl .
+
+dcatapnl-sh:DatasetShape_other_identifier
+    sh:path adms:identifier;
+    rdfs:label "Other identifier"@en, "Andere identificator"@nl .
+
+dcatapnl-sh:DatasetShape_provenance
+    sh:path dct:provenance;
+    rdfs:label "provenance"@en, "herkomst"@nl .
+
+dcatapnl-sh:DatasetShape_qualifiedAttribution
+    sh:path prov:qualifiedAttribution;
+    rdfs:label "qualified attribution"@en, "gekwalificeerde toeschrijving"@nl .
+
+dcatapnl-sh:DatasetShape_qualifiedRelation
+    sh:path dcat:qualifiedRelation;
+    rdfs:label "qualified relation"@en, "gekwalificeerde relatie"@nl .
+
+dcatapnl-sh:DatasetShape_relation
+    sh:path dct:relation;
+    rdfs:label "relation"@en, "relatie"@nl .
+
+dcatapnl-sh:DatasetShape_issued
+    sh:path dct:issued;
+    rdfs:label "issued"@en, "uitgegeven"@nl .
+
+dcatapnl-sh:DatasetShape_sample
+    sh:path adms:sample;
+    rdfs:label "sample"@en, "voorbeeld"@nl .
+
+dcatapnl-sh:DatasetShape_source
+    sh:path dct:source;
+    rdfs:label "source"@en, "bron"@nl .
+
+dcatapnl-sh:DatasetShape_spatialResolutionInMeters
+    sh:path dcat:spatialResolutionInMeters;
+    rdfs:label "spatial resolution in meters"@en, "ruimtelijke resolutie in meters"@nl .
+
+dcatapnl-sh:DatasetShape_temporalResolution
+    sh:path dcat:temporalResolution;
+    rdfs:label "temporal resolution"@en, "tijdresolutie"@nl .
+
+dcatapnl-sh:DatasetShape_type
+    sh:path dct:type;
+    rdfs:label "type"@en, "type"@nl .
+
+dcatapnl-sh:DatasetShape_version
+    sh:path dcat:version;
+    rdfs:label "version"@en, "versie"@nl .
+
+dcatapnl-sh:DatasetShape_versionNotes
+    sh:path adms:versionNotes;
+    rdfs:label "version notes"@en, "versie notities"@nl .
+
+dcatapnl-sh:DatasetShape_wasGeneratedBy
+    sh:path prov:wasGeneratedBy;
+    rdfs:label "was generated by"@en, "werd gegenereerd door"@nl .
+
+dcatapnl-sh:DatasetShape_hvdCategory
+    sh:path dcatap:hvdCategory;
+    rdfs:label "HVD category"@en, "HVD-categorie"@nl .
+
+dcatapnl-sh:DatasetShape_documentation
+    sh:path foaf:page;
+    rdfs:label "documentation"@en, "documentatie"@nl .
+
+###########################################
+#  dcat:Distribution
+###########################################
+
+dcatapnl-sh:DistributionShape
+    sh:targetClass dcat:Distribution;
+    rdfs:label "Distribution"@en, "Distributie"@nl ;
+    sh:property
+        dcatapnl-sh:DistributionShape_accessURL ,
+        dcatapnl-sh:DistributionShape_availability ,
+        dcatapnl-sh:DistributionShape_description ,
+        dcatapnl-sh:DistributionShape_format ,
+        dcatapnl-sh:DistributionShape_license ,
+        dcatapnl-sh:DistributionShape_accessService ,
+        dcatapnl-sh:DistributionShape_applicableLegislation ,
+        dcatapnl-sh:DistributionShape_byteSize ,
+        dcatapnl-sh:DistributionShape_checksum ,
+        dcatapnl-sh:DistributionShape_compressionFormat ,
+        dcatapnl-sh:DistributionShape_documentation ,
+        dcatapnl-sh:DistributionShape_modified ,
+        dcatapnl-sh:DistributionShape_packagingFormat ,
+        dcatapnl-sh:DistributionShape_issued ,
+        dcatapnl-sh:DistributionShape_rights ,
+        dcatapnl-sh:DistributionShape_spatialResolutionInMeters ,
+        dcatapnl-sh:DistributionShape_status ,
+        dcatapnl-sh:DistributionShape_temporalResolution ,
+        dcatapnl-sh:DistributionShape_title
+.
+
+dcatapnl-sh:DistributionShape_accessURL
+    sh:path dcat:accessURL;
+    rdfs:label "access URL"@en, "toegangs-URL"@nl .
+
+dcatapnl-sh:DistributionShape_availability
+    sh:path dcatap:availability;
+    rdfs:label "availability"@en, "beschikbaarheid"@nl .
+
+dcatapnl-sh:DistributionShape_description
+    sh:path dct:description;
+    rdfs:label "description"@en, "beschrijving"@nl .
+
+dcatapnl-sh:DistributionShape_format
+    sh:path dct:format;
+    rdfs:label "format"@en, "formaat"@nl .
+
+dcatapnl-sh:DistributionShape_license
+    sh:path dct:license;
+    rdfs:label "license"@en, "licentie"@nl .
+
+dcatapnl-sh:DistributionShape_accessService
+    sh:path dcat:accessService;
+    rdfs:label "access service"@en, "toegangsservice"@nl .
+
+dcatapnl-sh:DistributionShape_applicableLegislation
+    sh:path dcatap:applicableLegislation;
+    rdfs:label "applicable legislation"@en, "toepasbare wetgeving"@nl .
+
+dcatapnl-sh:DistributionShape_byteSize
+    sh:path dcat:byteSize;
+    rdfs:label "byte size"@en, "bytesize"@nl .
+
+dcatapnl-sh:DistributionShape_checksum
+    sh:path spdx:checksum;
+    rdfs:label "checksum"@en, "controlesom"@nl .
+
+dcatapnl-sh:DistributionShape_compressionFormat
+    sh:path dcat:compressFormat;
+    rdfs:label "compression format"@en, "compressieformaat"@nl .
+
+dcatapnl-sh:DistributionShape_documentation
+    sh:path foaf:page;
+    rdfs:label "documentation"@en, "documentatie"@nl .
+
+dcatapnl-sh:DistributionShape_modified
+    sh:path dct:modified;
+    rdfs:label "modified"@en, "gewijzigd"@nl .
+
+dcatapnl-sh:DistributionShape_packagingFormat
+    sh:path dcat:packageFormat;
+    rdfs:label "packaging format"@en, "pakketformaat"@nl .
+
+dcatapnl-sh:DistributionShape_issued
+    sh:path dct:issued;
+    rdfs:label "issued"@en, "uitgegeven"@nl .
+
+dcatapnl-sh:DistributionShape_rights
+    sh:path dct:rights;
+    rdfs:label "rights"@en, "rechten"@nl .
+
+dcatapnl-sh:DistributionShape_spatialResolutionInMeters
+    sh:path dcat:spatialResolutionInMeters;
+    rdfs:label "spatial resolution in meters"@en, "ruimtelijke resolutie in meters"@nl .
+
+dcatapnl-sh:DistributionShape_status
+    sh:path adms:status;
+    rdfs:label "status"@en, "status"@nl .
+
+dcatapnl-sh:DistributionShape_temporalResolution
+    sh:path dcat:temporalResolution;
+    rdfs:label "temporal resolution"@en, "tijdresolutie"@nl .
+
+dcatapnl-sh:DistributionShape_title
+    sh:path dct:title;
+    rdfs:label "title"@en, "titel"@nl .
+
+
+
+###########################################
+#  dcat:DataService
+###########################################
+
+dcatapnl-sh:DataServiceShape
+    sh:targetClass dcat:DataService;
+    rdfs:label "Data Service"@en, "Data Service"@nl ;
+    sh:property
+        dcatapnl-sh:dcatDataService_endpointURL ,
+        dcatapnl-sh:dcatDataService_title ,
+        dcatapnl-sh:dcatDataService_conformsTo ,
+        dcatapnl-sh:dcatDataService_contactPoint ,
+        dcatapnl-sh:dcatDataService_endpointDescription ,
+        dcatapnl-sh:dcatDataService_keyword ,
+        dcatapnl-sh:dcatDataService_publisher ,
+        dcatapnl-sh:dcatDataService_servesDataset ,
+        dcatapnl-sh:dcatDataService_theme ,
+        dcatapnl-sh:dcatDataService_accessRights ,
+        dcatapnl-sh:dcatDataService_applicableLegislation ,
+        dcatapnl-sh:dcatDataService_description ,
+        dcatapnl-sh:dcatDataService_format ,
+        dcatapnl-sh:dcatDataService_landingPage ,
+        dcatapnl-sh:dcatDataService_license ,
+        dcatapnl-sh:DataServiceShape_documentation ,
+        dcatapnl-sh:DataServiceShape_hvdCategory ,
+        dcatapnl-sh:DataServiceShape_language ,
+        dcatapnl-sh:DataServiceShape_publisher ,
+        dcatapnl-sh:DataServiceShape_modified ,
+        dcatapnl-sh:DataServiceShape_otherIdentifier
+    .
+
+dcatapnl-sh:dcatDataService_endpointURL
+    sh:path dcat:endpointURL;
+    rdfs:label "endpoint URL"@en, "endpoint-URL"@nl .
+
+dcatapnl-sh:dcatDataService_title
+    sh:path dct:title;
+    rdfs:label "title"@en, "titel"@nl .
+
+dcatapnl-sh:dcatDataService_conformsTo
+    sh:path dct:conformsTo;
+    rdfs:label "conforms to"@en, "voldoet aan"@nl .
+
+dcatapnl-sh:dcatDataService_contactPoint
+    sh:path dcat:contactPoint;
+    rdfs:label "contact point"@en, "contactpunt"@nl .
+
+dcatapnl-sh:dcatDataService_endpointDescription
+    sh:path dcat:endpointDescription;
+    rdfs:label "endpoint description"@en, "endpointbeschrijving"@nl .
+
+dcatapnl-sh:dcatDataService_keyword
+    sh:path dcat:keyword;
+    rdfs:label "keyword"@en, "trefwoord"@nl .
+
+dcatapnl-sh:dcatDataService_publisher
+    sh:path dct:publisher;
+    rdfs:label "publisher"@en, "uitgever"@nl .
+
+dcatapnl-sh:dcatDataService_servesDataset
+    sh:path dcat:servesDataset;
+    rdfs:label "serves dataset"@en, "bedient dataset"@nl .
+
+dcatapnl-sh:dcatDataService_theme
+    sh:path dcat:theme;
+    rdfs:label "theme"@en, "thema"@nl .
+
+dcatapnl-sh:dcatDataService_accessRights
+    sh:path dct:accessRights;
+    rdfs:label "access rights"@en, "toegangsrechten"@nl .
+
+dcatapnl-sh:dcatDataService_applicableLegislation
+    sh:path dcatap:applicableLegislation;
+    rdfs:label "applicable legislation"@en, "toepasbare wetgeving"@nl .
+
+dcatapnl-sh:dcatDataService_description
+    sh:path dct:description;
+    rdfs:label "description"@en, "beschrijving"@nl .
+
+dcatapnl-sh:dcatDataService_format
+    sh:path dct:format;
+    rdfs:label "format"@en, "formaat"@nl .
+
+dcatapnl-sh:dcatDataService_landingPage
+    sh:path dcat:landingPage;
+    rdfs:label "landing page"@en, "landingspagina"@nl .
+
+dcatapnl-sh:dcatDataService_license
+    sh:path dct:license;
+    rdfs:label "license"@en, "licentie"@nl .
+
+dcatapnl-sh:DataServiceShape_documentation
+    sh:path foaf:page;
+    rdfs:label "documentation"@en, "documentatie"@nl .
+
+dcatapnl-sh:DataServiceShape_hvdCategory
+    sh:path dcatap:hvdCategory;
+    rdfs:label "HVD category"@en, "HVD-categorie"@nl .
+
+dcatapnl-sh:DataServiceShape_language
+    sh:path dct:language;
+    rdfs:label "language"@en, "taal"@nl .
+
+dcatapnl-sh:DataServiceShape_publisher
+    sh:path dct:publisher;
+    rdfs:label "publisher"@en, "uitgever"@nl .
+
+dcatapnl-sh:DataServiceShape_modified
+    sh:path dct:modified;
+    rdfs:label "modified"@en, "gewijzigd"@nl .
+
+dcatapnl-sh:DataServiceShape_otherIdentifier
+    sh:path adms:identifier;
+    rdfs:label "other identifier"@en, "overige identificator"@nl .
+
+
+###########################################
+#  dcat:Catalog
+###########################################
+
+dcatapnl-sh:CatalogShape
+    sh:targetClass dcat:Catalog;
+    rdfs:label "Catalog"@en, "Catalogus"@nl ;
+    sh:property
+        dcatapnl-sh:dcatCatalog_description ,
+        dcatapnl-sh:dcatCatalog_publisher ,
+        dcatapnl-sh:dcatCatalog_title ,
+        dcatapnl-sh:dcatCatalog_dataset ,
+        dcatapnl-sh:dcatCatalog_spatial ,
+        dcatapnl-sh:dcatCatalog_homepage ,
+        dcatapnl-sh:dcatCatalog_language ,
+        dcatapnl-sh:dcatCatalog_license ,
+        dcatapnl-sh:dcatCatalog_modified ,
+        dcatapnl-sh:dcatCatalog_issued ,
+        dcatapnl-sh:dcatCatalog_service ,
+        dcatapnl-sh:dcatCatalog_themeTaxonomy ,
+        dcatapnl-sh:dcatCatalog_applicableLegislation ,
+        dcatapnl-sh:dcatCatalog_catalog ,
+        dcatapnl-sh:dcatCatalog_creator ,
+        dcatapnl-sh:dcatCatalog_hasPart ,
+        dcatapnl-sh:dcatCatalog_record ,
+        dcatapnl-sh:dcatCatalog_rights ,
+        dcatapnl-sh:dcatCatalog_temporal ,
+        dcatapnl-sh:CatalogShape_contactPoint
+.
+
+dcatapnl-sh:dcatCatalog_description
+    sh:path dct:description;
+    rdfs:label "description"@en, "beschrijving"@nl .
+
+dcatapnl-sh:dcatCatalog_publisher
+    sh:path dct:publisher;
+    rdfs:label "publisher"@en, "uitgever"@nl .
+
+dcatapnl-sh:dcatCatalog_title
+    sh:path dct:title;
+    rdfs:label "title"@en, "titel"@nl .
+
+dcatapnl-sh:dcatCatalog_dataset
+    sh:path dcat:dataset;
+    rdfs:label "dataset"@en, "dataset"@nl .
+
+dcatapnl-sh:dcatCatalog_spatial
+    sh:path dct:spatial;
+    rdfs:label "spatial"@en, "ruimtelijke dekking"@nl .
+
+dcatapnl-sh:dcatCatalog_homepage
+    sh:path foaf:homepage;
+    rdfs:label "homepage"@en, "homepage"@nl .
+
+dcatapnl-sh:dcatCatalog_language
+    sh:path dct:language;
+    rdfs:label "language"@en, "taal"@nl .
+
+dcatapnl-sh:dcatCatalog_license
+    sh:path dct:license;
+    rdfs:label "license"@en, "licentie"@nl .
+
+dcatapnl-sh:dcatCatalog_modified
+    sh:path dct:modified;
+    rdfs:label "modified"@en, "gewijzigd"@nl .
+
+dcatapnl-sh:dcatCatalog_issued
+    sh:path dct:issued;
+    rdfs:label "issued"@en, "uitgegeven"@nl .
+
+dcatapnl-sh:dcatCatalog_service
+    sh:path dcat:service;
+    rdfs:label "service"@en, "service"@nl .
+
+dcatapnl-sh:dcatCatalog_themeTaxonomy
+    sh:path dcat:themeTaxonomy;
+    rdfs:label "theme taxonomy"@en, "thema taxonomie"@nl .
+
+dcatapnl-sh:dcatCatalog_applicableLegislation
+    sh:path dcatap:applicableLegislation;
+    rdfs:label "applicable legislation"@en, "toepasselijke wetgeving"@nl .
+
+dcatapnl-sh:dcatCatalog_catalog
+    sh:path dcat:catalog;
+    rdfs:label "catalog"@en, "catalogus"@nl .
+
+dcatapnl-sh:dcatCatalog_creator
+    sh:path dct:creator;
+    rdfs:label "creator"@en, "vervaardiger"@nl .
+
+dcatapnl-sh:dcatCatalog_hasPart
+    sh:path dct:hasPart;
+    rdfs:label "has part"@en, "heeft deel"@nl .
+
+dcatapnl-sh:dcatCatalog_record
+    sh:path dcat:record;
+    rdfs:label "record"@en, "record"@nl .
+
+dcatapnl-sh:dcatCatalog_rights
+    sh:path dct:rights;
+    rdfs:label "rights"@en, "rechten"@nl .
+
+dcatapnl-sh:dcatCatalog_temporal
+    sh:path dct:temporal;
+    rdfs:label "temporal"@en, "tijddekking"@nl .
+
+dcatapnl-sh:CatalogShape_contactPoint
+    sh:path dcat:contactPoint;
+    rdfs:label "contact point"@en, "contactpunt"@nl .
+
+
+###########################################
+#  dcat:DatasetSeries
+###########################################
+
+dcatapnl-sh:DatasetSeriesShape
+    sh:targetClass dcat:DatasetSeries;
+    rdfs:label "Dataset Series"@en, "Dataset Serie"@nl ;
+    sh:property
+        dcatapnl-sh:DatasetShapeSeries_description ,
+        dcatapnl-sh:DatasetShapeSeries_title ,
+        dcatapnl-sh:DatasetShapeSeries_contactPoint ,
+        dcatapnl-sh:DatasetShapeSeries_spatial ,
+        dcatapnl-sh:DatasetShapeSeries_publisher ,
+        dcatapnl-sh:DatasetShapeSeries_applicableLegislation ,
+        dcatapnl-sh:DatasetShapeSeries_accrualPeriodicity ,
+        dcatapnl-sh:DatasetShapeSeries_modified ,
+        dcatapnl-sh:DatasetShapeSeries_issued ,
+        dcatapnl-sh:DatasetShapeSeries_temporal
+.
+
+dcatapnl-sh:DatasetShapeSeries_description
+    sh:path dct:description;
+    rdfs:label "description"@en, "beschrijving"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_title
+    sh:path dct:title;
+    rdfs:label "title"@en, "titel"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_contactPoint
+    sh:path dcat:contactPoint;
+    rdfs:label "contact point"@en, "contactpunt"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_spatial
+    sh:path dct:spatial;
+    rdfs:label "spatial"@en, "ruimtelijke dekking"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_publisher
+    sh:path dct:publisher;
+    rdfs:label "publisher"@en, "uitgever"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_applicableLegislation
+    sh:path dcatap:applicableLegislation;
+    rdfs:label "applicable legislation"@en, "toepasselijke wetgeving"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_accrualPeriodicity
+    sh:path dct:accrualPeriodicity;
+    rdfs:label "accrual periodicity"@en, "frequentie van opname"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_modified
+    sh:path dct:modified;
+    rdfs:label "modified"@en, "gewijzigd"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_issued
+    sh:path dct:issued;
+    rdfs:label "issued"@en, "uitgegeven"@nl .
+
+dcatapnl-sh:DatasetShapeSeries_temporal
+    sh:path dct:temporal;
+    rdfs:label "temporal"@en, "tijddekking"@nl .
+
+###########################################
+#  dcat:CatalogRecord
+###########################################
+
+dcatapnl-sh:CatalogRecordShape
+    sh:targetClass dcat:CatalogRecord;
+    rdfs:label "Catalog Record"@en, "Catalogus Record"@nl ;
+    sh:property
+        dcatapnl-sh:dcatCatalogRecord_applicationprofile ,
+        dcatapnl-sh:dcatCatalogRecord_modified ,
+        dcatapnl-sh:dcatCatalogRecord_primaryTopic ,
+        dcatapnl-sh:dcatCatalogRecord_changetype ,
+        dcatapnl-sh:dcatCatalogRecord_issued ,
+        dcatapnl-sh:dcatCatalogRecord_description ,
+        dcatapnl-sh:dcatCatalogRecord_language ,
+        dcatapnl-sh:dcatCatalogRecord_source ,
+        dcatapnl-sh:dcatCatalogRecord_title
+.    
+
+dcatapnl-sh:dcatCatalogRecord_applicationprofile
+    sh:path dct:conformsTo;
+    rdfs:label "application profile"@en, "applicatieprofiel"@nl .
+
+dcatapnl-sh:dcatCatalogRecord_modified
+    sh:path dct:modified;
+    rdfs:label "modified"@en, "gewijzigd"@nl .
+
+dcatapnl-sh:dcatCatalogRecord_primaryTopic
+    sh:path foaf:primaryTopic;
+    rdfs:label "primary topic"@en, "hoofdonderwerp"@nl .
+
+
+dcatapnl-sh:dcatCatalogRecord_changetype
+    sh:path adms:status;
+    rdfs:label "lifecycle status"@en, "levenscyclus status"@nl .
+
+dcatapnl-sh:dcatCatalogRecord_issued
+    sh:path dct:issued;
+    rdfs:label "issued"@en, "uitgegeven"@nl .
+
+dcatapnl-sh:dcatCatalogRecord_description
+    sh:path dct:description;
+    rdfs:label "description"@en, "beschrijving"@nl .
+
+dcatapnl-sh:dcatCatalogRecord_language
+    sh:path dct:language;
+    rdfs:label "language"@en, "taal"@nl .
+
+dcatapnl-sh:dcatCatalogRecord_source
+    sh:path dct:source;
+    rdfs:label "source"@en, "bron"@nl .
+
+dcatapnl-sh:dcatCatalogRecord_title
+    sh:path dct:title;
+    rdfs:label "title"@en, "titel"@nl .
+
