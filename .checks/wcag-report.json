@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "color-contrast",
+    "impact": "serious",
+    "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          ".sidelabel"
+        ],
+        "html": "<div class=\"sidelabel\">Geonovum Standaard - Werkversie</div>",
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "scrollable-region-focusable",
+    "impact": "serious",
+    "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          "#example-2 > pre > .turtle.hljs"
+        ],
+        "html": "<code class=\"turtle hljs\" aria-busy=\"false\">",
+        "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+      },
+      {
+        "target": [
+          "#example-3 > pre > .turtle.hljs"
+        ],
+        "html": "<code class=\"turtle hljs\" aria-busy=\"false\">",
+        "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+      },
+      {
+        "target": [
+          "#example-4 > pre > .turtle.hljs"
+        ],
+        "html": "<code class=\"turtle hljs\" aria-busy=\"false\">",
+        "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+      },
+      {
+        "target": [
+          "#example-5 > pre > .turtle.hljs"
+        ],
+        "html": "<code class=\"turtle hljs\" aria-busy=\"false\">",
+        "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+      },
+      {
+        "target": [
+          "#example-7 > pre > .turtle.hljs"
+        ],
+        "html": "<code class=\"turtle hljs\" aria-busy=\"false\">",
+        "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+      }
+    ]
+  }
+]
