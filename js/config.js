@@ -34,7 +34,7 @@ var respecConfig =
   latestVersion: [
     "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"
   ],
-  publishDate: "2026-03-02",
+  publishDate: "2026-05-04",
   previousPublishDate: "2024-12-12",
   previousMaturity: "def",
   github: "https://github.com/Geonovum/DCAT-AP-NL30",
