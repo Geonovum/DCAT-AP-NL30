@@ -27,6 +27,7 @@ dataSources:
       - /shapes/dcat-ap-nl-SHACL-klassebereik.ttl
       - /shapes/dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl
       - /shapes/dcat-ap-nl-OPT.ttl
+      - /shapes/dcat-ap-nl-LBL.ttl
       - /shapes/optionaliteit.ttl
     resultFrame:
       _key: targetClass
@@ -65,6 +66,9 @@ dataSources:
         optionaliteit:
           _value: optionaliteit
           _type: set
+        label:
+          _value: labeltext
+          _type: string
 
 templates:
   - templateLocation: klassen.md

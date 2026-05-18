@@ -12,6 +12,7 @@
     </colgroup>
     <tr>
         <th>Eigenschap</th>
+        <th>Label</th>
         <th>URI</th>
         <th>Bereik</th>
         <th>Kardinaliteit</th>
@@ -22,6 +23,7 @@
 {% set prop = propEntry.value %}
     <tr>
         <td><a href="#{{ targetClassLocalName | lower | replace({' ' : '-'}) }}-{{ prop.propertyName | lower | replace({' ' : '-'}) }}">{{ prop.propertyName }}</a></td>
+        <td>{{ prop.label }}</td>
         <td><a href="{{ prop.property }}" target='_blank'>{{ prop.propertyPrefixed }}</a></td>
         <td>{% if prop.class != null %}<a href="{{ prop.class }}" target='_blank'>{{ prop.classPrefixed }}</a>{% elseif prop.datatype != null %}<a href="{{ prop.datatype }}" target='_blank'>{{ prop.datatypePrefixed }}</a>{% elseif prop.nodeShapeName != null %}<a href="{{ prop.nodeShapeSeeAlso }}" target='_blank'>{{ prop.nodeShapeName }}</a>{% elseif prop.nodeKind != null %}<a href="{{ prop.nodeKind | replace({'http://www.w3.org/ns/shacl#Literal' : 'http://www.w3.org/2000/01/rdf-schema#Literal' }) }}" target='_blank'>{{ prop.nodeKindPrefixed | replace({'sh:Literal' : 'rdfs:Literal'}) }}</a>{% else %}<a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a>{% endif %}</td>
         <td>{{ prop.minCount | default("0") }}..{{ prop.maxCount | default("n") }}</td>
@@ -44,6 +46,10 @@
 <tr>
     <td><em>Eigenschap</em></td>
     <td>{{ prop.propertyName }}</td>
+</tr>
+<tr>
+    <td><em>Nederlandse term</em></td>
+    <td>{{ prop.label }}</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
