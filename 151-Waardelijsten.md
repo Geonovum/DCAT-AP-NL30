@@ -83,7 +83,7 @@ In de onderstaande tabel worden eigenschappen opgesomd met gecontroleerde waarde
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='79D7C871'>spdx:algorithm</td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='66317FE0'>Checksum</td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='140392B6'><a href='https://spdx.org/rdf/terms/' target='_blank'>Distribution availability vocabulary</a></td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='140392B6'><a href='https://spdx.org/rdf/terms/#d4e2129' target='_blank'>Checksum algorithm members</a></td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><p id='69C7A15C'></td>
 </tr>
 </tbody>
