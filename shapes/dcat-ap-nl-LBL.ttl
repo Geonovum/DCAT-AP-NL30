@@ -13,6 +13,7 @@
 @prefix spdx: <http://spdx.org/rdf/terms#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 
 @prefix dcatapsh: <https://semiceu.github.io/DCAT-AP/releases/3.0.1/shacl/dcat-ap-SHACL.ttl#> .
 @prefix dcatapnl-sh: <http://modellen.geostandaarden.nl/dcat-ap-nl/id/shape/> .
@@ -54,6 +55,7 @@ dcatapnl-sh:DatasetShape
         dcatapnl-sh:DatasetShape_issued ,
         dcatapnl-sh:DatasetShape_sample ,
         dcatapnl-sh:DatasetShape_source ,
+        dcatapnl-sh:DatasetShape_status ,
         dcatapnl-sh:DatasetShape_spatialResolutionInMeters ,
         dcatapnl-sh:DatasetShape_temporalResolution ,
         dcatapnl-sh:DatasetShape_type ,
@@ -180,6 +182,10 @@ dcatapnl-sh:DatasetShape_source
     sh:path dct:source;
     rdfs:label "source"@en, "bron"@nl .
 
+dcatapnl-sh:DatasetShape_status
+    sh:path adms:status;
+    rdfs:label "status"@en, "status"@nl .
+
 dcatapnl-sh:DatasetShape_spatialResolutionInMeters
     sh:path dcat:spatialResolutionInMeters;
     rdfs:label "spatial resolution in meters"@en, "ruimtelijke resolutie in meters"@nl .
@@ -238,7 +244,12 @@ dcatapnl-sh:DistributionShape
         dcatapnl-sh:DistributionShape_spatialResolutionInMeters ,
         dcatapnl-sh:DistributionShape_status ,
         dcatapnl-sh:DistributionShape_temporalResolution ,
-        dcatapnl-sh:DistributionShape_title
+        dcatapnl-sh:DistributionShape_title,
+        dcatapnl-sh:DistributionShape_downloadURL,
+        dcatapnl-sh:DistributionShape_hasPolicy,
+        dcatapnl-sh:DistributionShape_language,
+        dcatapnl-sh:DistributionShape_conformsTo,
+        dcatapnl-sh:DistributionShape_mediaType
 .
 
 dcatapnl-sh:DistributionShape_accessURL
@@ -317,6 +328,25 @@ dcatapnl-sh:DistributionShape_title
     sh:path dct:title;
     rdfs:label "title"@en, "titel"@nl .
 
+dcatapnl-sh:DistributionShape_downloadURL
+    sh:path dcat:downloadURL;
+    rdfs:label "download URL"@en, "download-URL"@nl .
+
+dcatapnl-sh:DistributionShape_hasPolicy
+    sh:path odrl:hasPolicy;
+    rdfs:label "has policy"@en, "heeft beleid"@nl .
+
+dcatapnl-sh:DistributionShape_language
+    sh:path dct:language;
+    rdfs:label "language"@en, "taal"@nl .
+
+dcatapnl-sh:DistributionShape_conformsTo
+    sh:path dct:conformsTo;
+    rdfs:label "conforms to"@en, "voldoet aan"@nl .
+
+dcatapnl-sh:DistributionShape_mediaType
+    sh:path dcat:mediaType;
+    rdfs:label "media type"@en, "mediatype"@nl .
 
 
 ###########################################
@@ -347,7 +377,10 @@ dcatapnl-sh:DataServiceShape
         dcatapnl-sh:DataServiceShape_language ,
         dcatapnl-sh:DataServiceShape_publisher ,
         dcatapnl-sh:DataServiceShape_modified ,
-        dcatapnl-sh:DataServiceShape_otherIdentifier
+        dcatapnl-sh:DataServiceShape_otherIdentifier,
+        dcatapnl-sh:DataServiceShape_creator,
+        dcatapnl-sh:DataServiceShape_identifier,
+        dcatapnl-sh:DataServiceShape_rights
     .
 
 dcatapnl-sh:dcatDataService_endpointURL
@@ -434,6 +467,17 @@ dcatapnl-sh:DataServiceShape_otherIdentifier
     sh:path adms:identifier;
     rdfs:label "other identifier"@en, "overige identificator"@nl .
 
+dcatapnl-sh:DataServiceShape_creator
+    sh:path dct:creator;
+    rdfs:label "creator"@en, "vervaardiger"@nl .
+
+dcatapnl-sh:DataServiceShape_identifier
+    sh:path dct:identifier;
+    rdfs:label "identifier"@en, "identificator"@nl .
+
+dcatapnl-sh:DataServiceShape_rights
+    sh:path dct:rights;
+    rdfs:label "rights"@en, "rechten"@nl .
 
 ###########################################
 #  dcat:Catalog

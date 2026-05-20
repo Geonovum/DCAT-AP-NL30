@@ -286,7 +286,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#dataset-status">status</a></td>
-        <td></td>
+        <td>status</td>
         <td><a href="http://www.w3.org/ns/adms#status" target='_blank'>adms:status</a></td>
         <td><a href="http://www.w3.org/2004/02/skos/core#Concept" target='_blank'>skos:Concept</a></td>
         <td>0..1</td>
@@ -1247,7 +1247,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>status</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -1614,7 +1614,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#distribution-download-url">download URL</a></td>
-        <td></td>
+        <td>download-URL</td>
         <td><a href="http://www.w3.org/ns/dcat#downloadURL" target='_blank'>dcat:downloadURL</a></td>
         <td><a href="http://www.w3.org/ns/shacl#BlankNodeOrIRI" target='_blank'>sh:BlankNodeOrIRI</a></td>
         <td>0..1</td>
@@ -1632,16 +1632,16 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#distribution-has-policy">has policy</a></td>
-        <td></td>
+        <td>heeft beleid</td>
         <td><a href="http://www.w3.org/ns/odrl/2/hasPolicy" target='_blank'>odrl:hasPolicy</a></td>
         <td><a href="http://www.w3.org/ns/odrl/2/Policy" target='_blank'>odrl:Policy</a></td>
         <td>0..1</td>
         <td></td>
-        <td>AP</td>
+        <td>NL</td>
     </tr>
     <tr>
         <td><a href="#distribution-language">language</a></td>
-        <td></td>
+        <td>taal</td>
         <td><a href="http://purl.org/dc/terms/language" target='_blank'>dct:language</a></td>
         <td><a href="http://purl.org/dc/terms/LinguisticSystem" target='_blank'>dct:LinguisticSystem</a></td>
         <td>0..n</td>
@@ -1659,7 +1659,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#distribution-linked-schemas">linked schemas</a></td>
-        <td></td>
+        <td>voldoet aan</td>
         <td><a href="http://purl.org/dc/terms/conformsTo" target='_blank'>dct:conformsTo</a></td>
         <td><a href="http://purl.org/dc/terms/Standard" target='_blank'>dct:Standard</a></td>
         <td>0..n</td>
@@ -1668,7 +1668,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#distribution-media-type">media type</a></td>
-        <td></td>
+        <td>mediatype</td>
         <td><a href="http://www.w3.org/ns/dcat#mediaType" target='_blank'>dcat:mediaType</a></td>
         <td><a href="http://purl.org/dc/terms/MediaType" target='_blank'>dct:MediaType</a></td>
         <td>0..1</td>
@@ -2029,7 +2029,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>download-URL</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -2089,7 +2089,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>heeft beleid</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -2119,7 +2119,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>taal</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -2179,7 +2179,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>voldoet aan</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -2209,7 +2209,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>mediatype</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -2531,7 +2531,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#dataservice-creator">creator</a></td>
-        <td></td>
+        <td>vervaardiger</td>
         <td><a href="http://purl.org/dc/terms/creator" target='_blank'>dct:creator</a></td>
         <td><a href="http://xmlns.com/foaf/0.1/Agent" target='_blank'>foaf:Agent</a></td>
         <td>0..1</td>
@@ -2594,7 +2594,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#dataservice-identifier">identifier</a></td>
-        <td></td>
+        <td>identificator</td>
         <td><a href="http://purl.org/dc/terms/identifier" target='_blank'>dct:identifier</a></td>
         <td><a href="http://www.w3.org/2000/01/rdf-schema#Literal" target='_blank'>rdfs:Literal</a></td>
         <td>1..1</td>
@@ -2666,7 +2666,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#dataservice-rights">rights</a></td>
-        <td></td>
+        <td>rechten</td>
         <td><a href="http://purl.org/dc/terms/rights" target='_blank'>dct:rights</a></td>
         <td><a href="http://purl.org/dc/terms/RightsStatement" target='_blank'>dct:RightsStatement</a></td>
         <td>0..n</td>
@@ -2832,7 +2832,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>vervaardiger</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -3042,7 +3042,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>identificator</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -3282,7 +3282,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td></td>
+    <td>rechten</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
