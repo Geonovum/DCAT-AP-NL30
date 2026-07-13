@@ -170,13 +170,13 @@ var respecConfig =
       date: "22 August 2024",
       status: "Recommendation"
     },
-    "DCAT-AP-3.0": {
-      title: "DCAT-AP-3.0",
-      href: "https://semiceu.github.io/DCAT-AP/releases/3.0.0/",
+    "DCAT-AP-3.0.1": {
+      title: "DCAT-AP-3.0.1",
+      href: "https://semiceu.github.io/DCAT-AP/releases/3.0.1/",
       authors: "",
       publisher: "SEMIC",
       editors: "",
-      date: "14 June 2024",
+      date: "27 October 2025",
       status: "Recommendation"
     },
     "DCAT-AP-HVD": {
