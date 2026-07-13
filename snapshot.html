@@ -1679,9 +1679,6 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
       "company": "Geonovum",
       "companyURL": "https://www.geonovum.nl/"
     }
-  ],
-  "preProcess": [
-    null
   ]
 }</script>
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
@@ -7941,8 +7938,9 @@ In <a href="#fig-verhouding-van-de-shapes-van-dcat-ap-dcat-ap-nl-en-high-value-d
 <p>Om te toetsen of een datasetbeschrijving voldoet aan DCAT-AP-NL is het noodzakelijk om zowel de DCAT-AP SHACL shapes als de DCAT-AP-NL SHACL shapes mee te nemen in de validatie. Mocht je een High-Value-Dataset-beschrijving willen valideren dan moet ook die set shapes extra worden meegenomen.
 <br>
 <br>
-Om het valideren van de datasetbeschrijvingen zo goed mogelijk te ondersteunen, zijn in DCAT-AP de SHACL shapes opgesplitst om verschillende validatiescenario's en -aspecten te ondersteunen. Zie hiervoor het hoofdstuk <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#validation-of-dcat-ap">Validation of DCAT-AP</a>.</p>
-<p>In navolging daarvan is in DCAT-AP-NL ook een splitsing gemaakt van de SHACL shapes. De SHACL shapes van DCAT-AP-NL zijn opgedeeld in de volgende bestanden, voor het valideren van verschillende aspecten van de datasetbeschrijvingen:
+Om het valideren van de datasetbeschrijvingen zo goed mogelijk te ondersteunen, zijn in DCAT-AP de SHACL shapes opgesplitst om verschillende validatiescenario's en -aspecten te ondersteunen. Zie hiervoor het hoofdstuk <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#validation-of-dcat-ap">Validation of DCAT-AP</a>.
+<br>
+In navolging daarvan is in DCAT-AP-NL ook een splitsing gemaakt van de SHACL shapes. De SHACL shapes van DCAT-AP-NL zijn opgedeeld in de volgende bestanden, voor het valideren van verschillende aspecten van de datasetbeschrijvingen:
 <br>
 <br></p>
 <ul>
@@ -7950,19 +7948,21 @@ Om het valideren van de datasetbeschrijvingen zo goed mogelijk te ondersteunen, 
 <li><a href="https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-klassebereik.ttl">dcat-ap-nl-SHACL-klassebereik.ttl</a>: De SHACL shapes van DCAT-AP-NL voor het valideren van het klassebereik van eigenschappen, exclusief het klassebereik van eigenschappen met een waarde afkomstig uit een codelijst.</li>
 <li><a href="https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl">dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl</a>: De SHACL shapes van DCAT-AP-NL voor het valideren van het klassebereik van eigenschappen met een waarde afkomstig uit een codelijst.</li>
 </ul>
-<p>Daarnaast is er een <a href="https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-LBL.ttl">dcat-ap-nl-LBL.ttl</a> waarin de Nederlandstalige labels zijn opgenomen, en een <a href="https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-OPT.ttl">dcat-ap-nl-OPT.ttl</a> bestand waarin de optionaliteit is vastgelegd. Om de optionaliteit van DCAT-AP weer te geven is er ook een <a href="https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-OPT.ttl">dcat-ap-OPT.ttl</a> gemaakt. 
+<br>
+<br>
+Daarnaast is er een [dcat-ap-nl-LBL.ttl](https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-LBL.ttl) waarin de Nederlandstalige labels zijn opgenomen, en een [dcat-ap-nl-OPT.ttl](https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-OPT.ttl) bestand waarin de optionaliteit is vastgelegd. Om de optionaliteit van DCAT-AP weer te geven is er ook een [dcat-ap-OPT.ttl](https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-OPT.ttl) gemaakt. 
 <br>
 Deze bestanden kunnen los, of gecombineerd worden gebruikt om de datasetbeschrijvingen te valideren.
 <br>
 <br>
 Voor het valideren van aanbevolen shapes uit DCAT-AP-NL kan het volgende bestand worden toegevoegd bij de validatie:
 <br>
-<br></p>
-<ul>
+<br><ul>
 <li><a href="https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-aanbevolen.ttl">dcat-ap-nl-SHACL-aanbevolen.ttl</a>: De SHACL shapes van DCAT-AP-NL voor het valideren van aanbevolen eigenschappen.</li>
 </ul>
-<p>Merk op dat de <a href="https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-SHACL.ttl">dcat-ap-SHACL.ttl</a> die in de repository is opgenomen een kopie is van de totale shacl file van DCAT-AP. Voor het toetsen van DCAT-AP op basis van de verschillende validatiescenario's moeten de shacl files uit de dcat-ap html repository folder gebruikt worden zoals beschreven in <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#validation-of-dcat-ap">Validation of DCAT-AP</a>.</p>
-</section>
+<br>
+<br>
+Merk op dat de [dcat-ap-SHACL.ttl](https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-SHACL.ttl) die in de repository is opgenomen een kopie is van de totale shacl file van DCAT-AP. Voor het toetsen van DCAT-AP op basis van de verschillende validatiescenario's moeten de shacl files uit de dcat-ap html repository folder gebruikt worden zoals beschreven in <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#validation-of-dcat-ap">Validation of DCAT-AP</a>.</section>
   
     <section class="appendix" id="contributors"><div class="header-wrapper"><h2 id="1CD346FA"><bdi class="secno">A. </bdi>Contributors</h2><a class="self-link" href="#1CD346FA" aria-label="Permalink for Appendix A."></a></div><p>De redactie is alle leden van de werkgroep dankbaar voor hun bijdragen aan dit document en tevens ook de personen die eerder een bijdrage geleverd hebben aan DCAT-AP-DONL 2.0 waarvan dankbaar gebruik gemaakt is.</p>
 </section>
