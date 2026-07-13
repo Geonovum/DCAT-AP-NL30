@@ -108,7 +108,7 @@ dcatapnl-sh:DatasetShape_accessRights
 
 dcatapnl-sh:DatasetShape_applicableLegislation
     sh:path dcatap:applicableLegislation;
-    rdfs:label "applicable legislation"@en, "toepasselijke wetgeving"@nl .
+    rdfs:label "applicable legislation"@en, "toepasbare wetgeving"@nl .
 
 dcatapnl-sh:DatasetShape_conformsTo
     sh:path dct:conformsTo;
@@ -559,7 +559,7 @@ dcatapnl-sh:dcatCatalog_themeTaxonomy
 
 dcatapnl-sh:dcatCatalog_applicableLegislation
     sh:path dcatap:applicableLegislation;
-    rdfs:label "applicable legislation"@en, "toepasselijke wetgeving"@nl .
+    rdfs:label "applicable legislation"@en, "toepasbare wetgeving"@nl .
 
 dcatapnl-sh:dcatCatalog_catalog
     sh:path dcat:catalog;
@@ -632,7 +632,7 @@ dcatapnl-sh:DatasetShapeSeries_publisher
 
 dcatapnl-sh:DatasetShapeSeries_applicableLegislation
     sh:path dcatap:applicableLegislation;
-    rdfs:label "applicable legislation"@en, "toepasselijke wetgeving"@nl .
+    rdfs:label "applicable legislation"@en, "toepasbare wetgeving"@nl .
 
 dcatapnl-sh:DatasetShapeSeries_accrualPeriodicity
     sh:path dct:accrualPeriodicity;

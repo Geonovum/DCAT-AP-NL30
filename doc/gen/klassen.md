@@ -34,7 +34,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#dataset-applicable-legislation">applicable legislation</a></td>
-        <td>toepasselijke wetgeving</td>
+        <td>toepasbare wetgeving</td>
         <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
         <td>0..n</td>
@@ -407,7 +407,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td>toepasselijke wetgeving</td>
+    <td>toepasbare wetgeving</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -3418,7 +3418,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#catalog-applicable-legislation">applicable legislation</a></td>
-        <td>toepasselijke wetgeving</td>
+        <td>toepasbare wetgeving</td>
         <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
         <td>0..n</td>
@@ -3608,7 +3608,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td>toepasselijke wetgeving</td>
+    <td>toepasbare wetgeving</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
@@ -4601,7 +4601,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
     </tr>
     <tr>
         <td><a href="#datasetseries-applicable-legislation">applicable legislation</a></td>
-        <td>toepasselijke wetgeving</td>
+        <td>toepasbare wetgeving</td>
         <td><a href="http://data.europa.eu/r5r/applicableLegislation" target='_blank'>dcatap:applicableLegislation</a></td>
         <td><a href="http://data.europa.eu/eli/ontology#LegalResource" target='_blank'>eli:LegalResource</a></td>
         <td>0..n</td>
@@ -4701,7 +4701,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0]] toeg
 </tr>
 <tr>
     <td><em>Nederlandse term</em></td>
-    <td>toepasselijke wetgeving</td>
+    <td>toepasbare wetgeving</td>
 </tr>
 <tr>
     <td><em>Kardinaliteit</em></td>
