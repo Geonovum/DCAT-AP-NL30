@@ -1679,6 +1679,9 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
       "company": "Geonovum",
       "companyURL": "https://www.geonovum.nl/"
     }
+  ],
+  "preProcess": [
+    null
   ]
 }</script>
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
@@ -1689,7 +1692,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
     <h2>
       Geonovum Standaard<br>
       Werkversie
-      <time class="dt-published" datetime="2026-05-04">13 juli 2026</time>
+      <time class="dt-published" datetime="2026-05-04">14 juli 2026</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
@@ -1986,28 +1989,28 @@ Daarvoor wordt een waarde uit de waardelijst voor language toegepast: <a href="h
     <a class="self-link" href="#example-1">Voorbeeld<bdi> 1</bdi></a>
   </div><pre><code class="turtle hljs" aria-busy="false">
 
-exampleMS:1T2p3o4B a dcat:Dataset;
-   dct:title "Naam van de dataset"@nl;
-   dct:title "Title of the dataset"@en;
-   dcat:contactPoint [
-     a vcard:Organization ;
-     vcard:fn "Mijn Organisatie"@nl ;
-     vcard:fn "My Organization"@en ;
-     vcard:hasEmail &lt;mailto:opendata@mijnorganisatie.nl&gt; ;
-     vcard:hasURL "http://mijnorganisatie.org/" ;
-     vcard:organization-name "Mijn Organisatie"@nl ;
-     vcard:organization-name "My Organization"@en
+<span class="hljs-symbol">exampleMS:1T2p3o4B</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:Dataset;</span>
+   <span class="hljs-symbol">dct:title</span> <span class="hljs-string">"Naam van de dataset"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dct:title</span> <span class="hljs-string">"Title of the dataset"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dcat:contactPoint</span> [
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">vcard:Organization</span> ;
+     <span class="hljs-symbol">vcard:fn</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span> ;
+     <span class="hljs-symbol">vcard:fn</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span> ;
+     <span class="hljs-symbol">vcard:hasEmail</span> <span class="hljs-literal">&lt;mailto:opendata@mijnorganisatie.nl&gt;</span> ;
+     <span class="hljs-symbol">vcard:hasURL</span> <span class="hljs-string">"http://mijnorganisatie.org/"</span> ;
+     <span class="hljs-symbol">vcard:organization-name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span> ;
+     <span class="hljs-symbol">vcard:organization-name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ; 
-   dct:creator [
-     dct:type &lt;http://purl.org/adms/publishertype/LocalAuthority&gt; ;
-     a foaf:Agent ;
-     foaf:name "Mijn Organisatie"@nl;
-     foaf:name "My Organization"@en
+   <span class="hljs-symbol">dct:creator</span> [
+     <span class="hljs-symbol">dct:type</span> <span class="hljs-literal">&lt;http://purl.org/adms/publishertype/LocalAuthority&gt;</span> ;
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">foaf:Agent</span> ;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span>;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ;
-   dcat:keyword "trefwoord 1"@nl;
-   dcat:keyword "trefwoord 2"@nl;
-   dcat:keyword "keyword 1"@en;
-   dcat:keyword "keyword 2"@en; 
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"trefwoord 1"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"trefwoord 2"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"keyword 1"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"keyword 2"</span><span class="hljs-type">@en</span>; 
    .
 </code></pre>
 </aside></section></section>
@@ -3466,100 +3469,100 @@ Aanbevolen schrijfwijze voor deze eigenschap is: (projectkenmerk) onderwerp (loc
 <aside class="example" id="example-2"><div class="marker">
     <a class="self-link" href="#example-2">Voorbeeld<bdi> 2</bdi></a>
   </div><pre><code class="turtle hljs" aria-busy="false">
-## Imports om relevante waardes uit waardelijsten of gegevens uit externe bronnen op te nemen.
-##  Dit is in principe alleen nodig voor validatie en als er gebruik gemaakt kan worden van owl:imports bij validatie.
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-[] owl:imports 
-  &lt;http://publications.europa.eu/resource/authority/access-right/PUBLIC&gt; ,
-  &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt; ,
-  &lt;http://data.europa.eu/eli/reg/2010/1089&gt; ,
-  &lt;http://publications.europa.eu/resource/authority/language/NLD&gt; ,
-  &lt;http://www.geonames.org/2750405/about.rdf&gt; ,
-  &lt;http://publications.europa.eu/resource/authority/data-theme/EDUC&gt; .
-## End Import
+<span class="hljs-comment">## Imports om relevante waardes uit waardelijsten of gegevens uit externe bronnen op te nemen.</span>
+<span class="hljs-comment">##  Dit is in principe alleen nodig voor validatie en als er gebruik gemaakt kan worden van owl:imports bij validatie.</span>
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">owl:</span> <span class="hljs-literal">&lt;http://www.w3.org/2002/07/owl#&gt;</span> .
+[] <span class="hljs-symbol">owl:imports</span> 
+  <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/access-right/PUBLIC&gt;</span> ,
+  <span class="hljs-literal">&lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;</span> ,
+  <span class="hljs-literal">&lt;http://data.europa.eu/eli/reg/2010/1089&gt;</span> ,
+  <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/language/NLD&gt;</span> ,
+  <span class="hljs-literal">&lt;http://www.geonames.org/2750405/about.rdf&gt;</span> ,
+  <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/data-theme/EDUC&gt;</span> .
+<span class="hljs-comment">## End Import</span>
 
-@prefix exampleMS: &lt;https://data.exampleMS.gov/id/data/&gt;.
-@prefix adms: &lt;http://www.w3.org/ns/adms#&gt;.
-@prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt;.
-@prefix dcatap: &lt;http://data.europa.eu/r5r/&gt;.
-@prefix dct: &lt;http://purl.org/dc/terms/&gt;.
-@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
-@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
-@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
-@prefix vcard: &lt;http://www.w3.org/2006/vcard/ns#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">exampleMS:</span> <span class="hljs-literal">&lt;https://data.exampleMS.gov/id/data/&gt;</span>.
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">adms:</span> <span class="hljs-literal">&lt;http://www.w3.org/ns/adms#&gt;</span>.
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">dcat:</span> <span class="hljs-literal">&lt;http://www.w3.org/ns/dcat#&gt;</span>.
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">dcatap:</span> <span class="hljs-literal">&lt;http://data.europa.eu/r5r/&gt;</span>.
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">dct:</span> <span class="hljs-literal">&lt;http://purl.org/dc/terms/&gt;</span>.
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">rdf:</span> <span class="hljs-literal">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span> .
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">foaf:</span> <span class="hljs-literal">&lt;http://xmlns.com/foaf/0.1/&gt;</span> .
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">skos:</span> <span class="hljs-literal">&lt;http://www.w3.org/2004/02/skos/core#&gt;</span> .
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">vcard:</span> <span class="hljs-literal">&lt;http://www.w3.org/2006/vcard/ns#&gt;</span> .
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">xsd:</span> <span class="hljs-literal">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span>.
 
-exampleMS:1T2p3o4B a dcat:Dataset;
-   dct:title "Naam van de dataset"@nl;
-   dct:title "Title of the dataset"@en;
-   dct:accessRights &lt;http://publications.europa.eu/resource/authority/access-right/PUBLIC&gt;;
-   dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;;
-   dct:conformsTo &lt;http://data.europa.eu/eli/reg/2010/1089&gt;;
-   dcat:contactPoint [
-     a vcard:Organization ;
-     vcard:fn "Mijn Organisatie"@nl ;
-     vcard:fn "My Organization"@en ;
-     vcard:hasEmail &lt;mailto:opendata@mijnorganisatie.nl&gt; ;
-     vcard:hasURL "http://mijnorganisatie.org/" ;
-     vcard:organization-name "Mijn Organisatie"@nl ;
-     vcard:organization-name "My Organization"@en
+<span class="hljs-symbol">exampleMS:1T2p3o4B</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:Dataset;</span>
+   <span class="hljs-symbol">dct:title</span> <span class="hljs-string">"Naam van de dataset"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dct:title</span> <span class="hljs-string">"Title of the dataset"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dct:accessRights</span> <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/access-right/PUBLIC&gt;</span>;
+   <span class="hljs-symbol">dcatap:applicableLegislation</span> <span class="hljs-literal">&lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;</span>;
+   <span class="hljs-symbol">dct:conformsTo</span> <span class="hljs-literal">&lt;http://data.europa.eu/eli/reg/2010/1089&gt;</span>;
+   <span class="hljs-symbol">dcat:contactPoint</span> [
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">vcard:Organization</span> ;
+     <span class="hljs-symbol">vcard:fn</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span> ;
+     <span class="hljs-symbol">vcard:fn</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span> ;
+     <span class="hljs-symbol">vcard:hasEmail</span> <span class="hljs-literal">&lt;mailto:opendata@mijnorganisatie.nl&gt;</span> ;
+     <span class="hljs-symbol">vcard:hasURL</span> <span class="hljs-string">"http://mijnorganisatie.org/"</span> ;
+     <span class="hljs-symbol">vcard:organization-name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span> ;
+     <span class="hljs-symbol">vcard:organization-name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ; 
-   dct:creator [
-     dct:type &lt;http://purl.org/adms/publishertype/LocalAuthority&gt; ;
-     a foaf:Agent ;
-     foaf:name "Mijn Organisatie"@nl;
-     foaf:name "My Organization"@en
+   <span class="hljs-symbol">dct:creator</span> [
+     <span class="hljs-symbol">dct:type</span> <span class="hljs-literal">&lt;http://purl.org/adms/publishertype/LocalAuthority&gt;</span> ;
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">foaf:Agent</span> ;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span>;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ;
-   dct:description "beschrijving van de dataset"@nl;
-   dct:description "description of the dataset in english"@en;
-   dct:identifier "https://data.exampleMS.gov/id/dataset/1T2p3o4B";
-   dcat:keyword "trefwoord 1"@nl;
-   dcat:keyword "trefwoord 2"@nl;
-   dcat:keyword "keyword 1"@en;
-   dcat:keyword "keyword 2"@en;
-   dct:language &lt;http://publications.europa.eu/resource/authority/language/NLD&gt; ;
-   dct:publisher [
-     dct:type &lt;http://purl.org/adms/publishertype/LocalAuthority&gt; ;
-     a foaf:Agent ;
-     foaf:name "Mijn Organisatie"@nl;
-     foaf:name "My Organization"@en
+   <span class="hljs-symbol">dct:description</span> <span class="hljs-string">"beschrijving van de dataset"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dct:description</span> <span class="hljs-string">"description of the dataset in english"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dct:identifier</span> <span class="hljs-string">"https://data.exampleMS.gov/id/dataset/1T2p3o4B"</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"trefwoord 1"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"trefwoord 2"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"keyword 1"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"keyword 2"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dct:language</span> <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/language/NLD&gt;</span> ;
+   <span class="hljs-symbol">dct:publisher</span> [
+     <span class="hljs-symbol">dct:type</span> <span class="hljs-literal">&lt;http://purl.org/adms/publishertype/LocalAuthority&gt;</span> ;
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">foaf:Agent</span> ;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span>;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ;
-   dct:spatial &lt;https://www.geonames.org/2750405&gt;;
-   dct:spatial [a dct:Location ;
-                  dcat:bbox "POLYGON ((3.053 47.975,7.24 47.975,7.24 53.504,3.053 53.504,3.053 47.975))"^^rdf:wktLiteral;
+   <span class="hljs-symbol">dct:spatial</span> <span class="hljs-literal">&lt;https://www.geonames.org/2750405&gt;</span>;
+   <span class="hljs-symbol">dct:spatial</span> [<span class="hljs-built_in">a</span> <span class="hljs-symbol">dct:Location</span> ;
+                  <span class="hljs-symbol">dcat:bbox</span> <span class="hljs-string">"POLYGON ((3.053 47.975,7.24 47.975,7.24 53.504,3.053 53.504,3.053 47.975))"</span><span class="hljs-type">^^rdf:wktLiteral;</span>
   ] ;
-   dct:temporal [ a dct:PeriodOfTime ;
-     dcat:startDate "2016-03-28"^^xsd:date ;
-     dcat:endDate   "2018-08-25"^^xsd:date ;
+   <span class="hljs-symbol">dct:temporal</span> [ <span class="hljs-built_in">a</span> <span class="hljs-symbol">dct:PeriodOfTime</span> ;
+     <span class="hljs-symbol">dcat:startDate</span> <span class="hljs-string">"2016-03-28"</span><span class="hljs-type">^^xsd:date</span> ;
+     <span class="hljs-symbol">dcat:endDate</span>   <span class="hljs-string">"2018-08-25"</span><span class="hljs-type">^^xsd:date</span> ;
      ] ;
-   dcat:theme &lt;http://publications.europa.eu/resource/authority/data-theme/EDUC&gt;;
-   dcat:distribution exampleMS:1T2p3o4B-dist-SHP;
-   dcat:distribution exampleMS:1T2p3o4B-dist-WMS
+   <span class="hljs-symbol">dcat:theme</span> <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/data-theme/EDUC&gt;</span>;
+   <span class="hljs-symbol">dcat:distribution</span> <span class="hljs-symbol">exampleMS:1T2p3o4B-dist-SHP;</span>
+   <span class="hljs-symbol">dcat:distribution</span> <span class="hljs-symbol">exampleMS:1T2p3o4B-dist-WMS</span>
    .
 
-exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;
+<span class="hljs-symbol">exampleMS:1T2p3o4B-dist-SHP</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:Distribution;</span>
 .
-# wordt verder uitgewerkt in voorbeeld Distributie
+<span class="hljs-comment"># wordt verder uitgewerkt in voorbeeld Distributie</span>
 
-# Aanvullingen voor EU waardelijsten, die nog niet volledig zijn ontsloten 
-# De dct:RightsStatement zit niet in de waardelijst. Dat lijkt een fout in de waardelijst.
-&lt;http://publications.europa.eu/resource/authority/access-right/PUBLIC&gt; a dct:RightsStatement .
+<span class="hljs-comment"># Aanvullingen voor EU waardelijsten, die nog niet volledig zijn ontsloten </span>
+<span class="hljs-comment"># De dct:RightsStatement zit niet in de waardelijst. Dat lijkt een fout in de waardelijst.</span>
+<span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/access-right/PUBLIC&gt;</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dct:RightsStatement</span> .
 
-# De typering dct:LinguisticSystem zit niet in de waardelijst. Dat lijkt een fout in de waardelijst.
-&lt;http://publications.europa.eu/resource/authority/language/NLD&gt; a dct:LinguisticSystem .
+<span class="hljs-comment"># De typering dct:LinguisticSystem zit niet in de waardelijst. Dat lijkt een fout in de waardelijst.</span>
+<span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/language/NLD&gt;</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dct:LinguisticSystem</span> .
 
-# Geen RDF van beschikbaar
-&lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt; a eli:LegalResource .
+<span class="hljs-comment"># Geen RDF van beschikbaar</span>
+<span class="hljs-literal">&lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">eli:LegalResource</span> .
 
-# Geen RDF van beschikbaar
-&lt;http://data.europa.eu/eli/reg/2010/1089&gt; a dct:Standard .
+<span class="hljs-comment"># Geen RDF van beschikbaar</span>
+<span class="hljs-literal">&lt;http://data.europa.eu/eli/reg/2010/1089&gt;</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dct:Standard</span> .
 
-# Geonames is niet gedefinieert als een dct:Location. 
-&lt;https://www.geonames.org/2750405&gt; a dct:Location .
+<span class="hljs-comment"># Geonames is niet gedefinieert als een dct:Location. </span>
+<span class="hljs-literal">&lt;https://www.geonames.org/2750405&gt;</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dct:Location</span> .
 
-# Deze zou je kunnen importeren, maar dan krijg je validatiefouten op ConceptScheme shapes, omdat de adms ConceptSchemes niet voldoen aan de ConceptScheme shape van DCAT-AP.
-&lt;http://purl.org/adms/publishertype/LocalAuthority&gt; a skos:Concept ;
- skos:prefLabel"Local Authority"@en .
+<span class="hljs-comment"># Deze zou je kunnen importeren, maar dan krijg je validatiefouten op ConceptScheme shapes, omdat de adms ConceptSchemes niet voldoen aan de ConceptScheme shape van DCAT-AP.</span>
+<span class="hljs-literal">&lt;http://purl.org/adms/publishertype/LocalAuthority&gt;</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">skos:Concept</span> ;
+ <span class="hljs-symbol">skos:prefLabel</span><span class="hljs-string">"Local Authority"</span><span class="hljs-type">@en</span> .
 
 
 </code></pre>
@@ -4516,27 +4519,27 @@ Aanbevolen schrijfwijze voor deze eigenschap is: (projectkenmerk) onderwerp (loc
 <p><section><div class="header-wrapper"><h5 id="dcat-distribution-voorbeelden">Voorbeelden</h5><a class="self-link" href="#dcat-distribution-voorbeelden" aria-label="Permalink for this Section"></a></div><p>Onderstaand voorbeeld beschrijft een <code>dcat:Distribution </code>met de verplichte en aanbevolen en enkele conditionele eigenschappen. Dit is een verdere uitwerking van het voorbeeld bij <code>dcat:Dataset </code></p>
 <aside class="example" id="example-3"><div class="marker">
     <a class="self-link" href="#example-3">Voorbeeld<bdi> 3</bdi></a>
-  </div><pre><code class="turtle hljs" aria-busy="false">exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;
-   dcat:accessURL &lt;https://orgea.exampleMS.gov/files/1T2p3o4B.shp&gt; ;
-   dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;;
-   dcat:downloadURL &lt;https://orgea.exampleMS.gov/files/1T2p3o4B.shp&gt; ;
-   dct:language &lt;http://publications.europa.eu/resource/authority/language/NLD&gt; ;
-   dct:license &lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt; ;
-   dct:conformsTo &lt;http://inspire.ec.europa.eu/schemas/hy/4.0/HydroBase.xsd&gt; ;
-   dcat:mediaType &lt;https://www.iana.org/assignments/media-types/application/vnd.shp&gt;
+  </div><pre><code class="turtle hljs" aria-busy="false"><span class="hljs-symbol">exampleMS:1T2p3o4B-dist-SHP</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:Distribution;</span>
+   <span class="hljs-symbol">dcat:accessURL</span> <span class="hljs-literal">&lt;https://orgea.exampleMS.gov/files/1T2p3o4B.shp&gt;</span> ;
+   <span class="hljs-symbol">dcatap:applicableLegislation</span> <span class="hljs-literal">&lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;</span>;
+   <span class="hljs-symbol">dcat:downloadURL</span> <span class="hljs-literal">&lt;https://orgea.exampleMS.gov/files/1T2p3o4B.shp&gt;</span> ;
+   <span class="hljs-symbol">dct:language</span> <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/language/NLD&gt;</span> ;
+   <span class="hljs-symbol">dct:license</span> <span class="hljs-literal">&lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt;</span> ;
+   <span class="hljs-symbol">dct:conformsTo</span> <span class="hljs-literal">&lt;http://inspire.ec.europa.eu/schemas/hy/4.0/HydroBase.xsd&gt;</span> ;
+   <span class="hljs-symbol">dcat:mediaType</span> <span class="hljs-literal">&lt;https://www.iana.org/assignments/media-types/application/vnd.shp&gt;</span>
    .
 </code></pre>
 </aside><p>Onderstaand voorbeeld beschrijft een <code>dcat:Distribution </code> die een Data Service ontsluit. Dit is een verdere uitwerking van het voorbeeld bij <code>dcat:Dataset </code></p>
 <aside class="example" id="example-4"><div class="marker">
     <a class="self-link" href="#example-4">Voorbeeld<bdi> 4</bdi></a>
-  </div><pre><code class="turtle hljs" aria-busy="false">exampleMS:1T2p3o4B-dist-WMS a dcat:Distribution;
-   dcat:accessService exampleMS:1T2p3o4B-dataservice-WMS;
-   dcat:accessURL &lt;https://orgea.exampleMS.gov/services/wms?&amp;request=GetCapabilities&amp;service=WMS&gt; ;
-   dct:license &lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt; ;
+  </div><pre><code class="turtle hljs" aria-busy="false"><span class="hljs-symbol">exampleMS:1T2p3o4B-dist-WMS</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:Distribution;</span>
+   <span class="hljs-symbol">dcat:accessService</span> <span class="hljs-symbol">exampleMS:1T2p3o4B-dataservice-WMS;</span>
+   <span class="hljs-symbol">dcat:accessURL</span> <span class="hljs-literal">&lt;https://orgea.exampleMS.gov/services/wms?&amp;request=GetCapabilities&amp;service=WMS&gt;</span> ;
+   <span class="hljs-symbol">dct:license</span> <span class="hljs-literal">&lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt;</span> ;
    .
 
-exampleMS:1T2p3o4B-dataservice-WMS a dcat:DataService;
-# wordt verder uitgewerkt bij DataService
+<span class="hljs-symbol">exampleMS:1T2p3o4B-dataservice-WMS</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:DataService;</span>
+<span class="hljs-comment"># wordt verder uitgewerkt bij DataService</span>
 </code></pre>
 </aside></section></p></section></section><section id="dataservice-dcat-dataservice"><div class="header-wrapper"><h3 id="x4-3-dataservice-dcat-dataservice"><bdi class="secno">4.3 </bdi>DataService - dcat:DataService</h3><a class="self-link" href="#dataservice-dcat-dataservice" aria-label="Permalink for Section 4.3"></a></div>
 <p><p>Een gegevensdienst of Data Service is een computer service waar gegevens opgevraagd worden aan de hand van specificaties in een aanvraag. De gegevens die voldoen aan de meegegeven specificatie worden als antwoord teruggestuurd. Webservices zoals REST/JSON, WMS of XML interfaces zijn voorbeelden van <code>dcat:DataService</code>. Merk op dat als de specificatie slechts een deel van de gegevens beschrijft, alleen desbetreffende subset wordt opgestuurd. Ook is het mogelijk dat een Data Service niet één, maar meerdere datasets ontsluit.
@@ -5473,47 +5476,47 @@ Aanbevolen schrijfwijze voor deze eigenschap is: (projectkenmerk) onderwerp (loc
 <aside class="example" id="example-5"><div class="marker">
     <a class="self-link" href="#example-5">Voorbeeld<bdi> 5</bdi></a>
   </div><pre><code class="turtle hljs" aria-busy="false">
-exampleMS:1T2p3o4B-dataservice-WMS a dcat:DataService;
-   dct:title "Naam van de dataservice"@nl;
-   dct:title "Title of the dataservice"@en;
-   dct:accessRights &lt;http://publications.europa.eu/resource/authority/access-right/PUBLIC&gt;;
-   dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;;
-   dct:conformsTo &lt;http://www.opengis.net/def/serviceType/ogc/wms&gt;;
-   dcat:contactPoint [
-     a vcard:Kind;
-     vcard:fn "Mijn Organisatie"@nl ;
-     vcard:fn "My Organization"@en ;
-     vcard:hasEmail &lt;mailto:opendata@mijnorganisatie.nl&gt; ;
-     vcard:hasURL "http://mijnorganisatie.org/" ;
-     vcard:organization-name "Mijn Organisatie"@nl ;
-     vcard:organization-name "My Organization"@en
+<span class="hljs-symbol">exampleMS:1T2p3o4B-dataservice-WMS</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:DataService;</span>
+   <span class="hljs-symbol">dct:title</span> <span class="hljs-string">"Naam van de dataservice"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dct:title</span> <span class="hljs-string">"Title of the dataservice"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dct:accessRights</span> <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/access-right/PUBLIC&gt;</span>;
+   <span class="hljs-symbol">dcatap:applicableLegislation</span> <span class="hljs-literal">&lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;</span>;
+   <span class="hljs-symbol">dct:conformsTo</span> <span class="hljs-literal">&lt;http://www.opengis.net/def/serviceType/ogc/wms&gt;</span>;
+   <span class="hljs-symbol">dcat:contactPoint</span> [
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">vcard:Kind;</span>
+     <span class="hljs-symbol">vcard:fn</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span> ;
+     <span class="hljs-symbol">vcard:fn</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span> ;
+     <span class="hljs-symbol">vcard:hasEmail</span> <span class="hljs-literal">&lt;mailto:opendata@mijnorganisatie.nl&gt;</span> ;
+     <span class="hljs-symbol">vcard:hasURL</span> <span class="hljs-string">"http://mijnorganisatie.org/"</span> ;
+     <span class="hljs-symbol">vcard:organization-name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span> ;
+     <span class="hljs-symbol">vcard:organization-name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ; 
-   dct:creator [
-     dct:type &lt;http://purl.org/adms/publishertype/LocalAuthority&gt; ;
-     a foaf:Agent ;
-     foaf:name "Mijn Organisatie"@nl;
-     foaf:name "My Organization"@en
+   <span class="hljs-symbol">dct:creator</span> [
+     <span class="hljs-symbol">dct:type</span> <span class="hljs-literal">&lt;http://purl.org/adms/publishertype/LocalAuthority&gt;</span> ;
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">foaf:Agent</span> ;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span>;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ;
-   dct:description "beschrijving van de dataservice"@nl;
-   dct:description "description of the dataservice in english"@en;
-   foaf:page &lt;https://orgea.exampleMS.gov/QoS.html&gt; ;
-   dcat:endpointDescription &lt;https://orgea.exampleMS.gov/services/wms?&amp;request=GetCapabilities&amp;service=WMS&gt;;
-   dcat:endpointURL &lt;https://orgea.exampleMS.gov/services/wms?&gt; ;
-   dct:identifier "https://data.exampleMS.gov/id/data/1T2p3o4B-dataservice-WMS";
-   dcat:keyword "trefwoord 1"@nl;
-   dcat:keyword "trefwoord 2"@nl;
-   dcat:keyword "keyword 1"@en;
-   dcat:keyword "keyword 2"@en;
-   dct:language &lt;http://publications.europa.eu/resource/authority/language/NLD&gt; ;
-   dct:license &lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt; ;
-   dct:publisher [
-     dct:type &lt;http://purl.org/adms/publishertype/LocalAuthority&gt; ;
-     a foaf:Agent ;
-     foaf:name "Mijn Organisatie"@nl;
-     foaf:name "My Organization"@en
+   <span class="hljs-symbol">dct:description</span> <span class="hljs-string">"beschrijving van de dataservice"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dct:description</span> <span class="hljs-string">"description of the dataservice in english"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">foaf:page</span> <span class="hljs-literal">&lt;https://orgea.exampleMS.gov/QoS.html&gt;</span> ;
+   <span class="hljs-symbol">dcat:endpointDescription</span> <span class="hljs-literal">&lt;https://orgea.exampleMS.gov/services/wms?&amp;request=GetCapabilities&amp;service=WMS&gt;</span>;
+   <span class="hljs-symbol">dcat:endpointURL</span> <span class="hljs-literal">&lt;https://orgea.exampleMS.gov/services/wms?&gt;</span> ;
+   <span class="hljs-symbol">dct:identifier</span> <span class="hljs-string">"https://data.exampleMS.gov/id/data/1T2p3o4B-dataservice-WMS"</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"trefwoord 1"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"trefwoord 2"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"keyword 1"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dcat:keyword</span> <span class="hljs-string">"keyword 2"</span><span class="hljs-type">@en</span>;
+   <span class="hljs-symbol">dct:language</span> <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/language/NLD&gt;</span> ;
+   <span class="hljs-symbol">dct:license</span> <span class="hljs-literal">&lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt;</span> ;
+   <span class="hljs-symbol">dct:publisher</span> [
+     <span class="hljs-symbol">dct:type</span> <span class="hljs-literal">&lt;http://purl.org/adms/publishertype/LocalAuthority&gt;</span> ;
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">foaf:Agent</span> ;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span>;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ;
-   dcat:theme &lt;http://publications.europa.eu/resource/authority/data-theme/EDUC&gt;;
-   dcat:servesDataset exampleMS:1T2p3o4B
+   <span class="hljs-symbol">dcat:theme</span> <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/data-theme/EDUC&gt;</span>;
+   <span class="hljs-symbol">dcat:servesDataset</span> <span class="hljs-symbol">exampleMS:1T2p3o4B</span>
 .
 </code></pre>
 </aside></section></p></section></section><section id="catalog-dcat-catalog"><div class="header-wrapper"><h3 id="x4-4-catalog-dcat-catalog"><bdi class="secno">4.4 </bdi>Catalog - dcat:Catalog</h3><a class="self-link" href="#catalog-dcat-catalog" aria-label="Permalink for Section 4.4"></a></div>
@@ -6291,26 +6294,26 @@ Aanbevolen schrijfwijze voor deze eigenschap is: (projectkenmerk) onderwerp (loc
 <p>Onderstaand voorbeeld beschrijft een <code>dcat:Catalog </code>met de verplichte een aantal aanbevolen eigenschappen. </p>
 <aside class="example" id="example-6"><div class="marker">
     <a class="self-link" href="#example-6">Voorbeeld<bdi> 6</bdi></a>
-  </div><pre><code class="turtle hljs" aria-busy="false">exampleMS:Datacatalog  a dcat:Catalogue;
-  dct:title "De naam van de catalog"@nl;
-   dcat:contactPoint [
-     a vcard:Kind ;
-     vcard:fn "Mijn Organisatie"@nl ;
-     vcard:fn "My Organization"@en ;
-     vcard:hasEmail &lt;mailto:opendata@mijnorganisatie.nl&gt; ;
-     vcard:hasURL "http://mijnorganisatie.org/" ;
-     vcard:organization-name "Mijn Organisatie"@nl ;
-     vcard:organization-name "My Organization"@en
+  </div><pre><code class="turtle hljs" aria-busy="false"><span class="hljs-symbol">exampleMS:Datacatalog</span>  <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:Catalogue;</span>
+  <span class="hljs-symbol">dct:title</span> <span class="hljs-string">"De naam van de catalog"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dcat:contactPoint</span> [
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">vcard:Kind</span> ;
+     <span class="hljs-symbol">vcard:fn</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span> ;
+     <span class="hljs-symbol">vcard:fn</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span> ;
+     <span class="hljs-symbol">vcard:hasEmail</span> <span class="hljs-literal">&lt;mailto:opendata@mijnorganisatie.nl&gt;</span> ;
+     <span class="hljs-symbol">vcard:hasURL</span> <span class="hljs-string">"http://mijnorganisatie.org/"</span> ;
+     <span class="hljs-symbol">vcard:organization-name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span> ;
+     <span class="hljs-symbol">vcard:organization-name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ; 
-  dct:description "beschrijving van de catalog"@nl;
-   dct:publisher [
-     dct:type &lt;http://purl.org/adms/publishertype/LocalAuthority&gt; ;
-     a foaf:Agent ;
-     foaf:name "Mijn Organisatie"@nl;
-     foaf:name "My Organization"@en
+  <span class="hljs-symbol">dct:description</span> <span class="hljs-string">"beschrijving van de catalog"</span><span class="hljs-type">@nl</span>;
+   <span class="hljs-symbol">dct:publisher</span> [
+     <span class="hljs-symbol">dct:type</span> <span class="hljs-literal">&lt;http://purl.org/adms/publishertype/LocalAuthority&gt;</span> ;
+     <span class="hljs-built_in">a</span> <span class="hljs-symbol">foaf:Agent</span> ;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"Mijn Organisatie"</span><span class="hljs-type">@nl</span>;
+     <span class="hljs-symbol">foaf:name</span> <span class="hljs-string">"My Organization"</span><span class="hljs-type">@en</span>
      ] ;
-  dcat:dataset exampleMS:1T2p3o4B ;
-  dcat:service exampleMS:1T2p3o4B-dataservice-WMS
+  <span class="hljs-symbol">dcat:dataset</span> <span class="hljs-symbol">exampleMS:1T2p3o4B</span> ;
+  <span class="hljs-symbol">dcat:service</span> <span class="hljs-symbol">exampleMS:1T2p3o4B-dataservice-WMS</span>
   .
 </code></pre>
 </aside></section></p></section></section><section id="catalogrecord-dcat-catalogrecord"><div class="header-wrapper"><h3 id="x4-5-catalogrecord-dcat-catalogrecord"><bdi class="secno">4.5 </bdi>CatalogRecord - dcat:CatalogRecord</h3><a class="self-link" href="#catalogrecord-dcat-catalogrecord" aria-label="Permalink for Section 4.5"></a></div>
@@ -6666,12 +6669,12 @@ Gebruik altijd een datum en tijd conform de [<cite><a class="bibref" data-link-t
 <p>Onderstaand voorbeeld beschrijft een <code>dcat:CatalogRecord </code>met de verplichte een aantal aanbevolen eigenschappen. </p>
 <aside class="example" id="example-7"><div class="marker">
     <a class="self-link" href="#example-7">Voorbeeld<bdi> 7</bdi></a>
-  </div><pre><code class="turtle hljs" aria-busy="false">exampleMS:1T2p3o4B-rec a dcat:CatalogRecord;
-   dct:conformsTo &lt;https://semiceu.github.io/DCAT-AP/releases/3.0.0&gt;;
-   dct:language &lt;http://publications.europa.eu/resource/authority/language/NLD&gt; ;
-   dct:modified "2019-02-27T15:15:08Z" ; 
-   foaf:primaryTopic exampleMS:1T2p3o4B ;
-   dct:source &lt;https://www.nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/ba83c30f-12f7-4582-a590-852b6d1706de?tab=general&gt;
+  </div><pre><code class="turtle hljs" aria-busy="false"><span class="hljs-symbol">exampleMS:1T2p3o4B-rec</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:CatalogRecord;</span>
+   <span class="hljs-symbol">dct:conformsTo</span> <span class="hljs-literal">&lt;https://semiceu.github.io/DCAT-AP/releases/3.0.0&gt;</span>;
+   <span class="hljs-symbol">dct:language</span> <span class="hljs-literal">&lt;http://publications.europa.eu/resource/authority/language/NLD&gt;</span> ;
+   <span class="hljs-symbol">dct:modified</span> <span class="hljs-string">"2019-02-27T15:15:08Z"</span> ; 
+   <span class="hljs-symbol">foaf:primaryTopic</span> <span class="hljs-symbol">exampleMS:1T2p3o4B</span> ;
+   <span class="hljs-symbol">dct:source</span> <span class="hljs-literal">&lt;https://www.nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/ba83c30f-12f7-4582-a590-852b6d1706de?tab=general&gt;</span>
   .
 </code></pre>
 </aside></section></p></section></section><section id="datasetseries-dcat-datasetseries"><div class="header-wrapper"><h3 id="x4-6-datasetseries-dcat-datasetseries"><bdi class="secno">4.6 </bdi>DatasetSeries - dcat:DatasetSeries</h3><a class="self-link" href="#datasetseries-dcat-datasetseries" aria-label="Permalink for Section 4.6"></a></div>
@@ -7094,21 +7097,21 @@ Aanbevolen schrijfwijze voor deze eigenschap is: (projectkenmerk) onderwerp (loc
 <p>Onderstaand voorbeeld laat voor twee datasets de eigenschap zien die aangeeft dat ze onderdeel uitmaken van een DatasetSerie. De <code>dcat:DatasetSeries </code> bevat de verplichte eigenschappen. </p>
 <aside class="example" id="example-8"><div class="marker">
     <a class="self-link" href="#example-8">Voorbeeld<bdi> 8</bdi></a>
-  </div><pre><code class="turtle hljs" aria-busy="false">@prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt; .
-@prefix dct: &lt;http://purl.org/dc/terms/&gt; .
-@prefix example-ds: &lt;https://data.gov.gr/id/dataset/&gt; .
-@prefix example-ser: &lt;https://data.gov.gr/id/datasetseries/&gt; .
-@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+  </div><pre><code class="turtle hljs" aria-busy="false"><span class="hljs-type">@prefix</span> <span class="hljs-symbol">dcat:</span> <span class="hljs-literal">&lt;http://www.w3.org/ns/dcat#&gt;</span> .
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">dct:</span> <span class="hljs-literal">&lt;http://purl.org/dc/terms/&gt;</span> .
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">example-ds:</span> <span class="hljs-literal">&lt;https://data.gov.gr/id/dataset/&gt;</span> .
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">example-ser:</span> <span class="hljs-literal">&lt;https://data.gov.gr/id/datasetseries/&gt;</span> .
+<span class="hljs-type">@prefix</span> <span class="hljs-symbol">rdf:</span> <span class="hljs-literal">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span> .
 
-example-ds:BeePopulation2022 a dcat:Dataset;
-  dcat:inSeries example-ser:BeePopulation .
+<span class="hljs-symbol">example-ds:BeePopulation2022</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:Dataset;</span>
+  <span class="hljs-symbol">dcat:inSeries</span> <span class="hljs-symbol">example-ser:BeePopulation</span> .
 
-example-ds:BeePopulation2023 a dcat:Dataset;
-  dcat:inSeries example-ser:BeePopulation .
+<span class="hljs-symbol">example-ds:BeePopulation2023</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:Dataset;</span>
+  <span class="hljs-symbol">dcat:inSeries</span> <span class="hljs-symbol">example-ser:BeePopulation</span> .
 
-example-ser:BeePopulation a dcat:DatasetSeries;
-  dct:title "Bee population"@en;
-  dct:description "Bee population annual serie"@en;
+<span class="hljs-symbol">example-ser:BeePopulation</span> <span class="hljs-built_in">a</span> <span class="hljs-symbol">dcat:DatasetSeries;</span>
+  <span class="hljs-symbol">dct:title</span> <span class="hljs-string">"Bee population"</span><span class="hljs-type">@en</span>;
+  <span class="hljs-symbol">dct:description</span> <span class="hljs-string">"Bee population annual serie"</span><span class="hljs-type">@en</span>;
   .
 
 </code></pre>
