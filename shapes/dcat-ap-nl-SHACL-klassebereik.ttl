@@ -117,7 +117,7 @@ dcatapnl-sh:DataServiceShape_hvdCategory_class
 
 dcatapnl-sh:DataServiceShape_landingPage_class
   sh:class foaf:Document;
-  sh:name "language"@en;
+  sh:name "landing page"@en;
   sh:path dcat:landingPage;
   eush:message "The range of landing page must be of type <http://xmlns.com/foaf/0.1/Document>."@en 
 .
