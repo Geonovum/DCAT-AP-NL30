@@ -5,11 +5,7 @@
 <p data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/{{ nodeShape.targetClass | replace({':' : ''}) }}.md"></p>
 
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>Label</th>
@@ -19,6 +15,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
 {% for propEntry in nodeShape.propertyShapes %}
 {% set prop = propEntry.value %}
     <tr>
@@ -31,6 +29,7 @@
         <td>{% if prop.shape contains 'http://modellen.geostandaarden.nl/dcat-ap-nl/' %}NL{% else %}AP{% endif %}</td>
     </tr>
 {% endfor %}
+    </tbody>
 </table>
 {% endif %}
 

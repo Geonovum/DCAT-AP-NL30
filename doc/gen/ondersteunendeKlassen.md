@@ -2,11 +2,7 @@
 
 ## Checksum - spdx:Checksum
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -15,6 +11,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>algorithm</td>
         <td><a href="http://spdx.org/rdf/terms#algorithm" target='_blank'>spdx:algorithm</a></td>
@@ -31,6 +29,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### algorithm
@@ -83,11 +82,7 @@
 
 ## Location - dct:Location
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -96,6 +91,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>bbox</td>
         <td><a href="http://www.w3.org/ns/dcat#bbox" target='_blank'>dcat:bbox</a></td>
@@ -120,6 +117,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### bbox
@@ -196,11 +194,7 @@
 
 ## PeriodOfTime - dct:PeriodOfTime
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -209,6 +203,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>beginning</td>
         <td><a href="http://www.w3.org/2006/time#hasBeginning" target='_blank'>time:hasBeginning</a></td>
@@ -241,6 +237,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### beginning
@@ -341,11 +338,7 @@
 
 ## Relationship - dcat:Relationship
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -354,6 +347,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>had role</td>
         <td><a href="http://www.w3.org/ns/dcat#hadRole" target='_blank'>dcat:hadRole</a></td>
@@ -370,6 +365,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### had role
@@ -422,11 +418,7 @@
 
 ## Agent - foaf:Agent
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -435,6 +427,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>name</td>
         <td><a href="http://xmlns.com/foaf/0.1/name" target='_blank'>foaf:name</a></td>
@@ -451,6 +445,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### name
@@ -503,11 +498,7 @@
 
 ## Identifier - adms:Identifier
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -516,6 +507,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>notation</td>
         <td><a href="http://www.w3.org/2004/02/skos/core#notation" target='_blank'>skos:notation</a></td>
@@ -524,6 +517,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### notation
@@ -552,11 +546,7 @@
 
 ## Concept - skos:Concept
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -565,6 +555,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>preferred label</td>
         <td><a href="http://www.w3.org/2004/02/skos/core#prefLabel" target='_blank'>skos:prefLabel</a></td>
@@ -573,6 +565,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### preferred label
@@ -601,11 +594,7 @@
 
 ## ConceptScheme - skos:ConceptScheme
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -614,6 +603,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>title</td>
         <td><a href="http://purl.org/dc/terms/title" target='_blank'>dct:title</a></td>
@@ -622,6 +613,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### title
@@ -650,11 +642,7 @@
 
 ## LicenseDocument - dct:LicenseDocument
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>URI</th>
@@ -663,6 +651,8 @@
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>type</td>
         <td><a href="http://purl.org/dc/terms/type" target='_blank'>dct:type</a></td>
@@ -671,6 +661,7 @@
         <td></td>
         <td>AP</td>
     </tr>
+    </tbody>
 </table>
 
 ### type

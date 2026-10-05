@@ -9,11 +9,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <p data-include-format="markdown" data-include="doc/klassen/dcatDataset/dcatDataset.md"></p>
 
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>Label</th>
@@ -23,6 +19,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td><a href="#dataset-access-rights">access rights</a></td>
         <td>toegangsrechten</td>
@@ -365,6 +363,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <td></td>
         <td>NL</td>
     </tr>
+    </tbody>
 </table>
 
 ### access rights {#dataset-access-rights}
@@ -1517,11 +1516,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/dcatDistribution.md"></p>
 
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>Label</th>
@@ -1531,6 +1526,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td><a href="#distribution-access-service">access service</a></td>
         <td>toegangsservice</td>
@@ -1747,6 +1744,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <td></td>
         <td>NL</td>
     </tr>
+    </tbody>
 </table>
 
 ### access service {#distribution-access-service}
@@ -2479,11 +2477,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <p data-include-format="markdown" data-include="doc/klassen/dcatDataService/dcatDataService.md"></p>
 
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>Label</th>
@@ -2493,6 +2487,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td><a href="#dataservice-access-rights">access rights</a></td>
         <td>toegangsrechten</td>
@@ -2700,6 +2696,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <td>V</td>
         <td>NL</td>
     </tr>
+    </tbody>
 </table>
 
 ### access rights {#dataservice-access-rights}
@@ -3402,11 +3399,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/dcatCatalog.md"></p>
 
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>Label</th>
@@ -3416,6 +3409,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td><a href="#catalog-applicable-legislation">applicable legislation</a></td>
         <td>toepasbare wetgeving</td>
@@ -3596,6 +3591,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <td></td>
         <td>NL</td>
     </tr>
+    </tbody>
 </table>
 
 ### applicable legislation {#catalog-applicable-legislation}
@@ -4208,11 +4204,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/dcatCatalogRecord.md"></p>
 
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>Label</th>
@@ -4222,6 +4214,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td><a href="#catalogrecord-application-profile">application profile</a></td>
         <td>applicatieprofiel</td>
@@ -4303,6 +4297,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <td></td>
         <td>NL</td>
     </tr>
+    </tbody>
 </table>
 
 ### application profile {#catalogrecord-application-profile}
@@ -4585,11 +4580,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/dcatDatasetSeries.md"></p>
 
 <table>
-    <colgroup>
-        <col style="width:21%">
-        <col style="width:21%">
-        <col style="width:21%">
-    </colgroup>
+    <thead>
     <tr>
         <th>Eigenschap</th>
         <th>Label</th>
@@ -4599,6 +4590,8 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <th>Optionaliteit</th>
         <th>Herkomst</th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td><a href="#datasetseries-applicable-legislation">applicable legislation</a></td>
         <td>toepasbare wetgeving</td>
@@ -4689,6 +4682,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
         <td></td>
         <td>NL</td>
     </tr>
+    </tbody>
 </table>
 
 ### applicable legislation {#datasetseries-applicable-legislation}
