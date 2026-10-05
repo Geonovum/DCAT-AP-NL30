@@ -4,10 +4,10 @@ In de metadata dienen de waarden uit de waardelijsten waarnaar verwezen wordt bi
 <br/>
 In de onderstaande tabel worden eigenschappen opgesomd met gecontroleerde waardelijsten die voor de genoemde eigenschappen MOETEN worden gebruikt.
 <table style='width: 100%;'><caption></caption>
-<thead valign='top'><tr><th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: transparent;'>Eigenschap URI</th>
-<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: transparent;'>Gebruik in Klasse</th>
-<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: transparent;'>Naam Waardelijst</th>
-<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: transparent;'>Toepassing</th>
+<thead valign='top'><tr><th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #005a9c;'>Eigenschap URI</th>
+<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #005a9c;'>Gebruik in Klasse</th>
+<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #005a9c;'>Naam Waardelijst</th>
+<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #005a9c;'>Toepassing</th>
 </tr>
 </thead>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: transparent;'>dcat:mediaType</td>
