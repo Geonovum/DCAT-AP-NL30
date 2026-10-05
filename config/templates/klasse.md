@@ -2,7 +2,7 @@
 {% set targetClassLocalName = nodeShape.targetClass | split(':') | last %}
 ## {{ targetClassLocalName }} - {{ nodeShape.targetClass }}
 
-<p data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/{{ nodeShape.targetClass | replace({':' : ''}) }}.md"></p>
+<section data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/{{ nodeShape.targetClass | replace({':' : ''}) }}.md"></section>
 
 <table>
     <thead>
@@ -39,7 +39,7 @@
 {% set propAnchorEnd = '}' %}
 ### {{ prop.propertyName }} {{ propAnchor }}{{ targetClassLocalName | lower | replace({' ' : '-'}) }}-{{ prop.propertyName | lower | replace({' ' : '-'}) }}{{ propAnchorEnd }}
 
-<p data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/prop/{{ prop.propertyName | replace({' ' : '_'}) }}.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/prop/{{ prop.propertyName | replace({' ' : '_'}) }}.md"></div>
 
 <table>
 <tr>
@@ -74,6 +74,6 @@
 
 ### Voorbeelden
 
-<p data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/Voorbeelden.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/Voorbeelden.md"></div>
 
 {% endif %}

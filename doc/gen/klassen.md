@@ -6,7 +6,7 @@ In dit hoofdstuk worden de belangrijkste klassen van het <u>applicatieprofiel</u
 De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] toegepast te worden.
 
 ## Dataset - dcat:Dataset
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/dcatDataset.md"></p>
+<section data-include-format="markdown" data-include="doc/klassen/dcatDataset/dcatDataset.md"></section>
 
 <table>
     <thead>
@@ -367,7 +367,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### access rights {#dataset-access-rights}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/access_rights.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/access_rights.md"></div>
 
 <table>
 <tr>
@@ -397,7 +397,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### applicable legislation {#dataset-applicable-legislation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/applicable_legislation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/applicable_legislation.md"></div>
 
 <table>
 <tr>
@@ -427,7 +427,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### conforms to {#dataset-conforms-to}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/conforms_to.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/conforms_to.md"></div>
 
 <table>
 <tr>
@@ -457,7 +457,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### contact point {#dataset-contact-point}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/contact_point.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/contact_point.md"></div>
 
 <table>
 <tr>
@@ -487,7 +487,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### creator {#dataset-creator}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/creator.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/creator.md"></div>
 
 <table>
 <tr>
@@ -517,7 +517,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### dataset distribution {#dataset-dataset-distribution}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/dataset_distribution.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/dataset_distribution.md"></div>
 
 <table>
 <tr>
@@ -547,7 +547,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### description {#dataset-description}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/description.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/description.md"></div>
 
 <table>
 <tr>
@@ -577,7 +577,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### documentation {#dataset-documentation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/documentation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/documentation.md"></div>
 
 <table>
 <tr>
@@ -607,7 +607,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### frequency {#dataset-frequency}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/frequency.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/frequency.md"></div>
 
 <table>
 <tr>
@@ -637,7 +637,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### geographical coverage {#dataset-geographical-coverage}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/geographical_coverage.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/geographical_coverage.md"></div>
 
 <table>
 <tr>
@@ -667,7 +667,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### has version {#dataset-has-version}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/has_version.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/has_version.md"></div>
 
 <table>
 <tr>
@@ -697,7 +697,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### HVD Category {#dataset-hvd-category}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/HVD_Category.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/HVD_Category.md"></div>
 
 <table>
 <tr>
@@ -727,7 +727,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### identifier {#dataset-identifier}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/identifier.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/identifier.md"></div>
 
 <table>
 <tr>
@@ -757,7 +757,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### in series {#dataset-in-series}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/in_series.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/in_series.md"></div>
 
 <table>
 <tr>
@@ -787,7 +787,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### is referenced by {#dataset-is-referenced-by}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/is_referenced_by.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/is_referenced_by.md"></div>
 
 <table>
 <tr>
@@ -817,7 +817,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### keyword {#dataset-keyword}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/keyword.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/keyword.md"></div>
 
 <table>
 <tr>
@@ -847,7 +847,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### landing page {#dataset-landing-page}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/landing_page.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/landing_page.md"></div>
 
 <table>
 <tr>
@@ -877,7 +877,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### language {#dataset-language}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/language.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/language.md"></div>
 
 <table>
 <tr>
@@ -907,7 +907,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### modification date {#dataset-modification-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/modification_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/modification_date.md"></div>
 
 <table>
 <tr>
@@ -937,7 +937,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### other identifier {#dataset-other-identifier}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/other_identifier.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/other_identifier.md"></div>
 
 <table>
 <tr>
@@ -967,7 +967,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### provenance {#dataset-provenance}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/provenance.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/provenance.md"></div>
 
 <table>
 <tr>
@@ -997,7 +997,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### publisher {#dataset-publisher}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/publisher.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/publisher.md"></div>
 
 <table>
 <tr>
@@ -1027,7 +1027,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### qualified attribution {#dataset-qualified-attribution}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/qualified_attribution.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/qualified_attribution.md"></div>
 
 <table>
 <tr>
@@ -1057,7 +1057,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### qualified relation {#dataset-qualified-relation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/qualified_relation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/qualified_relation.md"></div>
 
 <table>
 <tr>
@@ -1087,7 +1087,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### related resource {#dataset-related-resource}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/related_resource.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/related_resource.md"></div>
 
 <table>
 <tr>
@@ -1117,7 +1117,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### release date {#dataset-release-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/release_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/release_date.md"></div>
 
 <table>
 <tr>
@@ -1147,7 +1147,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### sample {#dataset-sample}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/sample.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/sample.md"></div>
 
 <table>
 <tr>
@@ -1177,7 +1177,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### source {#dataset-source}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/source.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/source.md"></div>
 
 <table>
 <tr>
@@ -1207,7 +1207,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### spatial resolution {#dataset-spatial-resolution}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/spatial_resolution.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/spatial_resolution.md"></div>
 
 <table>
 <tr>
@@ -1237,7 +1237,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### status {#dataset-status}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/status.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/status.md"></div>
 
 <table>
 <tr>
@@ -1267,7 +1267,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### temporal coverage {#dataset-temporal-coverage}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/temporal_coverage.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/temporal_coverage.md"></div>
 
 <table>
 <tr>
@@ -1297,7 +1297,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### temporal resolution {#dataset-temporal-resolution}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/temporal_resolution.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/temporal_resolution.md"></div>
 
 <table>
 <tr>
@@ -1327,7 +1327,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### theme {#dataset-theme}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/theme.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/theme.md"></div>
 
 <table>
 <tr>
@@ -1357,7 +1357,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### title {#dataset-title}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/title.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/title.md"></div>
 
 <table>
 <tr>
@@ -1387,7 +1387,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### type {#dataset-type}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/type.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/type.md"></div>
 
 <table>
 <tr>
@@ -1417,7 +1417,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### version {#dataset-version}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/version.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/version.md"></div>
 
 <table>
 <tr>
@@ -1447,7 +1447,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### version notes {#dataset-version-notes}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/version_notes.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/version_notes.md"></div>
 
 <table>
 <tr>
@@ -1477,7 +1477,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### was generated by {#dataset-was-generated-by}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/was_generated_by.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/prop/was_generated_by.md"></div>
 
 <table>
 <tr>
@@ -1510,10 +1510,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 
 ### Voorbeelden
 
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataset/Voorbeelden.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/Voorbeelden.md"></div>
 
 ## Distribution - dcat:Distribution
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/dcatDistribution.md"></p>
+<section data-include-format="markdown" data-include="doc/klassen/dcatDistribution/dcatDistribution.md"></section>
 
 <table>
     <thead>
@@ -1748,7 +1748,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### access service {#distribution-access-service}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/access_service.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/access_service.md"></div>
 
 <table>
 <tr>
@@ -1778,7 +1778,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### access URL {#distribution-access-url}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/access_URL.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/access_URL.md"></div>
 
 <table>
 <tr>
@@ -1808,7 +1808,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### applicable legislation {#distribution-applicable-legislation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/applicable_legislation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/applicable_legislation.md"></div>
 
 <table>
 <tr>
@@ -1838,7 +1838,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### availability {#distribution-availability}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/availability.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/availability.md"></div>
 
 <table>
 <tr>
@@ -1868,7 +1868,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### byte size {#distribution-byte-size}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/byte_size.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/byte_size.md"></div>
 
 <table>
 <tr>
@@ -1898,7 +1898,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### checksum {#distribution-checksum}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/checksum.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/checksum.md"></div>
 
 <table>
 <tr>
@@ -1928,7 +1928,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### compression format {#distribution-compression-format}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/compression_format.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/compression_format.md"></div>
 
 <table>
 <tr>
@@ -1958,7 +1958,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### description {#distribution-description}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/description.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/description.md"></div>
 
 <table>
 <tr>
@@ -1988,7 +1988,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### documentation {#distribution-documentation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/documentation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/documentation.md"></div>
 
 <table>
 <tr>
@@ -2018,7 +2018,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### download URL {#distribution-download-url}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/download_URL.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/download_URL.md"></div>
 
 <table>
 <tr>
@@ -2048,7 +2048,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### format {#distribution-format}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/format.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/format.md"></div>
 
 <table>
 <tr>
@@ -2078,7 +2078,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### has policy {#distribution-has-policy}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/has_policy.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/has_policy.md"></div>
 
 <table>
 <tr>
@@ -2108,7 +2108,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### language {#distribution-language}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/language.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/language.md"></div>
 
 <table>
 <tr>
@@ -2138,7 +2138,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### licence {#distribution-licence}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/licence.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/licence.md"></div>
 
 <table>
 <tr>
@@ -2168,7 +2168,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### linked schemas {#distribution-linked-schemas}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/linked_schemas.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/linked_schemas.md"></div>
 
 <table>
 <tr>
@@ -2198,7 +2198,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### media type {#distribution-media-type}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/media_type.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/media_type.md"></div>
 
 <table>
 <tr>
@@ -2228,7 +2228,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### modification date {#distribution-modification-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/modification_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/modification_date.md"></div>
 
 <table>
 <tr>
@@ -2258,7 +2258,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### packaging format {#distribution-packaging-format}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/packaging_format.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/packaging_format.md"></div>
 
 <table>
 <tr>
@@ -2288,7 +2288,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### release date {#distribution-release-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/release_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/release_date.md"></div>
 
 <table>
 <tr>
@@ -2318,7 +2318,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### rights {#distribution-rights}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/rights.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/rights.md"></div>
 
 <table>
 <tr>
@@ -2348,7 +2348,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### spatial resolution {#distribution-spatial-resolution}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/spatial_resolution.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/spatial_resolution.md"></div>
 
 <table>
 <tr>
@@ -2378,7 +2378,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### status {#distribution-status}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/status.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/status.md"></div>
 
 <table>
 <tr>
@@ -2408,7 +2408,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### temporal resolution {#distribution-temporal-resolution}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/temporal_resolution.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/temporal_resolution.md"></div>
 
 <table>
 <tr>
@@ -2438,7 +2438,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### title {#distribution-title}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/title.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/prop/title.md"></div>
 
 <table>
 <tr>
@@ -2471,10 +2471,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 
 ### Voorbeelden
 
-<p data-include-format="markdown" data-include="doc/klassen/dcatDistribution/Voorbeelden.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/Voorbeelden.md"></div>
 
 ## DataService - dcat:DataService
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/dcatDataService.md"></p>
+<section data-include-format="markdown" data-include="doc/klassen/dcatDataService/dcatDataService.md"></section>
 
 <table>
     <thead>
@@ -2700,7 +2700,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### access rights {#dataservice-access-rights}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/access_rights.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/access_rights.md"></div>
 
 <table>
 <tr>
@@ -2730,7 +2730,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### applicable legislation {#dataservice-applicable-legislation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/applicable_legislation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/applicable_legislation.md"></div>
 
 <table>
 <tr>
@@ -2760,7 +2760,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### conforms to {#dataservice-conforms-to}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/conforms_to.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/conforms_to.md"></div>
 
 <table>
 <tr>
@@ -2790,7 +2790,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### contact point {#dataservice-contact-point}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/contact_point.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/contact_point.md"></div>
 
 <table>
 <tr>
@@ -2820,7 +2820,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### creator {#dataservice-creator}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/creator.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/creator.md"></div>
 
 <table>
 <tr>
@@ -2850,7 +2850,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### description {#dataservice-description}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/description.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/description.md"></div>
 
 <table>
 <tr>
@@ -2880,7 +2880,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### documentation {#dataservice-documentation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/documentation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/documentation.md"></div>
 
 <table>
 <tr>
@@ -2910,7 +2910,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### endpoint description {#dataservice-endpoint-description}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/endpoint_description.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/endpoint_description.md"></div>
 
 <table>
 <tr>
@@ -2940,7 +2940,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### endpoint URL {#dataservice-endpoint-url}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/endpoint_URL.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/endpoint_URL.md"></div>
 
 <table>
 <tr>
@@ -2970,7 +2970,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### format {#dataservice-format}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/format.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/format.md"></div>
 
 <table>
 <tr>
@@ -3000,7 +3000,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### HVD Category {#dataservice-hvd-category}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/HVD_Category.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/HVD_Category.md"></div>
 
 <table>
 <tr>
@@ -3030,7 +3030,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### identifier {#dataservice-identifier}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/identifier.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/identifier.md"></div>
 
 <table>
 <tr>
@@ -3060,7 +3060,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### keyword {#dataservice-keyword}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/keyword.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/keyword.md"></div>
 
 <table>
 <tr>
@@ -3090,7 +3090,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### landing page {#dataservice-landing-page}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/landing_page.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/landing_page.md"></div>
 
 <table>
 <tr>
@@ -3120,7 +3120,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### language {#dataservice-language}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/language.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/language.md"></div>
 
 <table>
 <tr>
@@ -3150,7 +3150,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### licence {#dataservice-licence}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/licence.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/licence.md"></div>
 
 <table>
 <tr>
@@ -3180,7 +3180,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### modification date {#dataservice-modification-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/modification_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/modification_date.md"></div>
 
 <table>
 <tr>
@@ -3210,7 +3210,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### other identifier {#dataservice-other-identifier}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/other_identifier.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/other_identifier.md"></div>
 
 <table>
 <tr>
@@ -3240,7 +3240,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### publisher {#dataservice-publisher}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/publisher.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/publisher.md"></div>
 
 <table>
 <tr>
@@ -3270,7 +3270,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### rights {#dataservice-rights}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/rights.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/rights.md"></div>
 
 <table>
 <tr>
@@ -3300,7 +3300,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### serves dataset {#dataservice-serves-dataset}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/serves_dataset.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/serves_dataset.md"></div>
 
 <table>
 <tr>
@@ -3330,7 +3330,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### theme {#dataservice-theme}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/theme.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/theme.md"></div>
 
 <table>
 <tr>
@@ -3360,7 +3360,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### title {#dataservice-title}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/title.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/prop/title.md"></div>
 
 <table>
 <tr>
@@ -3393,10 +3393,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 
 ### Voorbeelden
 
-<p data-include-format="markdown" data-include="doc/klassen/dcatDataService/Voorbeelden.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/Voorbeelden.md"></div>
 
 ## Catalog - dcat:Catalog
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/dcatCatalog.md"></p>
+<section data-include-format="markdown" data-include="doc/klassen/dcatCatalog/dcatCatalog.md"></section>
 
 <table>
     <thead>
@@ -3595,7 +3595,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### applicable legislation {#catalog-applicable-legislation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/applicable_legislation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/applicable_legislation.md"></div>
 
 <table>
 <tr>
@@ -3625,7 +3625,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### catalogue {#catalog-catalogue}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/catalogue.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/catalogue.md"></div>
 
 <table>
 <tr>
@@ -3655,7 +3655,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### contact point {#catalog-contact-point}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/contact_point.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/contact_point.md"></div>
 
 <table>
 <tr>
@@ -3685,7 +3685,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### creator {#catalog-creator}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/creator.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/creator.md"></div>
 
 <table>
 <tr>
@@ -3715,7 +3715,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### dataset {#catalog-dataset}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/dataset.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/dataset.md"></div>
 
 <table>
 <tr>
@@ -3745,7 +3745,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### description {#catalog-description}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/description.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/description.md"></div>
 
 <table>
 <tr>
@@ -3775,7 +3775,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### geographical coverage {#catalog-geographical-coverage}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/geographical_coverage.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/geographical_coverage.md"></div>
 
 <table>
 <tr>
@@ -3805,7 +3805,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### has part {#catalog-has-part}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/has_part.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/has_part.md"></div>
 
 <table>
 <tr>
@@ -3835,7 +3835,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### homepage {#catalog-homepage}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/homepage.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/homepage.md"></div>
 
 <table>
 <tr>
@@ -3865,7 +3865,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### language {#catalog-language}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/language.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/language.md"></div>
 
 <table>
 <tr>
@@ -3895,7 +3895,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### licence {#catalog-licence}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/licence.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/licence.md"></div>
 
 <table>
 <tr>
@@ -3925,7 +3925,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### modification date {#catalog-modification-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/modification_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/modification_date.md"></div>
 
 <table>
 <tr>
@@ -3955,7 +3955,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### publisher {#catalog-publisher}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/publisher.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/publisher.md"></div>
 
 <table>
 <tr>
@@ -3985,7 +3985,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### record {#catalog-record}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/record.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/record.md"></div>
 
 <table>
 <tr>
@@ -4015,7 +4015,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### release date {#catalog-release-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/release_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/release_date.md"></div>
 
 <table>
 <tr>
@@ -4045,7 +4045,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### rights {#catalog-rights}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/rights.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/rights.md"></div>
 
 <table>
 <tr>
@@ -4075,7 +4075,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### service {#catalog-service}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/service.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/service.md"></div>
 
 <table>
 <tr>
@@ -4105,7 +4105,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### temporal coverage {#catalog-temporal-coverage}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/temporal_coverage.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/temporal_coverage.md"></div>
 
 <table>
 <tr>
@@ -4135,7 +4135,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### themes {#catalog-themes}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/themes.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/themes.md"></div>
 
 <table>
 <tr>
@@ -4165,7 +4165,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### title {#catalog-title}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/title.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/prop/title.md"></div>
 
 <table>
 <tr>
@@ -4198,10 +4198,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 
 ### Voorbeelden
 
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalog/Voorbeelden.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/Voorbeelden.md"></div>
 
 ## CatalogRecord - dcat:CatalogRecord
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/dcatCatalogRecord.md"></p>
+<section data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/dcatCatalogRecord.md"></section>
 
 <table>
     <thead>
@@ -4301,7 +4301,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### application profile {#catalogrecord-application-profile}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/application_profile.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/application_profile.md"></div>
 
 <table>
 <tr>
@@ -4331,7 +4331,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### change type {#catalogrecord-change-type}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/change_type.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/change_type.md"></div>
 
 <table>
 <tr>
@@ -4361,7 +4361,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### description {#catalogrecord-description}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/description.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/description.md"></div>
 
 <table>
 <tr>
@@ -4391,7 +4391,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### language {#catalogrecord-language}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/language.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/language.md"></div>
 
 <table>
 <tr>
@@ -4421,7 +4421,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### listing date {#catalogrecord-listing-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/listing_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/listing_date.md"></div>
 
 <table>
 <tr>
@@ -4451,7 +4451,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### modification date {#catalogrecord-modification-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/modification_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/modification_date.md"></div>
 
 <table>
 <tr>
@@ -4481,7 +4481,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### primary topic {#catalogrecord-primary-topic}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/primary_topic.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/primary_topic.md"></div>
 
 <table>
 <tr>
@@ -4511,7 +4511,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### source metadata {#catalogrecord-source-metadata}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/source_metadata.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/source_metadata.md"></div>
 
 <table>
 <tr>
@@ -4541,7 +4541,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### title {#catalogrecord-title}
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/title.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/prop/title.md"></div>
 
 <table>
 <tr>
@@ -4574,10 +4574,10 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 
 ### Voorbeelden
 
-<p data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/Voorbeelden.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/Voorbeelden.md"></div>
 
 ## DatasetSeries - dcat:DatasetSeries
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/dcatDatasetSeries.md"></p>
+<section data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/dcatDatasetSeries.md"></section>
 
 <table>
     <thead>
@@ -4686,7 +4686,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### applicable legislation {#datasetseries-applicable-legislation}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/applicable_legislation.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/applicable_legislation.md"></div>
 
 <table>
 <tr>
@@ -4716,7 +4716,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### contact point {#datasetseries-contact-point}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/contact_point.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/contact_point.md"></div>
 
 <table>
 <tr>
@@ -4746,7 +4746,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### description {#datasetseries-description}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/description.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/description.md"></div>
 
 <table>
 <tr>
@@ -4776,7 +4776,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### frequency {#datasetseries-frequency}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/frequency.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/frequency.md"></div>
 
 <table>
 <tr>
@@ -4806,7 +4806,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### geographical coverage {#datasetseries-geographical-coverage}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/geographical_coverage.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/geographical_coverage.md"></div>
 
 <table>
 <tr>
@@ -4836,7 +4836,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### modification date {#datasetseries-modification-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/modification_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/modification_date.md"></div>
 
 <table>
 <tr>
@@ -4866,7 +4866,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### publisher {#datasetseries-publisher}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/publisher.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/publisher.md"></div>
 
 <table>
 <tr>
@@ -4896,7 +4896,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### release date {#datasetseries-release-date}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/release_date.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/release_date.md"></div>
 
 <table>
 <tr>
@@ -4926,7 +4926,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### temporal coverage {#datasetseries-temporal-coverage}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/temporal_coverage.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/temporal_coverage.md"></div>
 
 <table>
 <tr>
@@ -4956,7 +4956,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 </table>
 
 ### title {#datasetseries-title}
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/title.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/prop/title.md"></div>
 
 <table>
 <tr>
@@ -4989,5 +4989,5 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 
 ### Voorbeelden
 
-<p data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/Voorbeelden.md"></p>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/Voorbeelden.md"></div>
 
