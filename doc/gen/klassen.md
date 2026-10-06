@@ -6,7 +6,7 @@ In dit hoofdstuk worden de belangrijkste klassen van het <u>applicatieprofiel</u
 De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] toegepast te worden.
 
 ## Dataset - dcat:Dataset
-<section data-include-format="markdown" data-include="doc/klassen/dcatDataset/dcatDataset.md"></section>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataset/dcatDataset.md"></div>
 
 <table>
     <thead>
@@ -1513,7 +1513,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <div data-include-format="markdown" data-include="doc/klassen/dcatDataset/Voorbeelden.md"></div>
 
 ## Distribution - dcat:Distribution
-<section data-include-format="markdown" data-include="doc/klassen/dcatDistribution/dcatDistribution.md"></section>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/dcatDistribution.md"></div>
 
 <table>
     <thead>
@@ -2474,7 +2474,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <div data-include-format="markdown" data-include="doc/klassen/dcatDistribution/Voorbeelden.md"></div>
 
 ## DataService - dcat:DataService
-<section data-include-format="markdown" data-include="doc/klassen/dcatDataService/dcatDataService.md"></section>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDataService/dcatDataService.md"></div>
 
 <table>
     <thead>
@@ -3396,7 +3396,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <div data-include-format="markdown" data-include="doc/klassen/dcatDataService/Voorbeelden.md"></div>
 
 ## Catalog - dcat:Catalog
-<section data-include-format="markdown" data-include="doc/klassen/dcatCatalog/dcatCatalog.md"></section>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/dcatCatalog.md"></div>
 
 <table>
     <thead>
@@ -4201,7 +4201,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <div data-include-format="markdown" data-include="doc/klassen/dcatCatalog/Voorbeelden.md"></div>
 
 ## CatalogRecord - dcat:CatalogRecord
-<section data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/dcatCatalogRecord.md"></section>
+<div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/dcatCatalogRecord.md"></div>
 
 <table>
     <thead>
@@ -4577,7 +4577,7 @@ De niet beschreven klassen en eigenschappen behoren conform [[DCAT-AP-3.0.1]] to
 <div data-include-format="markdown" data-include="doc/klassen/dcatCatalogRecord/Voorbeelden.md"></div>
 
 ## DatasetSeries - dcat:DatasetSeries
-<section data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/dcatDatasetSeries.md"></section>
+<div data-include-format="markdown" data-include="doc/klassen/dcatDatasetSeries/dcatDatasetSeries.md"></div>
 
 <table>
     <thead>

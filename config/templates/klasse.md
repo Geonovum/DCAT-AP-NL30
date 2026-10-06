@@ -2,7 +2,7 @@
 {% set targetClassLocalName = nodeShape.targetClass | split(':') | last %}
 ## {{ targetClassLocalName }} - {{ nodeShape.targetClass }}
 
-<section data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/{{ nodeShape.targetClass | replace({':' : ''}) }}.md"></section>
+<div data-include-format="markdown" data-include="doc/klassen/{{ nodeShape.targetClass | replace({':' : ''}) }}/{{ nodeShape.targetClass | replace({':' : ''}) }}.md"></div>
 
 <table>
     <thead>
